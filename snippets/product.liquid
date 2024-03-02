@@ -1446,7 +1446,9 @@
                 {{ block_style }}
                 {{ block.shopify_attributes }}>
                 {%- unless product == blank -%}
-                  {{- product.description -}}
+                  {%- comment -%} P. Ryan - 02.03.2024 - add Easy Tabs {%- endcomment -%} 
+                  {% capture easytabsWidget %}{% render "product-description-tabs" %}{% endcapture %}
+                  {% unless easytabsWidget contains "Liquid error" %}{{ easytabsWidget }}{% else %}{{ product.description }}{% endunless %}
                 {%- else -%}
                   <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
                 {%- endunless -%}
