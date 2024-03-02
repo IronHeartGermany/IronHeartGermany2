@@ -1447,12 +1447,12 @@
                 {{ block.shopify_attributes }}>
                 {%- unless product == blank -%}
                   {%- comment -%} P. Ryan - 02.03.2024 - add Easy Tabs {%- endcomment -%} 
-                  {{- product.description -}}
                   {%- comment -%}
+                  {{- product.description -}}
+                  {%- endcomment -%} 
                   {% capture easytabsWidget %}{% render "product-description-tabs" %}{% endcapture %}
                   {% unless easytabsWidget contains "Liquid error" %}{{ easytabsWidget }}{% else %}{{ product.description }}{% endunless %}
-                  {{ easytabsWidget }}
-                  {%- endcomment -%}
+                  {{- easytabsWidget -}}
                 {%- else -%}
                   <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
                 {%- endunless -%}
