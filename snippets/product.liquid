@@ -1452,7 +1452,7 @@
                   {%- endcomment -%} 
                   {% capture easytabsWidget %}{% render "product-description-tabs" %}{% endcapture %}
                   {% unless easytabsWidget contains "Liquid error" %}{{ easytabsWidget }}{% else %}{{ product.description }}{% endunless %}
-                  {{- easytabsWidget -}}
+                  {{ easytabsWidget }}
                 {%- else -%}
                   <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
                 {%- endunless -%}
