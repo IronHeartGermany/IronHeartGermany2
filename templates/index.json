@@ -181,58 +181,98 @@
             "bg_color": "",
             "overlay_opacity": 30
           }
-        },
-        "collection_dbV6MJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_DLmU88": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection_7X3mkB",
         "collection_bfxMxN",
         "collection_NVfAiQ",
-        "collection_rzqVKB",
-        "collection_dbV6MJ",
-        "collection_DLmU88"
+        "collection_rzqVKB"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": 100,
         "layout": "grid",
         "alignment": "center",
         "collections_per_row": 4,
         "image_shape": "square",
-        "image_aspect_ratio": 1.2,
-        "text_size": 130,
+        "image_aspect_ratio": 1,
+        "text_size": 150,
         "overlay_text": false,
-        "layout_mobile": "carousel",
+        "layout_mobile": "grid",
         "section_bg_color": "",
         "section_text_color": "",
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_banner_image_y4HPYK": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_gCUKAz": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_YfUtaA": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Dehen 1920 Varsity Black<\/p>",
+            "size": 125,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_3aezam": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_TrgURx": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Shop",
+            "button_1_link": "shopify:\/\/products\/dehen-1920-de-ja0002-blk-dehen-1920-varsity-jacket-black",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gCUKAz",
+        "heading_YfUtaA",
+        "text_3aezam",
+        "button_TrgURx"
+      ],
+      "settings": {
+        "height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/iron-heart-nov-18-26.jpg",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
     }
   },
   "order": [
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "section_collection_qfXKbc",
-    "section_list_collection_CVg9im"
+    "section_list_collection_CVg9im",
+    "section_banner_image_y4HPYK"
   ]
 }
