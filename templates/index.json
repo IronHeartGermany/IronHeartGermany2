@@ -101,7 +101,7 @@
       "settings": {
         "slide_height": "full-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "seven-fifty-height-mobile",
+        "mobile_slide_height": "full-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
@@ -258,8 +258,8 @@
       ],
       "settings": {
         "height": "full-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
+        "enable_mobile_height": true,
+        "mobile_height": "full-height-mobile",
         "image": "shopify:\/\/shop_images\/iron-heart-nov-18-26.jpg",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
@@ -319,8 +319,8 @@
       ],
       "settings": {
         "height": "original-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
         "image": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
         "overlay_opacity": 10,
@@ -330,53 +330,19 @@
         "text_color": "text-light"
       }
     },
-    "section_slideshow_b8fzWz": {
-      "type": "section-slideshow",
-      "blocks": {
-        "image_DdK8Jc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
-            "overlay_opacity": 10,
-            "text_width": "normal",
-            "text_position": "center",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "<p>Welcome to Palo Alto<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_DdK8Jc"
-      ],
+    "section_image_7bQLkR": {
+      "type": "section-image",
       "settings": {
-        "slide_height": "original-height",
-        "enable_mobile_height": false,
-        "mobile_slide_height": "five-fifty-height-mobile",
-        "show_nav_dots": true,
-        "show_nav_arrows": false,
-        "show_arrow_down": false,
-        "autoplay": false,
-        "duration": 4,
-        "transition": "wipe",
-        "enable_zoom_animation": true,
-        "heading_size": 150
+        "image": "shopify:\/\/shop_images\/Store_TotaleShopify.jpg",
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -386,6 +352,6 @@
     "section_list_collection_CVg9im",
     "section_banner_image_y4HPYK",
     "section_banner_image_iQiWtf",
-    "section_slideshow_b8fzWz"
+    "section_image_7bQLkR"
   ]
 }
