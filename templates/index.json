@@ -138,10 +138,101 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_list_collection_CVg9im": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_7X3mkB": {
+          "type": "collection",
+          "settings": {
+            "collection": "jeans",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_bfxMxN": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_NVfAiQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rzqVKB": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dbV6MJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_DLmU88": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_7X3mkB",
+        "collection_bfxMxN",
+        "collection_NVfAiQ",
+        "collection_rzqVKB",
+        "collection_dbV6MJ",
+        "collection_DLmU88"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 4,
+        "image_shape": "square",
+        "image_aspect_ratio": 1.2,
+        "text_size": 130,
+        "overlay_text": false,
+        "layout_mobile": "carousel",
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
-    "section_collection_qfXKbc"
+    "section_collection_qfXKbc",
+    "section_list_collection_CVg9im"
   ]
 }
