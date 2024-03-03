@@ -344,6 +344,64 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_text_MjMDUz": {
+      "type": "section-text",
+      "blocks": {
+        "heading_zQUkaA": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Iron Heart Germany<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_hcMUyB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Iron Heart Germany. We operate the only Iron Heart store outside of Japan, located in Hamburg, as well as our web shop.<\/p>",
+            "size": 100
+          }
+        },
+        "text_eT6WGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iron Heart is a Japanese denim and clothing brand with a unique passion for stylish, durable, and ethically produced clothing of the highest quality. The mastermind behind Iron Heart is Shinichi Haraki, who founded The Works Inc. and the Iron Heart brand in Tokyo in 2002 with the goal of producing classic and timeless clothing made from the finest materials and manufactured at the highest level. The aim is not a blind reproduction of vintage apparel, but rather re-engineering workwear styles with heavyweight fabrics for today's lifestyle.<\/p>",
+            "size": 100
+          }
+        },
+        "text_399kG4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 21 oz. Iron Heart Jeans have achieved cult status worldwide and inspire not only the hard-riding motorcycle community, but also denim lovers all around the world.<\/p>",
+            "size": 100
+          }
+        },
+        "text_LjGwwF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Immerse yourself in Iron Heart Germany, the world of \"Genuine Quality - Made in Japan\".<\/p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_zQUkaA",
+        "text_hcMUyB",
+        "text_eT6WGc",
+        "text_399kG4",
+        "text_LjGwwF"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -352,6 +410,7 @@
     "section_list_collection_CVg9im",
     "section_banner_image_y4HPYK",
     "section_banner_image_iQiWtf",
-    "section_image_7bQLkR"
+    "section_image_7bQLkR",
+    "section_text_MjMDUz"
   ]
 }
