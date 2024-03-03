@@ -10,7 +10,7 @@
           "settings": {
             "alignment": "text-left",
             "image": "shopify:\/\/shop_images\/IH_Logo-01_Bell-Hamburg-white_4x_2.png",
-            "logo_width": 240,
+            "logo_width": 200,
             "show_shop_name": false,
             "text": "",
             "column_width": "20"
