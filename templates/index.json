@@ -402,6 +402,84 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_press_x3FxUq": {
+      "type": "section-press",
+      "blocks": {
+        "press_KabGeJ": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/simmons-bilt",
+            "press_logo": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo.jpg",
+            "logo_width": 120
+          }
+        },
+        "press_TQ6RDp": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/dehen-1920",
+            "press_logo": "shopify:\/\/shop_images\/19Dehen20banner_a4f029ac-aa5f-4efa-b0a6-c395596cdf1a.png",
+            "logo_width": 120
+          }
+        },
+        "press_HYNfrb": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/iron-heart",
+            "press_logo": "shopify:\/\/shop_images\/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
+            "logo_width": 120
+          }
+        },
+        "press_kGNt4m": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/wesco",
+            "press_logo": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw.jpg",
+            "logo_width": 120
+          }
+        },
+        "press_UAXyga": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/peanuts-co",
+            "press_logo": "shopify:\/\/shop_images\/peanuts.png",
+            "logo_width": 120
+          }
+        },
+        "press_FBKfkf": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "shopify:\/\/collections\/porter-yoshida-co",
+            "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
+            "logo_width": 120
+          }
+        }
+      },
+      "block_order": [
+        "press_KabGeJ",
+        "press_TQ6RDp",
+        "press_HYNfrb",
+        "press_kGNt4m",
+        "press_UAXyga",
+        "press_FBKfkf"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": false,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -411,6 +489,7 @@
     "section_banner_image_y4HPYK",
     "section_banner_image_iQiWtf",
     "section_image_7bQLkR",
-    "section_text_MjMDUz"
+    "section_text_MjMDUz",
+    "section_press_x3FxUq"
   ]
 }
