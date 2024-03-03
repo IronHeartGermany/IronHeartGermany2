@@ -454,7 +454,7 @@
         "press_FBKfkf": {
           "type": "press",
           "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "text": "",
             "link": "shopify:\/\/collections\/porter-yoshida-co",
             "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
             "logo_width": 120
