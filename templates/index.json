@@ -267,12 +267,125 @@
         "text_position": "center",
         "text_color": "text-light"
       }
+    },
+    "section_banner_image_iQiWtf": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_AzAjrt": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_yhVRk9": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_JLthzK": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_9b6Yca": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Discover Our Cuts",
+            "button_1_link": "shopify:\/\/pages\/our-cuts",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AzAjrt",
+        "heading_yhVRk9",
+        "text_JLthzK",
+        "button_9b6Yca"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": false,
+        "text_width": "normal",
+        "text_position": "bottom-right",
+        "text_color": "text-light"
+      }
+    },
+    "section_slideshow_b8fzWz": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_DdK8Jc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Welcome to Palo Alto<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DdK8Jc"
+      ],
+      "settings": {
+        "slide_height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 150
+      }
     }
   },
   "order": [
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "section_collection_qfXKbc",
     "section_list_collection_CVg9im",
-    "section_banner_image_y4HPYK"
+    "section_banner_image_y4HPYK",
+    "section_banner_image_iQiWtf",
+    "section_slideshow_b8fzWz"
   ]
 }

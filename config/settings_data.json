@@ -53,7 +53,7 @@
     "line_thickness": "normal",
     "show_rounded_corners": true,
     "mobile_menu_behaviour": "link",
-    "animations_enabled": true,
+    "animations_enabled": false,
     "sale_bg_color": "#ff6d6d",
     "custom_bg_color": "#ffffff",
     "custom_text_color": "#000000",
