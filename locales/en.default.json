@@ -600,5 +600,10 @@
   },
   "video": {
     "play_bg_video": "Play background video"
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
