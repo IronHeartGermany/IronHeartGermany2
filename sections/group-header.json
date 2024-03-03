@@ -90,24 +90,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "ab19c0db-63ca-4489-a211-693e66e76639": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image_second_menu": false,
-            "aspect_ratio": 1,
-            "wide_image": false,
-            "title": "",
-            "heading_size": 100,
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "ab19c0db-63ca-4489-a211-693e66e76639"
-      ],
       "settings": {
         "sticky_header": true,
         "header_border": false,
@@ -118,7 +100,7 @@
         "main_menu_secondary": "",
         "show_images": true,
         "image_aspect_ratio": 0.5,
-        "menu_alignment": "center",
+        "menu_alignment": "right",
         "header_icons_as_text": false,
         "highlight_item": "",
         "highlight_item_color": "#d02e2e",
