@@ -99,7 +99,7 @@
         "image_KEaLHn"
       ],
       "settings": {
-        "slide_height": "three-quarters-height",
+        "slide_height": "full-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "seven-fifty-height-mobile",
         "show_nav_dots": true,
