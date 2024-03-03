@@ -10690,7 +10690,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   .footer-bottom .social-sharing-wrapper,
   .footer-bottom .payment-icon-list {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto); /* P. Ryan - 03.03.2024 - change columns from 5 to 6 */
     row-gap: 10px;
     justify-content: flex-start;
   }
