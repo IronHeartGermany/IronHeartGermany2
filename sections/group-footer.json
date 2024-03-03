@@ -70,7 +70,7 @@
         "color_text": "#ffffff",
         "color_bg": "#000000",
         "color_border": "#ffffff",
-        "show_locale_selector": true,
+        "show_locale_selector": false,
         "show_country_selector": false,
         "show_country_flag": false,
         "width": "wrapper",
