@@ -26,6 +26,7 @@
         },
         "text_GryPfY": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Worldwide Shipping Delivered in 2-4 Days<\/p>",
             "text_color": "",
@@ -45,6 +46,7 @@
         },
         "text_9kfQAf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Free Returns for Customers in Germany<\/p>",
             "text_color": "",
