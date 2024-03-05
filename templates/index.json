@@ -13,8 +13,8 @@
             "subheading": "",
             "title": "<p>Welcome to Palo Alto<\/p>",
             "heading_highlight_type": "circle",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
             "text": "Add more info or delete this text",
             "button_1_text": "Shop All",
             "button_1_link": "shopify:\/\/collections\/all",
@@ -405,8 +405,8 @@
             "text": "<p>Palo Alto<\/p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_qkCdbb": {
@@ -528,8 +528,8 @@
             "text": "<p>Palo Alto<\/p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_m6YCWL": {
@@ -636,11 +636,66 @@
         "text_399kG4",
         "text_LjGwwF"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "left",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_b4DLnG": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_ypLcTr": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_8UDi6y": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_3W8N8t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "button_FFrfmA": {
+          "type": "button",
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ypLcTr",
+        "heading_8UDi6y",
+        "text_3W8N8t",
+        "button_FFrfmA"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -711,8 +766,54 @@
         "press_UAXyga",
         "press_FBKfkf"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": false,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_NQAkUp": {
+      "type": "section-press",
+      "blocks": {
+        "press_6mnRAK": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
+        "press_F7CnBm": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
+        "press_jRcJ4A": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        }
+      },
+      "block_order": [
+        "press_6mnRAK",
+        "press_F7CnBm",
+        "press_jRcJ4A"
+      ],
+      "settings": {
+        "title": "Press",
         "show_quotations": true,
         "show_rounded_corners": false,
         "autoplay": true,
@@ -735,6 +836,8 @@
     "section_banner_image_tCczFw",
     "section_image_7bQLkR",
     "section_text_MjMDUz",
-    "section_press_x3FxUq"
+    "section_text_b4DLnG",
+    "section_press_x3FxUq",
+    "section_press_NQAkUp"
   ]
 }
