@@ -97,7 +97,7 @@
     "blocks": {
       "15255627403292782234": {
         "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-embed-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "placement_selector": "",
           "multiple_widgets": false
