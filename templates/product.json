@@ -32,6 +32,7 @@
         },
         "product_accordion": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "Size guide",
             "heading_style": "font-heading",
@@ -42,6 +43,7 @@
         },
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "How we measure",
             "heading_style": "font-heading",
@@ -71,11 +73,19 @@
         },
         "upsell": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "product_list": [
 
             ],
             "padding_bottom": 20
+          }
+        },
+        "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW": {
+          "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-block-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
+          "settings": {
+            "placement_selector": "",
+            "multiple_widgets": false
           }
         }
       },
@@ -87,7 +97,8 @@
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "description",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
-        "upsell"
+        "upsell",
+        "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -166,8 +177,8 @@
         "hide_image_2": false,
         "title": "<p>Our Story, Our Promise<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
         "heading_size": 100,
         "button_text": "",
@@ -247,7 +258,7 @@
         "heading_size": 120,
         "text_size": 100,
         "bg_color_secondary": false,
-        "color_borders": "#000",
+        "color_borders": "#000000",
         "layout_mobile": "carousel",
         "width": "wrapper",
         "padding_top": 60,
