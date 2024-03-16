@@ -74,7 +74,9 @@
         "upsell": {
           "type": "upsell",
           "settings": {
-            "product_list": "{{ product.metafields.theme.upsell_list.value }}",
+            "product_list": [
+
+            ],
             "padding_bottom": 20
           }
         },
