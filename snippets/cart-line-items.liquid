@@ -223,7 +223,11 @@
       endcomment
 
       for upsell_product in upsell_product_list.value
-        if cart_products contains upsell_product.id or upsell_product.available == false
+        comment
+          if cart_products contains upsell_product.id or upsell_product.available == false
+          P. Ryan - 16.03.2024 don't remove items from upsell list if placed in cart.
+        endcomment
+        if upsell_product.available == false
           continue
         endif
 
