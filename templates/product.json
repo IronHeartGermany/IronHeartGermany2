@@ -52,6 +52,12 @@
             "padding_bottom": 20
           }
         },
+        "complementary_products_HpK9K9": {
+          "type": "complementary-products",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -97,6 +103,7 @@
         "product_accordion",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "product_accordion_d7rcVt",
+        "complementary_products_HpK9K9",
         "description",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
         "upsell",
