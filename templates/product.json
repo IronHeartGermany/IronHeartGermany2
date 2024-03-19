@@ -102,8 +102,8 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "grid",
-        "image_width": "large",
+        "image_layout": "stacked",
+        "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": true,
         "enable_video_looping": false,
