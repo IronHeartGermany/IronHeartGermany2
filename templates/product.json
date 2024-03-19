@@ -12,14 +12,6 @@
             "padding_bottom": 20
           }
         },
-        "inventory_countdown": {
-          "type": "inventory_countdown",
-          "settings": {
-            "max_inventory": 10,
-            "hide_inventory_count": true,
-            "padding_bottom": 20
-          }
-        },
         "form": {
           "type": "form",
           "settings": {
@@ -33,26 +25,36 @@
         "product_accordion": {
           "type": "product_accordion",
           "settings": {
-            "accordion_heading": "Sizing",
+            "accordion_heading": "Description",
             "heading_style": "font-heading",
-            "accordion_text": "",
+            "accordion_text": "<p>Here goes the very interesting product description.<\/p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
         },
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
           "type": "product_accordion",
-          "disabled": true,
           "settings": {
-            "accordion_heading": "How we measure",
+            "accordion_heading": "Sizing",
             "heading_style": "font-heading",
-            "accordion_text": "<p>Test<\/p>",
+            "accordion_text": "<p>Here goes our sizing<\/p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
         },
+        "product_accordion_d7rcVt": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "How we measure",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "padding_bottom": 20
           }
@@ -91,17 +93,17 @@
       },
       "block_order": [
         "title",
-        "inventory_countdown",
         "form",
         "product_accordion",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "product_accordion_d7rcVt",
         "description",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
         "upsell",
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
       ],
       "custom_css": [
-        ".gw-button-widget-container {display:none}"
+        ".gw-button-widget-container {display: none;}"
       ],
       "settings": {
         "product_sticky_enable": true,
