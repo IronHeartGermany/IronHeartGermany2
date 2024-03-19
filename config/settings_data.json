@@ -51,6 +51,8 @@
     "show_free_shipping_message": false,
     "cart_custom_message_text": "",
     "cart_custom_message_color": "text-dark",
+    "upsells_bg_color": "#f4f4f4",
+    "upsells_text_color": "#000000",
     "show_spacer_lines": false,
     "line_thickness": "normal",
     "show_rounded_corners": false,
