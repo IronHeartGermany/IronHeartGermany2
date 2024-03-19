@@ -32,11 +32,10 @@
         },
         "product_accordion": {
           "type": "product_accordion",
-          "disabled": true,
           "settings": {
-            "accordion_heading": "Size guide",
+            "accordion_heading": "Sizing",
             "heading_style": "font-heading",
-            "accordion_text": "<p>Test<\/p>",
+            "accordion_text": "",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -83,6 +82,7 @@
         },
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW": {
           "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-block-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
+          "disabled": true,
           "settings": {
             "placement_selector": "",
             "multiple_widgets": false
@@ -99,6 +99,9 @@
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
         "upsell",
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
+      ],
+      "custom_css": [
+        ".gw-button-widget-container {display:none}"
       ],
       "settings": {
         "product_sticky_enable": true,
