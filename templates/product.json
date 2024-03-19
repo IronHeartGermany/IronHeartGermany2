@@ -128,16 +128,16 @@
     "related": {
       "type": "related-products",
       "blocks": {
-        "related": {
-          "type": "related",
+        "recent_brbwMT": {
+          "type": "recent",
           "settings": {
-            "title": "Works with",
-            "product_recommendations_limit": 4
+            "title": "Recently viewed",
+            "product_recently_limit": 4
           }
         }
       },
       "block_order": [
-        "related"
+        "recent_brbwMT"
       ],
       "settings": {
         "enable_tabs": true,
