@@ -513,6 +513,8 @@ $font-style-accent: {{ body_font.style }};
 
  } /* - end - */
 
+h1,h2,h3,h4 {font-family:'IHCUSTOM'!important}
+
 /*================ Normalize ================*/
 *, input, :before, :after {
   box-sizing: border-box;

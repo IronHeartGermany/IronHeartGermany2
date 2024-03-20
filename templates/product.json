@@ -25,10 +25,10 @@
         "icon_wzCeyU": {
           "type": "icon",
           "settings": {
-            "icon_name": "mail",
+            "icon_name": "truck",
             "icon_color": "",
             "icon_width": 20,
-            "icon_text": "Free shipping over $99",
+            "icon_text": "Free shipping over €200",
             "text_size": 90,
             "width": "full",
             "text_alignment": "left",
