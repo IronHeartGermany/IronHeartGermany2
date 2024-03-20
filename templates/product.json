@@ -164,7 +164,8 @@
       ],
       "custom_css": [
         ".product-upsell__subtitle,.gw-button-widget-container {display: none;}",
-        ".complementary-products__title {text-transform: uppercase;}"
+        ".complementary-products__title {text-transform: uppercase;}",
+        ".product__accordion__title {border-bottom: 1px solid grey; padding: 8px 0;}"
       ],
       "settings": {
         "product_sticky_enable": true,
