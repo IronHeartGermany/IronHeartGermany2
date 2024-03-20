@@ -480,6 +480,38 @@ sub {
   color: inherit;
 }
 
+$font-weight-normal: {{ body_font.weight | default: 400 }};
+$font-weight-bold: {{ body_font_bold.weight | default: 700 }};
+
+$font-stack-heading: 'IHCUSTOM',sans-serif;;
+$font-weight-heading: {{ heading_font.weight | default: 400 }};
+$font-style-heading: {{ heading_font.style }};
+
+$font-stack-body: 'IHCUSTOM',sans-serif;
+$font-weight-body: {{ body_font.weight | default: 400 }};
+$font-style-body: {{ body_font.style }};
+
+$font-stack-button: 'IHCUSTOM',sans-serif;;
+$font-weight-button: {{ body_font.weight | default: 400 }};
+$font-style-button: {{ body_font.style }};
+
+$font-stack-accent: 'IHCUSTOM',sans-serif;;
+$font-weight-accent: {{ body_font.weight | default: 400 }};
+$font-style-accent: {{ body_font.style }};
+
+/* -- code to use Custom font-family in theme -- */
+ @font-face {   
+    font-family: 'IHCUSTOM';  
+          src: 	url('{{ "HelveticaNeueLTStd-BdCn.eot" | asset_url }}');   
+          src: 	url('{{ "HelveticaNeueLTStd-BdCn.eot" | asset_url }}#iefix') format("embedded-opentype"),
+        	url('{{ "HelveticaNeueLTStd-BdCn.woff" | asset_url }}') format("woff"),
+        	url('{{ "HelveticaNeueLTStd-BdCn.woff2" | asset_url }}') format("woff2"),
+         	url('{{ "HelveticaNeueLTStd-BdCn.svg" | asset_url }}#HelveticaNeueLTStd-BdCn') format("svg");
+         text-transform: uppercase;
+              letter-spacing: 0px;
+
+ } /* - end - */
+
 /*================ Normalize ================*/
 *, input, :before, :after {
   box-sizing: border-box;
