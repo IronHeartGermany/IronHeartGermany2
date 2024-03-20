@@ -163,8 +163,8 @@
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
       ],
       "custom_css": [
-        ".gw-button-widget-container {display: none;}",
-        ".complementary-products__title {text-transform:uppercase}"
+        ".product-upsell__subtitle,.gw-button-widget-container {display: none;}",
+        ".complementary-products__title {text-transform: uppercase;}"
       ],
       "settings": {
         "product_sticky_enable": true,
