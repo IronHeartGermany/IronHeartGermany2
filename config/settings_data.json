@@ -1,10 +1,10 @@
 {
   "current": {
     "color_body_bg": "#ffffff",
-    "color_body_bg_secondary": "#fff7f2",
-    "color_headings": "#0b0b0b",
-    "color_body_text": "#0b0b0b",
-    "color_accent": "#fff7f2",
+    "color_body_bg_secondary": "#fafafa",
+    "color_headings": "#333333",
+    "color_body_text": "#333333",
+    "color_accent": "#ffffff",
     "color_borders_and_lines": "#d3d3d3",
     "type_heading_font": "helvetica_n7",
     "heading_size": 85,
