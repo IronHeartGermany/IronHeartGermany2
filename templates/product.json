@@ -50,6 +50,20 @@
             "padding_bottom": 20
           }
         },
+        "icon_rCqKM8": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "package",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Easy return within 30 days",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
         "product_accordion": {
           "type": "product_accordion",
           "settings": {
@@ -137,6 +151,7 @@
         "form",
         "icon_wzCeyU",
         "icon_qF3Nff",
+        "icon_rCqKM8",
         "product_accordion",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "product_accordion_d7rcVt",
