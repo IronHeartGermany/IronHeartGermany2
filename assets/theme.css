@@ -481,25 +481,6 @@ sub {
   color: inherit;
 }
 
-$font-weight-normal: {{ body_font.weight | default: 400 }};
-$font-weight-bold: {{ body_font_bold.weight | default: 700 }};
-
-$font-stack-heading: 'IHCUSTOM',sans-serif;;
-$font-weight-heading: {{ heading_font.weight | default: 400 }};
-$font-style-heading: {{ heading_font.style }};
-
-$font-stack-body: 'IHCUSTOM',sans-serif;
-$font-weight-body: {{ body_font.weight | default: 400 }};
-$font-style-body: {{ body_font.style }};
-
-$font-stack-button: 'IHCUSTOM',sans-serif;;
-$font-weight-button: {{ body_font.weight | default: 400 }};
-$font-style-button: {{ body_font.style }};
-
-$font-stack-accent: 'IHCUSTOM',sans-serif;;
-$font-weight-accent: {{ body_font.weight | default: 400 }};
-$font-style-accent: {{ body_font.style }};
-
 /* -- code to use Custom font-family in theme -- */
  @font-face {   
     font-family: 'IHCUSTOM';  
@@ -509,7 +490,7 @@ $font-style-accent: {{ body_font.style }};
 
  } /* - end - */
 
-h1,h2,h3,h4 {font-family:'IHCUSTOM'!important}
+h1,h2,h3,h4 {font-family:'IHCUSTOM'}
 
 /*================ Normalize ================*/
 *, input, :before, :after {
