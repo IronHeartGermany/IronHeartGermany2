@@ -46,7 +46,7 @@
           "type": "form",
           "settings": {
             "show_labels": true,
-            "show_quantity": false,
+            "show_quantity": true,
             "show_payment_button": true,
             "enable_subscriptions_selectors": true,
             "padding_bottom": 20
@@ -170,7 +170,7 @@
         ".complementary-products__title {padding: 8px 12px 2px; margin: 0;}",
         ".product-upsell__holder {margin: 0;}",
         ".product-upsell__content {padding: 0;}",
-        "#ProductTemplate--template--19385098993930__main > div > div > div.product-single__details > div > div:nth-child(7) {padding-top:15px;}"
+        "#ProductTemplate--template--19385098993930__main > div > div > div.product-single__details > div > div:nth-child(7) {padding-top: 15px;}"
       ],
       "settings": {
         "product_sticky_enable": true,
