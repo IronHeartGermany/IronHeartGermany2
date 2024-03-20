@@ -503,11 +503,7 @@ $font-style-accent: {{ body_font.style }};
 /* -- code to use Custom font-family in theme -- */
  @font-face {   
     font-family: 'IHCUSTOM';  
-          src: 	url('{{ "HelveticaNeueLTStd-BdCn.eot" | asset_url }}');   
-          src: 	url('{{ "HelveticaNeueLTStd-BdCn.eot" | asset_url }}#iefix') format("embedded-opentype"),
-        	url('{{ "HelveticaNeueLTStd-BdCn.woff" | asset_url }}') format("woff"),
-        	url('{{ "HelveticaNeueLTStd-BdCn.woff2" | asset_url }}') format("woff2"),
-         	url('{{ "HelveticaNeueLTStd-BdCn.svg" | asset_url }}#HelveticaNeueLTStd-BdCn') format("svg");
+          src: 	url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/HelveticaNeueLTStd-BdCn.woff2?v=1710927611') format("woff2");
          text-transform: uppercase;
               letter-spacing: 0px;
 
