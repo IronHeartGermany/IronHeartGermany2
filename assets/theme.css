@@ -137,6 +137,7 @@
   --adjust-product-grid: var(--FONT-ADJUST-PRODUCT-GRID);
 }
 
+
 a {
   text-decoration: none;
 }
@@ -144,6 +145,7 @@ a {
 html,
 body {
   font-size: 1rem;
+  font-family: "IHCUSTOM"!important;
 }
 
 body {
