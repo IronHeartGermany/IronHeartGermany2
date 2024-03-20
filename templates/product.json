@@ -165,7 +165,11 @@
       "custom_css": [
         ".product-upsell__subtitle,.gw-button-widget-container {display: none;}",
         ".complementary-products__title {text-transform: uppercase;}",
-        ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}"
+        ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
+        ".product__complementary {border: 1px solid grey; padding: 0;}",
+        ".complementary-products__title {padding: 8px 12px 2px;}",
+        ".product-upsell__holder {margin: 0;}",
+        ".product-upsell__content {padding: 0;}"
       ],
       "settings": {
         "product_sticky_enable": true,
