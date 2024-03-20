@@ -490,7 +490,7 @@ sub {
 
  } /* - end - */
 
-h1,h2,h3,h4,h5,h6,body,html,a,b,p,div,span {font-family:'IHCUSTOM'}
+h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button {font-family:'IHCUSTOM'!important}
 
 /*================ Normalize ================*/
 *, input, :before, :after {
