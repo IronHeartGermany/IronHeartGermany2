@@ -235,15 +235,23 @@
     "related": {
       "type": "related-products",
       "blocks": {
+        "related_Nkx4wQ": {
+          "type": "related",
+          "settings": {
+            "title": "Also good for you",
+            "product_recommendations_limit": 4
+          }
+        },
         "recent_brbwMT": {
           "type": "recent",
           "settings": {
-            "title": "Recently viewed",
+            "title": "Recently spotted",
             "product_recently_limit": 4
           }
         }
       },
       "block_order": [
+        "related_Nkx4wQ",
         "recent_brbwMT"
       ],
       "settings": {
