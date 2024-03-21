@@ -180,6 +180,129 @@
         "padding_bottom": 60
       }
     },
+    "section_banner_text_columns_mthxtM": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_gFLn3F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/35A6738.11.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#1",
+            "heading": "Finest Japanese Denim",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_JyxxWq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iron-heart-shop-nov-2021-25_883448ae-4036-4c3f-835c-a68badfe3e60.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#2",
+            "heading": "Supreme Stichting",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_TGPmXh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iron-heart-shop-nov-2021-24.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#3",
+            "heading": "Warm & light-weight",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gFLn3F",
+        "column_JyxxWq",
+        "column_TGPmXh"
+      ],
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_cdrCYU": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSC00345.jpg",
+        "subheading": "SUBTITLE",
+        "title": "<p>Content about the product category<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ptKtm4": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/2J5A3230Kopie.jpg",
+        "subheading": "SUBTITLE",
+        "title": "<p>Content about IRONHEART GERMANY as a brand<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_accordions_PJzKNt": {
       "type": "section-accordions",
       "blocks": {
@@ -265,6 +388,9 @@
   },
   "order": [
     "main",
+    "section_banner_text_columns_mthxtM",
+    "section_image_with_text_cdrCYU",
+    "section_image_with_text_ptKtm4",
     "section_accordions_PJzKNt",
     "related"
   ]
