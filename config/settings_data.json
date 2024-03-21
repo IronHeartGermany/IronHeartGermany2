@@ -455,5 +455,18 @@
       "checkout_button_color": "#000000",
       "checkout_error_color": "#d02e2e"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "\/*PRODUCT PAGE REDESIGN*\/.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
+      ".complementary-products__title {text-transform: uppercase;}",
+      ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
+      ".product__complementary {border: 1px solid grey; padding: 0;}",
+      ".complementary-products__title {padding: 8px 12px 2px; margin: 0;}",
+      ".product-upsell__holder {margin: 0;}",
+      ".product-upsell__content {padding: 0;}",
+      "#ProductTemplate--template--19385098993930__main > div > div > div.product-single__details > div > div:nth-child(7) {padding-top: 15px;}",
+      ".product__accordions {padding-bottom:20px;}"
+    ]
   }
 }
