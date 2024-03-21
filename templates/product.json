@@ -12,18 +12,26 @@
             "padding_bottom": 20
           }
         },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
         "product_accordion": {
           "type": "product_accordion",
           "settings": {
             "accordion_heading": "DESCRIPTION",
             "heading_style": "font-heading",
-            "accordion_text": "<p>Here goes the very interesting product description.<\/p>",
+            "accordion_text": "<p>We proudly present our second Iron Heart x Dehen 1920 collaboration. We introduce the Dehen Custom Moto Jersey \"Iron Heart Hamburg\". 100 % worsed black wool with big gold\/ yellow embroidery and black\/ dark blue striped left arm. Super cool, super exclusive and of course only available at Iron Heart Germany. Limited number of pieces!<\/p><ul><li>100% worsted wool, knit by us on 1940's knitting machines<\/li><li>Vintage style turtle zip collar<\/li><li>Vintage style Talon zipper and pull<\/li><li>Medium weight three-end jersey knit<\/li><li>Open cuffs and open shirt tail hem for easy layering<\/li><li>Double needle stitched internal elbow patches<\/li><li>Racing stripes at sleeves on left arm in black\/ dark navy<\/li><li>Dehen Logo patch<\/li><li>Giuli is wearing a size Large, is 178 cm tall and weighs 85 kg<\/li><li>Made in Portland, Oregon USA<\/li><\/ul>",
             "accordion_page": "",
             "padding_bottom": 10
           }
         },
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "SIZING",
             "heading_style": "font-heading",
@@ -34,6 +42,7 @@
         },
         "product_accordion_d7rcVt": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "HOW WE MEASURE",
             "heading_style": "font-heading",
@@ -107,13 +116,6 @@
             "padding_bottom": 20
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "padding_bottom": 20
-          }
-        },
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
           "type": "feature",
           "disabled": true,
@@ -148,6 +150,7 @@
       },
       "block_order": [
         "title",
+        "description",
         "product_accordion",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "product_accordion_d7rcVt",
@@ -157,7 +160,6 @@
         "icon_rCqKM8",
         "cutline_BkHHhU",
         "complementary_products_HpK9K9",
-        "description",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
         "upsell",
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
