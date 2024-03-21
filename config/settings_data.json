@@ -466,7 +466,8 @@
       ".product-upsell__holder {margin: 0;}",
       ".product-upsell__content {padding: 0;}",
       "#ProductTemplate--template--19385098993930__main > div > div > div.product-single__details > div > div:nth-child(7) {padding-top: 15px;}",
-      ".product__accordions {padding-bottom:20px;}"
+      ".product__accordions {padding-bottom: 20px;}",
+      ".btn--white-solid-border,.btn--white.btn--solid-border .shopify-payment-button__button--unbranded,.btn--white.btn--solid-border,.btn--solid-border .btn--white.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border .shopify-payment-button__button--unbranded,.btn--solid-border .btn--white .shopify-payment-button__button--unbranded {font-family: \"IHCUSTOM\"!;}"
     ]
   }
 }
