@@ -463,7 +463,7 @@
       ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
       ".product__complementary {border: 1px solid grey; padding: 0;}",
       ".complementary-products__title {padding: 8px 12px 2px; margin: 0;}",
-      ".product-upsell__holder {margin: 0;}",
+      ".product-upsell__holder {margin: 0!important;}",
       ".product-upsell__content {padding: 0;}",
       ".product__form__wrapper {padding-bottom: 30px !important;}",
       ".product__accordions {padding-bottom: 20px;}",
