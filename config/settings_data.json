@@ -34,7 +34,7 @@
     "show_rating": false,
     "variants_style": "boxes",
     "show_newsletter": false,
-    "enable_half_width_btn": false,
+    "enable_half_width_btn": true,
     "quick_buy": "none",
     "quick_buy_image_layout": "large",
     "show_labels": true,
@@ -460,7 +460,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "\/*PRODUCT PAGE REDESIGN*\/.product-upsell__subtitle,.gw-button-widget-container {\/* display: none;*\/}",
+      "\/*PRODUCT PAGE REDESIGN*\/.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
       ".complementary-products__title {text-transform: uppercase;}",
       ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
       ".product__complementary {border: 1px solid grey; padding: 0;}",
