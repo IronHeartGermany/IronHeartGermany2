@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "subheading": "breadcrumbs",
+            "subheading": "collection",
             "show_rating": true,
             "show_rating_count": false,
             "padding_bottom": 20
@@ -254,8 +254,8 @@
         "subheading": "SUBTITLE",
         "title": "<p>Content about the product category<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 130,
         "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
         "text_alignment": "left",
@@ -284,8 +284,8 @@
         "subheading": "SUBTITLE",
         "title": "<p>Content about IRONHEART GERMANY as a brand<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 130,
         "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
         "text_alignment": "left",
