@@ -1222,7 +1222,6 @@
         "label": "Text",
         "default": "#ffffff"
       },
-
       {
         "type": "header",
         "content": "Back In badge"
@@ -1243,9 +1242,8 @@
         "type": "color",
         "id": "back_in_text_color",
         "label": "Text",
-        "default": "#fafafa"
+        "default": "#ffffff"
       },
-
       {
         "type": "header",
         "content": "Future Release badge"
