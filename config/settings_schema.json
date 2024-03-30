@@ -1202,6 +1202,74 @@
       },
       {
         "type": "header",
+        "content": "New badge"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_new_badge",
+        "label": "Show New badge",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "new_bg_color",
+        "label": "Background",
+        "default": "#ef1e1c"
+      },
+      {
+        "type": "color",
+        "id": "new_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+
+      {
+        "type": "header",
+        "content": "Back In badge"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_back_in_badge",
+        "label": "Show Back In badge",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "back_in_bg_color",
+        "label": "Background",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "back_in_text_color",
+        "label": "Text",
+        "default": "#fafafa"
+      },
+
+      {
+        "type": "header",
+        "content": "Future Release badge"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_future_release_badge",
+        "label": "Show Future Release badge",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "future_release_bg_color",
+        "label": "Background",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "future_release_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
         "content": "Saving badge"
       },
       {
