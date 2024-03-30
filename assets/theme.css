@@ -48,6 +48,12 @@
   --custom-text: var(--COLOR-CUSTOM-TEXT);
   --sold-bg: var(--COLOR-SOLD-BG);
   --sold-text: var(--COLOR-SOLD-TEXT);
+  --new-bg: var(--COLOR-NEW-BG);
+  --new-text: var(--COLOR-NEW-TEXT);
+  --back-in-bg: var(--COLOR-BACK-IN-BG);
+  --back-in-text: var(--COLOR-BACK-IN-TEXT);
+  --future-release-bg: var(--COLOR-FUTURE-RELEASE-BG);
+  --future-release-text: var(--COLOR-FUTURE-RELEASE-TEXT);
   --saving-bg: var(--COLOR-SAVING-BG);
   --saving-text: var(--COLOR-SAVING-TEXT);
   --input-bg: var(--COLOR-INPUT-BG);
@@ -14062,6 +14068,21 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .product__badge__item--custom {
   background-color: var(--custom-bg);
   color: var(--custom-text);
+}
+
+.product__badge__item--new {
+  background-color: var(--new-bg);
+  color: var(--new-text);
+}
+
+.product__badge__item--back-in {
+  background-color: var(--back-in-bg);
+  color: var(--back-in-text);
+}
+
+.product__badge__item--future-release {
+  background-color: var(--future-release-bg);
+  color: var(--future-release-text);
 }
 
 .product__badge__item--saving {
