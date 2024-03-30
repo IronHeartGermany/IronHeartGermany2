@@ -92,7 +92,7 @@
     if downcase_tag == 'new'
       assign new_badge = true
     endif
-    if downcase_tag == 'back-in' or downcase_tag == 'back_in' or downcase_tage == 'back in'
+    if downcase_tag == 'back-in' or downcase_tag == 'back_in' or downcase_tag == 'back in'
       assign back_in_badge = true
     endif
     if downcase_tag == 'ss24'
@@ -556,10 +556,6 @@
       <span>{{ new_text }}</span>
     </div>
   {%- endif -%}
-
-  <div class="product__badge__item product__badge__item--back-in">
-    <span>{{ back_in_text }} XX Back In XX {{ back_in_badge }} YY {{ show_back_in_badge }} ZZ</span>
-  </div>
 
   {%- if back_in_badge and show_back_in_badge and sold_out == false and future_release_badge == false -%}
     <div class="product__badge__item product__badge__item--back-in">
