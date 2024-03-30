@@ -544,12 +544,19 @@
   --COLOR-BORDER-LIGHTEN-DARKEN: {{ color_border_lighten_darken }};
   --COLOR-BORDER-HAIRLINE: {{ color_body_bg | color_darken: 3 }};
 
+  {%- comment -%} P. Ryan - 30.03.24 - Badges {%- endcomment -%}
   --COLOR-SALE-BG: {{ settings.sale_bg_color }};
   --COLOR-SALE-TEXT: {{ settings.sale_text_color }};
   --COLOR-CUSTOM-BG: {{ settings.custom_bg_color }};
   --COLOR-CUSTOM-TEXT: {{ settings.custom_text_color }};
   --COLOR-SOLD-BG: {{ settings.sold_bg_color }};
   --COLOR-SOLD-TEXT: {{ settings.sold_text_color }};
+  --COLOR-NEW-BG: {{ settings.new_bg_color }};
+  --COLOR-NEW-TEXT: {{ settings.new_text_color }};
+  --COLOR-BACK-IN-BG: {{ settings.back_in_bg_color }};
+  --COLOR-BACK-IN-TEXT: {{ settings.back_in_text_color }};
+  --COLOR-FUTURE-RELEASE-BG: {{ settings.future_release_bg_color }};
+  --COLOR-FUTURE-RELEASE-TEXT: {{ settings.future_release_text_color }};
   --COLOR-SAVING-BG: {{ settings.saving_bg_color }};
   --COLOR-SAVING-TEXT: {{ settings.saving_text_color }};
 
