@@ -1267,6 +1267,11 @@
         "default": "#ffffff"
       },
       {
+        "type": "collection",
+        "id": "future_release_collection",
+        "label": "Collection"
+      },
+      {
         "type": "header",
         "content": "Saving badge"
       },
