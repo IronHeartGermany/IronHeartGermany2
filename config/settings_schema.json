@@ -1270,7 +1270,7 @@
         "type": "text",
         "id": "future_release_tag",
         "label": "Tag",
-        "default": "FW24"
+        "default": "SS24"
       },
       {
         "type": "header",
