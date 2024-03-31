@@ -233,9 +233,18 @@
         "label": "Font",
         "default": "body",
         "options": [
-          { "label": "Heading", "value": "heading" },
-          { "label": "Body", "value": "body" },
-          { "label": "Accent", "value": "subheading" }
+          {
+            "label": "Heading",
+            "value": "heading"
+          },
+          {
+            "label": "Body",
+            "value": "body"
+          },
+          {
+            "label": "Accent",
+            "value": "subheading"
+          }
         ]
       },
       {
@@ -295,8 +304,14 @@
         "label": "Font",
         "default": "body",
         "options": [
-          {"label": "Body", "value": "body"},
-          {"label": "Heading", "value": "heading"}
+          {
+            "label": "Body",
+            "value": "body"
+          },
+          {
+            "label": "Heading",
+            "value": "heading"
+          }
         ]
       },
       {
@@ -304,9 +319,18 @@
         "id": "button_style",
         "label": "Style",
         "options": [
-          {"label": "Square", "value": "square"},
-          {"label": "Rounded", "value": "rounded"},
-          {"label": "Pill", "value": "pill"}
+          {
+            "label": "Square",
+            "value": "square"
+          },
+          {
+            "label": "Rounded",
+            "value": "rounded"
+          },
+          {
+            "label": "Pill",
+            "value": "pill"
+          }
         ],
         "default": "square",
         "info": "Affects buttons and form elements"
@@ -388,8 +412,14 @@
         "label": "Heading style",
         "default": "font-heading",
         "options": [
-          { "label": "Heading", "value": "font-heading" },
-          { "label": "Body", "value": "font-body" }
+          {
+            "label": "Heading",
+            "value": "font-heading"
+          },
+          {
+            "label": "Body",
+            "value": "font-body"
+          }
         ]
       },
       {
@@ -600,10 +630,22 @@
         "label": "Button color",
         "default": "btn--primary",
         "options": [
-          { "label": "Primary", "value": "btn--primary" },
-          { "label": "Secondary", "value": "btn--secondary" },
-          { "label": "White", "value": "btn--white" },
-          { "label": "Black", "value": "btn--black" }
+          {
+            "label": "Primary",
+            "value": "btn--primary"
+          },
+          {
+            "label": "Secondary",
+            "value": "btn--secondary"
+          },
+          {
+            "label": "White",
+            "value": "btn--white"
+          },
+          {
+            "label": "Black",
+            "value": "btn--black"
+          }
         ]
       },
       {
@@ -612,9 +654,18 @@
         "label": "Button style",
         "default": "btn--solid",
         "options": [
-          { "label": "Solid", "value": "btn--solid" },
-          { "label": "Outline", "value": "btn--outline" },
-          { "label": "Solid with border", "value": "btn--solid-border" }
+          {
+            "label": "Solid",
+            "value": "btn--solid"
+          },
+          {
+            "label": "Outline",
+            "value": "btn--outline"
+          },
+          {
+            "label": "Solid with border",
+            "value": "btn--solid-border"
+          }
         ]
       },
       {
@@ -627,10 +678,22 @@
         "label": "Button color",
         "default": "btn--white",
         "options": [
-          { "label": "Primary", "value": "btn--primary" },
-          { "label": "Secondary", "value": "btn--secondary" },
-          { "label": "White", "value": "btn--white" },
-          { "label": "Black", "value": "btn--black" }
+          {
+            "label": "Primary",
+            "value": "btn--primary"
+          },
+          {
+            "label": "Secondary",
+            "value": "btn--secondary"
+          },
+          {
+            "label": "White",
+            "value": "btn--white"
+          },
+          {
+            "label": "Black",
+            "value": "btn--black"
+          }
         ]
       },
       {
@@ -639,9 +702,18 @@
         "label": "Button style",
         "default": "btn--solid-border",
         "options": [
-          { "label": "Solid", "value": "btn--solid" },
-          { "label": "Outline", "value": "btn--outline" },
-          { "label": "Solid with border", "value": "btn--solid-border" }
+          {
+            "label": "Solid",
+            "value": "btn--solid"
+          },
+          {
+            "label": "Outline",
+            "value": "btn--outline"
+          },
+          {
+            "label": "Solid with border",
+            "value": "btn--solid-border"
+          }
         ]
       },
       {
@@ -1003,10 +1075,22 @@
         "label": "Color",
         "default": "btn--secondary",
         "options": [
-          { "label": "Primary", "value": "btn--primary" },
-          { "label": "Secondary", "value": "btn--secondary" },
-          { "label": "White", "value": "btn--white" },
-          { "label": "Black", "value": "btn--black" }
+          {
+            "label": "Primary",
+            "value": "btn--primary"
+          },
+          {
+            "label": "Secondary",
+            "value": "btn--secondary"
+          },
+          {
+            "label": "White",
+            "value": "btn--white"
+          },
+          {
+            "label": "Black",
+            "value": "btn--black"
+          }
         ]
       },
       {
@@ -1015,10 +1099,22 @@
         "label": "Style",
         "default": "btn--solid-border",
         "options": [
-          { "label": "Solid", "value": "btn--solid" },
-          { "label": "Outline", "value": "btn--outline" },
-          { "label": "Solid with border", "value": "btn--solid-border" },
-          { "label": "Text", "value": "btn--text" }
+          {
+            "label": "Solid",
+            "value": "btn--solid"
+          },
+          {
+            "label": "Outline",
+            "value": "btn--outline"
+          },
+          {
+            "label": "Solid with border",
+            "value": "btn--solid-border"
+          },
+          {
+            "label": "Text",
+            "value": "btn--text"
+          }
         ]
       },
       {
@@ -1027,9 +1123,18 @@
         "label": "Size",
         "default": "btn--medium",
         "options": [
-          { "label": "Large", "value": "btn--large" },
-          { "label": "Medium", "value": "btn--medium" },
-          { "label": "Small", "value": "btn--small" }
+          {
+            "label": "Large",
+            "value": "btn--large"
+          },
+          {
+            "label": "Medium",
+            "value": "btn--medium"
+          },
+          {
+            "label": "Small",
+            "value": "btn--small"
+          }
         ]
       }
     ]
@@ -1598,7 +1703,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "Use a dynamic source with the metafield 'theme.size_chart' to connect your size chart with specific product page(s). Note that using a metafield will automatically overwrite the Page input below. [Set up your metafield(s)](/admin/settings/custom_data)"
+        "content": "Use a dynamic source with the metafield 'theme.size_chart' to connect your size chart with specific product page(s). Note that using a metafield will automatically overwrite the Page input below. [Set up your metafield(s)](\/admin\/settings\/custom_data)"
       },
       {
         "type": "page",
