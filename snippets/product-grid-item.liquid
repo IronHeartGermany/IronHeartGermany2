@@ -86,6 +86,7 @@
   assign back_in_badge = false
   assign is_future_release = false
   assign is_released = false
+  assign downcase_future_release_tag = settings.future_release_tag | downcase
 
   for tag in product.tags
     assign downcase_tag = tag | downcase
@@ -95,7 +96,7 @@
     if downcase_tag == 'back-in' or downcase_tag == 'back_in' or downcase_tag == 'back in'
       assign back_in_badge = true
     endif
-    if downcase_tag == 'ss24'
+    if downcase_tag == downcase_future_release_tag
       assign is_future_release = true
     endif
     if downcase_tag == 'released'
