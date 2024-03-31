@@ -78,6 +78,7 @@
     "show_future_release_badge": true,
     "future_release_bg_color": "#000000",
     "future_release_text_color": "#ffffff",
+    "future_release_tag": "SS24",
     "show_saving_badge": false,
     "enable_color_swatches_collection": true,
     "enable_color_swatches_product": true,
