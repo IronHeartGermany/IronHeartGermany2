@@ -648,6 +648,43 @@
         </div>
       {%- endunless -%}
     </div>
+
+    {%- comment -%} Sizes on hover - P. Ryan - 01.04.24{%- endcomment -%}
+    {%- assign found_option = false -%}
+    {%- if product.variants.size > 1 -%}
+      {%- for option in product.options -%}
+        {% assign downcase_option = option | downcase %}
+          {%- if downcase_option == "size" or downcase_option == "größe" -%}
+            {%- assign found_option = true -%}
+            {%- assign option_index = forloop.index0 -%}
+          {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if found_option -%}
+      <div class="btn-wrapper">
+        <div class='btn'>
+          <div class="swatch clearfix" data-option-index="{{ option_index }}">
+            {%- assign values = '' -%}
+            {%- for variant in product.variants -%}
+              {%- assign value = variant.options[option_index] -%}
+              {%- unless values contains value -%}
+                {%- assign values = values | join: ',' -%}
+                {%- assign values = values | append: ',' | append: value -%}
+                {%- assign values = values | split: ',' -%}
+                <a href="{{variant.url}}" data-value="{{ value | escape }}" class="swatch-element {{ value | handle }} {% if variant.available %}available{% else %}soldout{% endif %}">
+                  <label for="swatch-{{ option_index }}-{{ value | handle }}" title="{{ value | escape }}">
+                    {{- value -}}
+                    <img class="crossed-out" src="{{ 'soldout.svg' | asset_url }}" alt="Crossed Out" />
+                  </label>
+                </a>
+              {%- endunless -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
   </div>
 
   {%- comment -%} Product info {%- endcomment -%}

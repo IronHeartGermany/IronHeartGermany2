@@ -64,9 +64,9 @@
         "product_accordion_WNk3rK": {
           "type": "product_accordion",
           "settings": {
-            "accordion_heading": "FITTING",
+            "accordion_heading": "SIZE & FITTING",
             "heading_style": "font-heading",
-            "accordion_text": "<p>Our model is 6'4\" and wears XL<\/p>",
+            "accordion_text": "<p>Our model is 6'4\" and wears XL<\/p><p><a href=\"#!\" title=\"#!\">See our size guide here<\/a><\/p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -76,7 +76,7 @@
           "settings": {
             "accordion_heading": "MATERIALS & CARE",
             "heading_style": "font-heading",
-            "accordion_text": "<p>The hoodie is made of 100% organic cotton. See care guide <a href=\"#!\" title=\"#!\">here.<\/a><\/p>",
+            "accordion_text": "<p>The hoodie is made of 100% organic cotton.<\/p><p>See our washing & care instructions <a href=\"\/pages\/care-instructions\" target=\"_blank\" title=\"WASHING AND CARE INSTRUCTIONS\">here.<\/a><\/p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -86,7 +86,7 @@
           "settings": {
             "accordion_heading": "SHIPPING & RETURNS",
             "heading_style": "font-heading",
-            "accordion_text": "<p>We ship world-wide. See our shipping costs <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here.<\/a><\/p>",
+            "accordion_text": "<p>We ship world-wide.<\/p><p>See our shipping costs <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here.<\/a><\/p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -145,6 +145,7 @@
         },
         "complementary_products_HpK9K9": {
           "type": "complementary-products",
+          "disabled": true,
           "settings": {
             "padding_bottom": 20
           }
@@ -212,6 +213,33 @@
         "enable_video_looping": false,
         "bg_color": "",
         "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_jGnmtK": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "relaxed-tapered-555",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Works well with<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -377,6 +405,7 @@
         "text_FPFdrT",
         "text_MwMCww"
       ],
+      "disabled": true,
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": false,
@@ -424,6 +453,7 @@
   },
   "order": [
     "main",
+    "section_collection_jGnmtK",
     "section_banner_text_columns_mthxtM",
     "section_image_with_text_cdrCYU",
     "section_image_with_text_ptKtm4",

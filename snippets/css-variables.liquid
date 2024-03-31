@@ -563,6 +563,9 @@
   --COLOR-WHITE-BLACK: {{ color_white_black }};
   --COLOR-BLACK-WHITE: {{ color_black_white }};
 
+  {%- comment -%} P. Ryan - 11.04.24 - Sizes on Hover {%- endcomment -%}
+  --SIZES-ON-HOVER-BOX-SIZE: {{ settings.sizes_on_hover_box_size }}px;
+
   {%- comment -%} Hardcoded colors {%- endcomment -%}
   --COLOR-DISABLED-GREY: {{ color_body_text | color_modify: 'alpha', 0.05 }};
   --COLOR-DISABLED-GREY-DARKEN: {{ color_body_text | color_modify: 'alpha', 0.45 }};

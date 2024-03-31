@@ -1464,6 +1464,25 @@
     ]
   },
   {
+    "name": "Sizes on Hover",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Configure the sizes shown when hovering over a product in a product grid"
+      },
+      {
+        "type": "range",
+        "id": "sizes_on_hover_box_size",
+        "label": "Size of box",
+        "min": 5,
+        "max": 50,
+        "step": 1,
+        "default": 25,
+        "unit": "px"
+      }
+    ]
+  },
+  {
     "name": "Pagination",
     "settings": [
       {
