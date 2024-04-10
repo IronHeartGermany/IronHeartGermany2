@@ -202,7 +202,7 @@
         "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
       ],
       "custom_css": [
-        "a {}"
+        "a {line-height: 12px;}"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -425,6 +425,7 @@
       "blocks": {
         "related_Nkx4wQ": {
           "type": "related",
+          "disabled": true,
           "settings": {
             "title": "Also good for you",
             "product_recommendations_limit": 4
