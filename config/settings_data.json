@@ -474,7 +474,7 @@
       ".product__form__wrapper {padding-bottom: 30px !important;}",
       ".product__accordions {padding-bottom: 20px;}",
       ".btn--white-solid-border,.btn--white.btn--solid-border .shopify-payment-button__button--unbranded,.btn--white.btn--solid-border,.btn--solid-border .btn--white.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border .shopify-payment-button__button--unbranded,.btn--solid-border .btn--white .shopify-payment-button__button--unbranded {font-family: \"IHCUSTOM\" !important;}",
-      ".gw-button-widget{background: transparent;color: black;text-transform: none;text-decoration: underline;width: 350px;padding: 0;text-align: left;}"
+      ".gw-button-widget {background: transparent !important; color: black!Important; text-transform: none; text-decoration: underline; width: 350px; padding: 0; text-align: left;}"
     ]
   }
 }
