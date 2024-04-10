@@ -464,8 +464,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "\/*PRODUCT PAGE REDESIGN*\/.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
-      ".complementary-products__title {text-transform: uppercase;}",
+      "\/*PRODUCT PAGE REDESIGN*\/\/*.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
+      "*\/.complementary-products__title {text-transform: uppercase;}",
       ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
       ".product__complementary {border: 1px solid grey; padding: 0;}",
       ".complementary-products__title {padding: 8px 12px 2px; margin: 0;}",
@@ -473,7 +473,8 @@
       ".product-upsell__content {padding: 0;}",
       ".product__form__wrapper {padding-bottom: 30px !important;}",
       ".product__accordions {padding-bottom: 20px;}",
-      ".btn--white-solid-border,.btn--white.btn--solid-border .shopify-payment-button__button--unbranded,.btn--white.btn--solid-border,.btn--solid-border .btn--white.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border .shopify-payment-button__button--unbranded,.btn--solid-border .btn--white .shopify-payment-button__button--unbranded {font-family: \"IHCUSTOM\" !important;}"
+      ".btn--white-solid-border,.btn--white.btn--solid-border .shopify-payment-button__button--unbranded,.btn--white.btn--solid-border,.btn--solid-border .btn--white.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border.shopify-payment-button__button--unbranded,.btn--white .btn--solid-border .shopify-payment-button__button--unbranded,.btn--solid-border .btn--white .shopify-payment-button__button--unbranded {font-family: \"IHCUSTOM\" !important;}",
+      ".gw-button-widget{background: transparent;color: black;text-transform: none;text-decoration: underline;width: 350px;padding: 0;text-align: left;}"
     ]
   }
 }
