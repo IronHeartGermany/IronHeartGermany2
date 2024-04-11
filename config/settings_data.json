@@ -74,7 +74,7 @@
     "enable_color_swatches_collection": true,
     "enable_color_swatches_product": true,
     "color_swatches_product_style": "rectangle",
-    "sizes_on_hover_box_size": 30,
+    "sizes_on_hover_box_size": 25,
     "enable_infinity_scroll": false,
     "suggestions_results_limit": 5,
     "show_browse_categories_menu": false,
