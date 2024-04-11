@@ -1474,7 +1474,7 @@
         "type": "range",
         "id": "sizes_on_hover_box_size",
         "label": "Size of box",
-        "min": 5,
+        "min": 20,
         "max": 50,
         "step": 1,
         "default": 25,
