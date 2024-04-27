@@ -13532,6 +13532,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 
 /* P. Ryan - 07.04.23 - Sizes on hover */
 /* only apply this to non-mobile screens */
+@media only screen and (min-width: 768px) {
 .product-grid-item .btn-wrapper {
   position: absolute;
   bottom: 0;
@@ -13610,7 +13611,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
     }
   }
 }
-@media only screen and (min-width: 768px) {
+
   .product-grid-item:hover {
     .btn-wrapper {
       .btn {
@@ -13618,7 +13619,6 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
       }
     }
   }
-
 }
 
 /*=== Animations ===*/
