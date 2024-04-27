@@ -13532,85 +13532,85 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 
 /* P. Ryan - 07.04.23 - Sizes on hover */
 /* only apply this to non-mobile screens */
-  .product-grid-item .btn-wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.product-grid-item .btn-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+
+  .btn {
+    display: block;
+    padding: 10px;
     width: 100%;
-    height: auto;
-    pointer-events: none;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: auto;
+    position: relative;
+    opacity: 0;
 
-    .btn {
-      display: block;
-      padding: 10px;
-      width: 100%;
-      text-align: center;
-      cursor: pointer;
-      pointer-events: auto;
+    .swatch {
       position: relative;
-      opacity: 0;
+      z-index: auto;
+      margin: 0px 10px 10px 0;
+      -webkit-transform: translateZ(0); /* webkit flicker fix */
+      -webkit-font-smoothing:antialiased; /* webkit text rendering fix */
+      
+      margin: 5px 0px 5px 0px;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
 
-      .swatch {
+      label {
         position: relative;
-        z-index: auto;
-        margin: 0px 10px 10px 0;
-        -webkit-transform: translateZ(0); /* webkit flicker fix */
-        -webkit-font-smoothing:antialiased; /* webkit text rendering fix */
-        
-        margin: 5px 0px 5px 0px;
-        justify-content: center;
+        float: left;
+        height: var(--sizes-on-hover-box-size) !important;
+        min-width: var(--sizes-on-hover-box-size) !important;
+        margin: 0;
+        font-size: 13px;
+        text-align:center;
+        line-height: 25px;
+        white-space: nowrap;
+        text-transform: uppercase;
         display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0 5px;
+      }
 
-        label {
-          position: relative;
-          float: left;
-          height: var(--sizes-on-hover-box-size) !important;
-          min-width: var(--sizes-on-hover-box-size) !important;
-          margin: 0;
-          font-size: 13px;
-          text-align:center;
-          line-height: 25px;
-          white-space: nowrap;
-          text-transform: uppercase;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          cursor: pointer;
-          padding: 0 5px;
+      .swatch-element {
+        color: #fff;
+        border-color:#fff;
+        margin: 5px;
+        border-style: solid;
+        border-width: 1px;
+
+        .crossed-out {
+          display: none;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
         }
-
-        .swatch-element {
-          color: #fff;
-          border-color:#fff;
-          margin: 5px;
-          border-style: solid;
-          border-width: 1px;
-
+        
+        &.soldout {
           .crossed-out {
-            display: none;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
+            display: block;
           }
-          
-          &.soldout {
-            .crossed-out {
-              display: block;
-            }
-          
-            color: #000;
-            border-color: #000;
-            pointer-events: none;
-          }
+        
+          color: #000;
+          border-color: #000;
+          pointer-events: none;
         }
       }
     }
   }
-  @media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
   .product-grid-item:hover {
     .btn-wrapper {
       .btn {
