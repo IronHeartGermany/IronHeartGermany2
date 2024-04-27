@@ -179,7 +179,7 @@
       "checkout": "Pagamento",
       "empty": "Il tuo carrello è attualmente vuoto.",
       "accept_terms": "Devi accettare i nostri termini e condizioni.",
-      "accepted_terms": "Termini/condizioni accettati?",
+      "accepted_terms": "Termini\/condizioni accettati?",
       "zero_qty_error": "La quantità deve essere maggiore di 0.",
       "limit_error": "Apparentemente non abbiamo scorte sufficienti di questo prodotto.",
       "continue_shopping": "Continua ad acquistare",
