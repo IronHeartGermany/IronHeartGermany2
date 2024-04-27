@@ -13600,7 +13600,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
           .crossed-out {
             display: block;
           }
-        
+
           color: #000;
           border-color: #000;
           pointer-events: none;
