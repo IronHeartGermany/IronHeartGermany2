@@ -148,7 +148,7 @@
         "products_layout": "grid",
         "number_of_products": 12,
         "products_per_row_on_desktop": 3,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "text_alignment": "text-center",
         "title": "<p>New In<\/p>",
         "heading_highlight_type": "circle",
@@ -663,8 +663,8 @@
             "text": "<p>Our Story<\/p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_3W8N8t": {
