@@ -14136,7 +14136,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   background-color: var(--sale-bg);
   color: var(--sale-text);
   text-align: left;
-  font-size: calc(0.6875rem * var(--adjust-accent));
+  font-size: calc(0.8875rem * var(--adjust-accent)); /* P. Ryan - 28.04.24 - change scale factor from 0.6875 to 0.8875 */
   line-height: 1.2;
   transition: opacity 0.15s ease;
   padding: 6px 8px;
