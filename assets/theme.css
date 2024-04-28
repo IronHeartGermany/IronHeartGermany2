@@ -14139,7 +14139,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   font-size: calc(0.8875rem * var(--adjust-accent)); /* P. Ryan - 28.04.24 - change scale factor from 0.6875 to 0.8875 */
   line-height: 1.2;
   transition: opacity 0.15s ease;
-  padding: 6px 8px;
+  padding: 6px 8px 4px 8px; /* P. Ryan - 28.04.24 - change bottom padding from 6px to 4px so that badge text is centered */
   height: auto;
 }
 @media only screen and (max-width: 479px) {
