@@ -13,7 +13,7 @@
   assign image_width = image.width | default: image.preview_image.width
 
   if image_width != blank
-    assign widths = widths | default: '180, 240, 300, 360, 400, 460, 540, 560, 590, 606, 630, 670, 720, 738, 770, 814, 900, 1024, 1080, 1296, 1410, 1512, 1524, 1728, 1950, 2100, 2260, 2450, 2700, 2870, 3000, 3350, 3760, 4100, 4450, 4880' | split: ', '
+    assign widths = widths | default: '720, 738, 770, 814, 900, 1024, 1080, 1296, 1410, 1512, 1524, 1728, 1950, 2100, 2260, 2450, 2700, 2870, 3000, 3350, 3760, 4100, 4450, 4880' | split: ', '
     assign srcs = ''
 
     for string_width in widths
