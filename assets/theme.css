@@ -4072,7 +4072,6 @@ img[loading].is-loading {
   height: 100%;
   min-height: 100%;
   overflow-clip-margin: unset;
-  /*overflow: visible;*/
 }
 
 .img-object-cover {
