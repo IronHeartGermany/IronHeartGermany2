@@ -1511,6 +1511,12 @@
       },
       {
         "type": "checkbox",
+        "id": "show_header_search_icon_mobile",
+        "label": "Show search icon in header on mobile",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "enable_predictive_search",
         "label": "Enable search suggestions",
         "default": true
