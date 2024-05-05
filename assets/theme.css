@@ -8569,6 +8569,7 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   pointer-events: none;
   /* P. Ryan - 05.05.24 - Add border to header dropdown */
   border: 1px solid var(--COLOR-TEXT);
+  border-radius: 3px;
 }
 .menu__item.is-visible .header__dropdown {
   visibility: visible;
