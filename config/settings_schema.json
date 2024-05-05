@@ -1507,12 +1507,14 @@
         "type": "checkbox",
         "id": "show_header_search",
         "label": "Show search in header",
+        "info": "This configures everything except the search icon on mobiles",
         "default": true
       },
       {
         "type": "checkbox",
         "id": "show_header_search_icon_mobile",
-        "label": "Show search icon in header on mobile",
+        "label": "Show search icon in header on mobiles",
+        "info": "This configures only the search icon on mobiles",
         "default": true
       },
       {
