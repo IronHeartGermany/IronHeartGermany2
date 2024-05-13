@@ -15254,6 +15254,17 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   justify-content: center;
 }
 
+/* P. Ryan  - 13.05.24 - Fix alignment of title in Image with Title */
+.align--middle-left .banner-content, .align--bottom-left .banner-content {
+  justify-content: flex-start;
+}
+.align--middle-right .banner-content, .align--bottom-right .banner-content {
+  justify-content: flex-end;
+}
+.align--bottom-left .banner-content, .align--bottom-right .banner-content {
+  align-items: flex-end;
+}
+
 .banner__image-container {
   padding-top: var(--container-padding-top, 0);
 }
