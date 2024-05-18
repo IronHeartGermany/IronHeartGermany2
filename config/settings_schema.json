@@ -1374,8 +1374,9 @@
       {
         "type": "text",
         "id": "future_release_tag",
-        "label": "Tag",
-        "default": "SS24"
+        "label": "Future Release Tag",
+        "default": "SS24",
+        "info": "The tag used to identify which products have the Future Release badge"
       },
       {
         "type": "header",
