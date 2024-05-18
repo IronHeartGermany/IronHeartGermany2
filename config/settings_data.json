@@ -81,7 +81,7 @@
     "enable_color_swatches_product": true,
     "color_swatches_product_style": "rectangle",
     "sizes_on_hover_box_size": 25,
-    "enable_infinity_scroll": false,
+    "enable_infinity_scroll": true,
     "show_header_search": true,
     "show_header_search_icon_mobile": false,
     "suggestions_results_limit": 5,
