@@ -766,7 +766,6 @@
         "press_UAXyga",
         "press_FBKfkf"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "show_quotations": true,
@@ -812,6 +811,7 @@
         "press_F7CnBm",
         "press_jRcJ4A"
       ],
+      "disabled": true,
       "settings": {
         "title": "Press",
         "show_quotations": true,
