@@ -768,7 +768,7 @@
       ],
       "settings": {
         "title": "",
-        "show_quotations": true,
+        "show_quotations": false,
         "show_rounded_corners": false,
         "autoplay": true,
         "duration": 4,
