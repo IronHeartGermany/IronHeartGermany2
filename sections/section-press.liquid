@@ -130,6 +130,7 @@
         {%- for block in section.blocks -%}
           {%- liquid
             assign text = block.settings.text
+            assign link = block.settings.link
             assign image = block.settings.press_logo
             assign image_width = block.settings.logo_width
             assign retina_size = image_width | times: 2
@@ -142,6 +143,11 @@
             endunless
           -%}
 
+        {% comment %} P. Ryan - 27.05.24 - Add link to logos {% endcomment %}
+        {%- if link != blank -%}
+          <a class="logos__slide__link" href="{{ link }}" aria-label="{{ logo.alt | strip_html | escape }}">
+        {%- endif -%}
+
           <div class="press__logos-slide{% if text != blank %} has-text{% endif %}" data-logo-slide data-logo-index="{{ forloop.index0 }}">
             <div class="press__logo" style="--image-width: {{ image_width }}px; --image-height: {{ image_height }}px;">
               {%- liquid
@@ -153,8 +159,12 @@
                 render 'image', image: image, width: retina_size, widths: image_widths, sizes: sizes, classes: image_class, placeholder_svg: 'logo', placeholder_svg_tag: 'placeholder-svg', cover: false
               -%}
             </div>
+            {%- if link != blank -%}
+              </a>
+            {%- endif -%}
           </div>
         {%- endfor -%}
+
       </div>
     </div>
   {%- else -%}
