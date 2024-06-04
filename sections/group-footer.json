@@ -16,21 +16,12 @@
             "column_width": "20"
           }
         },
-        "text_Ez9DA8": {
-          "type": "text",
-          "settings": {
-            "alignment": "text-left",
-            "title": "CONTACT",
-            "footer_text": "<p>Iron Heart Store Hamburg<br\/>Kaiser-Wilhelm-Str. 45<br\/>20355 Hamburg<br\/>Germany<\/p><p>Tel. +49 (0) 40 3499 3999<br\/>info(at)ironheartgermany.com<\/p>",
-            "column_width": "20"
-          }
-        },
-        "link_yREwzX": {
+        "link_rL7cYJ": {
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "legal",
-            "title": "LEGAL",
+            "menu": "products",
+            "title": "PRODUCTS",
             "column_width": "20"
           }
         },
@@ -43,22 +34,31 @@
             "column_width": "20"
           }
         },
-        "link_rL7cYJ": {
+        "link_yREwzX": {
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "main-menu",
-            "title": "Shop",
+            "menu": "legal",
+            "title": "LEGAL",
+            "column_width": "20"
+          }
+        },
+        "text_Ez9DA8": {
+          "type": "text",
+          "settings": {
+            "alignment": "text-left",
+            "title": "CONTACT",
+            "footer_text": "<p>Iron Heart Store Hamburg<br\/>Kaiser-Wilhelm-Str. 45<br\/>20355 Hamburg<br\/>Germany<\/p><p>Tel. +49 (0) 40 3499 3999<br\/>info(at)ironheartgermany.com<\/p>",
             "column_width": "20"
           }
         }
       },
       "block_order": [
         "logo_V6rRBd",
-        "text_Ez9DA8",
-        "link_yREwzX",
+        "link_rL7cYJ",
         "link_PGx7CT",
-        "link_rL7cYJ"
+        "link_yREwzX",
+        "text_Ez9DA8"
       ],
       "settings": {
         "show_footer_wave": false,
