@@ -43,12 +43,12 @@
             "column_width": "20"
           }
         },
-        "footer-block-3": {
-          "type": "newsletter",
+        "link_rL7cYJ": {
+          "type": "link",
           "settings": {
             "alignment": "text-left",
-            "title": "Newsletter",
-            "text": "<p>Sign up for our newsletter<\/p>",
+            "menu": "main-menu",
+            "title": "Shop",
             "column_width": "20"
           }
         }
@@ -58,7 +58,7 @@
         "text_Ez9DA8",
         "link_yREwzX",
         "link_PGx7CT",
-        "footer-block-3"
+        "link_rL7cYJ"
       ],
       "settings": {
         "show_footer_wave": false,

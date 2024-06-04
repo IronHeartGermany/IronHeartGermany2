@@ -1,9 +1,9 @@
 {
   "sections": {
-    "f65731be-fed8-4ca8-825e-2c8bce9ebe5b": {
+    "section_slideshow_dTDLLQ": {
       "type": "section-slideshow",
       "blocks": {
-        "image_KzDAke": {
+        "image_e8ntQh": {
           "type": "image",
           "settings": {
             "overlay_opacity": 10,
@@ -13,98 +13,8 @@
             "subheading": "",
             "title": "<p>Welcome to Palo Alto<\/p>",
             "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "template--18952593899841__f65731be-fed8-4ca8-825e-2c8bce9ebe5b-168312590450cae23f-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2J5A6716.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2J5A6702.jpg",
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "bottom-left",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "<p>IHSH-21-BLU<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "10oz Selvedge Chambray Work Shirt",
-            "button_1_text": "Shop",
-            "button_1_link": "shopify:\/\/products\/iron-heart-ihsh-21-blu-10oz-selvedge-chambray-work-shirt",
-            "button_1_color": "btn--primary",
-            "button_1_style": "btn--solid",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--secondary",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "5655c2ea-52e3-4de8-a550-76a9b69e2a46": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2J5A3396_Final.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2J5A3395_1.jpg",
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "bottom-left",
-            "text_color": "text-light",
-            "subheading": "Introducing",
-            "title": "<p>Welcome to Palo Alto<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--primary",
-            "button_1_style": "btn--solid",
-            "button_1_size": "btn--large",
-            "button_2_text": "Learn More",
-            "button_2_link": "",
-            "button_2_color": "btn--secondary",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "image_KEaLHn": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2J5A9560.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2J5A9526_c54c3c55-02eb-4a80-b13d-60d6f79dbc0b.jpg",
-            "overlay_opacity": 10,
-            "text_width": "normal",
-            "text_position": "center",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "<p>Welcome to Palo Alto<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
             "text": "Add more info or delete this text",
             "button_1_text": "Shop All",
             "button_1_link": "shopify:\/\/collections\/all",
@@ -122,125 +32,53 @@
         }
       },
       "block_order": [
-        "image_KzDAke",
-        "template--18952593899841__f65731be-fed8-4ca8-825e-2c8bce9ebe5b-168312590450cae23f-0",
-        "5655c2ea-52e3-4de8-a550-76a9b69e2a46",
-        "image_KEaLHn"
+        "image_e8ntQh"
       ],
       "settings": {
-        "slide_height": "full-height",
-        "enable_mobile_height": true,
-        "mobile_slide_height": "full-height-mobile",
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
-        "autoplay": true,
+        "autoplay": false,
         "duration": 4,
-        "transition": "zoom-out",
+        "transition": "wipe",
         "enable_zoom_animation": true,
-        "heading_size": 180
+        "heading_size": 150
       }
     },
-    "section_collection_qfXKbc": {
+    "section_collection_kcBtFY": {
       "type": "section-collection",
       "settings": {
-        "collection": "new",
+        "collection": "",
         "products_layout": "grid",
-        "number_of_products": 12,
-        "products_per_row_on_desktop": 3,
-        "columns_mobile": "1",
-        "text_alignment": "text-center",
-        "title": "<p>New In<\/p>",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
         "heading_size": 100,
-        "text": "",
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
         "text_size": 100,
-        "button_text": "",
+        "button_text": "Shop Now",
         "button_color": "btn--black",
         "button_style": "btn--text",
         "button_size": "btn--large",
         "bg_color_secondary": false,
-        "enable_slider_mobile": false,
+        "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "section_list_collection_CVg9im": {
+    "section_list_collection_h3CDQM": {
       "type": "section-list-collection",
       "blocks": {
-        "collection_7X3mkB": {
-          "type": "collection",
-          "settings": {
-            "collection": "jeans",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_bfxMxN": {
-          "type": "collection",
-          "settings": {
-            "collection": "shirts",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_NVfAiQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "jackets",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_rzqVKB": {
-          "type": "collection",
-          "settings": {
-            "collection": "footwear",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_7X3mkB",
-        "collection_bfxMxN",
-        "collection_NVfAiQ",
-        "collection_rzqVKB"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": 100,
-        "layout": "grid",
-        "alignment": "center",
-        "collections_per_row": 4,
-        "image_shape": "square",
-        "image_aspect_ratio": 1,
-        "text_size": 150,
-        "overlay_text": false,
-        "layout_mobile": "grid",
-        "section_bg_color": "",
-        "section_text_color": "",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_list_collection_6mNLiG": {
-      "type": "section-list-collection",
-      "blocks": {
-        "collection_pHqFrU": {
+        "collection_wwewaC": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -250,7 +88,7 @@
             "overlay_opacity": 30
           }
         },
-        "collection_LWKRM6": {
+        "collection_gtbemU": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -260,37 +98,7 @@
             "overlay_opacity": 30
           }
         },
-        "collection_GLVdPw": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_DkmCqV": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_wQxBjm": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_c9Mn4R": {
+        "collection_T8VYhn": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -302,21 +110,18 @@
         }
       },
       "block_order": [
-        "collection_pHqFrU",
-        "collection_LWKRM6",
-        "collection_GLVdPw",
-        "collection_DkmCqV",
-        "collection_wQxBjm",
-        "collection_c9Mn4R"
+        "collection_wwewaC",
+        "collection_gtbemU",
+        "collection_T8VYhn"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": 100,
         "layout": "carousel",
         "alignment": "center",
-        "collections_per_row": 4,
-        "image_shape": "circle",
-        "image_aspect_ratio": 1,
+        "collections_per_row": 2,
+        "image_shape": "square",
+        "image_aspect_ratio": 0.8,
         "text_size": 130,
         "overlay_text": false,
         "layout_mobile": "carousel",
@@ -327,40 +132,85 @@
         "padding_bottom": 60
       }
     },
-    "section_banner_image_y4HPYK": {
-      "type": "section-banner-image",
+    "section_image_accordions_KizmdH": {
+      "type": "section-image-accordions",
       "blocks": {
-        "subheading_gCUKAz": {
-          "type": "subheading",
+        "image_pPAJgc": {
+          "type": "image",
           "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "heading_YfUtaA": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Dehen 1920 Varsity Black<\/p>",
-            "size": 125,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_3aezam": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "button_TrgURx": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Shop",
-            "button_1_link": "shopify:\/\/products\/dehen-1920-de-ja0002-blk-dehen-1920-varsity-jacket-black",
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
             "button_1_color": "btn--white",
-            "button_1_style": "btn--solid",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_VWNWUJ": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_6Rhbex": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_rT7nij": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
             "button_1_size": "btn--small",
             "button_2_text": "",
             "button_2_link": "",
@@ -371,473 +221,276 @@
         }
       },
       "block_order": [
-        "subheading_gCUKAz",
-        "heading_YfUtaA",
-        "text_3aezam",
-        "button_TrgURx"
+        "image_pPAJgc",
+        "image_VWNWUJ",
+        "image_6Rhbex",
+        "image_rT7nij"
       ],
       "disabled": true,
       "settings": {
-        "height": "full-height",
-        "enable_mobile_height": true,
-        "mobile_height": "full-height-mobile",
-        "image": "shopify:\/\/shop_images\/iron-heart-nov-18-26.jpg",
-        "overlay_opacity": 10,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "center",
-        "text_color": "text-light"
-      }
-    },
-    "section_banner_image_KeiNj9": {
-      "type": "section-banner-image",
-      "blocks": {
-        "subheading_6iqyfV": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Welcome to<\/p>",
-            "size": 100
-          }
-        },
-        "heading_xYMLBr": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Palo Alto<\/p>",
-            "size": 180,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_qkCdbb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "size": 100
-          }
-        },
-        "button_iHK3LL": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6iqyfV",
-        "heading_xYMLBr",
-        "text_qkCdbb",
-        "button_iHK3LL"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
+        "accordion_height": "six-fifty-height",
         "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
-        "overlay_opacity": 10,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "left",
-        "text_color": "text-light"
-      }
-    },
-    "section_banner_image_iQiWtf": {
-      "type": "section-banner-image",
-      "blocks": {
-        "subheading_AzAjrt": {
-          "type": "subheading",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "heading_yhVRk9": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "size": 180,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_JLthzK": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "button_9b6Yca": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Discover Our Cuts",
-            "button_1_link": "shopify:\/\/pages\/our-cuts",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_AzAjrt",
-        "heading_yhVRk9",
-        "text_JLthzK",
-        "button_9b6Yca"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "original-height",
-        "enable_mobile_height": true,
-        "mobile_height": "original-height-mobile",
-        "image": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Iron-Heart-Cut-Overview.jpg",
-        "overlay_opacity": 10,
-        "enable_zoom_animation": false,
-        "text_width": "normal",
-        "text_position": "bottom-right",
-        "text_color": "text-light"
-      }
-    },
-    "section_banner_image_tCczFw": {
-      "type": "section-banner-image",
-      "blocks": {
-        "subheading_a4FJi7": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Welcome to<\/p>",
-            "size": 100
-          }
-        },
-        "heading_wK6cUD": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Palo Alto<\/p>",
-            "size": 180,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_m6YCWL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "size": 100
-          }
-        },
-        "button_ACeLQL": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_a4FJi7",
-        "heading_wK6cUD",
-        "text_m6YCWL",
-        "button_ACeLQL"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
-        "overlay_opacity": 10,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "left",
-        "text_color": "text-light"
-      }
-    },
-    "section_image_7bQLkR": {
-      "type": "section-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Store_TotaleShopify.jpg",
-        "height": "original-height",
-        "enable_mobile_height": true,
-        "mobile_height": "original-height-mobile",
-        "enable_stretch": true,
-        "image_position": "center",
-        "bg_color_secondary": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
         "width": "wrapper--full",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "section_text_MjMDUz": {
-      "type": "section-text",
-      "blocks": {
-        "heading_zQUkaA": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Iron Heart Germany<\/p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_hcMUyB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Welcome to Iron Heart Germany. We operate the only Iron Heart store outside of Japan, located in Hamburg, as well as our web shop.<\/p>",
-            "size": 100
-          }
-        },
-        "text_eT6WGc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Iron Heart is a Japanese denim and clothing brand with a unique passion for stylish, durable, and ethically produced clothing of the highest quality. The mastermind behind Iron Heart is Shinichi Haraki, who founded The Works Inc. and the Iron Heart brand in Tokyo in 2002 with the goal of producing classic and timeless clothing made from the finest materials and manufactured at the highest level. The aim is not a blind reproduction of vintage apparel, but rather re-engineering workwear styles with heavyweight fabrics for today's lifestyle.<\/p>",
-            "size": 100
-          }
-        },
-        "text_399kG4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The 21 oz. Iron Heart Jeans have achieved cult status worldwide and inspire not only the hard-riding motorcycle community, but also denim lovers all around the world.<\/p>",
-            "size": 100
-          }
-        },
-        "text_LjGwwF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Immerse yourself in Iron Heart Germany, the world of \"Genuine Quality - Made in Japan\".<\/p>",
-            "size": 100
-          }
-        }
-      },
-      "block_order": [
-        "heading_zQUkaA",
-        "text_hcMUyB",
-        "text_eT6WGc",
-        "text_399kG4",
-        "text_LjGwwF"
-      ],
-      "disabled": true,
+    "section_overlapping_images_NMxq7C": {
+      "type": "section-overlapping-images",
       "settings": {
-        "text_position": "left",
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>Our Story, Our Promise<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
+        "gradient": "",
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "section_text_b4DLnG": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_ypLcTr": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Subheading<\/p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "heading_8UDi6y": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Our Story<\/p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_3W8N8t": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "size": 100
-          }
-        },
-        "button_FFrfmA": {
-          "type": "button",
-          "settings": {
-            "button_text": "Read More",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_ypLcTr",
-        "heading_8UDi6y",
-        "text_3W8N8t",
-        "button_FFrfmA"
-      ],
+    "section_overlapping_images_PwQ3Gi": {
+      "type": "section-overlapping-images",
       "settings": {
-        "text_position": "center",
+        "text_position": "left",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>Our Story, Our Promise<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
+        "gradient": "",
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "section_press_x3FxUq": {
-      "type": "section-press",
+    "section_blog_gfqWja": {
+      "type": "section-blog",
+      "settings": {
+        "blog": "",
+        "blog_style": "photo",
+        "image_aspect_ratio": 1.1,
+        "rows": 1,
+        "columns": 3,
+        "show_tags": false,
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": false,
+        "default_color": "none",
+        "heading": "",
+        "button_text": "View all posts",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "text_color": "text-dark",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_newsletter_kRbEAq": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "title": "Newsletter",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "",
+        "button_text": "",
+        "bg_color": "",
+        "image": "shopify:\/\/shop_images\/hotdog-pin-man-jean-jacket.jpg",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_Mb3rtT": {
+      "type": "section-columns",
       "blocks": {
-        "press_KabGeJ": {
-          "type": "press",
+        "text_block_kkcbmP": {
+          "type": "text_block",
           "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/simmons-bilt",
-            "press_logo": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo.jpg",
-            "logo_width": 120
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         },
-        "press_TQ6RDp": {
-          "type": "press",
+        "text_block_jr4JHK": {
+          "type": "text_block",
           "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/dehen-1920",
-            "press_logo": "shopify:\/\/shop_images\/19Dehen20banner_a4f029ac-aa5f-4efa-b0a6-c395596cdf1a.png",
-            "logo_width": 120
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         },
-        "press_HYNfrb": {
-          "type": "press",
+        "text_block_q6EGYR": {
+          "type": "text_block",
           "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/iron-heart",
-            "press_logo": "shopify:\/\/shop_images\/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
-            "logo_width": 120
-          }
-        },
-        "press_kGNt4m": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/wesco",
-            "press_logo": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw.jpg",
-            "logo_width": 120
-          }
-        },
-        "press_UAXyga": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/peanuts-co",
-            "press_logo": "shopify:\/\/shop_images\/peanuts.png",
-            "logo_width": 120
-          }
-        },
-        "press_FBKfkf": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify:\/\/collections\/porter-yoshida-co",
-            "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
-            "logo_width": 120
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         }
       },
       "block_order": [
-        "press_KabGeJ",
-        "press_TQ6RDp",
-        "press_HYNfrb",
-        "press_kGNt4m",
-        "press_UAXyga",
-        "press_FBKfkf"
+        "text_block_kkcbmP",
+        "text_block_jr4JHK",
+        "text_block_q6EGYR"
       ],
       "settings": {
         "title": "",
-        "show_quotations": false,
-        "show_rounded_corners": false,
-        "autoplay": true,
-        "duration": 4,
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": false,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
         "bg_color_secondary": false,
-        "width": "wrapper--narrow",
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "section_press_NQAkUp": {
-      "type": "section-press",
+    "section_columns_hNXYWV": {
+      "type": "section-columns",
       "blocks": {
-        "press_6mnRAK": {
-          "type": "press",
+        "text_block_MWm98Q": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 70
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         },
-        "press_F7CnBm": {
-          "type": "press",
+        "text_block_pRBWb4": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 70
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         },
-        "press_jRcJ4A": {
-          "type": "press",
+        "text_block_7UgqDc": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 70
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         }
       },
       "block_order": [
-        "press_6mnRAK",
-        "press_F7CnBm",
-        "press_jRcJ4A"
+        "text_block_MWm98Q",
+        "text_block_pRBWb4",
+        "text_block_7UgqDc"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Press",
-        "show_quotations": true,
-        "show_rounded_corners": false,
-        "autoplay": true,
-        "duration": 4,
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": false,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
         "bg_color_secondary": false,
-        "width": "wrapper--narrow",
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
     }
   },
   "order": [
-    "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
-    "section_collection_qfXKbc",
-    "section_list_collection_CVg9im",
-    "section_list_collection_6mNLiG",
-    "section_banner_image_y4HPYK",
-    "section_banner_image_KeiNj9",
-    "section_banner_image_iQiWtf",
-    "section_banner_image_tCczFw",
-    "section_image_7bQLkR",
-    "section_text_MjMDUz",
-    "section_text_b4DLnG",
-    "section_press_x3FxUq",
-    "section_press_NQAkUp"
+    "section_slideshow_dTDLLQ",
+    "section_collection_kcBtFY",
+    "section_list_collection_h3CDQM",
+    "section_image_accordions_KizmdH",
+    "section_overlapping_images_NMxq7C",
+    "section_overlapping_images_PwQ3Gi",
+    "section_blog_gfqWja",
+    "section_newsletter_kRbEAq",
+    "section_columns_Mb3rtT",
+    "section_columns_hNXYWV"
   ]
 }
