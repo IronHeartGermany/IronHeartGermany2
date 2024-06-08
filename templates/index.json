@@ -83,7 +83,7 @@
         "product_PhdAXF": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "iron-heart-ihsw-49-gry-14oz-ultra-heavyweight-loopwheel-cotton-hoodie-grey",
             "title": "",
             "product_description": "",
             "button_text": "View Product",
@@ -100,7 +100,7 @@
         "product_8fcnkt": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "ih-717-kha-9oz-mercerised-selvedge-cotton-chinos-khaki",
             "title": "",
             "product_description": "",
             "button_text": "View Product",
@@ -117,7 +117,7 @@
         "product_zffVDE": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "iron-heart-ihb-11-blk-heavy-duty-tochigi-leather-belt-black",
             "title": "",
             "product_description": "",
             "button_text": "View Product",
@@ -138,8 +138,8 @@
         "product_zffVDE"
       ],
       "settings": {
-        "title": "",
-        "heading_size": 100,
+        "title": "NEW IN",
+        "heading_size": 80,
         "button_color": "btn--black",
         "button_style": "btn--solid",
         "button_size": "btn--small",
