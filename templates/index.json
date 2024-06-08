@@ -8,8 +8,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2J5A9925_3.jpg",
             "image_mobile": "shopify:\/\/shop_images\/2J5A9925_2.jpg",
-            "overlay_opacity": 10,
-            "text_width": "normal",
+            "overlay_opacity": 20,
+            "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "subheading": "New in",
@@ -53,24 +53,24 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "settings": {
-        "collection": "",
+        "collection": "bestsellers",
         "products_layout": "grid",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-left",
-        "title": "<p>Best Sellers<\/p>",
+        "title": "<p>BESTSELLERS<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 100,
-        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text": "<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the quality and timeless style. Perfect for enthusiasts who demand the best in denim and workwear.<\/p>",
         "text_size": 100,
         "button_text": "Shop Now",
         "button_color": "btn--black",
         "button_style": "btn--text",
         "button_size": "btn--large",
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
         "padding_top": 60,
@@ -83,7 +83,7 @@
         "collection_wwewaC": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bottoms",
             "heading": "",
             "block_text_color": "",
             "bg_color": "",
@@ -93,7 +93,7 @@
         "collection_gtbemU": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tops",
             "heading": "",
             "block_text_color": "",
             "bg_color": "",
@@ -103,7 +103,27 @@
         "collection_T8VYhn": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "accessories",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_i3cmqe": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_wHz6Xr": {
+          "type": "collection",
+          "settings": {
+            "collection": "other",
             "heading": "",
             "block_text_color": "",
             "bg_color": "",
@@ -114,22 +134,27 @@
       "block_order": [
         "collection_wwewaC",
         "collection_gtbemU",
-        "collection_T8VYhn"
+        "collection_T8VYhn",
+        "collection_i3cmqe",
+        "collection_wHz6Xr"
+      ],
+      "custom_css": [
+        "svg {background: black!important;}"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": 100,
         "layout": "carousel",
-        "alignment": "center",
+        "alignment": "left",
         "collections_per_row": 3,
         "image_shape": "square",
         "image_aspect_ratio": 0.8,
-        "text_size": 130,
-        "overlay_text": false,
+        "text_size": 200,
+        "overlay_text": true,
         "layout_mobile": "carousel",
-        "section_bg_color": "",
-        "section_text_color": "",
-        "width": "wrapper--full-padded",
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#fafafa",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
