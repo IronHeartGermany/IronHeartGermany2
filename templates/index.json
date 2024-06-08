@@ -77,6 +77,79 @@
         "padding_bottom": 60
       }
     },
+    "section_products_list_th6frq": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_PhdAXF": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "product_8fcnkt": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "product_zffVDE": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "product_PhdAXF",
+        "product_8fcnkt",
+        "product_zffVDE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_list_collection_h3CDQM": {
       "type": "section-list-collection",
       "blocks": {
@@ -326,8 +399,9 @@
     },
     "section_blog_gfqWja": {
       "type": "section-blog",
+      "disabled": true,
       "settings": {
-        "blog": "",
+        "blog": "journal",
         "blog_style": "photo",
         "image_aspect_ratio": 1.1,
         "rows": 1,
@@ -365,7 +439,7 @@
         "locations_Y3B873"
       ],
       "custom_css": [
-        ".wrapper.locations__wrapper {padding-right:0;}"
+        ".wrapper.locations__wrapper {padding-right: 0;}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
@@ -540,6 +614,7 @@
   "order": [
     "section_slideshow_dTDLLQ",
     "section_collection_kcBtFY",
+    "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
     "section_image_accordions_KizmdH",
     "section_overlapping_images_NMxq7C",
