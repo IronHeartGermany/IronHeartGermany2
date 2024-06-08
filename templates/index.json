@@ -351,15 +351,18 @@
     },
     "section_newsletter_kRbEAq": {
       "type": "section-newsletter",
+      "custom_css": [
+        "button {color: black;}"
+      ],
       "settings": {
-        "flex_align": "align--middle-left",
+        "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "Newsletter",
-        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
-        "extra_fields": "",
-        "button_text": "",
+        "title": "Become an IRON HEART.GERMANY Insider",
+        "text": "<p>Join the IRON HEART.GERMANY Insider Club and unlock exclusive benefits. Get early access to new collections, special discounts, and invitations to member-only events. Stay updated with the latest Iron Heart news and enjoy unique perks tailored just for you. Joining is completely free, showing our appreciation for your loyalty. Sign up now and start enjoying these exclusive advantages!<\/p>",
+        "extra_fields": "name",
+        "button_text": "Join the insiders",
         "bg_color": "",
-        "image": "shopify:\/\/shop_images\/hotdog-pin-man-jean-jacket.jpg",
+        "image": "shopify:\/\/shop_images\/DSC_2356.jpg",
         "image_height": "three-fifty-height",
         "overlay_opacity": 10,
         "width": "wrapper",
