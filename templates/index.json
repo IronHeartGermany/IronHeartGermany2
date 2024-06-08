@@ -37,7 +37,7 @@
         "image_e8ntQh"
       ],
       "settings": {
-        "slide_height": "two-thirds-height",
+        "slide_height": "one-half-height",
         "enable_mobile_height": false,
         "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
@@ -139,7 +139,7 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-        "h3 {color:white!important;}"
+        "h3 {color: white !important;}"
       ],
       "settings": {
         "title": "",
