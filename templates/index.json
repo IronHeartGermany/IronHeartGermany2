@@ -139,7 +139,7 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-        "svg {background: black!important;}"
+
       ],
       "settings": {
         "title": "",
@@ -153,7 +153,7 @@
         "overlay_text": true,
         "layout_mobile": "carousel",
         "section_bg_color": "#ffffff",
-        "section_text_color": "#fafafa",
+        "section_text_color": "#333333",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
