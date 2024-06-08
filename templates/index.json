@@ -503,7 +503,7 @@
             "text": "",
             "link": "shopify:\/\/collections\/porter-yoshida-co",
             "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
-            "logo_width": 130
+            "logo_width": 110
           }
         }
       },
@@ -517,14 +517,14 @@
       ],
       "settings": {
         "title": "",
-        "show_quotations": true,
+        "show_quotations": false,
         "show_rounded_corners": false,
         "autoplay": true,
-        "duration": 4,
+        "duration": 3,
         "bg_color_secondary": false,
         "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "section_newsletter_kRbEAq": {
