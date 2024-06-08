@@ -142,7 +142,7 @@
         "heading_size": 80,
         "button_color": "btn--black",
         "button_style": "btn--solid",
-        "button_size": "btn--small",
+        "button_size": "btn--large",
         "image_aspect_ratio": 1,
         "bg_color_secondary": false,
         "width": "wrapper",
