@@ -27960,3 +27960,24 @@ search-form mark {
 .no-js .recipient-fields .errors {
   margin-top: calc(var(--form-margin) / 2);
 }
+
+/* P. Ryan - 15.06.2024 - Parallax effect for images */
+.parallax {
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

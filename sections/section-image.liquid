@@ -13,6 +13,7 @@
   assign animations_enabled = settings.animations_enabled
   assign animation_anchor = '#Image--' | append: unique
   assign animation_delay = 150
+  assign image_parallax = section.settings.image_parallax
 
   capture image_classes
     echo 'section-image__image'
@@ -149,14 +150,21 @@
         data-aos-delay="{{ animation_delay }}"
         {%- assign animation_delay = animation_delay | plus: 150 -%}
       {% endif %}>
-      {%- render 'image',
-        image: image,
-        width: image_width,
-        widths: image_widths,
-        sizes: sizes,
-        alt: image_alt,
-        classes: image_classes,
-        placeholder_svg: 'lifestyle-1' -%}
+      {% comment %} P. Ryan - 15.06.24 - Image parallax {% endcomment %}
+      {% if image_parallax %}
+        <div class="parallax" style="background-image: url('{{ image | img_url:'2048x' }}');">
+        </div>
+      {% else %}
+        {%- render 'image',
+          image: image,
+          width: image_width,
+          widths: image_widths,
+          sizes: sizes,
+          alt: image_alt,
+          classes: image_classes,
+          placeholder_svg: 'lifestyle-1' -%}
+      {% endif %}
+
     </div>
   </div>
 </section>
@@ -284,6 +292,17 @@
         "unit": "px",
         "label": "Padding bottom",
         "default": 100
+      },
+      {
+        "type": "header",
+        "content": "Effects"
+      },
+      {
+        "type": "checkbox",
+        "id": "image_parallax",
+        "label": "Parallax",
+        "info": "Desktop only",
+        "default": false
       }
     ],
     "presets": [
