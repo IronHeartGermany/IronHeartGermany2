@@ -349,6 +349,32 @@
         "padding_bottom": 60
       }
     },
+    "section_locations_r4cFBa": {
+      "type": "section-locations",
+      "blocks": {
+        "locations_Y3B873": {
+          "type": "locations",
+          "settings": {
+            "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
+            "working_time": "<p>MONDAY 11:00–18:00<br\/>TUESDAY 11:00–18:00<br\/>WEDNESDAY closed<br\/>THURSDAY 11:00–18:00<br\/>FRIDAY 11:00–18:00<br\/>SATURDAY 11:00–16:00<br\/>SUNDAY closed<\/p>",
+            "image": "shopify:\/\/shop_images\/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "locations_Y3B873"
+      ],
+      "custom_css": [
+        ".wrapper.locations__wrapper {padding-right:0;}"
+      ],
+      "settings": {
+        "subheading": "The only IRON HEART store outside Japan",
+        "title": "HAMBURG SHOWROOM",
+        "bg_color_secondary": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_newsletter_kRbEAq": {
       "type": "section-newsletter",
       "custom_css": [
@@ -519,6 +545,7 @@
     "section_overlapping_images_NMxq7C",
     "section_overlapping_images_PwQ3Gi",
     "section_blog_gfqWja",
+    "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
     "section_columns_hNXYWV"
