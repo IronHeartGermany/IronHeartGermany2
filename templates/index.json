@@ -478,12 +478,42 @@
             "press_logo": "shopify:\/\/shop_images\/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
             "logo_width": 130
           }
+        },
+        "press_TLgbUR": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/wesco",
+            "press_logo": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw.jpg",
+            "logo_width": 130
+          }
+        },
+        "press_DGNj6m": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/peanuts-co",
+            "press_logo": "shopify:\/\/shop_images\/peanuts.png",
+            "logo_width": 90
+          }
+        },
+        "press_g3BAGf": {
+          "type": "press",
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/porter-yoshida-co",
+            "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
+            "logo_width": 130
+          }
         }
       },
       "block_order": [
         "press_DfQKip",
         "press_qHGRRe",
-        "press_FhLEwD"
+        "press_FhLEwD",
+        "press_TLgbUR",
+        "press_DGNj6m",
+        "press_g3BAGf"
       ],
       "settings": {
         "title": "",
