@@ -54,7 +54,7 @@
               {%- assign animation_delay = animation_delay | plus: 150 -%}
             {% endif %}>{{ collection.title | escape }}</h1>
 
-          <div class="rte rte--header collection__description"
+          <h2 class="rte rte--header collection__description"
             {% if animations_enabled %}
               data-aos="fade-up"
               data-aos-anchor="{{ animation_anchor }}"
@@ -62,7 +62,7 @@
               {%- assign animation_delay = animation_delay | plus: 150 -%}
             {% endif %}>
             {{- collection.description -}}
-          </div>
+          </h2>
         {%- else -%}
           {%- if collection.handle == 'all' -%}
             <h1 class="section-header__title collection__title"
