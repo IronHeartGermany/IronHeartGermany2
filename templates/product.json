@@ -12,6 +12,13 @@
             "padding_bottom": 20
           }
         },
+        "custom_code_74zqq9": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "",
+            "padding_bottom": 20
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -184,6 +191,7 @@
       },
       "block_order": [
         "title",
+        "custom_code_74zqq9",
         "description",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "product_accordion_d7rcVt",
