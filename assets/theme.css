@@ -13614,6 +13614,12 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   }
 }
 
+/* P. Ryan - 16.06.24 - Do not transition colors for sizes on hover */
+.product-grid-item .no-hover-transition {
+  --btn-bg-hover: var(--text);
+  transition: none;
+}
+
 /* P. Ryan - 27.04.24 - only apply hover to non-mobile screens */
 @media only screen and (min-width: 768px) {
   .product-grid-item:hover {

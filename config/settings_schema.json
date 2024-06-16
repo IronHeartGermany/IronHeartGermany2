@@ -1480,6 +1480,13 @@
         "step": 1,
         "default": 25,
         "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "sizes_on_hover_color_transition",
+        "label": "Color transition when in size box",
+        "default": false,
+        "info": "Transition from one color to another when mouse enters box containing sizes"
       }
     ]
   },

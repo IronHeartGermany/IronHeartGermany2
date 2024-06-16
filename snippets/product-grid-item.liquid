@@ -663,7 +663,7 @@
 
     {%- if found_option -%}
       <div class="btn-wrapper">
-        <div class='btn'>
+        <div class="btn  {% unless settings.sizes_on_hover_color_transition %} no-hover-transition {% endunless %}">
           <div class="swatch clearfix" data-option-index="{{ option_index }}">
             {%- assign values = '' -%}
             {%- for variant in product.variants -%}
