@@ -54,6 +54,8 @@
   --back-in-text: var(--COLOR-BACK-IN-TEXT);
   --future-release-bg: var(--COLOR-FUTURE-RELEASE-BG);
   --future-release-text: var(--COLOR-FUTURE-RELEASE-TEXT);
+  --collection-badge-bg: var(--COLOR-COLLECTION-BADGE-BG);
+  --collection-badge-text: var(--COLOR-COLLECTION-BADGE-TEXT);
   --saving-bg: var(--COLOR-SAVING-BG);
   --saving-text: var(--COLOR-SAVING-TEXT);
   --input-bg: var(--COLOR-INPUT-BG);
@@ -14185,6 +14187,11 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .product__badge__item--future-release {
   background-color: var(--future-release-bg);
   color: var(--future-release-text);
+}
+
+.product__badge__item--collection-badge {
+  background-color: var(--collection-badge-bg);
+  color: var(--collection-badge-text);
 }
 
 .product__badge__item--saving {

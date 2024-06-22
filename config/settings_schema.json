@@ -1380,6 +1380,42 @@
       },
       {
         "type": "header",
+        "content": "Collection badge",
+        "info": "Adds a badge to all items in a collection"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_collection_badge",
+        "label": "Show Collection badge",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "collection_badge_bg_color",
+        "label": "Background",
+        "default": "#ff6d6d"
+      },
+      {
+        "type": "color",
+        "id": "collection_badge_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "collection",
+        "id": "collection_badge_collection",
+        "label": "Collection",
+        "info": "The collection to which the tag is applied"
+      },
+      {
+        "type": "text",
+        "id": "collection_badge_text",
+        "label": "Badge Text",
+        "default": "Collection Badge",
+        "info": "The text in the collection badge"
+      },
+      {
+        "type": "header",
         "content": "Saving badge"
       },
       {
