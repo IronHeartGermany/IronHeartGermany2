@@ -111,12 +111,10 @@
   endif
 
   if settings.collection_badge_collection != blank and settings.collection_badge_collection != empty
-    for product_in_collection in settings.collection_badge_collection.products
-      if product.handle == product_in_collection.handle
-        assign collection_badge = true
-        break
-      endif
-    endfor
+    assign product_collection_handles = product.collections | map: "handle"
+    if product_collection_handles contains settings.collection_badge_collection.handle 
+      assign collection_badge = true
+    endif
   endif
 
   assign single_variant = false
