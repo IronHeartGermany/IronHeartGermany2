@@ -27994,3 +27994,11 @@ search-form mark {
     background-attachment: scroll;
   }
 }
+.slide__text__container p.subheading-text {
+    background-color: red;
+    padding: 0 5px;
+    width: 47px;
+}
+.slide__heading.main-heading span.red_dot {
+    color: red;
+}
