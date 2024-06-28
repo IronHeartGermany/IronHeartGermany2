@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "section_slideshow_dTDLLQ": {
@@ -48,6 +57,33 @@
         "transition": "wipe",
         "enable_zoom_animation": true,
         "heading_size": 150
+      }
+    },
+    "section_collection_wbgefN": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "new",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 3,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p>NEW IN<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "SEE ALL NEW IN",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section_collection_kcBtFY": {
@@ -665,6 +701,7 @@
   },
   "order": [
     "section_slideshow_dTDLLQ",
+    "section_collection_wbgefN",
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
