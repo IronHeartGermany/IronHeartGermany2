@@ -546,7 +546,7 @@
       "type": "section-collection",
       "custom_css": [
         "section {background-color: BLACK !important;}",
-        "h2,h3,p,a, b {color: white!improtant;}"
+        "h2,h3,p,a,b {color: #fff!improtant;}"
       ],
       "settings": {
         "collection": "leather-jackets",
