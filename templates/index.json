@@ -90,7 +90,7 @@
       "type": "section-collection",
       "settings": {
         "collection": "bestsellers",
-        "products_layout": "grid",
+        "products_layout": "carousel",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
@@ -251,19 +251,98 @@
         "h3 {color: white !important;}"
       ],
       "settings": {
-        "title": "",
+        "title": "CATEGORIES",
         "heading_size": 100,
         "layout": "carousel",
-        "alignment": "left",
-        "collections_per_row": 3,
+        "alignment": "center",
+        "collections_per_row": 2,
         "image_shape": "square",
-        "image_aspect_ratio": 0.8,
+        "image_aspect_ratio": 0.7,
         "text_size": 200,
         "overlay_text": true,
         "layout_mobile": "carousel",
         "section_bg_color": "#ffffff",
         "section_text_color": "#333333",
         "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_list_collection_bintHB": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ejVnQh": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rMcXRg": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4nC9aB": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gFFfYJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HGW3GM": {
+          "type": "collection",
+          "settings": {
+            "collection": "other",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_ejVnQh",
+        "collection_rMcXRg",
+        "collection_4nC9aB",
+        "collection_gFFfYJ",
+        "collection_HGW3GM"
+      ],
+      "settings": {
+        "title": "DISCOVER OUT CUTS",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 5,
+        "image_shape": "square",
+        "image_aspect_ratio": 1.5,
+        "text_size": 200,
+        "overlay_text": true,
+        "layout_mobile": "carousel",
+        "section_bg_color": "#f4f4f4",
+        "section_text_color": "#333333",
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -463,6 +542,37 @@
         "padding_bottom": 60
       }
     },
+    "section_collection_X8PtKB": {
+      "type": "section-collection",
+      "custom_css": [
+        "section {background-color: BLACK !important;}",
+        "h2, h3, p, a b {color:white!improtant}"
+      ],
+      "settings": {
+        "collection": "leather-jackets",
+        "products_layout": "split-left",
+        "number_of_products": 2,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>CO BRANDS<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#f4f4f4",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_locations_r4cFBa": {
       "type": "section-locations",
       "blocks": {
@@ -555,6 +665,7 @@
         "press_DGNj6m",
         "press_g3BAGf"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "show_quotations": false,
@@ -705,10 +816,12 @@
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
+    "section_list_collection_bintHB",
     "section_image_accordions_KizmdH",
     "section_overlapping_images_NMxq7C",
     "section_overlapping_images_PwQ3Gi",
     "section_blog_gfqWja",
+    "section_collection_X8PtKB",
     "section_locations_r4cFBa",
     "section_press_Lxjw4L",
     "section_newsletter_kRbEAq",
