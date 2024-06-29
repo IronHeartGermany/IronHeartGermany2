@@ -51,6 +51,11 @@
 
   <div class="{{ section_width }}" data-overflow-container>
     <div class="products-list__container" data-overflow-frame>
+      {% if section.settings.image != blank %}
+      <div class="top_image">
+        <img src="{{ section.settings.image | img_url: 'master' }}">
+      </div>
+      {% endif %}
       {%- unless section.settings.title == blank -%}
         <h2 class="products-list__heading subheading-text"
           {% if animations_enabled %}
@@ -770,6 +775,11 @@
   "name": "Products list",
   "max_blocks": 3,
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
     {
       "type": "text",
       "id": "title",
