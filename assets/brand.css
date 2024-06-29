@@ -19,10 +19,10 @@
 .main_brand_images {
   display: flex;
 }
-.left_heading {
+.main_brand_images .left_heading {
   width: 40%;
 }
-.right_images {
+.main_brand_images .right_images {
   width: 60%;
 }
 .main_brand_images {
@@ -30,11 +30,11 @@
     padding-bottom: 40px;
 }
 /* Hide the brand hover image by default */
-.swiper-slide .brand_hover_image {
+.main_brand_images .swiper-slide .brand_hover_image {
     display: none !important;
 }
 /* Show the brand hover image and hide the main image on hover */
-.swiper-slide:hover .brand_hover_image {
+.main_brand_images .swiper-slide:hover .brand_hover_image {
     display: block !important;
 }
 .swiper-slide:hover .main_coll_image {
