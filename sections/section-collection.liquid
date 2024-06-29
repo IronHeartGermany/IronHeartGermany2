@@ -1178,6 +1178,13 @@
         {{ collection_onboarding }}
       {%- endif -%}
     </div>
+    <div class="bottom_btn_cls">
+      {%- capture collection_button -%}
+        {%- if button_text != blank -%}
+          <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} btn--view-all" href="{{ collection.url | default: '#!' }}">{{ button_text }}</a>
+        {%- endif -%}
+      {%- endcapture -%}
+    </div>
   </div>
 {%- endcapture -%}
 
