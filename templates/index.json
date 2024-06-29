@@ -353,7 +353,7 @@
         "image_shape": "square",
         "image_aspect_ratio": 1.5,
         "text_size": 200,
-        "overlay_text": true,
+        "overlay_text": false,
         "layout_mobile": "carousel",
         "section_bg_color": "#f4f4f4",
         "section_text_color": "#333333",
