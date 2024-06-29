@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .main_brand_images .swiper-slide img {
   display: block;
@@ -28,6 +29,14 @@
 .main_brand_images {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+p.coll_title {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    background: #000;
+    color: #fff;
+    padding: 0px 10px;
 }
 /* Hide the brand hover image by default */
 .main_brand_images .swiper-slide .brand_hover_image {
