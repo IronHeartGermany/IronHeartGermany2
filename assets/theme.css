@@ -27994,6 +27994,9 @@ search-form mark {
     background-attachment: scroll;
   }
 }
+
+
+/* New Homwpage Design */
 .slide__text__container p.subheading-text {
     background-color: red;
     padding: 0 5px;
@@ -28005,7 +28008,7 @@ search-form mark {
 .btn.btn--view-all {
   background: #fff;color: #000;padding: 10px;margin-top: 5px;margin-bottom: 5px;
 }
-
 .featured-collection__bottom {
     background: #000;
 }
+/* New Homwpage Design */
