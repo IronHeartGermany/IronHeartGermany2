@@ -62,13 +62,12 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "settings": {
-        "extra_class": "new_collection_design",
         "collection": "new",
         "products_layout": "carousel",
         "number_of_products": 8,
         "products_per_row_on_desktop": 3,
         "columns_mobile": "1",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "title": "<p>NEW IN<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
@@ -76,7 +75,7 @@
         "heading_size": 100,
         "text": "",
         "text_size": 100,
-        "button_text": "SEE ALL NEW IN",
+        "button_text": "",
         "button_color": "btn--black",
         "button_style": "btn--text",
         "button_size": "btn--large",
@@ -90,13 +89,12 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "settings": {
-        "extra_class": "",
         "collection": "bestsellers",
         "products_layout": "carousel",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "title": "<p>BESTSELLERS<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
@@ -104,7 +102,7 @@
         "heading_size": 100,
         "text": "<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the quality and timeless style. Perfect for enthusiasts who demand the best in denim and workwear.<\/p>",
         "text_size": 100,
-        "button_text": "SEE ALL",
+        "button_text": "",
         "button_color": "btn--black",
         "button_style": "btn--text",
         "button_size": "btn--large",
@@ -551,7 +549,6 @@
         "h2,h3,p,a,b {color: #fff!improtant;}"
       ],
       "settings": {
-        "extra_class": "",
         "collection": "leather-jackets",
         "products_layout": "split-left",
         "number_of_products": 2,
