@@ -32,8 +32,8 @@
 }
 p.coll_title {
     position: absolute;
-    top: 0px;
-    left: 12px;
+    top: -5px;
+    left: 10px;
     background: #000;
     color: #fff;
     padding: 0px 10px;
