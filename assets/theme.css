@@ -28028,11 +28028,11 @@ img.location_bottom_icon {
     display: block;
 }
 @media only screen and (min-width: 768px) {
-    .newsletter-section .align--middle-split .newsletter-section__content {
-        display: block !important;
-    }
+  .newsletter-section .align--middle-split .newsletter-section__content {
+      display: block !important;
+  }
   .newsletter-section .newsletter-section__content__wrapper {
     width: 50%;
-}
+  }
 }
 /* New Homwpage Design */
