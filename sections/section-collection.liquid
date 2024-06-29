@@ -270,7 +270,7 @@
 
 {%- capture collection_button -%}
   {%- if button_text != blank -%}
-    <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} btn--view-all" href="{{ collection.url | default: '#!' }}">{{ button_text }}</a>
+    <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} btn--view-all" href="{{ collection.url | default: '#!' }}"  style="background: {{ section.settings.bg_color }}; color: {{ section.settings.txt_color }}">{{ button_text }}</a>
   {%- endif -%}
 {%- endcapture -%}
 
@@ -1184,7 +1184,7 @@
 
 {%- capture collection_bottom -%}
   {%- if collection_button != blank -%}
-    <div class="featured-collection__bottom"
+    <div class="featured-collection__bottom" style="background:{{ section.settings.bg_color_full }};" 
       {% if animations_enabled %}
         data-aos="fade-up"
         data-aos-delay="{{ columns | plus: 1 | times: 150 }}"
@@ -1361,6 +1361,21 @@
       "id": "button_text",
       "label": "Text",
       "default": "Shop Now"
+    },
+    {
+      "type": "color_background",
+      "id": "bg_color_full",
+      "label": "FullLine Background Color"
+    },
+    {
+      "type": "color_background",
+      "id": "bg_color",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color_background",
+      "id": "txt_color",
+      "label": "Text Color"
     },
     {
       "type": "select",
