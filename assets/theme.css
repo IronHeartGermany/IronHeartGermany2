@@ -28016,4 +28016,8 @@ span.red_dot {
       width: 100px;
     height: 100px;
 }
+.custom_button{
+  text-align: center;
+    margin-top: 15px;
+}
 /* New Homwpage Design */
