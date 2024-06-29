@@ -829,6 +829,81 @@
         "padding_top": 30,
         "padding_bottom": 60
       }
+    },
+    "section_product_TWD83R": {
+      "type": "section-product",
+      "blocks": {
+        "title_3iJzpN": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "form_pKR6ei": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "description_zMhPR7": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_a4G77K": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_3iJzpN",
+        "form_pKR6ei",
+        "description_zMhPR7",
+        "icon_row_a4G77K"
+      ],
+      "settings": {
+        "product": "rats-21rtc-1103-big-logo-hoodie-black",
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "hide_product_thumbnails": false,
+        "product_image_aspect_ratio": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -847,6 +922,7 @@
     "section_press_Lxjw4L",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
-    "section_columns_hNXYWV"
+    "section_columns_hNXYWV",
+    "section_product_TWD83R"
   ]
 }
