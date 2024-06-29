@@ -251,6 +251,26 @@
                   {%- endif -%}
                 {%- endif -%}
 
+                  {%- if show_second_image -%}
+                  <div class="products-list__item__image products-list__item__image--small">
+                    <div class="products-list__item__image__frame"
+                      {% if animations_enabled %}
+                        data-aos="fade-left"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-delay="{{ animation_delay_content }}"
+                      {% endif %}>
+                      {%- if image_2 != blank -%}
+                        {{- image_2 -}}
+                      {%- else -%}
+                        <div class="products-list__item__image-bg placeholder-svg--overlayed">
+                          {%- capture current -%}{%- cycle 1, 2, 3, 4 -%}{%- endcapture -%}
+                          {{- 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg-filled' -}}
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                {%- endif -%}
+                
                 <div class="products-list__item__image products-list__item__image--main"
                   {% if animations_enabled %}
                     {% if show_second_image %}
@@ -274,25 +294,7 @@
                   </div>
                 </div>
 
-                {%- if show_second_image -%}
-                  <div class="products-list__item__image products-list__item__image--small">
-                    <div class="products-list__item__image__frame"
-                      {% if animations_enabled %}
-                        data-aos="fade-left"
-                        data-aos-anchor="{{ animation_anchor }}"
-                        data-aos-delay="{{ animation_delay_content }}"
-                      {% endif %}>
-                      {%- if image_2 != blank -%}
-                        {{- image_2 -}}
-                      {%- else -%}
-                        <div class="products-list__item__image-bg placeholder-svg--overlayed">
-                          {%- capture current -%}{%- cycle 1, 2, 3, 4 -%}{%- endcapture -%}
-                          {{- 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg-filled' -}}
-                        </div>
-                      {%- endif -%}
-                    </div>
-                  </div>
-                {%- endif -%}
+              
               </div>
             </div>
 
