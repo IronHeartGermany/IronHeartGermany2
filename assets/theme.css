@@ -28002,3 +28002,8 @@ search-form mark {
 .slide__heading.main-heading span.red_dot {
     color: red;
 }
+.btn.btn--view-all {background: #fff;color: #000;padding: 10px;margin-top: 5px;margin-bottom: 5px;}
+
+.featured-collection__bottom {
+    background: #000;
+}
