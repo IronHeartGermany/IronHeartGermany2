@@ -257,7 +257,9 @@
         -%}
       {%- endif -%}
       {% if section.settings.btn != blank %}
-        <a class="list_btn_cls" href="{{ section.settings.btn_link }}">{{ section.settings.btn }}</a>
+        <div class="custom_button">
+          <a class="list_btn_cls" href="{{ section.settings.btn_link }}">{{ section.settings.btn }}</a>
+        </div>
       {% endif %}
     </div>
   </div>
