@@ -111,29 +111,29 @@
 }
 {% endschema %}
 
- <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".brand_slider", {
-      loop: true,
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".brand_slider", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    520: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    640: {
       slidesPerView: 3,
-      spaceBetween: 20,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-      520: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
+      spaceBetween: 20
     }
-    });
-  </script>
+  }
+  });
+</script>
