@@ -251,26 +251,6 @@
                   {%- endif -%}
                 {%- endif -%}
 
-                  {%- if show_second_image -%}
-                  <div class="products-list__item__image products-list__item__image--small">
-                    <div class="products-list__item__image__frame"
-                      {% if animations_enabled %}
-                        data-aos="fade-left"
-                        data-aos-anchor="{{ animation_anchor }}"
-                        data-aos-delay="{{ animation_delay_content }}"
-                      {% endif %}>
-                      {%- if image_2 != blank -%}
-                        {{- image_2 -}}
-                      {%- else -%}
-                        <div class="products-list__item__image-bg placeholder-svg--overlayed">
-                          {%- capture current -%}{%- cycle 1, 2, 3, 4 -%}{%- endcapture -%}
-                          {{- 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg-filled' -}}
-                        </div>
-                      {%- endif -%}
-                    </div>
-                  </div>
-                {%- endif -%}
-                
                 <div class="products-list__item__image products-list__item__image--main"
                   {% if animations_enabled %}
                     {% if show_second_image %}
@@ -294,7 +274,25 @@
                   </div>
                 </div>
 
-              
+                {%- if show_second_image -%}
+                  <div class="products-list__item__image products-list__item__image--small">
+                    <div class="products-list__item__image__frame"
+                      {% if animations_enabled %}
+                        data-aos="fade-left"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-delay="{{ animation_delay_content }}"
+                      {% endif %}>
+                      {%- if image_2 != blank -%}
+                        {{- image_2 -}}
+                      {%- else -%}
+                        <div class="products-list__item__image-bg placeholder-svg--overlayed">
+                          {%- capture current -%}{%- cycle 1, 2, 3, 4 -%}{%- endcapture -%}
+                          {{- 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg-filled' -}}
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                {%- endif -%}
               </div>
             </div>
 
@@ -611,20 +609,6 @@
                       {%- endif -%}
 
                       {%- assign animation_delay = 150 -%}
-                      {%- if image_2 != blank and show_second_image -%}
-                        <a href="{{ product_url }}" aria-label="{{ product_title }}"
-                          class="products-list__item__image products-list__item__image--small"
-                          data-overflow-content>
-                          <div class="products-list__item__image__frame"
-                            {% if animations_enabled %}
-                              data-aos="fade-left"
-                              data-aos-anchor="{{ animation_anchor }}"
-                              data-aos-delay="{{ animation_delay }}"
-                            {% endif %}>
-                            {{- image_2 -}}
-                          </div>
-                        </a>
-                      {%- endif -%}
                       {%- if image_1 != blank -%}
                         <a href="{{ product_url }}" aria-label="{{ product_title }}"
                           class="products-list__item__image products-list__item__image--main"
@@ -698,7 +682,20 @@
                         {%- endif -%}
                       {%- endif -%}
 
-                      
+                      {%- if image_2 != blank and show_second_image -%}
+                        <a href="{{ product_url }}" aria-label="{{ product_title }}"
+                          class="products-list__item__image products-list__item__image--small"
+                          data-overflow-content>
+                          <div class="products-list__item__image__frame"
+                            {% if animations_enabled %}
+                              data-aos="fade-left"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-delay="{{ animation_delay }}"
+                            {% endif %}>
+                            {{- image_2 -}}
+                          </div>
+                        </a>
+                      {%- endif -%}
                     </div>
                   </div>
 
