@@ -247,6 +247,9 @@
       <h3 class="list-collections__item__title{% if type_style %} {{ type_style }}{% endif %}">
         {{- collection_title -}}
       </h3>
+      {% if content != blank %}
+        <p class="coll_list_content">{{ content }}</p>
+      {% endif %}
     </div>
   </a>
 </div>
