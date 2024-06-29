@@ -639,7 +639,9 @@
       ],
       "settings": {
         "heading": "CO BRANDS",
-        "content": "Use this text to share information about your collection with your customers."
+        "content": "Use this text to share information about your collection with your customers.",
+        "bg_color": "#000000",
+        "color": "#ffffff"
       }
     },
     "section_locations_r4cFBa": {
