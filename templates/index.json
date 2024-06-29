@@ -274,6 +274,8 @@
         "section_bg_color": "#ffffff",
         "section_text_color": "#333333",
         "width": "wrapper",
+        "btn": "",
+        "btn_link": "",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -358,6 +360,8 @@
         "section_bg_color": "#f4f4f4",
         "section_text_color": "#333333",
         "width": "wrapper--full-padded",
+        "btn": "See All",
+        "btn_link": "shopify:\/\/collections\/all",
         "padding_top": 60,
         "padding_bottom": 60
       }
