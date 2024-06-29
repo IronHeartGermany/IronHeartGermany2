@@ -62,6 +62,7 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "settings": {
+        "extra_class": "new_collection_design",
         "collection": "new",
         "products_layout": "carousel",
         "number_of_products": 8,
@@ -89,6 +90,7 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "settings": {
+        "extra_class": "",
         "collection": "bestsellers",
         "products_layout": "carousel",
         "number_of_products": 8,
@@ -549,6 +551,7 @@
         "h2,h3,p,a,b {color: #fff!improtant;}"
       ],
       "settings": {
+        "extra_class": "",
         "collection": "leather-jackets",
         "products_layout": "split-left",
         "number_of_products": 2,
