@@ -260,7 +260,7 @@
         "heading_size": 100,
         "layout": "carousel",
         "alignment": "center",
-        "collections_per_row": 2,
+        "collections_per_row": 3,
         "image_shape": "square",
         "image_aspect_ratio": 0.7,
         "text_size": 200,
