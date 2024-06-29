@@ -132,7 +132,7 @@
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_text": "",
             "circle_word_spacing": 3,
             "circle_size": 150
           }
@@ -149,7 +149,7 @@
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_text": "",
             "circle_word_spacing": 3,
             "circle_size": 150
           }
@@ -166,7 +166,7 @@
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_text": "",
             "circle_word_spacing": 3,
             "circle_size": 150
           }
@@ -178,6 +178,7 @@
         "product_zffVDE"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
         "title": "NEW IN",
         "heading_size": 80,
         "button_color": "btn--black",
