@@ -25,3 +25,14 @@
 .right_images {
   width: 60%;
 }
+/* Hide the brand hover image by default */
+.swiper-slide .brand_hover_image {
+    display: none;
+}
+/* Show the brand hover image and hide the main image on hover */
+.swiper-slide:hover .brand_hover_image {
+    display: block;
+}
+.swiper-slide:hover .main_coll_image {
+    display: none;
+}
