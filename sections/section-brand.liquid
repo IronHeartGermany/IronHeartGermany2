@@ -1,6 +1,79 @@
+ <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+<div class="main_brand_images">
+  <div class="left_heading">
+    <h2 class="brand_heading">{{ section.settings.heading }}</h2>
+    <p class="brand_content">{{ section.settings.content }}</p>
+  </div>
+  <div class="right_images">
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <a href="{{ block.settings.image_link }}">
+          <img class="main_coll_image" src="{{ block.settings.image | img_url: 'master' }}">
+          <img class="brand_hover_image" src="{{ block.settings.brand_image | img_url: 'master' }}">          
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
     "name": "Section name",
     "settings": []
   }
 {% endschema %}
+
+ <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
