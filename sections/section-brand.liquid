@@ -13,7 +13,8 @@
       <div class="swiper-slide">
         <a href="{{ block.settings.image_link }}">
           <img class="main_coll_image" src="{{ block.settings.image | img_url: 'master' }}">
-          <img class="brand_hover_image" src="{{ block.settings.brand_image | img_url: 'master' }}">          
+          <img class="brand_hover_image" src="{{ block.settings.brand_image | img_url: 'master' }}">  
+          <p class="coll_title">{{ block.settings.title }}</p>
         </a>
       </div>
       {% endfor %}
