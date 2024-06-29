@@ -28024,13 +28024,14 @@ img.location_bottom_icon {
     width: 50px;
     height: 50px;
 }
-.newsletter-section .newsletter-section__content__wrapper {
-    display: block;
-    width: 50%;
-}
+
 @media only screen and (min-width: 768px) {
     .newsletter-section .align--middle-split .newsletter-section__content {
         display: block !important;
     }
+  .newsletter-section .newsletter-section__content__wrapper {
+    display: block;
+    width: 50%;
+}
 }
 /* New Homwpage Design */
