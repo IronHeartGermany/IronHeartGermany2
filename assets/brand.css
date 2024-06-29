@@ -18,15 +18,6 @@
   object-fit: cover;
 }
 .main_brand_images {
-  display: flex;
-}
-.main_brand_images .left_heading {
-  width: 40%;
-}
-.main_brand_images .right_images {
-  width: 60%;
-}
-.main_brand_images {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -48,4 +39,15 @@ p.coll_title {
 }
 .swiper-slide:hover .main_coll_image {
     display: none;
+}
+@media (min-width: 768px){
+.main_brand_images {
+  display: flex;
+}
+.main_brand_images .left_heading {
+  width: 40%;
+}
+.main_brand_images .right_images {
+  width: 60%;
+}
 }
