@@ -601,6 +601,7 @@
         "brand_MCVt9U": {
           "type": "brand",
           "settings": {
+            "title": "",
             "image": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
             "brand_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
             "image_link": "shopify:\/\/collections\/shirts"
@@ -609,6 +610,7 @@
         "brand_XHwndY": {
           "type": "brand",
           "settings": {
+            "title": "",
             "image": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
             "brand_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
             "image_link": "shopify:\/\/collections\/shirts"
@@ -617,6 +619,7 @@
         "brand_kgw6Ht": {
           "type": "brand",
           "settings": {
+            "title": "",
             "image": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
             "brand_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
             "image_link": "shopify:\/\/collections\/shirts"
@@ -625,6 +628,7 @@
         "brand_qPkjdt": {
           "type": "brand",
           "settings": {
+            "title": "",
             "image": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
             "brand_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
             "image_link": "shopify:\/\/collections\/shirts"
@@ -641,7 +645,11 @@
         "heading": "CO BRANDS",
         "content": "Use this text to share information about your collection with your customers.",
         "bg_color": "#000000",
-        "color": "#ffffff"
+        "color": "#ffffff",
+        "button": "Shop Now",
+        "btn_link": "shopify:\/\/collections\/all",
+        "bg_btn_color": "#ffffff",
+        "btn_color": "#000000"
       }
     },
     "section_locations_r4cFBa": {
