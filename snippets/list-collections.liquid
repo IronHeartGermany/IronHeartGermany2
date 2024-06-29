@@ -212,6 +212,7 @@
                 assign collection = collections[block.settings.collection]
                 assign custom_collection_image = block.settings.custom_collection_image
                 assign heading = block.settings.heading
+                assign content = block.settings.content
                 assign custom_bg_color = block.settings.bg_color | default: section.settings.bg_color
                 assign text_color = block.settings.block_text_color | default: section.settings.block_text_color
                 assign overlay_opacity = block.settings.overlay_opacity
@@ -225,7 +226,7 @@
                   cycle 1, 2, 3
                 endcapture
 
-                render 'collection-grid-item', collection: collection, button_link: button_link, custom_collection_image: custom_collection_image, heading: heading, overlay_opacity: overlay_opacity, custom_bg_color: custom_bg_color, animation_delay: animation_delay, animation_anchor: animation_anchor, carousel: carousel, columns: columns, columns_mobile: columns_mobile, image_shape: image_shape, block_shopify_attributes: block.shopify_attributes, placeholder_index: placeholder_index, text_over_image: text_over_image, text_color: text_color, border_color: border_color, border_radius: border_radius, type_style: type_style, letter_spacing: letter_spacing, unique: unique, section_buttons: section_buttons
+                render 'collection-grid-item', collection: collection, button_link: button_link, custom_collection_image: custom_collection_image, heading: heading, content: content, overlay_opacity: overlay_opacity, custom_bg_color: custom_bg_color, animation_delay: animation_delay, animation_anchor: animation_anchor, carousel: carousel, columns: columns, columns_mobile: columns_mobile, image_shape: image_shape, block_shopify_attributes: block.shopify_attributes, placeholder_index: placeholder_index, text_over_image: text_over_image, text_color: text_color, border_color: border_color, border_radius: border_radius, type_style: type_style, letter_spacing: letter_spacing, unique: unique, section_buttons: section_buttons
               endfor
             elsif template.name == 'list-collections'
               comment
