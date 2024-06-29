@@ -11,6 +11,9 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
@@ -239,9 +242,6 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   </main>
 
   {% sections 'group-footer' %}
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   {%- comment -%} Photoswipe containers {%- endcomment -%}
   {%- render 'zoom-pswp', template_index: 0 -%}
