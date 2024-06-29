@@ -62,10 +62,50 @@
 
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Brand",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading"
+    },
+    {
+      "type": "text",
+      "label": "Content",
+      "id": "content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "Brand",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "image_picker",
+          "label": "Brand Image",
+          "id": "brand_image"
+        },
+        {
+          "type": "url",
+          "label": "Image Link",
+          "id": "image_link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand"
+    }
+  ]
+}
 {% endschema %}
 
  <!-- Initialize Swiper -->
