@@ -256,7 +256,7 @@
         "h3 {color: white !important;}"
       ],
       "settings": {
-        "title": "CATEGORIES",
+        "title": "CATEGORIES<span class=\"red_dot\">.<\/span>",
         "heading_size": 100,
         "layout": "carousel",
         "alignment": "center",
@@ -335,7 +335,7 @@
         "collection_HGW3GM"
       ],
       "settings": {
-        "title": "DISCOVER OUT CUTS",
+        "title": "DISCOVER OUT CUTS<span class=\"red_dot\">.<\/span>",
         "heading_size": 100,
         "layout": "grid",
         "alignment": "center",
