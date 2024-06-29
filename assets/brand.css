@@ -25,6 +25,10 @@
 .right_images {
   width: 60%;
 }
+.main_brand_images {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 /* Hide the brand hover image by default */
 .swiper-slide .brand_hover_image {
     display: none !important;
