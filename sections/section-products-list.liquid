@@ -686,11 +686,9 @@
                           data-overflow-content>
                           <div class="products-list__item__image__frame"
                              {% if animations_enabled %}
-                              {% if show_second_image %}
+                             
                                 data-aos="fade-right"
-                              {% else %}
-                                data-aos="fade-up"
-                              {% endif %}
+                              
                               data-aos-anchor="{{ animation_anchor }}"
                               data-aos-delay="{{ animation_delay }}"
                               {%- assign animation_delay = animation_delay | plus: 150 -%}
