@@ -894,6 +894,45 @@
         "padding_top": 30,
         "padding_bottom": 60
       }
+    },
+    "section_products_list_KjmHTF": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_fAnM7e": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "title": "Craftsmanship and Quality",
+            "product_description": "<p>At the heart of Iron Heart’s philosophy is an unwavering commitment to craftsmanship and quality. The brand's garments are crafted from the finest materials, with a focus on heavyweight, durable fabrics. This meticulous approach extends to every aspect of production, from selecting the type of cotton to the specific weave of the denim. The result is clothing that is not only robust and durable but also ages beautifully, developing unique character over time. This dedication to quality ensures that each piece stands the test of time, both in style and function.<\/p>",
+            "button_text": "",
+            "show_second_image": true,
+            "image_1": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
+            "image_2": "shopify:\/\/shop_images\/2J5A4031.jpg",
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "none",
+            "circle_text": "",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "product_fAnM7e"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "image_aspect_ratio": 1,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -913,6 +952,7 @@
     "section_press_Lxjw4L",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
-    "section_columns_hNXYWV"
+    "section_columns_hNXYWV",
+    "section_products_list_KjmHTF"
   ]
 }
