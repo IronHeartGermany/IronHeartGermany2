@@ -29,6 +29,9 @@ p.coll_title {
     color: #fff;
     padding: 0px 10px;
 }
+.main_brand_images .swiper-button-next:after, .swiper-button-prev:after{
+  color: #000 !important;
+}
 /* Hide the brand hover image by default */
 .main_brand_images .swiper-slide .brand_hover_image {
     display: none !important;
