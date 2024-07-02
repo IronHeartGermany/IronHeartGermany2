@@ -18,39 +18,41 @@
   object-fit: cover;
 }
 .main_brand_images {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 p.coll_title {
-    position: absolute;
-    top: -5px;
-    left: 10px;
-    background: #000;
-    color: #fff;
-    padding: 0px 10px;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 0px 10px;
 }
-.main_brand_images .swiper-button-next:after, .swiper-button-prev:after{
+.main_brand_images .swiper-button-next:after,
+.swiper-button-prev:after {
   color: #000 !important;
+  font-size: 25px;
 }
 /* Hide the brand hover image by default */
 .main_brand_images .swiper-slide .brand_hover_image {
-    display: none !important;
+  display: none !important;
 }
 /* Show the brand hover image and hide the main image on hover */
 .main_brand_images .swiper-slide:hover .brand_hover_image {
-    display: block !important;
+  display: block !important;
 }
 .swiper-slide:hover .main_coll_image {
-    display: none;
+  display: none;
 }
-@media (min-width: 768px){
-.main_brand_images {
-  display: flex;
-}
-.main_brand_images .left_heading {
-  width: 40%;
-}
-.main_brand_images .right_images {
-  width: 60%;
-}
+@media (min-width: 768px) {
+  .main_brand_images {
+    display: flex;
+  }
+  .main_brand_images .left_heading {
+    width: 40%;
+  }
+  .main_brand_images .right_images {
+    width: 60%;
+  }
 }
