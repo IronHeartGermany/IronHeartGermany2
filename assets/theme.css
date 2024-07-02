@@ -28027,6 +28027,15 @@ img.location_bottom_icon {
 .newsletter-section .newsletter-section__content__wrapper {
     display: block;
 }
+.overlapping-images__image.overlapping-images__image--secondary:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5) !important;
+}
+.overlapping-images__image.overlapping-images__image--secondary {
+    transition: transform .2s;
+    margin: 0 auto;
+}
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
       display: block !important;
