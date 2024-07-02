@@ -245,7 +245,7 @@
   #OverlappingImages--{{ section.id }} .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size }}); }
 {%- endstyle -%}
 
-<section id="OverlappingImages--{{ section.id }}" class="section-padding overlapping-images{% if bg_color_secondary %} bg-secondary{% endif %}{%- render 'button-fallback-classes', primary_color: button_color, bg_color_secondary: bg_color_secondary -%}" data-section-id="{{ section.id }}" data-section-type="overlapping-images">
+<section id="OverlappingImages--{{ section.id }}" class="{{ section.settings.extra_class }} section-padding overlapping-images{% if bg_color_secondary %} bg-secondary{% endif %}{%- render 'button-fallback-classes', primary_color: button_color, bg_color_secondary: bg_color_secondary -%}" data-section-id="{{ section.id }}" data-section-type="overlapping-images">
   <div class="{{ section_width }}">
     <div class="overlapping-images__block{% if text_position == 'left' %} overlapping-images__block--reverse{% endif %}">
       <div class="overlapping-images__images{% if hide_image_2 %} overlapping-images__images--single-mobile{% endif %}" style="max-width: {{ images_width }}px;">
@@ -476,6 +476,11 @@
 {
   "name": "Overlapping images",
   "settings": [
+     {
+      "type": "text",
+      "id": "extra_class",
+      "label": "Extra Class"
+    },
     {
       "type": "header",
       "content": "Layout"
@@ -529,6 +534,7 @@
       "id": "image_1",
       "label": "Image"
     },
+   
     {
       "type": "url",
       "id": "image_link_1",
