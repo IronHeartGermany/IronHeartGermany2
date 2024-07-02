@@ -275,7 +275,7 @@
                 </div>
 
                 {%- if show_second_image -%}
-                  <div class="products-list__item__image products-list__item__image--small 111">
+                  <div class="products-list__item__image products-list__item__image--small">
                     <div class="products-list__item__image__frame"
                       {% if animations_enabled %}
                         data-aos="fade-left"
@@ -625,7 +625,7 @@
 
                         {%- if product_media.media_type == 'image' or product_media == nil -%}
                           <a href="{{ product_url }}" aria-label="{{ product_title }}"
-                            class="products-list__item__image products-list__item__image--main 111"
+                            class="products-list__item__image products-list__item__image--small 111"
                             {% if animations_enabled %}
                               {% if show_second_image %}
                                 data-aos="fade-right"
@@ -684,7 +684,7 @@
 
                       {%- if image_2 != blank and show_second_image -%}
                         <a href="{{ product_url }}" aria-label="{{ product_title }}"
-                          class="products-list__item__image products-list__item__image--small 00"
+                          class=" products-list__item__image products-list__item__image--main 00"
                           data-overflow-content>
                           <div class="products-list__item__image__frame"
                             {% if animations_enabled %}
