@@ -625,13 +625,15 @@
 
                         {%- if product_media.media_type == 'image' or product_media == nil -%}
                           <a href="{{ product_url }}" aria-label="{{ product_title }}"
-                            class="products-list__item__image products-list__item__image--small 111"
+                            class="products-list__item__image products-list__item__image--main"
                             {% if animations_enabled %}
-                             
-                              data-aos="fade-left"
+                              {% if show_second_image %}
+                                data-aos="fade-right"
+                              {% else %}
+                                data-aos="fade-up"
+                              {% endif %}
                               data-aos-anchor="{{ animation_anchor }}"
                               data-aos-delay="{{ animation_delay }}"
-                            
                               {%- assign animation_delay = animation_delay | plus: 150 -%}
                             {% endif %}
                             data-overflow-content>
@@ -682,18 +684,14 @@
 
                       {%- if image_2 != blank and show_second_image -%}
                         <a href="{{ product_url }}" aria-label="{{ product_title }}"
-                          class=" products-list__item__image products-list__item__image--main 00"
+                          class="products-list__item__image products-list__item__image--small"
                           data-overflow-content>
                           <div class="products-list__item__image__frame"
-                             {% if animations_enabled %}
-                             
-                              data-aos="fade-right"
+                            {% if animations_enabled %}
+                              data-aos="fade-left"
                               data-aos-anchor="{{ animation_anchor }}"
                               data-aos-delay="{{ animation_delay }}"
-                            
-                              {%- assign animation_delay = animation_delay | plus: 150 -%}
-                            {% endif %}
-                            >
+                            {% endif %}>
                             {{- image_2 -}}
                           </div>
                         </a>
