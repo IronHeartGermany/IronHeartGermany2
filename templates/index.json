@@ -473,6 +473,9 @@
     },
     "section_overlapping_images_NMxq7C": {
       "type": "section-overlapping-images",
+      "custom_css": [
+
+      ],
       "settings": {
         "text_position": "right",
         "text_alignment": "left",
@@ -775,7 +778,7 @@
         "image": "shopify:\/\/shop_images\/DSC_2356.jpg",
         "image_height": "three-fifty-height",
         "overlay_opacity": 10,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
