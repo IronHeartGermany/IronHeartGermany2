@@ -477,6 +477,7 @@
 
       ],
       "settings": {
+        "extra_class": "second_img_zoom",
         "text_position": "right",
         "text_alignment": "left",
         "images_width": 750,
@@ -509,6 +510,7 @@
     "section_overlapping_images_PwQ3Gi": {
       "type": "section-overlapping-images",
       "settings": {
+        "extra_class": "first_img_zoom",
         "text_position": "left",
         "text_alignment": "left",
         "images_width": 750,
