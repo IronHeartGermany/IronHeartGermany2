@@ -28027,12 +28027,14 @@ img.location_bottom_icon {
 .newsletter-section .newsletter-section__content__wrapper {
     display: block;
 }
-.overlapping-images__image.overlapping-images__image--secondary:hover {
+.second_img_zoom .overlapping-images__image.overlapping-images__image--secondary:hover,
+.first_img_zoom .overlapping-images__image.overlapping-images__image--primary: hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.2) !important;
 }
-.overlapping-images__image.overlapping-images__image--secondary {
+.second_img_zoom .overlapping-images__image.overlapping-images__image--secondary,
+.first_img_zoom .overlapping-images__image.overlapping-images__image--primary {
     transition: transform .2s;
     margin: 0 auto;
 }
