@@ -28033,6 +28033,9 @@ img.location_bottom_icon {
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2) !important;
 }
+.second_img_zoom .overlapping-images__image.overlapping-images__image--secondary:hover{
+  margin-top: 20px;
+}
 .first_img_zoom .overlapping-images__image.overlapping-images__image--primary,
 .second_img_zoom .overlapping-images__image.overlapping-images__image--secondary {
   transition: transform .2s;
