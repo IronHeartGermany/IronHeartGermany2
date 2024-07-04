@@ -28051,6 +28051,11 @@ img.location_bottom_icon {
          top: -70px !important;
               z-index: 99999;
     }
+.flickity-prev-next-button {
+    opacity: 1!important;
+    transform: translate3d(10px, 10px, 10px)!important;
+    visibility: visible!important;
+}
 
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
