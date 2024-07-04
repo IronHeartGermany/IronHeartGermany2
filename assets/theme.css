@@ -28043,6 +28043,9 @@ img.location_bottom_icon {
     padding-bottom: 19px;
     font-size: 73px;
 }
+    .wrapper--full-padded .carousel .flickity-prev-next-button.next {
+        top: -70px !important;
+    }
 
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
