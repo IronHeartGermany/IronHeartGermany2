@@ -28045,6 +28045,7 @@ img.location_bottom_icon {
 }
     .wrapper--full-padded .carousel .flickity-prev-next-button.next {
         top: -70px !important;
+              z-index: 99999;
     }
 
 @media only screen and (min-width: 768px) {
