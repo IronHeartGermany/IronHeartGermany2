@@ -28060,6 +28060,10 @@ img.location_bottom_icon {
     top: 55%;
     left: 25px;
 }
+.products-list__item__image.products-list__item__image--main {
+  right: 0px;
+    margin-left: auto;
+}
 
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
