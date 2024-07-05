@@ -28044,11 +28044,11 @@ img.location_bottom_icon {
     font-size: 73px;
 }
     .wrapper--full-padded .carousel .flickity-prev-next-button.next {
-        top: -70px !important;
+        top: -105px !important;
               z-index: 99999;
     }
     .wrapper--full-padded .carousel .flickity-prev-next-button.previous {
-         top: -70px !important;
+         top: -105px !important;
               z-index: 99999;
     }
 .flickity-prev-next-button {
