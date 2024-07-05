@@ -28072,10 +28072,10 @@ img.location_bottom_icon {
     width: 60%;
   }
   .slide__heading.main-heading {
-    line-height: 50px;
+    line-height: 50px!important;
     padding-top: 12px;
     padding-bottom: 16px;
-    font-size: 50px;
+    font-size: 50px!important;
   }
 }
 /* New Homwpage Design */
