@@ -28056,6 +28056,10 @@ img.location_bottom_icon {
     transform: translate3d(10px, 10px, 10px)!important;
     visibility: visible!important;
 }
+.products-list__item__image--small {
+    top: 55%;
+    left: 25px;
+}
 
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
