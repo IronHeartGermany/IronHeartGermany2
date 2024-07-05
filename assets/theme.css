@@ -28071,5 +28071,11 @@ img.location_bottom_icon {
   .newsletter-section .newsletter-section__content__wrapper {
     width: 60%;
   }
+  .slide__heading.main-heading {
+    line-height: 50px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    font-size: 50px;
+  }
 }
 /* New Homwpage Design */
