@@ -28063,6 +28063,9 @@ img.location_bottom_icon {
   right: 0px;
     margin-left: auto;
 }
+.flickity-prev-next-button:before, .pswp__button:before {
+  mask-size: 38px;
+}
 
 @media only screen and (min-width: 768px) {
   .newsletter-section .align--middle-split .newsletter-section__content {
