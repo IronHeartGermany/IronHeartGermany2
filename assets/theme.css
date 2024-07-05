@@ -28071,11 +28071,16 @@ img.location_bottom_icon {
   .newsletter-section .newsletter-section__content__wrapper {
     width: 60%;
   }
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+
   .slide__heading.main-heading {
     line-height: 50px!important;
     padding-top: 12px;
     padding-bottom: 16px;
     font-size: 50px!important;
   }
+
 }
 /* New Homwpage Design */
