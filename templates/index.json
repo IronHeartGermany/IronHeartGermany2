@@ -545,6 +545,7 @@
     "two_image_with_text_eBz9fM": {
       "type": "two-image-with-text",
       "settings": {
+        "extra_class": "",
         "image1": "shopify:\/\/shop_images\/DSC_7018.jpg",
         "image2": "shopify:\/\/shop_images\/DSC_6919.jpg",
         "layout": "left",
@@ -555,6 +556,7 @@
     "two_image_with_text_QmafYw": {
       "type": "two-image-with-text",
       "settings": {
+        "extra_class": "image_right_cls",
         "image1": "shopify:\/\/shop_images\/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
         "image2": "shopify:\/\/shop_images\/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
         "layout": "right",
