@@ -1,6 +1,6 @@
 {{ 'two-image-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="container_block {% for i in (1..5) %}{% if i != blank %}container_block{{ forloop.index[i] }}{% endif %}{% endfor %}">
+<div class="container_block {% for i in (0..5) %}{% if i != blank %}container_block{{ forloop.index[i] }}{% endif %}{% endfor %}">
   {% capture image_layout %}
         <div class="container_blockinner">
           {%- if section.settings.image1 != blank -%}
