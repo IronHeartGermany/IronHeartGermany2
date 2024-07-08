@@ -552,6 +552,16 @@
         "content": "At the heart of Iron Heart’s philosophy is an unwavering commitment to craftsmanship and quality. The brand's garments are crafted from the finest materials, with a focus on heavyweight, durable fabrics. This meticulous approach extends to every aspect of production, from selecting the type of cotton to the specific weave of the denim. The result is clothing that is not only robust and durable but also ages beautifully, developing unique character over time. This dedication to quality ensures that each piece stands the test of time, both in style and function."
       }
     },
+    "two_image_with_text_QmafYw": {
+      "type": "two-image-with-text",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
+        "image2": "shopify:\/\/shop_images\/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
+        "layout": "right",
+        "heading": "The Evolution of Iron Heart",
+        "content": "Iron Heart’s journey began with a vision to create the toughest and most durable denim in the world. Established by Shinichi Haraki in 2003, Iron Heart quickly became synonymous with heavyweight, meticulously crafted garments. Haraki’s deep experience in the garment industry, coupled with his passion for motorcycle culture, led to the creation of pieces that are not just stylish but incredibly resilient. From their iconic 21oz and 25oz denim to their ultra-heavy flannels, Iron Heart continues to push the boundaries of fabric engineering and garment construction, ensuring each piece is built to last."
+      }
+    },
     "section_blog_gfqWja": {
       "type": "section-blog",
       "disabled": true,
@@ -919,6 +929,7 @@
     "section_overlapping_images_NMxq7C",
     "section_overlapping_images_PwQ3Gi",
     "two_image_with_text_eBz9fM",
+    "two_image_with_text_QmafYw",
     "section_blog_gfqWja",
     "section_collection_X8PtKB",
     "section_brand_8WJbpW",
