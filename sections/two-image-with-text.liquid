@@ -1,7 +1,6 @@
 {{ 'two-image-with-text.css' | asset_url | stylesheet_tag }}
 
-{% assign i = 1 %}
-<div class="container_block container_block{{ i }} {{ section.settings.extra_class }}">
+<div class="container_block container_block{{ section.settings.extra_class }}">
   {% capture image_layout %}
         <div class="container_blockinner">
           {%- if section.settings.image1 != blank -%}
