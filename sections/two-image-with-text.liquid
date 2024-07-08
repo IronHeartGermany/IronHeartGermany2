@@ -1,7 +1,7 @@
 {{ 'two-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {% assign i = 1 %}
-<div class="container_block container_block[]i">
+<div class="container_block container_block{{ i }} {{ section.settings.extra_class }}">
   {% capture image_layout %}
         <div class="container_blockinner">
           {%- if section.settings.image1 != blank -%}
@@ -43,6 +43,11 @@
   "name": "Two Image With Text",
   "tag": "section",
   "settings": [
+    {
+      "type": "text",
+      "label": "Extra Class",
+      "id": "extra_class"
+    },
     {
       "type": "image_picker",
       "label": "Image1",
