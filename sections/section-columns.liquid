@@ -103,7 +103,7 @@
               endif
 
               if image != blank
-                assign image_alt = image.alt | default: title | strip_html 
+                assign image_alt = image.alt | default: title | strip_html | escape
 
                 if equalize_height == false
                   assign desktop_aspect_ratio = 1 | divided_by: image.aspect_ratio | times: 100
@@ -238,7 +238,7 @@
                     data-aos-delay="{{ animation_delay }}"
                   {% endif %}>
                   {%- if title != blank -%}
-                    <h3 class="column-item__heading h6">{{ title | escape }}</h3>
+                    <h3 class="column-item__heading h6">{{ title }}</h3>
                   {%- endif -%}
 
                   {%- if text != blank -%}
