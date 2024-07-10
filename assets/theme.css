@@ -28002,9 +28002,6 @@ search-form mark {
     padding: 0 5px;
     width: 47px;
 }
-span.red_dot {
-    color: red;
-}
 .btn.btn--view-all {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -28109,5 +28106,6 @@ img.location_bottom_icon {
     height: 10px; /* Adjust size as needed */
     background-color: red; /* Adjust color as needed */
     border-radius: 50%;
+  color: red;
 }
 /* New Homwpage Design */
