@@ -28101,8 +28101,6 @@ img.location_bottom_icon {
     .align--middle-split .input-group__item--btn-width {
         flex-basis: 33.33% !important;
     }
-}
-@media only screen and (min-width: 1440px) {
     .align--middle-split .input-group__item {
         flex-basis: 33.33% !important;
     }
