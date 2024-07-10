@@ -287,10 +287,10 @@
 
         {%- if add_collection_link -%}
           <a href="{{ collection.url | default: '#!' }}" class="section__link">
-          {% render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight %}
+            {%- render 'title-stripped', title: title -%}
           </a>
         {%- else -%}
-            {%- render 'title-stripped', title: title -%}
+          {% render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight %}
         {%- endif -%}
       </h2>
     {%- endif -%}
