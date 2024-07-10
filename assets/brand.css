@@ -48,7 +48,9 @@ p.coll_title {
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
     top: -25px;
 }
-
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  top: -25px;
+}
 
 @media (min-width: 768px) {
   .main_brand_images {
