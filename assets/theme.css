@@ -28100,12 +28100,13 @@ img.location_bottom_icon {
         flex-basis: 33.33% !important;
     }
 }
-.red_dot {
+
+.red_dot::after {
+    content: "";
     display: inline-block;
     width: 10px; /* Adjust size as needed */
     height: 10px; /* Adjust size as needed */
-    background-color: red; /* Adjust color as needed */
     border-radius: 50%;
-  color: red;
+    background-color: currentColor; /* Uses the color of the text */
 }
 /* New Homwpage Design */
