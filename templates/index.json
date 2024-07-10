@@ -68,7 +68,7 @@
         "products_per_row_on_desktop": 3,
         "columns_mobile": "1",
         "text_alignment": "text-center",
-        "title": "<p>NEW IN<\/p>",
+        "title": "<p>NEW IN<span class=\"red_dot\">.<\/span><\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
