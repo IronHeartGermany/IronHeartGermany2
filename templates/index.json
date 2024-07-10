@@ -22,7 +22,7 @@
             "text_position": "left",
             "text_color": "text-light",
             "subheading": "New in",
-            "title": "<p>The Reversible Tanker Jacket<span class=\"red_dot\">.<\/span><\/p>",
+            "title": "<p>The Reversible Tanker Jacket<span class=\"red_dot\"><\/span><\/p>",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
@@ -68,7 +68,7 @@
         "products_per_row_on_desktop": 3,
         "columns_mobile": "1",
         "text_alignment": "text-center",
-        "title": "<p>NEW IN<span class=\"red_dot\">.<\/span><\/p>",
+        "title": "<p>NEW IN<span class=\"red_dot\"><\/span><\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -97,7 +97,7 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-center",
-        "title": "<p>BESTSELLERS<span class=\"red_dot\">.<\/span><\/p>",
+        "title": "<p>BESTSELLERS<span class=\"red_dot\"><\/span><\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -261,7 +261,7 @@
 
       ],
       "settings": {
-        "title": "CATEGORIES<span class=\"red_dot\">.<\/span>",
+        "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
         "heading_size": 100,
         "layout": "carousel",
         "alignment": "center",
@@ -347,7 +347,7 @@
         "collection_HGW3GM"
       ],
       "settings": {
-        "title": "DISCOVER OUT CUTS<span class=\"red_dot\">.<\/span>",
+        "title": "DISCOVER OUT CUTS<span class=\"red_dot\"><\/span>",
         "heading_size": 100,
         "layout": "grid",
         "alignment": "center",
@@ -671,7 +671,7 @@
         "brand_qPkjdt"
       ],
       "settings": {
-        "heading": "CO BRANDS<span class=\"red_dot\">.<\/span>",
+        "heading": "CO BRANDS<span class=\"red_dot\"><\/span>",
         "content": "Use this text to share information about your collection with your customers.",
         "bg_color": "#000000",
         "color": "#ffffff",
@@ -815,7 +815,7 @@
         "text_block_jr4JHK": {
           "type": "text_block",
           "settings": {
-            "title": "Premium Japanese Denim Craftsmanship<span class=\"red_dot\">.<\/span>",
+            "title": "Premium Japanese Denim Craftsmanship<span class=\"red_dot\"><\/span>",
             "text": "<p>Iron Heart is renowned for its exceptional Japanese denim craftsmanship. Founded by Shinichi Haraki in 2003, the brand specializes in heavyweight denim that is meticulously crafted to offer both durability and style. Each piece is designed with the motorcycle enthusiast in mind, ensuring rugged construction and timeless appeal. Experience the unparalleled quality of Iron Heart’s denim, known for its remarkable fading potential and robust build. Discover why Iron Heart is a favorite among denim aficionados worldwide.<\/p>",
             "button_text": "",
             "button_link": "",
@@ -829,7 +829,7 @@
         "text_block_q6EGYR": {
           "type": "text_block",
           "settings": {
-            "title": "Iconic Heavyweight Garments<span class=\"red_dot\">.<\/span>",
+            "title": "Iconic Heavyweight Garments<span class=\"red_dot\"><\/span>",
             "text": "<p>Iron Heart’s collection is a testament to the brand’s dedication to heavyweight fabrics and superior craftsmanship. From their 21oz and 25oz denim jeans to their Ultra Heavy Flannel (UHF) shirts, Iron Heart offers garments that are built to withstand the test of time. These iconic pieces are not only functional but also exude a timeless style that appeals to a wide range of customers, from bikers to fashion enthusiasts. Explore the iconic products that define Iron Heart’s legacy in premium workwear.<\/p>",
             "button_text": "",
             "button_link": "",
@@ -870,7 +870,7 @@
         "text_block_MWm98Q": {
           "type": "text_block",
           "settings": {
-            "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\">.<\/span>",
+            "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\"><\/span>",
             "text": "<p>Iron Heart thrives on its strong community of dedicated customers and enthusiasts. The Iron Heart Forum is a unique platform where members can share their experiences, seek advice, and discuss everything from denim care to motorcycle maintenance. Managed by Giles Padmore, the forum embodies Iron Heart’s commitment to customer engagement and support. Join a vibrant community that shares your passion for high-quality, durable clothing and be part of the Iron Heart family.<\/p>",
             "button_text": "",
             "button_link": "",
