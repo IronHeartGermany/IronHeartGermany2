@@ -31,7 +31,7 @@ p.coll_title {
 }
 .main_brand_images .swiper-button-next:after,
 .swiper-button-prev:after {
-  color: #000 !important;
+  color: #FFF !important;
   font-size: 25px;
 }
 /* Hide the brand hover image by default */
