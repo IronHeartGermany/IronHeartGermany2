@@ -28,9 +28,9 @@
   }
 {%- endstyle -%}
 
-<div id="Locations--{{ section.id }}" class="wrapper section-padding locations{% if bg_color_secondary %} bg-secondary{% endif %}">
+<div id="Locations--{{ section.id }}" class="section-padding locations{% if bg_color_secondary %} bg-secondary{% endif %}">
   <div class="locations__wrapper">
-
+<div class="wrapper">
     <div class="locations__info">
       {%- if subheading != blank or heading != blank -%}
         <div class="section__header text-left">
@@ -103,6 +103,7 @@
         {%- endif -%}
       </div>
     </div>
+</div>
 
     {%- if section.blocks.size > 0 -%}
       <div class="locations__gallery"
