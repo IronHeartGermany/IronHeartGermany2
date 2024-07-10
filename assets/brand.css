@@ -45,6 +45,11 @@ p.coll_title {
 .swiper-slide:hover .main_coll_image {
   display: none;
 }
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    top: -25px;
+}
+
+
 @media (min-width: 768px) {
   .main_brand_images {
     display: flex;
