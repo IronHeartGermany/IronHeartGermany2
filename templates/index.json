@@ -273,7 +273,7 @@
         "layout_mobile": "carousel",
         "section_bg_color": "#ffffff",
         "section_text_color": "#333333",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "btn": "",
         "btn_link": "",
         "padding_top": 60,
