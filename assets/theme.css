@@ -28097,7 +28097,7 @@ img.location_bottom_icon {
     text-transform: uppercase;
     font-size: 20px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 999px) {
     .align--middle-split .input-group__item--btn-width,
   .align--middle-split .input-group__item {
         flex-basis: 33.33% !important;
