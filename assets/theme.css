@@ -28103,8 +28103,8 @@ img.location_bottom_icon {
 .red_dot::after {
     content: "";
     display: inline-block;
-    width: 10px; /* Adjust size as needed */
-    height: 10px; /* Adjust size as needed */
+    width: 5px; /* Adjust size as needed */
+    height: 5px; /* Adjust size as needed */
     border-radius: 50%;
     background-color: red; /* Uses the color of the text */
 }
