@@ -1182,6 +1182,8 @@
   </div>
 {%- endcapture -%}
 
+{% assign full_width = "wrapper--full-padded" %}
+{% unless full_width %}
 {%- capture collection_bottom -%}
   {%- if collection_button != blank -%}
     <div class="featured-collection__bottom" style="background:{{ section.settings.bg_color_full }};" 
@@ -1194,6 +1196,7 @@
     </div>
   {%- endif -%}
 {%- endcapture -%}
+{% endunless %}
 
 <section
   id="{{ id }}"
