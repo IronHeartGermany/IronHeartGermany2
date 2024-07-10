@@ -97,7 +97,7 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-center",
-        "title": "<p>BESTSELLERS<\/p>",
+        "title": "<p>BESTSELLERS<span class=\"red_dot\">.<\/span><\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
