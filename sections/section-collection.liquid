@@ -1182,6 +1182,7 @@
   </div>
 {%- endcapture -%}
 
+    {% unless collection %}
 {%- capture collection_bottom -%}
   {%- if collection_button != blank -%}
     <div class="featured-collection__bottom" style="background:{{ section.settings.bg_color_full }};" 
@@ -1194,6 +1195,7 @@
     </div>
   {%- endif -%}
 {%- endcapture -%}
+      {% endunless %}
 
 <section
   id="{{ id }}"
