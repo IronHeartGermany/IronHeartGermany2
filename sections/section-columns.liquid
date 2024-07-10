@@ -103,7 +103,7 @@
               endif
 
               if image != blank
-                assign image_alt = image.alt | default: title | strip_html | escape
+                assign image_alt = image.alt | default: title | strip_html 
 
                 if equalize_height == false
                   assign desktop_aspect_ratio = 1 | divided_by: image.aspect_ratio | times: 100
