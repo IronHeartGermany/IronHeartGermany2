@@ -83,7 +83,7 @@
         "button_size": "btn--medium",
         "bg_color_secondary": false,
         "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
