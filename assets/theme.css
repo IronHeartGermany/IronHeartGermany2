@@ -28006,6 +28006,9 @@ search-form mark {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.featured-collection__bottom .btn--medium {
+    --top-bottom-padding: 15px;
+}
 #FeaturedCollection--template--19385098830090__section_collection_kcBtFY {
     background: #f4f4f4;
 }
