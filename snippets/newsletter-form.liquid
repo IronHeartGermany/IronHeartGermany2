@@ -108,7 +108,6 @@
           {% endif %}
         >
       </div>
-    </div>
 
     <div class="input-group__item input-group__item--btn{% if btn_width %} input-group__item--btn-width{% endif %}">
       <button type="submit" name="subscribe" id="SubscribeSubmit--{{ unique }}" class="{{ button_class }}"{% if is_popup %} data-newsletter-submit{% endif %}>
@@ -119,6 +118,7 @@
           {%- render 'icon-select' -%}
         {%- endif -%}
       </button>
+    </div>
     </div>
 
     {%- if is_popup -%}
