@@ -97,8 +97,8 @@
             "heading": "SEE ALL NEW IN",
             "button_link": "",
             "overlay_opacity": 100,
-            "block_text_color": "",
-            "bg_color": "",
+            "block_text_color": "#000000",
+            "bg_color": "#ffffff",
             "border_color": ""
           }
         }
@@ -116,7 +116,7 @@
         "button_style": "square",
         "text_size": 135,
         "letter_spacing": 75,
-        "section_bg_color": "",
+        "section_bg_color": "#000000",
         "section_text_color": "",
         "layout_mobile": "grid",
         "width": "wrapper--full-padded",
