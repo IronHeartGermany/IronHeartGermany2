@@ -491,7 +491,7 @@ sub {
 }
 
 /* -- code to use Custom font-family in theme -- */
-@font-face {   
+/*@font-face {   
   font-family: 'IHCUSTOM';  
   src: url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/HelveticaNeueLTStd-BdCn.woff2?v=1710927611') format("woff2");
   text-transform: uppercase;
