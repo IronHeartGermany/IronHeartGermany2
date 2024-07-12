@@ -175,6 +175,7 @@
         },
         "product_8fcnkt": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "ih-717-kha-9oz-mercerised-selvedge-cotton-chinos-khaki",
             "title": "",
@@ -192,6 +193,7 @@
         },
         "product_zffVDE": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "iron-heart-ihb-11-blk-heavy-duty-tochigi-leather-belt-black",
             "title": "",
