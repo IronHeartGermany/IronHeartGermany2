@@ -1659,6 +1659,12 @@
       },
       {
         "type": "text",
+        "id": "social_spotify",
+        "label": "Spotify",
+        "info": "https:\/\/www.spotify.com\/shopify"
+      },
+      {
+        "type": "text",
         "id": "social_twitter_link",
         "label": "Twitter",
         "info": "https:\/\/www.twitter.com\/shopify"
