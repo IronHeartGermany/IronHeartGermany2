@@ -17,6 +17,12 @@
         {%- render 'icon-facebook' -%}
       </a>
     {%- endif -%}
+    
+    {%- if settings.social_spotify != blank -%}
+      <a class="social-sharing-icon spotify" rel="noopener" href = "{{ settings.social_spotify }}" title="Spotify">
+        {%- render 'icon-spotify' -%}
+      </a>
+    {%- endif -%}
 
     {%- if settings.social_twitter_link != blank -%}
       <a class="social-sharing-icon twitter" rel="noopener" href = "{{ settings.social_twitter_link }}" title="{{ 'footer.socials.title' | t: social: 'Twitter', shop_name: shop.name }}">
