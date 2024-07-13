@@ -54,6 +54,7 @@ p.coll_title {
   }
   .main_brand_images .left_heading {
     width: 40%;
+    text-align: center;
   }
   .main_brand_images .right_images {
     width: 60%;
