@@ -28113,4 +28113,7 @@ img.location_bottom_icon {
     border-radius: 50%;
     background-color: red; /* Uses the color of the text */
 }
+.locations__info{
+  text-align: center;
+}
 /* New Homwpage Design */
