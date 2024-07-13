@@ -834,7 +834,7 @@
       "settings": {
         "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "Become an IRON HEART.GERMANY Insider",
+        "title": "Become an IRON HEART.GERMANY Insider<span class=\"red_dot\"><\/span>",
         "text": "<p>Join the IRON HEART.GERMANY Insider Club and unlock exclusive benefits. Get early access to new collections, special discounts, and invitations to member-only events. Stay updated with the latest Iron Heart news and enjoy unique perks tailored just for you. Joining is completely free, showing our appreciation for your loyalty. Sign up now and start enjoying these exclusive advantages!<\/p>",
         "extra_fields": "name",
         "button_text": "Join the insiders",
