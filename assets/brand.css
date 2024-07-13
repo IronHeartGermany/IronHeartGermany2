@@ -45,7 +45,9 @@ p.coll_title {
 .swiper-slide:hover .main_coll_image {
   display: none;
 }
-
+.main_brand_images .left_heading{
+  text-align: center;
+}
 
 
 @media (min-width: 768px) {
@@ -54,7 +56,7 @@ p.coll_title {
   }
   .main_brand_images .left_heading {
     width: 40%;
-    text-align: center;
+    
   }
   .main_brand_images .right_images {
     width: 60%;
