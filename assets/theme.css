@@ -28116,7 +28116,7 @@ img.location_bottom_icon {
 .locations__info{
   text-align: center;
 }
-.locations__info.section__header {
+.locations__info .section__header {
     text-align: center;
 }
 /* New Homwpage Design */
