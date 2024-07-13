@@ -60,7 +60,7 @@
                 data-aos-delay="{{ animation_delay }}"
                 {%- assign animation_delay = animation_delay | plus: 150 -%}
               {% endif %}>
-              {{- title | escape -}}
+              {{- title -}}
             </h2>
           {%- endif -%}
 
@@ -138,7 +138,7 @@
         ]
       },
       {
-        "type": "text",
+        "type": "html",
         "id": "title",
         "label": "Heading",
         "default": "Newsletter"
