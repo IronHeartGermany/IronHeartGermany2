@@ -27999,7 +27999,7 @@ search-form mark {
 /* New Homwpage Design */
 .slide__text__container p.subheading-text {
     background-color: red;
-    padding: 0 5px;
+    padding: 5px;
     width: 50px;
 }
 .btn.btn--view-all {
