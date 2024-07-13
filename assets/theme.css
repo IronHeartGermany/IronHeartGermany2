@@ -500,7 +500,7 @@ sub {
 h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button, input, .shopify-payment-button__button  {
   font-family: 'IHCUSTOM'!important;
   font-synthesis: none; /* This is necessary to avoid rendering problems with IHCUSTOM in Safari and Firefix */
-}
+/*}*/
 /* - end - */
 
 /*================ Normalize ================*/
