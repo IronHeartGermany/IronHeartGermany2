@@ -399,7 +399,7 @@
         "section_text_color": "#333333",
         "width": "wrapper--full-padded",
         "btn": "See All",
-        "btn_link": "shopify:\/\/collections\/all-in-stock-products",
+        "btn_link": "shopify:\/\/collections\/all",
         "padding_top": 60,
         "padding_bottom": 60
       }
