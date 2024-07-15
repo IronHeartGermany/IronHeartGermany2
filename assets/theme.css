@@ -28109,8 +28109,8 @@ img.location_bottom_icon {
      font-size: 20px;
   }
 .red_dot::after {
-    width: 7px; 
-    height: 7px; 
+    width: 7px !important; 
+    height: 7px !important; 
   }
 }
 .buttons-list .list-collections__item__title{
