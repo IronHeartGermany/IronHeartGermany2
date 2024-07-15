@@ -48,7 +48,11 @@ p.coll_title {
 .main_brand_images .left_heading{
   text-align: center;
 }
-
+p.brand_content {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
 
 @media (min-width: 768px) {
   .main_brand_images {
