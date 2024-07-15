@@ -28136,4 +28136,10 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   max-width: 515px;
       margin: 0 auto;
 }
+.input-group__item input ::placeholder{
+  color: #000;
+}
+.newsletter-form .input-group__field{
+  background-color: #fff;
+}
 /* New Homwpage Design */
