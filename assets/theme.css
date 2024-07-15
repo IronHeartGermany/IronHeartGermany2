@@ -28108,8 +28108,8 @@ img.location_bottom_icon {
     content: "";
     margin-left: 3px;
     display: inline-block;
-    width: 10px; 
-    height: 10px; 
+    width: 7px; 
+    height: 7px; 
     border-radius: 50%;
     background-color: red; 
 }
