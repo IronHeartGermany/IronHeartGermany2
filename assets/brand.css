@@ -55,10 +55,10 @@ p.coll_title {
     display: flex;
   }
   .main_brand_images .left_heading {
-    width: 40%;
+    width: 30%;
     
   }
   .main_brand_images .right_images {
-    width: 60%;
+    width: 70%;
   }
 }
