@@ -28104,10 +28104,16 @@ img.location_bottom_icon {
     }
   .column-item__inner .column-item__heading {
     font-size: 25px;
+  }
+  .column-item__inner .column-item__text p{
+     font-size: 20px;
+  }
 }
-.column-item__inner .column-item__text p{
-   font-size: 20px;
-}
+@media only screen and (max-width: 999px) {
+.red_dot::after {
+    width: 5px; 
+    height: 5px; 
+  }
 }
 .buttons-list .list-collections__item__title{
   font-size: 13px;
