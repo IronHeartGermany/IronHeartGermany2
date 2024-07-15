@@ -52,7 +52,6 @@ p.coll_title {
 @media (min-width: 768px) {
   .main_brand_images {
     display: flex;
-    height: 100%;
     align-items: center;
   }
   .main_brand_images .left_heading {
