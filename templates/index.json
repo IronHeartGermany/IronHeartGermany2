@@ -126,6 +126,9 @@
     },
     "section_collection_kcBtFY": {
       "type": "section-collection",
+      "custom_css": [
+        ".section__text {width: 100%; max-width: 515px;}"
+      ],
       "settings": {
         "collection": "bestsellers",
         "products_layout": "grid",
