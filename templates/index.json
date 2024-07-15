@@ -716,7 +716,7 @@
         "content": "Use this text to share information about your collection with your customers.",
         "bg_color": "#000000",
         "color": "#ffffff",
-        "button": "Shop Now",
+        "button": "ALL PRODUCTS",
         "btn_link": "shopify:\/\/collections\/all",
         "bg_btn_color": "#ffffff",
         "btn_color": "#000000"
