@@ -28109,7 +28109,7 @@ img.location_bottom_icon {
      font-size: 20px;
   }
 }
-@media only screen and (max-width: 999px) {
+@media (max-width: 999px) {
 .red_dot::after {
     width: 5px; 
     height: 5px; 
