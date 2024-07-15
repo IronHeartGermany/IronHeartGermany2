@@ -28095,7 +28095,10 @@ img.location_bottom_icon {
 .column-item__inner .column-item__heading {
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 23px;
+}
+.column-item__inner .column-item__text p{
+   font-size: 20px;
 }
 @media only screen and (min-width: 999px) {
     .align--middle-split .input-group__item--btn-width,
