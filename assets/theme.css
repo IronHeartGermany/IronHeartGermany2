@@ -28108,11 +28108,9 @@ img.location_bottom_icon {
   .column-item__inner .column-item__text p{
      font-size: 20px;
   }
-}
-@media (max-width: 999px) {
 .red_dot::after {
-    width: 5px; 
-    height: 5px; 
+    width: 7px; 
+    height: 7px; 
   }
 }
 .buttons-list .list-collections__item__title{
@@ -28122,8 +28120,8 @@ img.location_bottom_icon {
     content: "";
     margin-left: 3px;
     display: inline-block;
-    width: 7px; 
-    height: 7px; 
+    width: 5px; 
+    height: 5px; 
     border-radius: 50%;
     background-color: red; 
 }
