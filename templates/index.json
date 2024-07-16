@@ -251,7 +251,7 @@
           "settings": {
             "collection": "tops",
             "heading": "",
-            "content": "",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -262,7 +262,7 @@
           "settings": {
             "collection": "accessories",
             "heading": "",
-            "content": "",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -273,7 +273,7 @@
           "settings": {
             "collection": "footwear",
             "heading": "",
-            "content": "",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -284,7 +284,7 @@
           "settings": {
             "collection": "other",
             "heading": "",
-            "content": "",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -741,7 +741,7 @@
       ],
       "custom_css": [
         ".wrapper.locations__wrapper {padding-right: 0;}",
-        ".locations.bg-secondary .location__image {padding-top: 66%!important;}"
+        ".locations.bg-secondary .location__image {padding-top: 66% !important;}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
