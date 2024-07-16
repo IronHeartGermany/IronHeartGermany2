@@ -13837,8 +13837,6 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   line-height: inherit;
 }
 .products-list__item__content:first-child {
-    position: relative;
-    opacity: 1;
     width: auto;
 }
 .products-list__item__contents {
@@ -13846,6 +13844,9 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
     text-align: center;
     margin: 0 auto;
     width: 100%;
+}
+.products-list__item__content:first-child {
+    padding-top: 0px;
 }
 
 @media only screen and (max-width: 479px) {
