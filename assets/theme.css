@@ -13845,6 +13845,9 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .locations__info-subheading {
   font-size: 20px;
 }
+.locations__info .section__header {
+    margin: 0 0 0px;
+}
 .products-list__item__contents {
     position: relative;
     text-align: center;
