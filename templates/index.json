@@ -740,7 +740,8 @@
         "locations_Y3B873"
       ],
       "custom_css": [
-        ".wrapper.locations__wrapper {padding-right: 0;}"
+        ".wrapper.locations__wrapper {padding-right: 0;}",
+        ".locations.bg-secondary .location__image {padding-top: 66%!important;}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
