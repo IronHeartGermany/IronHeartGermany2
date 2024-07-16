@@ -220,7 +220,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
-        "title": "NEW IN",
+        "title": "",
         "heading_size": 80,
         "button_color": "btn--black",
         "button_style": "btn--solid",
