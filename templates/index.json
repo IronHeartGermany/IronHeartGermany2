@@ -218,6 +218,9 @@
         "product_8fcnkt",
         "product_zffVDE"
       ],
+      "custom_css": [
+        ".products-list__nav__button {text-align:center;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
         "title": "",
