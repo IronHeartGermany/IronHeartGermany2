@@ -48,7 +48,7 @@
       "settings": {
         "slide_height": "seven-fifty-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "five-fifty-height-mobile",
+        "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
