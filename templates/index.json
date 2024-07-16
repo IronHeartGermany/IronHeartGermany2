@@ -227,7 +227,7 @@
         "button_size": "btn--large",
         "image_aspect_ratio": 1,
         "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
