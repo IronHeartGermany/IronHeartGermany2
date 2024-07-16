@@ -13827,6 +13827,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   display: block;
   text-decoration: none;
   margin: 0;
+  font-weight: bold;
 }
 
 .product-grid-item__price .product__unit-price {
