@@ -13836,6 +13836,11 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .product-grid-item__price .product__unit-price {
   line-height: inherit;
 }
+.products-list__item__content:first-child {
+    position: relative;
+    opacity: 1;
+    width: auto;
+}
 
 @media only screen and (max-width: 479px) {
   .product-grid-item__price .product__unit-price {
