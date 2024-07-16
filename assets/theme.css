@@ -13839,6 +13839,9 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .products-list__item__content:first-child {
     width: auto;
 }
+.products-list__nav {
+    margin-bottom: 0px;
+}
 .products-list__item__contents {
     position: relative;
     text-align: center;
