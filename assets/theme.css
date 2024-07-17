@@ -7008,15 +7008,15 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button.previous:before,
 .pswp__button--arrow--left:before {
-  -webkit-mask-image: var(--ICON-ARROW-RIGHT);
-          mask-image: var(--ICON-ARROW-RIGHT);
+  -webkit-mask-image: https://cdn.shopify.com/s/files/1/0429/4518/3910/files/arrow_iron.png?v=1721232570;
+          mask-image:https://cdn.shopify.com/s/files/1/0429/4518/3910/files/arrow_iron.png?v=1721232570;
   transform: rotate(180deg);
 }
 
 .flickity-prev-next-button.next:before,
 .pswp__button--arrow--right:before {
-  -webkit-mask-image: var(--ICON-ARROW-RIGHT);
-          mask-image: var(--ICON-ARROW-RIGHT);
+  -webkit-mask-image: https://cdn.shopify.com/s/files/1/0429/4518/3910/files/arrow_iron.png?v=1721232570;
+          mask-image: https://cdn.shopify.com/s/files/1/0429/4518/3910/files/arrow_iron.png?v=1721232570;
 }
 
 .supports-touch .flickity-prev-next-button:not(:disabled),
