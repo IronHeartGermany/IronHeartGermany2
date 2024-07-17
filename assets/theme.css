@@ -28078,11 +28078,11 @@ img.location_bottom_icon {
 }
 .wrapper--full-padded .carousel .flickity-prev-next-button.next {
   top: -105px !important;
-  z-index: 99999;
+  z-index: 999;
 }
   .wrapper--full-padded .carousel .flickity-prev-next-button.previous {
    top: -105px !important;
-    z-index: 99999;
+    z-index: 999;
 }
 .flickity-prev-next-button {
     opacity: 1!important;
