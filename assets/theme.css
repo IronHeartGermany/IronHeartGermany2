@@ -28149,6 +28149,9 @@ img.location_bottom_icon {
   text-wrap: balance!important;
   display: block!important;
 }
+.top_image_list img {
+  transform: rotate(-11deg);
+}
 
 @media only screen and (min-width: 999px) {
     .align--middle-split .input-group__item--btn-width,
