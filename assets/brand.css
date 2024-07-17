@@ -36,7 +36,14 @@ p.coll_title {
 }
 /* Hide the brand hover image by default */
 .main_brand_images .swiper-slide .brand_hover_image {
-  display: none !important;
+  /*display: none !important;*/
+  opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.8s ease-in-out;
 }
 /* Show the brand hover image and hide the main image on hover */
 .main_brand_images .swiper-slide:hover .brand_hover_image {
