@@ -28190,4 +28190,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .newsletter-form .input-group__field{
   background-color: #fff;
 }
+.products-list_nav_button span {
+  text-wrap: balance;
+  display: block;
+}
 /* New Homwpage Design */
