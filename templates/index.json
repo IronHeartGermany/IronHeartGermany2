@@ -46,7 +46,7 @@
         "image_e8ntQh"
       ],
       "settings": {
-        "slide_height": "seven-fifty-height",
+        "slide_height": "two-thirds-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
@@ -219,7 +219,7 @@
         "product_zffVDE"
       ],
       "custom_css": [
-        ".products-list__nav__button {text-align:center;}"
+        ".products-list__nav__button {text-align: center;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
