@@ -16574,7 +16574,9 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 }
 
 .featured-collection .flickity-button {
-  background: var(--bg);
+  /*background: var(--bg);*/
+      background: transparent;
+    box-shadow: none;
 }
 
 @media only screen and (max-width: 767px) {
