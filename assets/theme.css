@@ -28093,7 +28093,7 @@ img.location_bottom_icon {
     margin-left: auto;
 }
 .flickity-prev-next-button:before, .pswp__button:before {
-  mask-size: 23px;
+  mask-size: 35px;
 }
 .carousel .flickity-prev-next-button.previous {
     top: -125px !important;
