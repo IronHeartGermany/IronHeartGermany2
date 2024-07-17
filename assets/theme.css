@@ -28145,6 +28145,11 @@ img.location_bottom_icon {
     text-transform: uppercase;
 
 }
+.products-list_nav_button span {
+  text-wrap: balance!important;
+  display: block!important;
+}
+
 @media only screen and (min-width: 999px) {
     .align--middle-split .input-group__item--btn-width,
   .align--middle-split .input-group__item {
@@ -28190,8 +28195,5 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .newsletter-form .input-group__field{
   background-color: #fff;
 }
-.products-list_nav_button span {
-  text-wrap: balance!important;
-  display: block!important;
-}
+
 /* New Homwpage Design */
