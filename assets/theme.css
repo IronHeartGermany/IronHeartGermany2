@@ -28145,7 +28145,7 @@ img.location_bottom_icon {
     text-transform: uppercase;
 
 }
-.products-list_nav_button span {
+.products-list__nav__button--active:only-child span{
   text-wrap: balance!important;
   display: block!important;
 }
