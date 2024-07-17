@@ -28123,6 +28123,12 @@ img.location_bottom_icon {
     padding-bottom: 16px;
     font-size: 50px!important;
   }
+    .container_block {
+    padding-top: 0px;
+  }
+  .container_block1 .container_blockinner {
+    padding-top: 20px;
+}
 
 }
 .column-item__inner .column-item__heading {
@@ -28145,12 +28151,6 @@ img.location_bottom_icon {
     width: 7px !important; 
     height: 7px !important; 
   }
-  .container_block {
-    padding-top: 0px;
-  }
-  .container_block1 .container_blockinner {
-    padding-top: 20px;
-}
 }
 .buttons-list .list-collections__item__title{
   font-size: 13px;
