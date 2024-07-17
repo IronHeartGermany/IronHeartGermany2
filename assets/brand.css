@@ -40,10 +40,12 @@ p.coll_title {
 }
 /* Show the brand hover image and hide the main image on hover */
 .main_brand_images .swiper-slide:hover .brand_hover_image {
-  display: block !important;
+  /*display: block !important;*/
+  opacity: 1;
+  visibility: visible;
 }
 .swiper-slide:hover .main_coll_image {
-  display: none;
+  /*display: none;*/
 }
 .main_brand_images .left_heading{
   text-align: center;
