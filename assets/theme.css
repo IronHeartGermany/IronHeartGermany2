@@ -28203,7 +28203,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
     font-size: 19px;
     line-height: 30px;
 }
-.slide__text__container h1.slide__heading.main-heading {
+.slide__text__container h1.slide__heading.main-heading,
+.products-list__nav__button span{
     font-size: 34px;
     line-height: 30px;
     text-transform: uppercase;
