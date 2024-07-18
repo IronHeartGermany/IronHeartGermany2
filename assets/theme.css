@@ -28163,7 +28163,8 @@ img.location_bottom_icon {
     font-size: 27px;
   }
   .column-item__inner .column-item__text p{
-     font-size: 20px;
+     font-size: 19px;
+    line-height: 30px;
   }
 .red_dot::after {
     width: 7px !important; 
