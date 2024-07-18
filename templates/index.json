@@ -748,7 +748,7 @@
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
-        "title": "HAMBURG SHOWROOM",
+        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"><\/span>",
         "bg_color_secondary": true,
         "padding_top": 60,
         "padding_bottom": 60
