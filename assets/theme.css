@@ -28034,7 +28034,7 @@ search-form mark {
 .slide__text__container p.subheading-text {
     background-color: red;
     padding: 5px;
-    width: 50px;
+    width: 52px;
 }
 .btn.btn--view-all {
   margin-top: 25px;
@@ -28199,5 +28199,13 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .newsletter-form .input-group__field{
   background-color: #fff;
 }
-
+.slide__text__container h2.slide__text.main-text {
+    font-size: 19px;
+    line-height: 30px;
+}
+.slide__text__container h1.slide__heading.main-heading {
+    font-size: 34px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
 /* New Homwpage Design */
