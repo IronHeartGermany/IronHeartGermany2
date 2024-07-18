@@ -28035,6 +28035,7 @@ search-form mark {
     background-color: red;
     padding: 5px;
     width: 52px;
+      font-weight: 700;
 }
 .btn.btn--view-all {
   margin-top: 25px;
