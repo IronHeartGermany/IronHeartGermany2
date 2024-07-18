@@ -28212,8 +28212,10 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .featured-collection__top .section__text p,
 .products-list__item__description p,
 .products-list__price,
-.featured-collection__container .product-grid-item__price{
+.featured-collection__container .product-grid-item__price,
+.coll_list_content{
       font-size: 19px;
     line-height: 30px;
 }
+
 /* New Homwpage Design */
