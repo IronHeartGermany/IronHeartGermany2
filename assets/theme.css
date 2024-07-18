@@ -28208,4 +28208,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
     line-height: 30px;
     text-transform: uppercase;
 }
+.featured-collection__top .section__text p{
+      font-size: 19px;
+    line-height: 30px;
+}
 /* New Homwpage Design */
