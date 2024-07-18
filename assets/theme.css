@@ -28214,7 +28214,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .products-list__item__description p,
 .products-list__price,
 .featured-collection__container .product-grid-item__price,
-.coll_list_content{
+.coll_list_content,
+.newsletter-section__content p{
       font-size: 19px;
     line-height: 30px;
 }
