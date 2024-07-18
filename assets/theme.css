@@ -28221,5 +28221,7 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
       font-size: 19px;
     line-height: 30px;
 }
-
+.list-collections__item .list-collections__item__title{
+  font-size: 27px;
+}
 /* New Homwpage Design */
