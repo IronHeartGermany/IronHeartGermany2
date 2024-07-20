@@ -80,6 +80,8 @@
     "show_rounded_corners": false,
     "mobile_menu_behaviour": "link",
     "animations_enabled": true,
+    "badges_font_weight": 6,
+    "badges_border_radius": 8,
     "sale_bg_color": "#ffffff",
     "sale_text_color": "#000000",
     "custom_bg_color": "#ffffff",

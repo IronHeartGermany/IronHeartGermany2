@@ -1241,6 +1241,28 @@
       },
       {
         "type": "header",
+        "content": "Font weight"
+      },
+      {
+        "type": "range",
+        "id": "badges_font_weight",
+        "label": "Font weight of badge text",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "default": 4
+      },
+      {
+        "type": "range",
+        "id": "badges_border_radius",
+        "label": "Circularity of badge",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "default": 0
+      },
+      {
+        "type": "header",
         "content": "Sale badge"
       },
       {

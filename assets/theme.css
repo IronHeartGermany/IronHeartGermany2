@@ -42,6 +42,8 @@
   --heading: var(--COLOR-HEADING);
   --accent: var(--COLOR-ACCENT);
   --accent-text: var(--COLOR-ACCENT-TEXT);
+  --badges-font-weight: var(--FONT-WEIGHT-BADGES);
+  --badges-border-radius: var(--BORDER-RADIUS-BADGES);
   --sale-bg: var(--COLOR-SALE-BG);
   --sale-text: var(--COLOR-SALE-TEXT);
   --custom-bg: var(--COLOR-CUSTOM-BG);
@@ -14181,8 +14183,11 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   font-size: calc(0.8875rem * var(--adjust-accent)); /* P. Ryan - 28.04.24 - change scale factor from 0.6875 to 0.8875 */
   line-height: 1.2;
   transition: opacity 0.15s ease;
-  padding: 6px 8px 4px 8px; /* P. Ryan - 28.04.24 - change bottom padding from 6px to 4px so that badge text is centered */
+  padding: 6px 8px 6px 8px;
   height: auto;
+  font-weight: calc(100 * var(--badges-font-weight)); /* P. Ryan 0 20.07.24 - make font weight of badge adjustable - old value was --FONT-WEIGHT-SUBHEADING */
+  border-radius: calc(10% * var(--badges-border-radius)); /* P. Ryan 0 25.07.24 - make font weight of badge adjustable - old value was --FONT-WEIGHT-SUBHEADING */
+
 }
 @media only screen and (max-width: 479px) {
   .product__badge__item {
