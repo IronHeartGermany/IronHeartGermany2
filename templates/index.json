@@ -64,6 +64,9 @@
     },
     "section_collection_wbgefN": {
       "type": "section-collection",
+      "custom_css": [
+        ".section__link {font-family: \"Roboto\"}"
+      ],
       "settings": {
         "collection": "new",
         "products_layout": "carousel",
