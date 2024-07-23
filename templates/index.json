@@ -46,7 +46,7 @@
         "image_e8ntQh"
       ],
       "custom_css": [
-        "h1 {font-family: \"Source Sans Pro\"}"
+        "h1 {text-transform: none;}"
       ],
       "settings": {
         "slide_height": "full-height",
