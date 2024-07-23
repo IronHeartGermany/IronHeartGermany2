@@ -137,7 +137,7 @@
       "type": "section-collection",
       "custom_css": [
         ".section__link {font-family: \"Roboto\";}",
-        ".section__text {max-width:660px!important;}"
+        ".section__text {max-width: 660px !important;}"
       ],
       "settings": {
         "collection": "bestsellers",
@@ -229,7 +229,8 @@
         "product_zffVDE"
       ],
       "custom_css": [
-        ".products-list__nav__button {text-align: center;}"
+        ".products-list__nav__button {text-align: center;}",
+        ".products-list__nav__button > span {text-transform:none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
