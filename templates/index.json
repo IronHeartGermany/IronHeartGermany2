@@ -45,6 +45,9 @@
       "block_order": [
         "image_e8ntQh"
       ],
+      "custom_css": [
+        "h1 {font-family: \"Source Sans Pro\"}"
+      ],
       "settings": {
         "slide_height": "full-height",
         "enable_mobile_height": true,
