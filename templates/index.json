@@ -65,7 +65,7 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "custom_css": [
-        ".section__link {font-family: \"Roboto\"}"
+        ".section__link {font-family: \"Roboto\";}"
       ],
       "settings": {
         "collection": "new",
@@ -133,7 +133,7 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
-
+        ".section__link {font-family: \"Roboto\";}"
       ],
       "settings": {
         "collection": "bestsellers",
@@ -308,7 +308,7 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-
+        ".section__link {font-family: \"Roboto\";}"
       ],
       "settings": {
         "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
@@ -395,6 +395,9 @@
         "collection_4nC9aB",
         "collection_gFFfYJ",
         "collection_HGW3GM"
+      ],
+      "custom_css": [
+        ".section__link {font-family: \"Roboto\"}"
       ],
       "settings": {
         "title": "DISCOVER OUT CUTS<span class=\"red_dot\"><\/span>",
