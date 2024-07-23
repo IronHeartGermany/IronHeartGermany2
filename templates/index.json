@@ -67,7 +67,8 @@
       "custom_css": [
         ".section__link {font-family: \"Roboto\";}",
         ".product__badge__item {font-weight: 500 !important;}",
-        ".product-grid-item__title {line-height: 26px; font-family:\"Source Sans Pro\"}"
+        ".product-grid-item__title {line-height: 26px; font-family: \"Source Sans Pro\";}",
+        ".product-grid-item__price {font-weight:\"black\"!important;}"
       ],
       "settings": {
         "collection": "new",
