@@ -46,7 +46,7 @@
         "image_e8ntQh"
       ],
       "custom_css": [
-        "h1 {font-family: \"Source Sans Pro\"!important; text-transform: none; font-size: 52px; line-height: 56px;}"
+        "h1 {font-family: \"Source Sans Pro\" !important; text-transform: none; font-size: 52px; line-height: 56px;}"
       ],
       "settings": {
         "slide_height": "full-height",
@@ -65,7 +65,8 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}"
+        ".section__link {font-family: \"Roboto\";}",
+        ".product__badge__item {font-weight:500!important;}"
       ],
       "settings": {
         "collection": "new",
