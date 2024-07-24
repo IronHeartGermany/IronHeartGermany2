@@ -268,7 +268,7 @@
         "@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) \/ 1.7) !important; }}",
         ".products-list__item__aside {width: calc((100% - var(--gutter)) \/ 1.7) !important;}",
         ".products-list__price {font-weight: 800;}",
-        ".products-list__nav {margin-bottom:8px;}"
+        ".products-list__nav {margin-bottom: 8px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/new_in_button.png",
@@ -789,7 +789,7 @@
           "settings": {
             "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
             "working_time": "<p><strong>MONDAY <\/strong>11:00–18:00<br\/><strong>TUESDAY<\/strong> 11:00–18:00<br\/><strong>WEDNESDAY<\/strong> closed<br\/><strong>THURSDAY<\/strong> 11:00–18:00<br\/><strong>FRIDAY<\/strong> 11:00–18:00<br\/><strong>SATURDAY<\/strong> 11:00–16:00<br\/><strong>SUNDAY<\/strong> closed<\/p>",
-            "icon": "shopify:\/\/shop_images\/3615732_address_delivery_location_pin_postal_icon_6489dcaf-291e-4bca-ad2a-2bd0ad0f336a.png",
+            "icon": "shopify:\/\/shop_images\/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
             "icon_url": "",
             "image": "shopify:\/\/shop_images\/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
           }
