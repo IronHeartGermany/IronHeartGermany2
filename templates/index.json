@@ -139,7 +139,7 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}",
+        ".section__heading {font-family: \"Roboto\";}",
         ".section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}"
       ],
