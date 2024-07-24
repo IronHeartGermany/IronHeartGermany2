@@ -115,6 +115,9 @@
       "block_order": [
         "button_3JzgPC"
       ],
+      "custom_css": [
+        "h3 {font-size:calc(1rem * var(--adjust-button));}"
+      ],
       "settings": {
         "layout": "grid",
         "alignment": "center",
@@ -314,7 +317,7 @@
       ],
       "custom_css": [
         ".section__link {font-family: \"Roboto\";}",
-        ".section__header {margin-bottom:52px;}"
+        ".section__header {margin-bottom: 52px;}"
       ],
       "settings": {
         "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
