@@ -71,8 +71,8 @@
       ],
       "custom_css": [
         ".footer-block {--desktop-width: 18% !important;}",
-        ".footer-title__button,.footer-title {font-size: 19px!important;}",
-        "p,.footer-links {font-size: 16px !important;}",
+        ".footer-title__button,.footer-title {font-size: 22px !important;}",
+        "p,.footer-links {font-size: 19px !important;}",
         ".footer-links > li {margin-bottom: 4px;}"
       ],
       "settings": {
