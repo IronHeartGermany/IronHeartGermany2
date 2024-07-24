@@ -230,7 +230,7 @@
       ],
       "custom_css": [
         ".products-list__nav__button {text-align: center;}",
-        ".products-list__nav__button > span {font-weight:500; text-transform: none; line-height:40px;}"
+        ".products-list__nav__button > span {font-weight: 500; text-transform: none; line-height: 40px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
@@ -313,7 +313,8 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}"
+        ".section__link {font-family: \"Roboto\";}",
+        ".section__header {margin-bottom:52px;}"
       ],
       "settings": {
         "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
