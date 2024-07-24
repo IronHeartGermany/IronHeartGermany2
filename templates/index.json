@@ -439,7 +439,8 @@
         "collection_HGW3GM"
       ],
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}"
+        ".section__link {font-family: \"Roboto\";}",
+        ".list-collections__item__title {font-size: 22px;}"
       ],
       "settings": {
         "title": "DISCOVER OUT CUTS<span class=\"red_dot\"><\/span>",
