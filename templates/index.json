@@ -139,7 +139,7 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
-        ".section__heading {font-family: \"Roboto\";}",
+        ".section__link {font-family: \"Roboto\";}",
         ".section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}"
       ],
@@ -317,8 +317,10 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}",
-        ".section__header {margin-bottom: 52px;}"
+        ".section__header {font-family: \"Roboto\";}",
+        ".section__header {margin-bottom: 52px;}",
+        ".list-collections__item__title {font-size: 22px;}",
+        ".coll_list_content {margin: 4px auto !important;}"
       ],
       "settings": {
         "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
