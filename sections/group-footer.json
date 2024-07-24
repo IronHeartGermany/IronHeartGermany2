@@ -70,7 +70,7 @@
         "text_Ez9DA8"
       ],
       "custom_css": [
-        ".footer-block {--desktop-width: 15%!important;}"
+        ".footer-block {--desktop-width: 18% !important;}"
       ],
       "settings": {
         "show_footer_wave": false,
