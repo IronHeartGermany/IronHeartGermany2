@@ -800,7 +800,8 @@
       ],
       "custom_css": [
         ".wrapper.locations__wrapper {padding-right: 0;}",
-        ".locations.bg-secondary .location__image {padding-top: 66% !important;}"
+        ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
+        ".location__store > p {margin-bottom: 25px !important;}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
