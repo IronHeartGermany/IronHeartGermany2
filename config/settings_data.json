@@ -19,9 +19,9 @@
     "heading_size": 85,
     "type_base_font": "source_sans_pro_n4",
     "text_size": 120,
-    "type_nav_font": "body",
-    "nav_font_weight": "bold",
-    "nav_size": 125,
+    "type_nav_font": "heading",
+    "nav_font_weight": "normal",
+    "nav_size": 100,
     "nav_top_level_links_size": 125,
     "nav_caps_toplevel": true,
     "nav_caps_megamenu": true,
@@ -502,7 +502,7 @@
       ".product__form__wrapper {padding-bottom: 30px !important;}",
       ".product__accordions {padding-bottom: 20px;}",
       ".gw-button-widget {background: transparent !important; color: black !important; text-transform: none; text-decoration: underline; width: 350px !important; padding: 0; text-align: left;}",
-      ".product-grid-item__price {font-family: \"Roboto\"; font-weight:800;}"
+      ".product-grid-item__price {font-family: \"Roboto\"; font-weight: 800;}"
     ]
   }
 }
