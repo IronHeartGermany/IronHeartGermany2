@@ -70,7 +70,9 @@
         "text_Ez9DA8"
       ],
       "custom_css": [
-        ".footer-block {--desktop-width: 18% !important;}"
+        ".footer-block {--desktop-width: 18% !important;}",
+        ".footer-title__button {font-size: 19px;}",
+        ".footer-links__wrapper {font-size:12px!important;}"
       ],
       "settings": {
         "show_footer_wave": false,
