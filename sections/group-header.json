@@ -101,6 +101,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".navlink.navlink--grandchild {font-weight:300;}"
+      ],
       "settings": {
         "sticky_header": true,
         "header_border": true,
