@@ -156,7 +156,7 @@
       "settings": {
         "show_breadcrumbs": true,
         "enable_sorting": true,
-        "enable_filters": false,
+        "enable_filters": true,
         "filters_layout": "open",
         "show_more": true,
         "filter_mode": "default",
