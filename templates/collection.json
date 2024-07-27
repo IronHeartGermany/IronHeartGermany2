@@ -157,7 +157,7 @@
         "show_breadcrumbs": true,
         "enable_sorting": true,
         "enable_filters": true,
-        "filters_layout": "open",
+        "filters_layout": "closed",
         "show_more": true,
         "filter_mode": "default",
         "bg_color": "",
