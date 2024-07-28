@@ -28038,9 +28038,11 @@ search-form mark {
 /* New Homwpage Design */
 .slide__text__container p.subheading-text {
     background-color: red;
-    padding: 5px;
     width: 52px;
-      font-weight: 700;
+    /* Make subheading and badges match in style */
+    padding: 6px 8px 6px 8px;
+    font-weight: calc(100 * var(--badges-font-weight));
+    border-radius: calc(10% * var(--badges-border-radius));
 }
 .btn.btn--view-all {
   margin-top: 25px;
