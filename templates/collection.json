@@ -158,7 +158,7 @@
         "enable_sorting": true,
         "enable_filters": true,
         "filters_layout": "closed",
-        "show_more": true,
+        "show_more": false,
         "filter_mode": "default",
         "bg_color": "",
         "padding_top": 30,
