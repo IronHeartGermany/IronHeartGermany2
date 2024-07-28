@@ -493,7 +493,7 @@
     {% assign vat_text = vat_text | append: ', <a href="https://ironheartgermany.com/policies/shipping-policy">shipping extra</a>' %}
   {% endunless %}
   {%  assign vat_text = vat_text | append: ')' %}
-  <span style="color: #333; opacity: 0.7; font-size: 0.7em;">{{ vat_text }}</span>
+  <span style="color: #333; opacity: 0.7; font-size: 0.8em;">{{ vat_text }}</span>
 </div>{%- when 'form' -%}
               {%- liquid
                 assign show_quantity = block.settings.show_quantity
