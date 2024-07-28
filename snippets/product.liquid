@@ -2169,6 +2169,14 @@
       <span data-price-off-amount></span>
     </span>
   {% endif %}
+
+  {%- comment -%} P. Ryan - 28.07.24 - add "VAT included" to products.  Add "shipping extra" only to non-shipping products {%-  endcomment -%}
+  {% assign vat_text = '(VAT included' %}
+  {% unless product.title contains 'Return Shipping' %}
+    {% assign vat_text = vat_text | append: ', <a href="https://ironheartgermany.com/policies/shipping-policy">shipping extra</a>' %}
+  {% endunless %}
+  {%  assign vat_text = vat_text | append: ')' %}
+  <span class="vat_text">{{ vat_text }}</span>
 </div></div>
 
               <div class="popup-quick-view__gallery">
