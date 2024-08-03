@@ -91,7 +91,8 @@
   --upsells-text: var(--COLOR-UPSELLS-TEXT);
   --upsells-text-lighten: var(--COLOR-UPSELLS-TEXT-LIGHTEN);
   --upsells-disabled-grey-darken: var(--COLOR-UPSELLS-DISABLED-GREY-DARKEN);
-  --sizes-on-hover-box-size: var(--SIZES-ON-HOVER-BOX-SIZE)
+  --sizes-on-hover-box-size: var(--SIZES-ON-HOVER-BOX-SIZE);
+  --link-hover-dot-size: var(--LINK-HOVER-DOT-SIZE);
 }
 
 /*============================================================================
@@ -8371,8 +8372,8 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
 .grandparent .navlink--dot > .navtext:after,
 .navlink--dot > .navtext:after {
   border-radius: 100%;
-  width: --var(--LINK-HOVER-DOT-SIZE);
-  height: --var(--LINK-HOVER-DOT-SIZE);
+  width: var(--link-hover-dot-size);
+  height: var(--link-hover-dot-size);
   left: 50%;
   bottom: -0.25rem;
   transform-origin: center;
