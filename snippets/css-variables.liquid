@@ -692,6 +692,9 @@
   --UPSELLS-HEIGHT: {{ settings.upsells_height | append: 'px' }};
   --UPSELLS-IMAGE-WIDTH: {{ settings.upsells_image_width | append: '%' }};
 
+  {%- comment -%} Hover dot {%- endcomment -%}
+  --LINK-HOVER-DOT-SIZE: {{ settings.link_hover_dot_size }}px;
+
   {%- comment -%} flickity btn icon & style {%- endcomment -%}
   {%- assign arrow_style = settings.arrow_style -%}
   {%- if arrow_style == 'chevron' and line_thickness == 'normal' -%}

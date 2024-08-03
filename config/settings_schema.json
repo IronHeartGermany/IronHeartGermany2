@@ -1218,6 +1218,17 @@
             "value": "trigger"
           }
         ]
+      },
+      {
+        "type": "range",
+        "id": "link_hover_dot_size",
+        "label": "Hover dot size",
+        "info": "Configures the size of the dot when the hover dot style is selected",
+        "min": 1,
+        "max": 10,
+        "default": 3,
+        "step": 1,
+        "unit": "px"
       }
     ]
   },

@@ -8371,8 +8371,8 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
 .grandparent .navlink--dot > .navtext:after,
 .navlink--dot > .navtext:after {
   border-radius: 100%;
-  width: 3px;
-  height: 3px;
+  width: --var(--LINK-HOVER-DOT-SIZE);
+  height: --var(--LINK-HOVER-DOT-SIZE);
   left: 50%;
   bottom: -0.25rem;
   transform-origin: center;
