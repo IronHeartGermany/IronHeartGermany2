@@ -1229,6 +1229,13 @@
         "default": 3,
         "step": 1,
         "unit": "px"
+      },
+      {
+        "type": "color",
+        "id": "link_hover_dot_color",
+        "label": "Hover dot color",
+        "info": "Configures the color of the dot when the hover dot stile is selected",
+        "default": "#ff0000"
       }
     ]
   },

@@ -93,6 +93,7 @@
   --upsells-disabled-grey-darken: var(--COLOR-UPSELLS-DISABLED-GREY-DARKEN);
   --sizes-on-hover-box-size: var(--SIZES-ON-HOVER-BOX-SIZE);
   --link-hover-dot-size: var(--LINK-HOVER-DOT-SIZE);
+  --link-hover-dot-color: var(--LINK-HOVER-DOT-COLOR);
 }
 
 /*============================================================================
@@ -8374,7 +8375,7 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   border-radius: 100%;
   width: var(--link-hover-dot-size);
   height: var(--link-hover-dot-size);
-  background-color: red;
+  background-color: var(--link-hover-dot-color);
   left: 50%;
   bottom: -0.25rem;
   transform-origin: center;

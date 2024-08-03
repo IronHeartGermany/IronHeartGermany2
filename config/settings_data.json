@@ -80,6 +80,7 @@
     "show_rounded_corners": false,
     "mobile_menu_behaviour": "link",
     "link_hover_dot_size": 8,
+    "link_hover_dot_color": "#ff0000",
     "animations_enabled": true,
     "badges_font_weight": 6,
     "badges_border_radius": 0,
