@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -234,7 +243,7 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-left",
-        "title": "<p>Works well with<\/p>",
+        "title": "<p>Works well with<\/p><span class=\"red_dot\"><\/span>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -242,7 +251,9 @@
         "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
         "text_size": 100,
         "button_text": "Shop Now",
-        "button_color": "btn--black",
+        "bg_color_full": "",
+        "bg_color": "",
+        "txt_color": "",
         "button_style": "btn--text",
         "button_size": "btn--large",
         "bg_color_secondary": false,
