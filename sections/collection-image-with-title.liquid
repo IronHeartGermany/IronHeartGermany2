@@ -61,7 +61,10 @@
               data-aos-delay="{{ animation_delay }}"
               {%- assign animation_delay = animation_delay | plus: 150 -%}
             {% endif %}>
+            {% comment %} P. Ryan - 04.08.24 - Make collection header look like slideshow on home page {% endcomment %}
+            <div class="custom_collection_header">
             {{- collection.description -}}
+            </div>
           </h2>
         {%- else -%}
           {%- if collection.handle == 'all' -%}
