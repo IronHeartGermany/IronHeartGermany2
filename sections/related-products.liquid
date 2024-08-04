@@ -57,7 +57,8 @@
         {%- capture headings_markup -%}
           {%- if block_heading != blank and show_tabs != true -%}
             <div class="section__header">
-              <h2 class="section__heading h3"
+              {%- comment -%} P. Ryan - 04.08.24 - Change class from h3 to h2 {% endcomment %}
+              <h2 class="section__heading h2"
                 {% if animations_enabled %}
                   data-aos="fade-up"
                   data-aos-delay="{{ animation_delay }}"
@@ -65,7 +66,7 @@
                   {%- assign animation_delay = animation_delay | plus: 150 -%}
                 {% endif %}
               >
-                {{- block_heading -}}
+                {{- block_heading -}}<span class="red_dot"></span>
               </h2>
 
               {%- if settings.show_spacer_lines -%}
