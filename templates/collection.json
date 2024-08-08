@@ -12,7 +12,7 @@
     "hero": {
       "type": "collection-image-with-title",
       "settings": {
-        "banner_height": "one-third-height",
+        "banner_height": "one-half-height",
         "text_position": "bottom-left",
         "show_image": true,
         "text_color": "text-light",
