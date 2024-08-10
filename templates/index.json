@@ -767,8 +767,8 @@
           "type": "brand",
           "settings": {
             "title": "Peanuts & Co",
-            "image": "shopify:\/\/shop_images\/peanuts_square_white.png",
-            "brand_image": "shopify:\/\/shop_images\/2J5A0039_H.jpg",
+            "image": "shopify:\/\/shop_images\/2J5A0039_H.jpg",
+            "brand_image": "shopify:\/\/shop_images\/peanuts_square_white.png",
             "image_link": "shopify:\/\/collections\/peanuts-co"
           }
         }
@@ -860,6 +860,14 @@
             "logo_width": 130
           }
         },
+        "press_LAyQKH": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
         "press_DGNj6m": {
           "type": "press",
           "settings": {
@@ -884,6 +892,7 @@
         "press_qHGRRe",
         "press_FhLEwD",
         "press_TLgbUR",
+        "press_LAyQKH",
         "press_DGNj6m",
         "press_g3BAGf"
       ],
