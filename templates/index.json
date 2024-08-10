@@ -757,10 +757,10 @@
         "brand_qPkjdt": {
           "type": "brand",
           "settings": {
-            "title": "Shirt",
-            "image": "shopify:\/\/shop_images\/DSC_8316-Edit.jpg",
-            "brand_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
-            "image_link": "shopify:\/\/collections\/shirts"
+            "title": "Wesco",
+            "image": "shopify:\/\/shop_images\/2J5A47041_1.jpg",
+            "brand_image": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw_square_white.png",
+            "image_link": "shopify:\/\/collections\/wesco"
           }
         }
       },
