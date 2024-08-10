@@ -771,6 +771,15 @@
             "brand_image": "shopify:\/\/shop_images\/peanuts_square_white.png",
             "image_link": "shopify:\/\/collections\/peanuts-co"
           }
+        },
+        "brand_BLTfhy": {
+          "type": "brand",
+          "settings": {
+            "title": "Porter",
+            "image": "shopify:\/\/shop_images\/30_b_50.jpg",
+            "brand_image": "shopify:\/\/shop_images\/porter.logo_square_white.png",
+            "image_link": "shopify:\/\/collections\/porter-yoshida-co"
+          }
         }
       },
       "block_order": [
@@ -778,7 +787,8 @@
         "brand_XHwndY",
         "brand_kgw6Ht",
         "brand_qPkjdt",
-        "brand_MMDRnj"
+        "brand_MMDRnj",
+        "brand_BLTfhy"
       ],
       "settings": {
         "heading": "COLLABORATIONS<span class=\"red_dot\"><\/span>",
