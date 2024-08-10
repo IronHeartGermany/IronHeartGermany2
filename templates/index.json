@@ -762,13 +762,23 @@
             "brand_image": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw_square_white.png",
             "image_link": "shopify:\/\/collections\/wesco"
           }
+        },
+        "brand_MMDRnj": {
+          "type": "brand",
+          "settings": {
+            "title": "Peanuts & Co",
+            "image": "shopify:\/\/shop_images\/peanuts_square_white.png",
+            "brand_image": "shopify:\/\/shop_images\/2J5A0039_H.jpg",
+            "image_link": "shopify:\/\/collections\/peanuts-co"
+          }
         }
       },
       "block_order": [
         "brand_MCVt9U",
         "brand_XHwndY",
         "brand_kgw6Ht",
-        "brand_qPkjdt"
+        "brand_qPkjdt",
+        "brand_MMDRnj"
       ],
       "settings": {
         "heading": "COLLABORATIONS<span class=\"red_dot\"><\/span>",
