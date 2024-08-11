@@ -35,7 +35,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>Our Cuts<\/p>",
-            "size": 100,
+            "size": 150,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
             "highlight_text_color": "#000"
