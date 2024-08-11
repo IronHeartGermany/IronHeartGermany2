@@ -376,6 +376,73 @@
         "padding_bottom": 60
       }
     },
+    "section_brand_nmgEUE": {
+      "type": "section-brand",
+      "blocks": {
+        "brand_7xqDxi": {
+          "type": "brand",
+          "settings": {
+            "title": "Super Slim (555)",
+            "image": "shopify:\/\/shop_images\/regular_straight_vorne_white.png",
+            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_white.png",
+            "image_link": "shopify:\/\/collections\/super-slim-555"
+          }
+        },
+        "brand_dnbHpX": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
+          }
+        },
+        "brand_jELWiT": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
+          }
+        },
+        "brand_q489qV": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
+          }
+        },
+        "brand_Wgb9LM": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
+          }
+        },
+        "brand_GDEL96": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_7xqDxi",
+        "brand_dnbHpX",
+        "brand_jELWiT",
+        "brand_q489qV",
+        "brand_Wgb9LM",
+        "brand_GDEL96"
+      ],
+      "settings": {
+        "heading": "DISCOVER OUR CUTS<span class=\"red_dot\"><\/span>",
+        "content": "",
+        "bg_color": "#333333",
+        "color": "#ffffff",
+        "button": "See All cuts",
+        "btn_link": "shopify:\/\/pages\/our-cuts",
+        "bg_btn_color": "#ffffff",
+        "btn_color": "#333333"
+      }
+    },
     "section_list_collection_bintHB": {
       "type": "section-list-collection",
       "blocks": {
@@ -1058,6 +1125,7 @@
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
+    "section_brand_nmgEUE",
     "section_list_collection_bintHB",
     "section_image_accordions_KizmdH",
     "section_overlapping_images_NMxq7C",
