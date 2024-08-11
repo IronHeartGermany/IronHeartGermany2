@@ -30,6 +30,7 @@ p.coll_title {
   padding: 0px 10px;
   font-size: 16px;
   text-transform: uppercase;
+  font-weight: 800;
 }
 .main_brand_images .swiper-button-next:after,
 .swiper-button-prev:after {
