@@ -409,8 +409,10 @@
         "brand_jELWiT": {
           "type": "brand",
           "settings": {
-            "title": "",
-            "image_link": ""
+            "title": "Slim Tapered (777)",
+            "image": "shopify:\/\/shop_images\/regular_straight_vorne_white.png",
+            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_white.png",
+            "image_link": "shopify:\/\/collections\/slim-tapered-777"
           }
         },
         "brand_q489qV": {
