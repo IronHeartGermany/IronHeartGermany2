@@ -397,6 +397,15 @@
             "image_link": "shopify:\/\/collections\/slim-straight-666"
           }
         },
+        "brand_kGJ3Ga": {
+          "type": "brand",
+          "settings": {
+            "title": "Straight (634)",
+            "image": "shopify:\/\/shop_images\/regular_straight_vorne_white.png",
+            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_white.png",
+            "image_link": "shopify:\/\/collections\/straight-634"
+          }
+        },
         "brand_jELWiT": {
           "type": "brand",
           "settings": {
@@ -429,6 +438,7 @@
       "block_order": [
         "brand_7xqDxi",
         "brand_dnbHpX",
+        "brand_kGJ3Ga",
         "brand_jELWiT",
         "brand_q489qV",
         "brand_Wgb9LM",
