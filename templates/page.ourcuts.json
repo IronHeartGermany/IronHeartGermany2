@@ -164,6 +164,36 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_image_with_text_yiYgPQ": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/iron-heart-cuts_Slim-Tapered.jpg",
+        "subheading": "",
+        "title": "<p>Slim Tapered (777)<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 130,
+        "content": "<ul><li>Model number 777.<\/li><li>Low rise.<\/li><li>Tapered leg.<\/li><li>Similar to the 666, but has a lower rise and tapers slightly starting from the top of the knee.<\/li><li>Due to the low rise, the pockets on the 777 are slightly lower than on the other Iron Heart jeans.<\/li><\/ul>",
+        "text_alignment": "left",
+        "button_text": "View Slim Tapered",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -171,6 +201,7 @@
     "section_text_a4kbRe",
     "section_image_with_text_6gf7he",
     "section_image_with_text_MwjAXd",
-    "section_image_with_text_ykfQNw"
+    "section_image_with_text_ykfQNw",
+    "section_image_with_text_yiYgPQ"
   ]
 }
