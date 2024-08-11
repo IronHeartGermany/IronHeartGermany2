@@ -194,6 +194,36 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_image_with_text_cHm9Y6": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "narrow",
+        "image": "shopify:\/\/shop_images\/iron-heart-cuts_Relaxed.jpg",
+        "subheading": "",
+        "title": "<p>Relaxed Tapered (888)<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 130,
+        "content": "<ul><li>Model number 888.<\/li><li>High rise.<\/li><li>Tapers from below the knee to the hem.<\/li><li>Was introduced to create additional room in the top block and thigh while maintaining a flattering, slim silhouette down the leg.<\/li><li>Recommended for people with larger thighs who still want the look of slim jeans.<\/li><\/ul>",
+        "text_alignment": "left",
+        "button_text": "View Relaxed Tapered",
+        "button_link": "shopify:\/\/collections\/relaxed-tapered-555",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -202,6 +232,7 @@
     "section_image_with_text_6gf7he",
     "section_image_with_text_MwjAXd",
     "section_image_with_text_ykfQNw",
-    "section_image_with_text_yiYgPQ"
+    "section_image_with_text_yiYgPQ",
+    "section_image_with_text_cHm9Y6"
   ]
 }
