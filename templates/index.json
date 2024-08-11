@@ -509,6 +509,7 @@
         "collection_gFFfYJ",
         "collection_HGW3GM"
       ],
+      "disabled": true,
       "custom_css": [
         ".section__link {font-family: \"Roboto\";}",
         ".list-collections__item__title {font-size: 22px;}"
