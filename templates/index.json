@@ -392,8 +392,8 @@
           "type": "brand",
           "settings": {
             "title": "Slim Straint (666)",
-            "image": "shopify:\/\/shop_images\/regular_straight_vorne_white.png",
-            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_white.png",
+            "image": "shopify:\/\/shop_images\/slim_vorne_white.png",
+            "brand_image": "shopify:\/\/shop_images\/slim_hinten_white.png",
             "image_link": "shopify:\/\/collections\/slim-straight-666"
           }
         },
