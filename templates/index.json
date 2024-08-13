@@ -419,8 +419,8 @@
           "type": "brand",
           "settings": {
             "title": "Relaxed Tapered (888)",
-            "image": "shopify:\/\/shop_images\/regular_straight_vorne_white.png",
-            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_white.png",
+            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne_white.png",
+            "brand_image": "shopify:\/\/shop_images\/relaxed_tappered_hinten_white.png",
             "image_link": "shopify:\/\/collections\/relaxed-tapered-555"
           }
         }
