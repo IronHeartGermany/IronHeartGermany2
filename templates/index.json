@@ -800,8 +800,15 @@
           "settings": {
             "title": "Simmons Bilt",
             "image": "shopify:\/\/shop_images\/2J5A9647.jpg",
-            "brand_image": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo_square_white.png",
+            "brand_image": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo_white_2.png",
             "image_link": "shopify:\/\/collections\/simmons-bilt"
+          }
+        },
+        "brand_qAadrz": {
+          "type": "brand",
+          "settings": {
+            "title": "",
+            "image_link": ""
           }
         },
         "brand_XHwndY": {
@@ -852,6 +859,7 @@
       },
       "block_order": [
         "brand_MCVt9U",
+        "brand_qAadrz",
         "brand_XHwndY",
         "brand_kgw6Ht",
         "brand_qPkjdt",
