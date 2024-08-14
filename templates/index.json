@@ -848,6 +848,14 @@
             "brand_image": "shopify:\/\/shop_images\/porter_logo_white_3.png",
             "image_link": "shopify:\/\/collections\/porter-yoshida-co"
           }
+        },
+        "brand_xAVjYN": {
+          "type": "brand",
+          "settings": {
+            "title": "GOOD ART HLYWD ",
+            "brand_image": "shopify:\/\/shop_images\/goodart_logo.jpg",
+            "image_link": "shopify:\/\/collections\/peanuts-co"
+          }
         }
       },
       "block_order": [
@@ -856,7 +864,8 @@
         "brand_kgw6Ht",
         "brand_qPkjdt",
         "brand_MMDRnj",
-        "brand_BLTfhy"
+        "brand_BLTfhy",
+        "brand_xAVjYN"
       ],
       "settings": {
         "heading": "PARTNER BRANDS<span class=\"red_dot\"><\/span>",
