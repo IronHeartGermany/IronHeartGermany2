@@ -804,13 +804,6 @@
             "image_link": "shopify:\/\/collections\/simmons-bilt"
           }
         },
-        "brand_qAadrz": {
-          "type": "brand",
-          "settings": {
-            "title": "",
-            "image_link": ""
-          }
-        },
         "brand_XHwndY": {
           "type": "brand",
           "settings": {
@@ -859,7 +852,6 @@
       },
       "block_order": [
         "brand_MCVt9U",
-        "brand_qAadrz",
         "brand_XHwndY",
         "brand_kgw6Ht",
         "brand_qPkjdt",
