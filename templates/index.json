@@ -383,8 +383,8 @@
           "type": "brand",
           "settings": {
             "title": "Super Slim (555)",
-            "image": "shopify:\/\/shop_images\/super_slim_vorne_white.png",
-            "brand_image": "shopify:\/\/shop_images\/super_slim_hinten_white.png",
+            "image": "shopify:\/\/shop_images\/super_slim_vorne.png",
+            "brand_image": "shopify:\/\/shop_images\/super_slim_hinten.png",
             "image_link": "shopify:\/\/collections\/super-slim-555"
           }
         },
