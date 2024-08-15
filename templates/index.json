@@ -376,6 +376,111 @@
         "padding_bottom": 60
       }
     },
+    "section_columns_fEJfXc": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_wMDE3X": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/super_slim_vorne.png",
+            "title": "SUPER SLIM",
+            "text": "",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_VPGrrF": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slim_vorne.png",
+            "title": "SLIM",
+            "text": "",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_F99bUB": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/regular_straight_vorne_5183d7ac-1511-49fa-babd-338ecff50492.png",
+            "title": "REGULAR STRAIGHT",
+            "text": "",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--large",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_AxPBmE": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slim_Tappeed_vorne.png",
+            "title": "SLIM TAPERED",
+            "text": "",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_9ACLGN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne.png",
+            "title": "RELAXED TAPERED",
+            "text": "",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_wMDE3X",
+        "text_block_VPGrrF",
+        "text_block_F99bUB",
+        "text_block_AxPBmE",
+        "text_block_9ACLGN"
+      ],
+      "settings": {
+        "title": "OUR CUTS<span class=\"red_dot\"><\/span>",
+        "align_text": "text-center",
+        "columns": 4,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": false,
+        "desktop_aspect_ratio": 0.5,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_brand_nmgEUE": {
       "type": "section-brand",
       "blocks": {
@@ -1136,6 +1241,7 @@
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
+    "section_columns_fEJfXc",
     "section_brand_nmgEUE",
     "section_list_collection_bintHB",
     "section_image_accordions_KizmdH",
