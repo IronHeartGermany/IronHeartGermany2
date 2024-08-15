@@ -462,6 +462,9 @@
         "text_block_AxPBmE",
         "text_block_9ACLGN"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "OUR CUTS",
         "align_text": "text-center",
@@ -479,73 +482,6 @@
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section_brand_nmgEUE": {
-      "type": "section-brand",
-      "blocks": {
-        "brand_7xqDxi": {
-          "type": "brand",
-          "settings": {
-            "title": "Super Slim (555)",
-            "image": "shopify:\/\/shop_images\/super_slim_vorne.png",
-            "brand_image": "shopify:\/\/shop_images\/super_slim_hinten.png",
-            "image_link": "shopify:\/\/collections\/super-slim-555"
-          }
-        },
-        "brand_dnbHpX": {
-          "type": "brand",
-          "settings": {
-            "title": "Slim Straint (666)",
-            "image": "shopify:\/\/shop_images\/slim_vorne.png",
-            "brand_image": "shopify:\/\/shop_images\/slim_hinten.png",
-            "image_link": "shopify:\/\/collections\/slim-straight-666"
-          }
-        },
-        "brand_kGJ3Ga": {
-          "type": "brand",
-          "settings": {
-            "title": "Straight (634)",
-            "image": "shopify:\/\/shop_images\/regular_straight_vorne_5183d7ac-1511-49fa-babd-338ecff50492.png",
-            "brand_image": "shopify:\/\/shop_images\/regular_straight_hinten_8b0bc5ec-1a4d-482c-a48b-52b853e85264.png",
-            "image_link": "shopify:\/\/collections\/straight-634"
-          }
-        },
-        "brand_jELWiT": {
-          "type": "brand",
-          "settings": {
-            "title": "Slim Tapered (777)",
-            "image": "shopify:\/\/shop_images\/slim_Tappeed_vorne.png",
-            "brand_image": "shopify:\/\/shop_images\/slim_Tappeed_hinten.png",
-            "image_link": "shopify:\/\/collections\/slim-tapered-777"
-          }
-        },
-        "brand_q489qV": {
-          "type": "brand",
-          "settings": {
-            "title": "Relaxed Tapered (888)",
-            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne.png",
-            "brand_image": "shopify:\/\/shop_images\/relaxed_tappered_hinten.png",
-            "image_link": "shopify:\/\/collections\/relaxed-tapered-555"
-          }
-        }
-      },
-      "block_order": [
-        "brand_7xqDxi",
-        "brand_dnbHpX",
-        "brand_kGJ3Ga",
-        "brand_jELWiT",
-        "brand_q489qV"
-      ],
-      "settings": {
-        "heading": "DISCOVER OUR CUTS<span class=\"red_dot\"><\/span>",
-        "content": "",
-        "bg_color": "#333333",
-        "color": "#ffffff",
-        "button": "See Cut Descriptions",
-        "btn_link": "shopify:\/\/pages\/our-cuts",
-        "bg_btn_color": "#ffffff",
-        "btn_color": "#333333"
       }
     },
     "section_list_collection_bintHB": {
@@ -1242,7 +1178,6 @@
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
     "section_columns_fEJfXc",
-    "section_brand_nmgEUE",
     "section_list_collection_bintHB",
     "section_image_accordions_KizmdH",
     "section_overlapping_images_NMxq7C",
