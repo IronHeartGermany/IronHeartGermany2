@@ -468,7 +468,7 @@
       "settings": {
         "title": "OUR CUTS",
         "align_text": "text-center",
-        "columns": 4,
+        "columns": 5,
         "show_images": true,
         "show_borders": false,
         "equalize_height": true,
@@ -477,7 +477,7 @@
         "heading_size": 120,
         "text_size": 100,
         "bg_color_secondary": true,
-        "color_borders": "#000",
+        "color_borders": "#000000",
         "layout_mobile": "carousel",
         "width": "wrapper",
         "padding_top": 60,
