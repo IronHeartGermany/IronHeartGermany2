@@ -463,7 +463,7 @@
         "text_block_9ACLGN"
       ],
       "custom_css": [
-
+        ".flickity-button {display:none;}"
       ],
       "settings": {
         "title": "OUR CUTS",
@@ -474,7 +474,7 @@
         "equalize_height": true,
         "desktop_aspect_ratio": 1.3,
         "mobile_aspect_ratio": 0.8,
-        "heading_size": 100,
+        "heading_size": 120,
         "text_size": 100,
         "bg_color_secondary": true,
         "color_borders": "#000000",
