@@ -79,7 +79,7 @@
         "h1 {font-family: \"Source Sans Pro\" !important; text-transform: none; font-size: 52px; line-height: 56px;}"
       ],
       "settings": {
-        "slide_height": "one-half-height",
+        "slide_height": "two-thirds-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
