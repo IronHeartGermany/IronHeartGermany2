@@ -22423,8 +22423,8 @@ search-form mark {
   }
 }
 
-/* P. Ryan - switch from even to odd */
-.popup-chart__content tr:nth-child(odd) {
+/* P. Ryan - 18.08.24 switch from even to odd and apply only to table body */
+.popup-chart__content tbody tr:nth-child(odd) {
   background: var(--text-alpha-5);
 }
 
