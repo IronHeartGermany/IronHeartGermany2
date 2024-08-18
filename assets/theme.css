@@ -22423,7 +22423,8 @@ search-form mark {
   }
 }
 
-.popup-chart__content tr:nth-child(even) {
+/* P. Ryan - switch from even to odd */
+.popup-chart__content tr:nth-child(odd) {
   background: var(--text-alpha-5);
 }
 
