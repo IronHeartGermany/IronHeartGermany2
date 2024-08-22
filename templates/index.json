@@ -463,10 +463,11 @@
         "text_block_9ACLGN"
       ],
       "custom_css": [
-        ".flickity-button {display: none;}"
+        ".flickity-button {display: none;}",
+        ".h6 {font-size:22px;}"
       ],
       "settings": {
-        "title": "OUR CUTS<span class=\"red_dot\"><\/span>",
+        "title": "OUR CUTS",
         "align_text": "text-center",
         "columns": 5,
         "show_images": true,
