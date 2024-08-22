@@ -464,10 +464,10 @@
       ],
       "custom_css": [
         ".flickity-button {display: none;}",
-        ".h6 {font-size:22px;}"
+        ".h6 {font-size: 22px;}"
       ],
       "settings": {
-        "title": "OUR CUTS",
+        "title": "OUR CUTS<span class=\"red_dot\"><\/span>",
         "align_text": "text-center",
         "columns": 5,
         "show_images": true,
