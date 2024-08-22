@@ -514,7 +514,8 @@
       ".product__form__wrapper {padding-bottom: 30px !important;}",
       ".product__accordions {padding-bottom: 20px;}",
       ".gw-button-widget {background: transparent !important; color: black !important; text-transform: none; text-decoration: underline; width: 350px !important; padding: 0; text-align: left;}",
-      ".product-grid-item__price {font-family: \"Roboto\"; font-weight: 800;}"
+      ".product-grid-item__price {font-family: \"Roboto\"; font-weight: 800;}",
+      "h2 {font-size:28px!important;}"
     ]
   }
 }
