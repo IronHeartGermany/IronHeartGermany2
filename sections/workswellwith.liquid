@@ -1,5 +1,6 @@
 {%- liquid
-  assign product_ids = product.metafields.custom.works_well_with_products | default: ''
+  assign metafield_key = section.settings.metafield_key | default: ''
+  assign product_ids = product.metafields[section.settings.metafield_namespace][metafield_key] | default: ''
   assign products = all_products[product_ids]
   assign title = section.settings.title
   assign heading_size = section.settings.heading_size | times: 0.01
@@ -76,6 +77,8 @@
     render 'title-stripped', title: title, paragraph_wrap: true
   endcapture
 -%}
+
+
 
 
 {%- liquid
