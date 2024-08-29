@@ -460,6 +460,22 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_custom_html_8tHqDf": {
+      "type": "section-custom-html",
+      "custom_css": [
+        ".works-well-with-section {margin-top: 20px;}",
+        ".works-well-with-products {display: flex; flex-wrap: wrap; gap: 15px;}",
+        ".related-product-item {width: 23%; text-align: center;}",
+        ".related-product-item img {max-width: 100%; height: auto; display: block;}",
+        ".red_dot {display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-left: 5px;}"
+      ],
+      "settings": {
+        "custom_code": "{% assign product_ids = product.metafields.custom.works_well_with %}\n{% if product_ids %}\n  <div class=\"works-well-with-section\">\n    <p>WORKS WELL WITH<\/p><span class=\"red_dot\"><\/span>\n    <div class=\"works-well-with-products\">\n      {% assign products = all_products[product_ids] %}\n      {% for related_product in products %}\n        <div class=\"related-product-item\">\n          <a href=\"{{ related_product.url }}\">\n            <img src=\"{{ related_product.featured_image | img_url: 'medium' }}\" alt=\"{{ related_product.title }}\">\n            <p>{{ related_product.title }}<\/p>\n          <\/a>\n        <\/div>\n      {% endfor %}\n    <\/div>\n  <\/div>\n{% else %}\n  <p>No related products available.<\/p>\n{% endif %}",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -469,6 +485,7 @@
     "section_image_with_text_cdrCYU",
     "section_image_with_text_ptKtm4",
     "section_accordions_PJzKNt",
-    "related"
+    "related",
+    "section_custom_html_8tHqDf"
   ]
 }
