@@ -234,13 +234,10 @@
         "padding_bottom": 60
       }
     },
-    "section_custom_html_8tHqDf": {
+    "section_custom_html_UbxdkT": {
       "type": "section-custom-html",
-      "custom_css": [
-
-      ],
       "settings": {
-        "custom_code": "{% assign product_ids = product.metafields.custom.works_well_with %}\n{% if product_ids %}\n  <section id=\"WorksWellWith--{{ section.id }}\" class=\"section-padding featured-collection featured-collection--grid collection-items collection-items--4 bg-secondary\">\n    <div class=\"wrapper\">\n      <div class=\"featured-collection__top text-center\">\n        <div class=\"section__header featured-collection__top__wrapper\">\n          <h2 class=\"section__heading h2\">\n            <p>WORKS WELL WITH<\/p><span class=\"red_dot\"><\/span>\n          <\/h2>\n        <\/div>\n      <\/div>\n\n      <div class=\"featured-collection__container grid__container\">\n        <div class=\"grid grid--mobile\">\n          {% assign products = all_products[product_ids] %}\n          {% for related_product in products %}\n            <div class=\"grid__item\">\n              <a href=\"{{ related_product.url }}\" class=\"product-card\">\n                <div class=\"product-card__image-wrapper\">\n                  <img src=\"{{ related_product.featured_image | img_url: 'medium' }}\" alt=\"{{ related_product.title }}\" class=\"product-card__image\">\n                  {% if related_product.tags contains 'Back in Stock' %}\n                    <div class=\"product-card__badge\">BACK IN<\/div>\n                  {% endif %}\n                <\/div>\n                <div class=\"product-card__details\">\n                  <p class=\"product-card__title\">{{ related_product.title }}<\/p>\n                  <p class=\"product-card__price\">{{ related_product.price | money }}<\/p>\n                <\/div>\n              <\/a>\n            <\/div>\n          {% endfor %}\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/section>\n{% else %}\n  <p>No related products available.<\/p>\n{% endif %}",
+        "custom_code": "{% assign gid_list = product.metafields.custom.works_well_with %}\n{% assign product_ids = '' %}\n\n{% for gid in gid_list %}\n  {% assign product_id = gid | split: '\/' | last %}\n  {% assign product_ids = product_ids | append: product_id | append: ',' %}\n{% endfor %}\n\n{% assign product_ids_array = product_ids | split: ',' | where: 'size', '>', 0 %}\n\n<section id=\"WorksWellWith\" class=\"section-padding featured-collection featured-collection--grid collection-items collection-items--4 bg-secondary\">\n  <div class=\"wrapper\">\n    <div class=\"featured-collection__top text-center\">\n      <div class=\"section__header featured-collection__top__wrapper\">\n        <h2 class=\"section__heading h2\">\n          <p>WORKS WELL WITH<\/p><span class=\"red_dot\"><\/span>\n        <\/h2>\n      <\/div>\n    <\/div>\n\n    <div class=\"featured-collection__container grid__container\">\n      <div class=\"grid grid--mobile\">\n        {% for product_id in product_ids_array %}\n          {% assign related_product = all_products[product_id] %}\n          {% if related_product %}\n            <div class=\"grid__item\">\n              <a href=\"{{ related_product.url }}\" class=\"product-card\">\n                <div class=\"product-card__image-wrapper\">\n                  <img src=\"{{ related_product.featured_image | img_url: 'medium' }}\" alt=\"{{ related_product.title }}\" class=\"product-card__image\">\n                <\/div>\n                <div class=\"product-card__details\">\n                  <p class=\"product-card__title\">{{ related_product.title }}<\/p>\n                  <p class=\"product-card__price\">{{ related_product.price | money }}<\/p>\n                <\/div>\n              <\/a>\n            <\/div>\n          {% else %}\n            <p>Product not found for ID: {{ product_id }}<\/p>\n          {% endif %}\n        {% endfor %}\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
@@ -476,7 +473,7 @@
   },
   "order": [
     "main",
-    "section_custom_html_8tHqDf",
+    "section_custom_html_UbxdkT",
     "section_collection_jGnmtK",
     "section_banner_text_columns_mthxtM",
     "section_image_with_text_cdrCYU",
