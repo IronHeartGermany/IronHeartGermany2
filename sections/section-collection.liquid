@@ -1,7 +1,7 @@
-<!-- /sections/featured-collection.liquid -->
 {%- liquid
-  assign collection = collections[section.settings.collection] | default: false
-  assign products = collection.products
+  assign metafield_key = section.settings.metafield_key | default: ''
+  assign product_ids = product.metafields[section.settings.metafield_namespace][metafield_key] | default: ''
+  assign products = all_products[product_ids]
   assign title = section.settings.title
   assign heading_size = section.settings.heading_size | times: 0.01
   assign heading_size_mobile = heading_size
@@ -23,7 +23,7 @@
   assign section_width = section.settings.width
   assign bg_color_secondary = section.settings.bg_color_secondary
 
-  assign id = 'FeaturedCollection--' | append: section.id
+  assign id = 'WorksWellWith--' | append: section.id
   assign selector_id = '#' | append: id
   assign animation_anchor = selector_id
   assign animations_enabled = settings.animations_enabled
@@ -72,26 +72,11 @@
     render 'button-fallback-classes', primary_color: button_color, bg_color_secondary: bg_color_secondary
   endcapture
 
-  assign add_collection_link = true
-  if title contains '</a>'
-    assign add_collection_link = false
-  endif
-
+  assign add_collection_link = false
   capture title
     render 'title-stripped', title: title, paragraph_wrap: true
   endcapture
 -%}
-{% comment %}
-  Enhanced text decorations options - Liqiud variables
-
-  Dependencies:
-    - Title liquid object from settings: `assign title = section.settings.title`
-    - Highlight type from settings: `assign heading_highlight_type = section.settings.heading_highlight_type`
-    - Highlight color from settings: `assign highlight_color = section.settings.highlight_color or assign highlight_color = block.settings.highlight_color`
-    - SVG icons:
-      - icon-squiggle.svg (assets)
-      - icon-circle.liquid (snippet)
-{% endcomment %}
 
 {%- liquid
   comment
@@ -1241,17 +1226,34 @@
 
 {% schema %}
 {
-  "name": "Featured collection",
+  "name": "Works well with",
   "settings": [
-
     {
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Works well with"
     },
     {
-      "type": "header",
-      "content": "Layout"
+      "type": "text",
+      "id": "metafield_namespace",
+      "label": "Metafield Namespace",
+      "default": "custom"
+    },
+    {
+      "type": "text",
+      "id": "metafield_key",
+      "label": "Metafield Key",
+      "default": "works_well_with_products"
+    },
+    {
+      "type": "range",
+      "id": "number_of_products",
+      "label": "Number of Products",
+      "default": 8,
+      "min": 1,
+      "max": 48,
+      "step": 1
     },
     {
       "type": "select",
@@ -1264,15 +1266,6 @@
         { "value": "split-left", "label": "Split left" },
         { "value": "split-right", "label": "Split right" }
       ]
-    },
-    {
-      "type": "range",
-      "id": "number_of_products",
-      "label": "Products",
-      "default":8,
-      "min": 1,
-      "max": 48,
-      "step": 1
     },
     {
       "type": "range",
@@ -1295,413 +1288,11 @@
       ]
     },
     {
-      "type": "header",
-      "content": "Text"
-    },
-    {
-      "type": "select",
-      "id": "text_alignment",
-      "label": "Text alignment",
-      "default": "text-left",
-      "options": [
-        { "label": "Center", "value": "text-center" },
-        { "label": "Left", "value": "text-left" }
-      ]
-    },
-    {
-      "type": "html",
-      "id": "title",
-      "label": "Heading",
-      "default": "<p>Best Sellers</p>",
-      "info": "Highlight one or two key words in your heading by italicizing them, then choose the highlight option below"
-    },
-    {
-      "type": "header",
-      "content": "Highlight"
-    },
-    {
-      "type": "select",
-      "id": "heading_highlight_type",
-      "label": "Type",
-      "default": "circle",
-      "options": [
-        { "value": "italics", "label": "Italics (no decoration)" },
-        { "value": "highlight", "label": "Highlight" },
-        { "value": "highlight-color", "label": "Text color" },
-        { "value": "underline", "label": "Underline" },
-        { "value": "squiggle", "label": "Squiggle" },
-        { "value": "circle", "label": "Circle" },
-        { "value": "stroke", "label": "Stroke (outlined text)" }
-      ]
-    },
-    {
-      "type": "color",
-      "id": "highlight_color",
-      "label": "Highlight color",
-      "default": "#D43747"
-    },
-    {
-      "type": "color",
-      "id": "highlight_text_color",
-      "label": "Text color",
-      "default": "#000"
-    },
-    {
-      "type": "range",
-      "id": "heading_size",
-      "label": "Heading size",
-      "default": 100,
-      "min": 75,
-      "max": 350,
-      "step": 5,
-      "unit": "%"
-    },
-    {
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p>Use this text to share information about your collection with your customers.</p>"
-    },
-    {
-      "type": "range",
-      "id": "text_size",
-      "label": "Text size",
-      "default": 100,
-      "min": 75,
-      "max": 250,
-      "step": 5,
-      "unit": "%"
-    },
-    {
-      "type": "header",
-      "content": "Button"
-    },
-    {
-      "type": "text",
-      "id": "button_text",
-      "label": "Text",
-      "default": "Shop Now"
-    },
-    {
-      "type": "color",
-      "id": "bg_color_full",
-      "label": "FullLine Background Color"
-    },
-    {
-      "type": "color",
-      "id": "bg_color",
-      "label": "Button Background Color"
-    },
-    {
-      "type": "color",
-      "id": "txt_color",
-      "label": "Text Color"
-    },
-
-    {
-      "type": "select",
-      "id": "button_style",
-      "label": "Button style",
-      "default": "btn--text",
-      "options": [
-        { "label": "Solid", "value": "btn--solid" },
-        { "label": "Outline", "value": "btn--outline" },
-        { "label": "Solid with border", "value": "btn--solid-border" },
-        { "label": "Text", "value": "btn--text" }
-      ]
-    },
-    {
-      "type": "select",
-      "id": "button_size",
-      "label": "Size",
-      "default": "btn--large",
-      "options": [
-        { "label": "Large", "value": "btn--large" },
-        { "label": "Medium", "value": "btn--medium" },
-        { "label": "Small", "value": "btn--small" }
-      ]
-    },
-    {
-      "type": "header",
-      "content": "Colors"
-    },
-    {
-      "type": "checkbox",
-      "id": "bg_color_secondary",
-      "label": "Background",
-      "info": "Use secondary background color",
-      "default": false
-    },
-    {
-      "type": "header",
-      "content": "Mobile layout"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_slider_mobile",
-      "label": "Enable slider",
-      "default": true,
-      "info": "Horizontal slider in mobile layout."
-    },
-    {
-      "type": "header",
-      "content": "Section spacing"
-    },
-    {
-      "type": "select",
-      "id": "width",
-      "label": "Width",
-      "default": "wrapper--full-padded",
-      "options": [
-        { "value": "wrapper", "label": "Page width" },
-        { "value": "wrapper--full-padded", "label": "Full width padded" }
-      ]
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding top",
-      "default": 60
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding bottom",
-      "default": 60
+      "default": "<p>Recommended products</p>"
     }
-  ],
-   "blocks": [
-    {
-      "type": "promo",
-      "name": "Promo",
-      "limit": 5,
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "header",
-          "content": "Layout"
-        },
-        {
-          "type": "range",
-          "id": "position",
-          "label": "Show in position",
-          "min": 1,
-          "max": 48,
-          "step": 1,
-          "default": 1
-        },
-        {
-          "type": "select",
-          "id": "width",
-          "label": "Width",
-          "default": "auto",
-          "options": [
-            { "value": "full", "label": "Full width" },
-            { "value": "half", "label": "2 grid items" },
-            { "value": "auto", "label": "Grid item" }
-          ]
-        },
-        {
-          "type": "header",
-          "content": "Text"
-        },
-        {
-          "type": "richtext",
-          "id": "title",
-          "label": "Heading",
-          "default": "<p>Promotion title</p>",
-          "info": "Highlight one or two key words in your heading by italicizing them, then choose the highlight option below"
-        },
-        {
-          "type": "header",
-          "content": "Highlight"
-        },
-        {
-          "type": "select",
-          "id": "heading_highlight_type",
-          "label": "Type",
-          "default": "circle",
-          "options": [
-            { "value": "italics", "label": "Italics (no decoration)" },
-            { "value": "highlight", "label": "Highlight" },
-            { "value": "highlight-color", "label": "Text color" },
-            { "value": "underline", "label": "Underline" },
-            { "value": "squiggle", "label": "Squiggle" },
-            { "value": "circle", "label": "Circle" },
-            { "value": "stroke", "label": "Stroke (outlined text)" }
-          ]
-        },
-        {
-          "type": "color",
-          "id": "highlight_color",
-          "label": "Highlight color",
-          "default": "#D43747"
-        },
-        {
-          "type": "color",
-          "id": "highlight_text_color",
-          "label": "Text color",
-          "default": "#000"
-        },
-        {
-          "type": "range",
-          "id": "heading_size",
-          "label": "Heading size",
-          "default": 100,
-          "min": 100,
-          "max": 200,
-          "step": 10,
-          "unit": "%"
-        },
-        {
-          "type": "textarea",
-          "id": "content",
-          "label": "Text",
-          "default": "Advertise a promotion or a sale"
-        },
-        {
-          "type": "range",
-          "id": "text_size",
-          "label": "Text size",
-          "default": 100,
-          "min": 100,
-          "max": 200,
-          "step": 5,
-          "unit": "%"
-        },
-        {
-          "type": "select",
-          "id": "text_color",
-          "label": "Text color",
-          "default": "text-light",
-          "options": [
-            {
-              "value": "text-light",
-              "label": "Light"
-            },
-            {
-              "value": "text-dark",
-              "label": "Dark"
-            }
-          ]
-        },
-        {
-          "type": "select",
-          "id": "text_position",
-          "label": "Content position",
-          "default": "center",
-          "options": [
-            { "value": "left", "label": "Left" },
-            { "value": "center", "label": "Center" },
-            { "value": "right", "label": "Right" },
-            { "value": "bottom-left", "label": "Bottom left" },
-            { "value": "bottom-right", "label": "Bottom right" },
-            { "value": "top-left", "label": "Top left" },
-            { "value": "top-right", "label": "Top right" }
-          ]
-        },
-        {
-          "type": "select",
-          "id": "layout",
-          "label": "Content layout",
-          "default": "stacked",
-          "options": [
-            { "label": "Inline", "value": "inline" },
-            { "label": "Stacked", "value": "stacked" }
-          ],
-          "info": "The 'Inline' option only applies on desktop when the promo width is 'Full width'"
-        },
-        {
-          "type": "range",
-          "id": "overlay_opacity",
-          "label": "Text contrast",
-          "info": "Improves readability of text",
-          "min": 0,
-          "max": 95,
-          "step": 5,
-          "unit": "%",
-          "default": 10
-        },
-        {
-          "type": "color",
-          "id": "bg_color",
-          "label": "Background color",
-          "default": "#D3D3D3",
-          "info": "Applies if no image is chosen"
-        },
-        {
-          "type": "header",
-          "content": "Button"
-        },
-        {
-          "type": "text",
-          "id": "button_text",
-          "label": "Button text",
-          "info": "Leave blank to link entire image"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "Button URL"
-        },
-        {
-          "type": "select",
-          "id": "button_color",
-          "label": "Button color",
-          "default": "btn--white",
-          "options": [
-            { "label": "Primary", "value": "btn--primary" },
-            { "label": "Secondary", "value": "btn--secondary" },
-            { "label": "White", "value": "btn--white" },
-            { "label": "Black", "value": "btn--black" }
-          ]
-        },
-        {
-          "type": "select",
-          "id": "button_style",
-          "label": "Button style",
-          "default": "btn--solid-border",
-          "options": [
-            { "label": "Solid", "value": "btn--solid" },
-            { "label": "Outline", "value": "btn--outline" },
-            { "label": "Solid with border", "value": "btn--solid-border" },
-            { "label": "Text", "value": "btn--text" }
-          ]
-        },
-        {
-          "type": "select",
-          "id": "button_size",
-          "label": "Size",
-          "default": "btn--small",
-          "options": [
-            { "label": "Large", "value": "btn--large" },
-            { "label": "Medium", "value": "btn--medium" },
-            { "label": "Small", "value": "btn--small" }
-          ]
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Featured collection",
-      "category": "Collection"
-    }
-  ],
-  "disabled_on": {
-    "groups": ["header","aside"]
-  }
+  ]
 }
 {% endschema %}
