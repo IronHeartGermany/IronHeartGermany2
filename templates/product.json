@@ -444,23 +444,14 @@
       "blocks": {
         "related_Nkx4wQ": {
           "type": "related",
-          "disabled": true,
           "settings": {
-            "title": "Also good for you",
+            "title": "",
             "product_recommendations_limit": 4
-          }
-        },
-        "recent_brbwMT": {
-          "type": "recent",
-          "settings": {
-            "title": "Recently spotted",
-            "product_recently_limit": 4
           }
         }
       },
       "block_order": [
-        "related_Nkx4wQ",
-        "recent_brbwMT"
+        "related_Nkx4wQ"
       ],
       "settings": {
         "enable_tabs": true,
