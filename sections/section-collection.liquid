@@ -80,7 +80,8 @@
   capture title
     render 'title-stripped', title: title, paragraph_wrap: true
   endcapture
--%}{% comment %}
+-%}
+{% comment %}
   Enhanced text decorations options - Liqiud variables
 
   Dependencies:
@@ -94,7 +95,7 @@
 
 {%- liquid
   comment
-   Highlighted words count
+    Highlighted words count
   endcomment
   assign title_temp = title | split: '<em>'
   assign em_arr = ''
@@ -119,7 +120,7 @@
   assign letters_count_arr = letters_count_arr | replace_last: ', ', '' | split: ', '
 
   comment
-   Main highlight types logic
+    Main highlight types logic
   endcomment
   assign icon_url = ''
   assign icon_color = 'var(--text)'
@@ -140,7 +141,7 @@
           echo '<span class="text-highlight__icon">'
           render 'icon-circle', color: icon_color
           echo '</span>'
-        when 'stroke' or 'circle' or 'squiggle' or 'highlight' or 'highlight-color' or 'underline'
+        when 'stroke', 'circle', 'squiggle', 'highlight', 'highlight-color', 'underline'
           assign has_text_highlight = true
       endcase
     endif
@@ -169,7 +170,7 @@
 
   if title != blank and title contains '<em>'
     case heading_highlight_type
-      when 'squiggle' or 'circle' or 'stroke' or 'highlight' or 'highlight-color' or 'underline'
+      when 'squiggle', 'circle', 'stroke', 'highlight', 'highlight-color', 'underline'
         assign title = title | replace: '<em>', text_highlight_start | replace: '</em>', text_highlight_end
 
       when 'circle'
@@ -212,7 +213,8 @@
         assign title = title_mod
     endcase
   endif
--%}{%- style -%}
+-%}
+{%- style -%}
   {{ selector_id }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
@@ -767,7 +769,22 @@
 </div>
 {%- endcapture -%}
 
-  {%- assign promos_array = promos_array | append: promo_order | append: '#promo_position#' | append: promo_position | append: '#promo_html#' | append: current_promo | append: '#block_id#' | append: block_id | append: '#promo_collection#' | append: promo_collection | append: '#promo_width#' | append: current_promo_width | append: '#promo_width_class#' | append: promo_width_class | append: '@@' -%}
+  {%- assign promos_array = promos_array
+    | append: promo_order
+    | append: '#promo_position#'
+    | append: promo_position
+    | append: '#promo_html#'
+    | append: current_promo
+    | append: '#block_id#'
+    | append: block_id
+    | append: '#promo_collection#'
+    | append: promo_collection
+    | append: '#promo_width#'
+    | append: current_promo_width
+    | append: '#promo_width_class#'
+    | append: promo_width_class
+    | append: '@@'
+  -%}
 {%- endfor -%}
 
 {%- assign promos_array = promos_array | split: '@@' | sort -%}
@@ -1200,14 +1217,17 @@
   class="{{ section_classes }}"
   data-section-id="{{ section.id }}"
   data-section-type="featured-collection"
-  data-columns="{{ columns }}">
+  data-columns="{{ columns }}"
+>
   <div class="{{ section_width }}">
     {%- if is_split -%}
-      <div class="featured-collection__inner{% if layout == 'split-right' %} featured-collection__inner--splitright{% endif %}">
+      <div
+        class="featured-collection__inner{% if layout == 'split-right' %} featured-collection__inner--splitright{% endif %}"
+      >
     {%- endif -%}
 
-      {{ section_heading }}
-      {{ collection_container }}
+    {{ section_heading }}
+    {{ collection_container }}
 
     {%- if is_split -%}
       </div>
@@ -1221,9 +1241,9 @@
 
 {% schema %}
 {
-  "name": "Featured collection",
+  "name": "Featured collection ZZZ",
   "settings": [
-   
+
     {
       "type": "collection",
       "id": "collection",
@@ -1377,7 +1397,7 @@
       "id": "txt_color",
       "label": "Text Color"
     },
-    
+
     {
       "type": "select",
       "id": "button_style",
