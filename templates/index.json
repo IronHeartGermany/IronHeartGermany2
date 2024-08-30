@@ -1169,6 +1169,19 @@
         "padding_top": 30,
         "padding_bottom": 60
       }
+    },
+    "section_workswellwith_KVKHxn": {
+      "type": "section-workswellwith",
+      "settings": {
+        "title": "Works well with",
+        "metafield_namespace": "custom",
+        "metafield_key": "works_well_with",
+        "number_of_products": 8,
+        "products_layout": "grid",
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text": "<p>Work Well With<\/p>"
+      }
     }
   },
   "order": [
@@ -1192,6 +1205,7 @@
     "section_press_Lxjw4L",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
-    "section_columns_hNXYWV"
+    "section_columns_hNXYWV",
+    "section_workswellwith_KVKHxn"
   ]
 }
