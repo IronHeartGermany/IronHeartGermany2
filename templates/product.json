@@ -256,7 +256,7 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-left",
-        "title": "<p>Best Sellers<\/p>",
+        "title": "<p>WORKS WELL WITH<\/p><span class=\"red_dot\"><\/span>",
         "heading_highlight_type": "circle",
         "highlight_color": "#D43747",
         "highlight_text_color": "#000",
