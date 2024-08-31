@@ -69,6 +69,7 @@
         },
         "product_accordion": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "DESCRIPTION",
             "heading_style": "font-heading",
@@ -79,6 +80,7 @@
         },
         "product_accordion_WNk3rK": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "SIZE & FITTING",
             "heading_style": "font-heading",
@@ -89,6 +91,7 @@
         },
         "product_accordion_8r4GEf": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "MATERIALS & CARE",
             "heading_style": "font-heading",
@@ -99,6 +102,7 @@
         },
         "product_accordion_f9bbAg": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "SHIPPING & RETURNS",
             "heading_style": "font-heading",
