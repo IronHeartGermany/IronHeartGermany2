@@ -247,6 +247,40 @@
         "padding_bottom": 60
       }
     },
+    "pdp_work_well_with_mCbTTJ": {
+      "type": "pdp-work-well-with",
+      "settings": {
+        "product_list": [
+          "wesco-bee-natural-mink-oil-creme",
+          "wesco-black-rock-leather-n-rich",
+          "bn3th-m05020165-blk-agua-volley-2n1-swim-short-5-black",
+          "bn3th-m111024-blk-classic-boxer-brief-solid-black"
+        ],
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "bg_color_full": "",
+        "bg_color": "",
+        "txt_color": "",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_collection_jGnmtK": {
       "type": "section-collection",
       "settings": {
@@ -487,6 +521,7 @@
   "order": [
     "main",
     "section_custom_html_UbxdkT",
+    "pdp_work_well_with_mCbTTJ",
     "section_collection_jGnmtK",
     "section_banner_text_columns_mthxtM",
     "section_image_with_text_cdrCYU",
