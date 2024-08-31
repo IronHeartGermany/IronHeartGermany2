@@ -475,18 +475,6 @@
     },
     "172496092047a55365": {
       "type": "apps",
-      "blocks": {
-        "easy_tabs_product_tabs_easytabs_block_product_widget_JMV9Gr": {
-          "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-block-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
-          "settings": {
-            "placement_selector": "",
-            "multiple_widgets": false
-          }
-        }
-      },
-      "block_order": [
-        "easy_tabs_product_tabs_easytabs_block_product_widget_JMV9Gr"
-      ],
       "settings": {
         "bg_color": "",
         "width": "wrapper",
