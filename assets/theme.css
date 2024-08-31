@@ -685,6 +685,11 @@ th, td {
   background-color: #f1f1f1;
 }
 
+/* Patrick Ryan - 31.08.2024 - make font in tables smaller so that there are no line breaks */
+.table-striped {
+  font-size: 0.95rem;
+}
+
 /*================ Images and iframes ================*/
 img {
   border: 0 none;
