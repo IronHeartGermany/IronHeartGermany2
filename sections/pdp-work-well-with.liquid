@@ -271,7 +271,8 @@
     {%- endif -%}
   }
 {%- endstyle -%}
-
+{% if product_list != blank %}
+  
 {%- capture collection_button -%}
   {%- if button_text != blank -%}
     <a class="btn {{ button_style }} {{ button_size }} {{ button_color }} btn--view-all" href="{{ collection.url | default: '#!' }}"  style="background: {{ section.settings.bg_color }}; color: {{ section.settings.txt_color }}">{{ button_text }}</a>
@@ -354,7 +355,7 @@
     {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}
-
+{% endif %}
 {% comment %} Array of all added promo blocks {% endcomment %}
 {%- assign promos_array = '' -%}
 {%- for block in section.blocks -%}
@@ -1219,7 +1220,7 @@
     </div>
   {%- endif -%}
 {%- endcapture -%}
-
+{% if product_list != blank %}
 <section
   id="{{ id }}"
   class="{{ section_classes }}"
@@ -1246,7 +1247,7 @@
     {%- endif -%}
   </div>
 </section>
-
+{% endif %}
 {% schema %}
 {
   "name": "PDP work well with",
