@@ -247,9 +247,37 @@
         "padding_bottom": 60
       }
     },
-    "pdp_work_well_with_mCbTTJ": {
+    "pdp_work_well_with_zrfxqJ": {
       "type": "pdp-work-well-with",
-      "disabled": true,
+      "blocks": {
+        "promo_AYnK4V": {
+          "type": "promo",
+          "settings": {
+            "position": 1,
+            "width": "auto",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#D3D3D3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "promo_AYnK4V"
+      ],
       "settings": {
         "product_list": "{{ product.metafields.custom.works_well_with.value }}",
         "products_layout": "grid",
@@ -258,35 +286,6 @@
         "columns_mobile": "2",
         "text_alignment": "text-left",
         "title": "<p>WORKS WELL WITH<\/p><span class=\"red_dot\"><\/span>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 100,
-        "text": "",
-        "text_size": 100,
-        "button_text": "",
-        "bg_color_full": "",
-        "bg_color": "",
-        "txt_color": "",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "pdp_work_well_with_zrfxqJ": {
-      "type": "pdp-work-well-with",
-      "settings": {
-        "product_list": "{{ product.metafields.custom.works_well_with.value }}",
-        "products_layout": "grid",
-        "number_of_products": 8,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
-        "text_alignment": "text-left",
-        "title": "<p>Best Sellers<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#D43747",
         "highlight_text_color": "#000",
@@ -547,7 +546,6 @@
   "order": [
     "main",
     "section_custom_html_UbxdkT",
-    "pdp_work_well_with_mCbTTJ",
     "pdp_work_well_with_zrfxqJ",
     "section_collection_jGnmtK",
     "section_banner_text_columns_mthxtM",
