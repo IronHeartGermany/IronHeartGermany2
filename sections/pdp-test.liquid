@@ -1,8 +1,6 @@
 {% assign test_pdp = product.metafields.custom.works_well_with.value %}  
-
-{{ test_pdp | json }} => 200
 {% for pdp in test_pdp %}
-  {{ pdp }} => 100
+  {{ pdp }}
 {% endfor %} 
 {% schema %}
 {
