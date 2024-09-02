@@ -1,4 +1,4 @@
-{% assign test_pdp = product.metafields.custom.works_well_with %}  
+{% assign test_pdp = product.metafields.custom.works_well_with.value %}  
 
 {{ test_pdp }} => 200
 {% for pdp in test_pdp %}
