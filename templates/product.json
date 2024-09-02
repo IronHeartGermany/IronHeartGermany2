@@ -249,35 +249,6 @@
     },
     "pdp_work_well_with_zrfxqJ": {
       "type": "pdp-work-well-with",
-      "blocks": {
-        "promo_AYnK4V": {
-          "type": "promo",
-          "settings": {
-            "position": 1,
-            "width": "auto",
-            "title": "<p>Promotion title<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000",
-            "heading_size": 100,
-            "content": "Advertise a promotion or a sale",
-            "text_size": 100,
-            "text_color": "text-light",
-            "text_position": "center",
-            "layout": "stacked",
-            "overlay_opacity": 10,
-            "bg_color": "#D3D3D3",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "promo_AYnK4V"
-      ],
       "settings": {
         "product_list": "{{ product.metafields.custom.works_well_with.value }}",
         "products_layout": "grid",
@@ -290,9 +261,9 @@
         "highlight_color": "#D43747",
         "highlight_text_color": "#000",
         "heading_size": 100,
-        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text": "",
         "text_size": 100,
-        "button_text": "Shop Now",
+        "button_text": "",
         "bg_color_full": "",
         "bg_color": "",
         "txt_color": "",
