@@ -1,7 +1,7 @@
 ABC<!-- /sections/featured-collection.liquid -->
 
 {%- liquid
-  assign collection = section.settings.product_list | default: true
+  assign collection = collection | default: true
   assign product_list = section.settings.product_list
   assign products = product_list
   assign title = section.settings.title
