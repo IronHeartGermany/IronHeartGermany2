@@ -256,11 +256,7 @@
     "pdp_work_well_with_zrfxqJ": {
       "type": "pdp-work-well-with",
       "settings": {
-        "product_list": [
-          "wesco-bee-natural-mink-oil-creme",
-          "wesco-black-rock-leather-n-rich",
-          "bn3th-m05020165-blk-agua-volley-2n1-swim-short-5-black"
-        ],
+        "product_list": "{{ product.metafields.custom.works_well_with.value }}",
         "products_layout": "grid",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
