@@ -250,7 +250,9 @@
     "pdp_work_well_with_mCbTTJ": {
       "type": "pdp-work-well-with",
       "settings": {
-        "product_list": "{{ product.metafields.custom.works_well_with.value }}",
+        "product_list": [
+
+        ],
         "products_layout": "grid",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
