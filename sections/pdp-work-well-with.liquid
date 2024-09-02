@@ -1,4 +1,4 @@
-<!-- /sections/featured-collection.liquid -->
+ABCD<!-- /sections/featured-collection.liquid -->
 
 {%- liquid
   assign collection = section.settings.product_list | default: true
@@ -808,7 +808,7 @@
         -%}
 
         {%- for product in collection.products limit: number_of_products -%}
-          www
+        
           {%- if carousel -%}
             {%- assign animation_delay = forloop.index0 -%}
           {%- else -%}
@@ -972,7 +972,9 @@
     assign counter_delay = 0
   endif
 -%}{%- endfor -%}
+ 
       {%- else -%}
+    
     <!-- custom product listing -->
         {%- liquid
           for product in product_list limit: number_of_products
@@ -1191,7 +1193,7 @@
 {%- endcapture -%}
 
 {%- capture collection_container -%}
-  <div class="featured-collection__container {% if carousel %}carousel__container{% else %}grid__container{% endif %}">
+  <div class="hhh featured-collection__container {% if carousel %}carousel__container{% else %}grid__container{% endif %}">
     <div class="{% if carousel %}carousel{% else %}grid{% endif %}{{ mobile_class }}{% if products.size == 0 %} featured-collection--empty{% endif %}"
       {% if carousel %}
         data-slider
@@ -1201,6 +1203,7 @@
     
         {{ collection_items }}
       {%- else -%}
+        
         {{ collection_onboarding }}
       {%- endif -%}
     </div>
