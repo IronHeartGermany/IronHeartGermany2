@@ -1,6 +1,6 @@
 {% assign test_pdp = product.metafields.custom.works_well_with.values %}
 {{ product.metafields.custom.works_well_with }}ww
-{{ product.metafields.custom.works_well_with.value }}ww
+{{ product.metafields.custom.works_well_with.value | json }}ww
 {% for pdp in test_pdp %}
   {{ pdp }}qw
 {% endfor %} 
