@@ -2,24 +2,9 @@
 YEs -- >{{ product.metafields.custom.works_well_with }}
 
 
-{% assign related_product_ids_string = product.metafields.custom.works_well_with %}
-{% assign related_product_ids = related_product_ids_string | remove: 'gid://shopify/Product/' | split: '","' %}
-{% assign related_product_ids = related_product_ids | split: '"]' %}
 
-<ul>
-  {% for id in related_product_ids %}
-    {% assign related_product = all_products[id] %}
-    {% if related_product %}
-      <li>{{ related_product.title }}</li>
-    {% else %}
-      <li>Product with ID {{ id }} not found.</li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
-{% for pdp in product.metafields.custom.works_well_with %}
-  {{ pdp }}
-{% endfor %} 
+
 
 {% schema %}
 {
