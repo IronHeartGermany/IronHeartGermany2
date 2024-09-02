@@ -1,20 +1,7 @@
 {% assign test_pdp = product.metafields.custom.works_well_with %}
 YEs -- >{{ product.metafields.custom.works_well_with }}
-{% assign related_product_ids_string = product.metafields.custom.works_well_with %}
-{% assign related_product_ids = related_product_ids_string | remove: 'gid://shopify/Product/' | split: '","' %}
-{% assign related_product_ids = related_product_ids | split: '"]' %}
 
-{{ related_product_ids }}
-<ul>
-  {% for id in related_product_ids %}
-    {% assign related_product = all_products[id] %}
-    {% if related_product %}
-      <li>{{ related_product.title }}</li>
-    {% else %}
-      <li>Product with ID {{ id }} not found.</li>
-    {% endif %}
-  {% endfor %}
-</ul>
+
 {% assign related_product_ids_string = product.metafields.custom.works_well_with %}
 {% assign related_product_ids = related_product_ids_string | remove: 'gid://shopify/Product/' | split: '","' %}
 {% assign related_product_ids = related_product_ids | split: '"]' %}
