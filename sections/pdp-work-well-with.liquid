@@ -1221,9 +1221,9 @@ ABC<!-- /sections/featured-collection.liquid -->
     </div>
   {%- endif -%}
 {%- endcapture -%}
-ABCD
-    {{ product_list  }}
+
 {% if product_list != blank %}
+    {{ product_list  }} -> ABCDE
 <section
   id="{{ id }}"
   class="{{ section_classes }}"
