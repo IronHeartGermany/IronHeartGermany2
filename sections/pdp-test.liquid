@@ -1,5 +1,5 @@
 {% assign product_list = section.settings.product_list %}  
-{{ section.settings.product_list }}
+{{ section.settings.product_list | json }}
 {% for pdp in product_list %}
   {{ pdp }} => 100
 {% endfor %} 
