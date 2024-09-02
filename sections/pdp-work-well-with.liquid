@@ -795,7 +795,7 @@ AAA
 
 {%- capture collection_items -%}
   {% comment %} Check if there are any products in the collection {% endcomment %}
- CCC
+ 
   {%- if product_list -%}
   
       {%- assign tablet_counter = 1 -%}
@@ -977,6 +977,7 @@ AAA
       {%- else -%}
     
     <!-- custom product listing -->
+        FFF
         {%- liquid
           for product in product_list limit: number_of_products
             if carousel
