@@ -1,6 +1,6 @@
 {% assign test_pdp = product.metafields.custom.works_well_with %}  
 {{ section.settings.product_list | json }}
-{{ product.metafields.custom.works_well_with }}
+
 {% for pdp in test_pdp %}
   {{ pdp }} => 100
 {% endfor %} 
