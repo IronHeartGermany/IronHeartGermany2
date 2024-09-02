@@ -1,5 +1,8 @@
+{% assign product_list = section.settings.product_list %}  
 {{ section.settings.product_list }}
-
+{% for pdp in product_list %}
+  {{ pdp }}
+{% endfor %}
 {% schema %}
 {
   "name": "PDP Test",
