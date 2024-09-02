@@ -250,7 +250,7 @@
     "pdp_work_well_with_zrfxqJ": {
       "type": "pdp-work-well-with",
       "settings": {
-        "collection": "accessories",
+        "product_list": "{{ product.metafields.custom.works_well_with.value }}",
         "products_layout": "grid",
         "number_of_products": 8,
         "products_per_row_on_desktop": 4,
