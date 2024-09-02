@@ -1,8 +1,8 @@
-<!-- /sections/featured-collection.liquid -->
+ABC<!-- /sections/featured-collection.liquid -->
 
 {%- liquid
   assign collection = collection | default: true
-  assign product_list = section.settings.collection
+  assign product_list = section.settings.product_list
   assign products = product_list
   assign title = section.settings.title
   assign heading_size = section.settings.heading_size | times: 0.01
