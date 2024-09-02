@@ -1,7 +1,7 @@
 {% assign test_pdp = product.metafields.custom.works_well_with %}
 YEs -- >{{ product.metafields.custom.works_well_with }}
 {% assign related_product_ids = product.metafields.custom.works_well_with | split: ',' %}
-
+{{ related_product_ids }}
 <ul>
   {% for id in related_product_ids %}
     {% assign related_product = all_products[id] %}
