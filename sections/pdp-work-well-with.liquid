@@ -1,7 +1,7 @@
 ABC<!-- /sections/featured-collection.liquid -->
 
 {%- liquid
-  assign collection = collection | default: true
+  assign collection = section.settings.product_list | default: true
   assign product_list = section.settings.product_list
   assign products = product_list
   assign title = section.settings.title
@@ -1221,9 +1221,7 @@ ABC<!-- /sections/featured-collection.liquid -->
     </div>
   {%- endif -%}
 {%- endcapture -%}
-
-
-
+{% if product_list != blank %}
 <section
   id="{{ id }}"
   class="{{ section_classes }}"
@@ -1250,17 +1248,17 @@ ABC<!-- /sections/featured-collection.liquid -->
     {%- endif -%}
   </div>
 </section>
-
+{% endif %}
 {% schema %}
 {
   "name": "PDP work well with",
   "settings": [
 
    
-{
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Product list"
     },
     {
       "type": "header",
