@@ -249,6 +249,7 @@
     },
     "pdp_test_3bbd8G": {
       "type": "pdp-test",
+      "disabled": true,
       "settings": {
         "product_list": "{{ product.metafields.custom.works_well_with.value }}"
       }
