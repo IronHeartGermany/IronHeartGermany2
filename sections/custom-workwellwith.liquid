@@ -1,10 +1,16 @@
-{% assign workwellwith = product.metafields.custom.works_well_with.value %}
+{% assign workwellwith = product.metafields.custom.works_well_with %}
 
 <div class="main_pdp_workwellwith">
-  {% for product in workwellwith %}
-    <h2>{{ product.title }}</h2>
+  {% for product_handle in workwellwith %}
+    {% assign product = all_products[product_handle] %}
+    {% if product %}
+      <h2>{{ product.title }}</h2>
+    {% else %}
+      <p>Product not found.</p>
+    {% endif %}
   {% endfor %}
 </div>
+
 
 {% schema %}
 {
