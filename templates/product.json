@@ -247,12 +247,6 @@
         "padding_bottom": 60
       }
     },
-    "pdp_test_3bbd8G": {
-      "type": "pdp-test",
-      "settings": {
-        "product_list": "{{ product.metafields.custom.works_well_with.value }}"
-      }
-    },
     "pdp_work_well_with_zrfxqJ": {
       "type": "pdp-work-well-with",
       "settings": {
@@ -518,12 +512,16 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "custom_workwellwith_jj8ptH": {
+      "type": "custom-workwellwith",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "section_custom_html_UbxdkT",
-    "pdp_test_3bbd8G",
     "pdp_work_well_with_zrfxqJ",
     "section_collection_jGnmtK",
     "section_banner_text_columns_mthxtM",
@@ -531,6 +529,7 @@
     "section_image_with_text_ptKtm4",
     "section_accordions_PJzKNt",
     "related",
-    "172496092047a55365"
+    "172496092047a55365",
+    "custom_workwellwith_jj8ptH"
   ]
 }
