@@ -1,6 +1,22 @@
+{% assign workwellwith = product.metafields.custom.works_well_with.value %}
+
+<div class="main_pdp_workwellwith">
+  {% for product in workwellwith %}
+    <h2>{{ product.title }}</h2>
+  {% endfor %}
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Work Well With",
+  "tag": "section",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Custom Work Well With"
+    }
+  ]
+}
 {% endschema %}
+
