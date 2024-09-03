@@ -2,7 +2,7 @@
 
 <div class="main_pdp_workwellwith">
   {% for product_handle in workwellwith %}
-    {product_handle
+    {{ product_handle }}
     {% assign product = all_products[product_handle] %}
     {% if product %}
       <h2>{{ product.title }}</h2>
