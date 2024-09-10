@@ -1172,6 +1172,7 @@
     },
     "section_workswellwith_KVKHxn": {
       "type": "section-workswellwith",
+      "disabled": true,
       "settings": {
         "title": "Works well with",
         "metafield_namespace": "custom",
