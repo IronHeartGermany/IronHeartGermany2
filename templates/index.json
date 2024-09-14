@@ -382,7 +382,7 @@
         "text_block_wMDE3X": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/super_slim_vorne.png",
+            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
             "title": "SUPER SLIM",
             "text": "",
             "button_text": "Learn More",
@@ -397,7 +397,7 @@
         "text_block_VPGrrF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slim_vorne.png",
+            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
             "title": "SLIM",
             "text": "",
             "button_text": "Learn More",
@@ -412,7 +412,7 @@
         "text_block_F99bUB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/regular_straight_vorne_5183d7ac-1511-49fa-babd-338ecff50492.png",
+            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
             "title": "REGULAR STRAIGHT",
             "text": "",
             "button_text": "Learn More",
@@ -427,7 +427,7 @@
         "text_block_AxPBmE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slim_Tappeed_vorne.png",
+            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
             "title": "SLIM TAPERED",
             "text": "",
             "button_text": "Learn More",
@@ -442,7 +442,7 @@
         "text_block_9ACLGN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne.png",
+            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
             "title": "RELAXED TAPERED",
             "text": "",
             "button_text": "Learn More",
@@ -467,7 +467,7 @@
         ".h6 {font-size: 22px;}"
       ],
       "settings": {
-        "title": "OUR CUTS<span class=\"red_dot\"><\/span>",
+        "title": "OUR CUTS",
         "align_text": "text-center",
         "columns": 5,
         "show_images": true,
