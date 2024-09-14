@@ -507,6 +507,7 @@
     },
     "172496092047a55365": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
