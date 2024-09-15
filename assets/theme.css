@@ -28277,3 +28277,9 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   padding-top: 1.4em;
   padding-bottom: 0.5em;
 }
+
+/* Format bullet ponits in tabs to match text - P. Ryan - 15.09.24 */
+.easytabs-contents ul {
+  font-size: calc(1rem* var(--adjust-body));
+  padding-top: 1em;
+}
