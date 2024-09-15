@@ -28268,5 +28268,5 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 
 /* Change format of policy - P. Ryan - 15.09.24 */
 .shopify-policy__container {
-  max-width: 100%;
+  max-width: 100% !important;
 }
