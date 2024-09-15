@@ -28282,4 +28282,5 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .easytabs-contents ul {
   font-size: calc(1rem* var(--adjust-body));
   padding-top: 1em;
+  padding-left: 1em;
 }
