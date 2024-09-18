@@ -1047,8 +1047,8 @@
       "settings": {
         "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "BECOME AN INSIDER<span class=\"red_dot\"><\/span>",
-        "text": "<p>Join the IRON HEART.GERMANY Insider Club and unlock exclusive benefits. Get early access to new collections, special discounts, and invitations to member-only events. Stay updated with the latest Iron Heart news and enjoy unique perks tailored just for you. <\/p><p>Joining is completely free, showing our appreciation for your loyalty. Sign up now and start enjoying these exclusive advantages!<\/p>",
+        "title": "STAY IN THE LOOP<span class=\"red_dot\"><\/span>",
+        "text": "<p>Sign up for our newsletter to receive:<\/p><ul><li>Announcements of latest releases<\/li><li>Previews of upcoming collections<\/li><li>Exclusive invitations to events<\/li><\/ul><p>Don't miss out - join the crew!<\/p>",
         "extra_fields": "name",
         "button_text": "Join the insiders",
         "bg_color": "",
