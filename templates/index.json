@@ -472,7 +472,7 @@
         "columns": 5,
         "show_images": true,
         "show_borders": false,
-        "equalize_height": true,
+        "equalize_height": false,
         "desktop_aspect_ratio": 1.3,
         "mobile_aspect_ratio": 0.8,
         "heading_size": 120,
