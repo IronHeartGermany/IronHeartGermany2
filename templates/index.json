@@ -15,20 +15,20 @@
         "image_e8ntQh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2J5A9925_3_edit_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2J5A9925_2.jpg",
+            "image": "shopify://shop_images/2J5A9925_3_edit_2.jpg",
+            "image_mobile": "shopify://shop_images/2J5A9925_2.jpg",
             "overlay_opacity": 20,
             "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "subheading": "New in",
-            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"><\/span><\/p>",
+            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
             "text": "Inspired by the jackets issued to US servicemen in the 1940s, Iron Heart's unique take on the ‘Tanker’ offers maximum versatility - with a reversible design effectively creating two jackets in one.",
             "button_1_text": "Shop now",
-            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--medium",
@@ -44,20 +44,20 @@
         "image_ypeLRg": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2J5A9925_3.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2J5A9925_2.jpg",
+            "image": "shopify://shop_images/2J5A9925_3.jpg",
+            "image_mobile": "shopify://shop_images/2J5A9925_2.jpg",
             "overlay_opacity": 20,
             "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "subheading": "New in",
-            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"><\/span><\/p>",
+            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
             "text": "Inspired by the jackets issued to US servicemen in the 1940s, Iron Heart's unique take on the ‘Tanker’ offers maximum versatility - with a reversible design effectively creating two jackets in one.",
             "button_1_text": "Shop now",
-            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--large",
@@ -107,7 +107,7 @@
         "products_per_row_on_desktop": 3,
         "columns_mobile": "1",
         "text_alignment": "text-center",
-        "title": "<p>NEW IN<span class=\"red_dot\"><\/span><\/p>",
+        "title": "<p>NEW IN<span class=\"red_dot\"></span></p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -134,7 +134,7 @@
           "type": "button",
           "settings": {
             "heading": "SEE ALL NEW IN",
-            "button_link": "shopify:\/\/collections\/new",
+            "button_link": "shopify://collections/new",
             "overlay_opacity": 100,
             "block_text_color": "#000000",
             "bg_color": "#ffffff",
@@ -180,12 +180,12 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-center",
-        "title": "<p>BESTSELLERS<span class=\"red_dot\"><\/span><\/p>",
+        "title": "<p>BESTSELLERS<span class=\"red_dot\"></span></p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 100,
-        "text": "<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the <strong>quality and timeless style.<\/strong> Perfect for enthusiasts who demand the best in denim and workwear.<\/p>",
+        "text": "<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the <strong>quality and timeless style.</strong> Perfect for enthusiasts who demand the best in denim and workwear.</p>",
         "text_size": 100,
         "button_text": "SEE ALL BESTSELLERS",
         "bg_color_full": "rgba(0,0,0,0)",
@@ -265,13 +265,13 @@
       "custom_css": [
         ".products-list__nav__button {text-align: center;}",
         ".products-list__nav__button > span {font-weight: 400; text-transform: none; line-height: 40px; font-size: 28px;}",
-        "@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) \/ 1.7) !important; }}",
-        ".products-list__item__aside {width: calc((100% - var(--gutter)) \/ 1.7) !important;}",
+        "@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) / 1.7) !important; }}",
+        ".products-list__item__aside {width: calc((100% - var(--gutter)) / 1.7) !important;}",
         ".products-list__price {font-weight: 800;}",
         ".products-list__nav {margin-bottom: 8px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/new_in_button.png",
+        "image": "shopify://shop_images/new_in_button.png",
         "title": "",
         "heading_size": 80,
         "button_color": "btn--black",
@@ -357,7 +357,7 @@
         ".coll_list_content {margin: 4px auto !important;}"
       ],
       "settings": {
-        "title": "CATEGORIES<span class=\"red_dot\"><\/span>",
+        "title": "CATEGORIES<span class=\"red_dot\"></span>",
         "heading_size": 100,
         "layout": "carousel",
         "alignment": "center",
@@ -382,7 +382,7 @@
         "text_block_wMDE3X": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
+            "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SUPER SLIM",
             "text": "",
             "button_text": "Learn More",
@@ -397,7 +397,7 @@
         "text_block_VPGrrF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
+            "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM",
             "text": "",
             "button_text": "Learn More",
@@ -412,7 +412,7 @@
         "text_block_F99bUB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
+            "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "REGULAR STRAIGHT",
             "text": "",
             "button_text": "Learn More",
@@ -427,7 +427,7 @@
         "text_block_AxPBmE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reg_straight_vorne.png",
+            "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM TAPERED",
             "text": "",
             "button_text": "Learn More",
@@ -442,7 +442,7 @@
         "text_block_9ACLGN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
+            "image": "shopify://shop_images/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
             "title": "RELAXED TAPERED",
             "text": "",
             "button_text": "Learn More",
@@ -557,7 +557,7 @@
         ".list-collections__item__title {font-size: 22px;}"
       ],
       "settings": {
-        "title": "DISCOVER OUR CUTS<span class=\"red_dot\"><\/span>",
+        "title": "DISCOVER OUR CUTS<span class=\"red_dot\"></span>",
         "heading_size": 100,
         "layout": "grid",
         "alignment": "center",
@@ -571,7 +571,7 @@
         "section_text_color": "#333333",
         "width": "wrapper--full-padded",
         "btn": "See All Cuts",
-        "btn_link": "shopify:\/\/collections\/all",
+        "btn_link": "shopify://collections/all",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -693,16 +693,16 @@
         "text_alignment": "left",
         "images_width": 750,
         "images_offset": 60,
-        "image_1": "shopify:\/\/shop_images\/DSC_7018.jpg",
+        "image_1": "shopify://shop_images/DSC_7018.jpg",
         "image_link_1": "",
-        "image_2": "shopify:\/\/shop_images\/DSC_6919.jpg",
+        "image_2": "shopify://shop_images/DSC_6919.jpg",
         "image_link_2": "",
         "hide_image_2": false,
-        "title": "<p>Craftsmanship and Quality<\/p>",
+        "title": "<p>Craftsmanship and Quality</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "description": "<p>At the heart of Iron Heart’s philosophy is an unwavering commitment to craftsmanship and quality. The brand's garments are crafted from the finest materials, with a focus on heavyweight, durable fabrics. This meticulous approach extends to every aspect of production, from selecting the type of cotton to the specific weave of the denim. The result is clothing that is not only robust and durable but also ages beautifully, developing unique character over time. This dedication to quality ensures that each piece stands the test of time, both in style and function.<\/p>",
+        "description": "<p>At the heart of Iron Heart’s philosophy is an unwavering commitment to craftsmanship and quality. The brand's garments are crafted from the finest materials, with a focus on heavyweight, durable fabrics. This meticulous approach extends to every aspect of production, from selecting the type of cotton to the specific weave of the denim. The result is clothing that is not only robust and durable but also ages beautifully, developing unique character over time. This dedication to quality ensures that each piece stands the test of time, both in style and function.</p>",
         "heading_size": 100,
         "button_text": "",
         "button_link": "",
@@ -727,16 +727,16 @@
         "text_alignment": "left",
         "images_width": 750,
         "images_offset": 60,
-        "image_1": "shopify:\/\/shop_images\/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
+        "image_1": "shopify://shop_images/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
         "image_link_1": "",
-        "image_2": "shopify:\/\/shop_images\/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
+        "image_2": "shopify://shop_images/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
         "image_link_2": "",
         "hide_image_2": false,
-        "title": "<p>The Evolution of Iron Heart<\/p>",
+        "title": "<p>The Evolution of Iron Heart</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "description": "<p>Iron Heart’s journey began with a vision to create the toughest and most durable denim in the world. Established by Shinichi Haraki in 2003, Iron Heart quickly became synonymous with heavyweight, meticulously crafted garments. Haraki’s deep experience in the garment industry, coupled with his passion for motorcycle culture, led to the creation of pieces that are not just stylish but incredibly resilient. From their iconic 21oz and 25oz denim to their ultra-heavy flannels, Iron Heart continues to push the boundaries of fabric engineering and garment construction, ensuring each piece is built to last.<\/p>",
+        "description": "<p>Iron Heart’s journey began with a vision to create the toughest and most durable denim in the world. Established by Shinichi Haraki in 2003, Iron Heart quickly became synonymous with heavyweight, meticulously crafted garments. Haraki’s deep experience in the garment industry, coupled with his passion for motorcycle culture, led to the creation of pieces that are not just stylish but incredibly resilient. From their iconic 21oz and 25oz denim to their ultra-heavy flannels, Iron Heart continues to push the boundaries of fabric engineering and garment construction, ensuring each piece is built to last.</p>",
         "heading_size": 100,
         "button_text": "",
         "button_link": "",
@@ -756,10 +756,10 @@
       "type": "two-image-with-text",
       "settings": {
         "extra_class": "",
-        "image1": "shopify:\/\/shop_images\/DSC_7016.jpg",
-        "image2": "shopify:\/\/shop_images\/DSC_7018.jpg",
+        "image1": "shopify://shop_images/DSC_7016.jpg",
+        "image2": "shopify://shop_images/DSC_7018.jpg",
         "layout": "left",
-        "heading": "Craftsmanship and Quality<span class=\"red_dot\"><\/span>",
+        "heading": "Craftsmanship and Quality<span class=\"red_dot\"></span>",
         "content": "At the heart of Iron Heart’s philosophy is an unwavering commitment to craftsmanship and quality. The brand's garments are crafted from the finest materials, with a focus on heavyweight, durable fabrics. This meticulous approach extends to every aspect of production, from selecting the type of cotton to the specific weave of the denim. The result is clothing that is not only robust and durable but also ages beautifully, developing unique character over time. This dedication to quality ensures that each piece stands the test of time, both in style and function."
       }
     },
@@ -767,10 +767,10 @@
       "type": "two-image-with-text",
       "settings": {
         "extra_class": "1",
-        "image1": "shopify:\/\/shop_images\/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
-        "image2": "shopify:\/\/shop_images\/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
+        "image1": "shopify://shop_images/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
+        "image2": "shopify://shop_images/IH-634-XHS-Indigo25ozSelvedgeDenimStraightCut05.jpg",
         "layout": "right",
-        "heading": "The Evolution of Iron Heart<span class=\"red_dot\"><\/span>",
+        "heading": "The Evolution of Iron Heart<span class=\"red_dot\"></span>",
         "content": "Iron Heart’s journey began with a vision to create the toughest and most durable denim in the world. Established by Shinichi Haraki in 2003, Iron Heart quickly became synonymous with heavyweight, meticulously crafted garments. Haraki’s deep experience in the garment industry, coupled with his passion for motorcycle culture, led to the creation of pieces that are not just stylish but incredibly resilient. From their iconic 21oz and 25oz denim to their ultra-heavy flannels, Iron Heart continues to push the boundaries of fabric engineering and garment construction, ensuring each piece is built to last."
       }
     },
@@ -814,12 +814,12 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-left",
-        "title": "<p>CO BRANDS<\/p>",
+        "title": "<p>CO BRANDS</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#f4f4f4",
         "heading_size": 100,
-        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text": "<p>Use this text to share information about your collection with your customers.</p>",
         "text_size": 100,
         "button_text": "Shop Now",
         "bg_color_full": "",
@@ -841,63 +841,63 @@
           "type": "brand",
           "settings": {
             "title": "Simmons Bilt",
-            "image": "shopify:\/\/shop_images\/2J5A9647.jpg",
-            "brand_image": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo_white_2.png",
-            "image_link": "shopify:\/\/collections\/simmons-bilt"
+            "image": "shopify://shop_images/2J5A9647.jpg",
+            "brand_image": "shopify://shop_images/SIMMONS_BILT_Logo_white_2.png",
+            "image_link": "shopify://collections/simmons-bilt"
           }
         },
         "brand_XHwndY": {
           "type": "brand",
           "settings": {
             "title": "Dehen 1920",
-            "image": "shopify:\/\/shop_images\/2J5A8225_806abf36-1021-416d-8069-f4203b6b7c53.jpg",
-            "brand_image": "shopify:\/\/shop_images\/19Dehen20banner_white_2.png",
-            "image_link": "shopify:\/\/collections\/dehen-1920"
+            "image": "shopify://shop_images/2J5A8225_806abf36-1021-416d-8069-f4203b6b7c53.jpg",
+            "brand_image": "shopify://shop_images/19Dehen20banner_white_2.png",
+            "image_link": "shopify://collections/dehen-1920"
           }
         },
         "brand_kgw6Ht": {
           "type": "brand",
           "settings": {
             "title": "Iron Heart",
-            "image": "shopify:\/\/shop_images\/2J5A6640.jpg",
-            "brand_image": "shopify:\/\/shop_images\/Iron-Heart_Logo-03_square_white.png",
-            "image_link": "shopify:\/\/collections\/iron-heart"
+            "image": "shopify://shop_images/2J5A6640.jpg",
+            "brand_image": "shopify://shop_images/Iron-Heart_Logo-03_square_white.png",
+            "image_link": "shopify://collections/iron-heart"
           }
         },
         "brand_qPkjdt": {
           "type": "brand",
           "settings": {
             "title": "Wesco",
-            "image": "shopify:\/\/shop_images\/2J5A47041_1.jpg",
-            "brand_image": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw_white_2.png",
-            "image_link": "shopify:\/\/collections\/wesco"
+            "image": "shopify://shop_images/2J5A47041_1.jpg",
+            "brand_image": "shopify://shop_images/WESCO_LOGO_Icon_bw_white_2.png",
+            "image_link": "shopify://collections/wesco"
           }
         },
         "brand_MMDRnj": {
           "type": "brand",
           "settings": {
             "title": "Peanuts & Co",
-            "image": "shopify:\/\/shop_images\/2J5A0039_H.jpg",
-            "brand_image": "shopify:\/\/shop_images\/peanuts_white_2.png",
-            "image_link": "shopify:\/\/collections\/peanuts-co"
+            "image": "shopify://shop_images/2J5A0039_H.jpg",
+            "brand_image": "shopify://shop_images/peanuts_white_2.png",
+            "image_link": "shopify://collections/peanuts-co"
           }
         },
         "brand_BLTfhy": {
           "type": "brand",
           "settings": {
             "title": "Porter",
-            "image": "shopify:\/\/shop_images\/30_b_50.jpg",
-            "brand_image": "shopify:\/\/shop_images\/porter_logo_white_3.png",
-            "image_link": "shopify:\/\/collections\/porter-yoshida-co"
+            "image": "shopify://shop_images/30_b_50.jpg",
+            "brand_image": "shopify://shop_images/porter_logo_white_3.png",
+            "image_link": "shopify://collections/porter-yoshida-co"
           }
         },
         "brand_xAVjYN": {
           "type": "brand",
           "settings": {
             "title": "GOOD ART HLYWD ",
-            "image": "shopify:\/\/shop_images\/2J5A0039_H.jpg",
-            "brand_image": "shopify:\/\/shop_images\/goodart_logo.jpg",
-            "image_link": "shopify:\/\/collections\/peanuts-co"
+            "image": "shopify://shop_images/2J5A0039_H.jpg",
+            "brand_image": "shopify://shop_images/goodart_logo.jpg",
+            "image_link": "shopify://collections/peanuts-co"
           }
         }
       },
@@ -911,12 +911,12 @@
         "brand_xAVjYN"
       ],
       "settings": {
-        "heading": "PARTNER BRANDS<span class=\"red_dot\"><\/span>",
+        "heading": "PARTNER BRANDS<span class=\"red_dot\"></span>",
         "content": "Iron Heart Germany carries a small number of select brands in addition to Iron Heart.",
         "bg_color": "#000000",
         "color": "#ffffff",
         "button": "ALL PRODUCTS",
-        "btn_link": "shopify:\/\/collections\/all",
+        "btn_link": "shopify://collections/all",
         "bg_btn_color": "#ffffff",
         "btn_color": "#000000"
       }
@@ -928,10 +928,10 @@
           "type": "locations",
           "settings": {
             "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
-            "working_time": "<p><strong>MONDAY <\/strong>11:00–18:00<br\/><strong>TUESDAY<\/strong> 11:00–18:00<br\/><strong>WEDNESDAY<\/strong> closed<br\/><strong>THURSDAY<\/strong> 11:00–18:00<br\/><strong>FRIDAY<\/strong> 11:00–18:00<br\/><strong>SATURDAY<\/strong> 11:00–16:00<br\/><strong>SUNDAY<\/strong> closed<\/p>",
-            "icon": "shopify:\/\/shop_images\/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
-            "icon_url": "https:\/\/maps.app.goo.gl\/2QN81w95PDjo5sSUA",
-            "image": "shopify:\/\/shop_images\/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
+            "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
+            "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
+            "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
+            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
           }
         }
       },
@@ -945,7 +945,7 @@
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
-        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"><\/span>",
+        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"></span>",
         "bg_color_secondary": true,
         "padding_top": 60,
         "padding_bottom": 60
@@ -958,8 +958,8 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/simmons-bilt",
-            "press_logo": "shopify:\/\/shop_images\/SIMMONS_BILT_Logo.jpg",
+            "link": "shopify://collections/simmons-bilt",
+            "press_logo": "shopify://shop_images/SIMMONS_BILT_Logo.jpg",
             "logo_width": 130
           }
         },
@@ -967,8 +967,8 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/dehen-1920",
-            "press_logo": "shopify:\/\/shop_images\/19Dehen20banner_a4f029ac-aa5f-4efa-b0a6-c395596cdf1a.png",
+            "link": "shopify://collections/dehen-1920",
+            "press_logo": "shopify://shop_images/19Dehen20banner_a4f029ac-aa5f-4efa-b0a6-c395596cdf1a.png",
             "logo_width": 130
           }
         },
@@ -976,8 +976,8 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/iron-heart",
-            "press_logo": "shopify:\/\/shop_images\/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
+            "link": "shopify://collections/iron-heart",
+            "press_logo": "shopify://shop_images/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
             "logo_width": 130
           }
         },
@@ -985,15 +985,15 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/wesco",
-            "press_logo": "shopify:\/\/shop_images\/WESCO_LOGO_Icon_bw.jpg",
+            "link": "shopify://collections/wesco",
+            "press_logo": "shopify://shop_images/WESCO_LOGO_Icon_bw.jpg",
             "logo_width": 130
           }
         },
         "press_LAyQKH": {
           "type": "press",
           "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
+            "text": "<p>Provide some information about what the company below thinks about your brand.</p>",
             "link": "",
             "logo_width": 70
           }
@@ -1002,8 +1002,8 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/peanuts-co",
-            "press_logo": "shopify:\/\/shop_images\/peanuts.png",
+            "link": "shopify://collections/peanuts-co",
+            "press_logo": "shopify://shop_images/peanuts.png",
             "logo_width": 90
           }
         },
@@ -1011,8 +1011,8 @@
           "type": "press",
           "settings": {
             "text": "",
-            "link": "shopify:\/\/collections\/porter-yoshida-co",
-            "press_logo": "shopify:\/\/shop_images\/porter.logo_-768x512.png",
+            "link": "shopify://collections/porter-yoshida-co",
+            "press_logo": "shopify://shop_images/porter.logo_-768x512.png",
             "logo_width": 110
           }
         }
@@ -1047,12 +1047,12 @@
       "settings": {
         "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "STAY IN THE LOOP<span class=\"red_dot\"><\/span>",
-        "text": "<p>Sign up for our newsletter to receive announcements of latest releases, previews of upcoming collections, and exclusive invitations to events. Don't miss out - join the crew!<\/p>",
+        "title": "STAY IN THE LOOP<span class=\"red_dot\"></span>",
+        "text": "<p>Sign up for our newsletter to receive announcements of latest releases, previews of upcoming collections, and exclusive invitations to events. Don't miss out - join the crew!</p>",
         "extra_fields": "name",
-        "button_text": "Join the insiders",
+        "button_text": "Join the crew",
         "bg_color": "",
-        "image": "shopify:\/\/shop_images\/Iron_News.jpg",
+        "image": "shopify://shop_images/Iron_News.jpg",
         "image_height": "three-fifty-height",
         "overlay_opacity": 10,
         "width": "wrapper--full-padded",
@@ -1066,8 +1066,8 @@
         "text_block_jr4JHK": {
           "type": "text_block",
           "settings": {
-            "title": "Premium Japanese Denim Craftsmanship<span class=\"red_dot\"><\/span>",
-            "text": "<p>Iron Heart is renowned for its exceptional Japanese denim craftsmanship. Founded by Shinichi Haraki in 2003, the brand specializes in heavyweight denim that is meticulously crafted to offer both durability and style. Each piece is designed with the motorcycle enthusiast in mind, ensuring rugged construction and timeless appeal. Experience the unparalleled quality of Iron Heart’s denim, known for its remarkable fading potential and robust build. Discover why Iron Heart is a favorite among denim aficionados worldwide.<\/p>",
+            "title": "Premium Japanese Denim Craftsmanship<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart is renowned for its exceptional Japanese denim craftsmanship. Founded by Shinichi Haraki in 2003, the brand specializes in heavyweight denim that is meticulously crafted to offer both durability and style. Each piece is designed with the motorcycle enthusiast in mind, ensuring rugged construction and timeless appeal. Experience the unparalleled quality of Iron Heart’s denim, known for its remarkable fading potential and robust build. Discover why Iron Heart is a favorite among denim aficionados worldwide.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1080,8 +1080,8 @@
         "text_block_q6EGYR": {
           "type": "text_block",
           "settings": {
-            "title": "Iconic Heavyweight Garments<span class=\"red_dot\"><\/span>",
-            "text": "<p>Iron Heart’s collection is a testament to the brand’s dedication to heavyweight fabrics and superior craftsmanship. From their 21oz and 25oz denim jeans to their Ultra Heavy Flannel (UHF) shirts, Iron Heart offers garments that are built to withstand the test of time. These iconic pieces are not only functional but also exude a timeless style that appeals to a wide range of customers, from bikers to fashion enthusiasts. Explore the iconic products that define Iron Heart’s legacy in premium workwear.<\/p>",
+            "title": "Iconic Heavyweight Garments<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart’s collection is a testament to the brand’s dedication to heavyweight fabrics and superior craftsmanship. From their 21oz and 25oz denim jeans to their Ultra Heavy Flannel (UHF) shirts, Iron Heart offers garments that are built to withstand the test of time. These iconic pieces are not only functional but also exude a timeless style that appeals to a wide range of customers, from bikers to fashion enthusiasts. Explore the iconic products that define Iron Heart’s legacy in premium workwear.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1121,8 +1121,8 @@
         "text_block_MWm98Q": {
           "type": "text_block",
           "settings": {
-            "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\"><\/span>",
-            "text": "<p>Iron Heart thrives on its strong community of dedicated customers and enthusiasts. The Iron Heart Forum is a unique platform where members can share their experiences, seek advice, and discuss everything from denim care to motorcycle maintenance. Managed by Giles Padmore, the forum embodies Iron Heart’s commitment to customer engagement and support. Join a vibrant community that shares your passion for high-quality, durable clothing and be part of the Iron Heart family.<\/p>",
+            "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart thrives on its strong community of dedicated customers and enthusiasts. The Iron Heart Forum is a unique platform where members can share their experiences, seek advice, and discuss everything from denim care to motorcycle maintenance. Managed by Giles Padmore, the forum embodies Iron Heart’s commitment to customer engagement and support. Join a vibrant community that shares your passion for high-quality, durable clothing and be part of the Iron Heart family.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1135,8 +1135,8 @@
         "text_block_7UgqDc": {
           "type": "text_block",
           "settings": {
-            "title": "Sustainable and Ethical Production<span class=\"red_dot\"><\/span>",
-            "text": "<p>At Iron Heart, sustainability and ethical production are at the core of our manufacturing process. We collaborate with small, family-run mills in Japan, ensuring that our production practices are environmentally responsible and ethically sound. By focusing on creating durable, long-lasting garments, we minimize our environmental impact while supporting sustainable fashion. Explore our collection and experience clothing that is not only built to last but also crafted with a conscience.<\/p>",
+            "title": "Sustainable and Ethical Production<span class=\"red_dot\"></span>",
+            "text": "<p>At Iron Heart, sustainability and ethical production are at the core of our manufacturing process. We collaborate with small, family-run mills in Japan, ensuring that our production practices are environmentally responsible and ethically sound. By focusing on creating durable, long-lasting garments, we minimize our environmental impact while supporting sustainable fashion. Explore our collection and experience clothing that is not only built to last but also crafted with a conscience.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1181,7 +1181,7 @@
         "products_layout": "grid",
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
-        "text": "<p>Work Well With<\/p>"
+        "text": "<p>Work Well With</p>"
       }
     }
   },
