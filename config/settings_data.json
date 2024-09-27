@@ -22,7 +22,7 @@
     "type_nav_font": "body",
     "nav_font_weight": "bold",
     "nav_size": 95,
-    "nav_top_level_links_size": 100,
+    "nav_top_level_links_size": 110,
     "nav_caps_toplevel": true,
     "nav_caps_megamenu": true,
     "nav_caps_letter_spacing": true,
