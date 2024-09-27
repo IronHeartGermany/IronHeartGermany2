@@ -22,7 +22,7 @@
     "type_nav_font": "body",
     "nav_font_weight": "bold",
     "nav_size": 95,
-    "nav_top_level_links_size": 125,
+    "nav_top_level_links_size": 100,
     "nav_caps_toplevel": true,
     "nav_caps_megamenu": true,
     "nav_caps_letter_spacing": true,
@@ -108,19 +108,19 @@
     "suggestions_results_limit": 5,
     "show_browse_categories_menu": false,
     "suggestions_terms_limit": 10,
-    "social_instagram_link": "https:\/\/www.instagram.com\/ironheartgermany\/",
+    "social_instagram_link": "https://www.instagram.com/ironheartgermany/",
     "social_tiktok_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/ironheartgermany\/",
+    "social_facebook_link": "https://www.facebook.com/ironheartgermany/",
     "social_spotify": "",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@ironheartgermany21",
-    "loading_image": "shopify:\/\/shop_images\/IH-fb-logo-red.jpg",
+    "social_youtube_link": "https://www.youtube.com/@ironheartgermany21",
+    "loading_image": "shopify://shop_images/IH-fb-logo-red.jpg",
     "loading_image_width": 150,
     "loading_appearance": "always",
     "currency_code_enable": false,
-    "favicon": "shopify:\/\/shop_images\/IH_Logo-01_Bell-Hamburg-black_4x_b8fec45a-1b66-4cf0-9f53-944a2f6a4a24.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ih_germany_bell_text.png",
+    "favicon": "shopify://shop_images/IH_Logo-01_Bell-Hamburg-black_4x_b8fec45a-1b66-4cf0-9f53-944a2f6a4a24.png",
+    "checkout_logo_image": "shopify://shop_images/ih_germany_bell_text.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_image": "",
@@ -138,7 +138,7 @@
     ],
     "blocks": {
       "15255627403292782234": {
-        "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-embed-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
+        "type": "shopify://apps/easy-tabs-product-tabs/blocks/easytabs-embed-product-widget/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
         "disabled": true,
         "settings": {
           "placement_selector": "",
@@ -146,7 +146,7 @@
         }
       },
       "2102808784413787648": {
-        "type": "shopify:\/\/apps\/kb-back-in-stock\/blocks\/main-app-embed\/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
+        "type": "shopify://apps/kb-back-in-stock/blocks/main-app-embed/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
         "disabled": false,
         "settings": {
         }
@@ -504,8 +504,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "\/*PRODUCT PAGE REDESIGN*\/ \/*.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
-      "*\/.complementary-products__title {text-transform: uppercase;}",
+      "/*PRODUCT PAGE REDESIGN*/ /*.product-upsell__subtitle,.gw-button-widget-container {display: none;}",
+      "*/.complementary-products__title {text-transform: uppercase;}",
       ".product__accordion {border-bottom: 1px solid grey; padding: 8px 0;}",
       ".product__complementary {border: 1px solid grey; padding: 0;}",
       ".complementary-products__title {padding: 8px 12px 2px; margin: 0;}",
@@ -516,7 +516,7 @@
       ".gw-button-widget {background: transparent !important; color: black !important; text-transform: none; text-decoration: underline; width: 350px !important; padding: 0; text-align: left;}",
       ".product-grid-item__price {font-family: \"Roboto\"; font-weight: 800;}",
       "h2.section__heading {font-size: 28px !important;}",
-      ".shopify-payment-button__more-options,.gw-button-widget {font-size: 14px !important; margin-top:0!important;}"
+      ".shopify-payment-button__more-options,.gw-button-widget {font-size: 14px !important; margin-top: 0 !important;}"
     ]
   }
 }
