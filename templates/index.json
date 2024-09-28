@@ -178,7 +178,7 @@
         "products_layout": "grid",
         "number_of_products": 4,
         "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "text_alignment": "text-center",
         "title": "<p>BESTSELLERS<span class=\"red_dot\"></span></p>",
         "heading_highlight_type": "circle",
