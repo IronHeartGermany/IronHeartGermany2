@@ -459,8 +459,9 @@
           </span>
         </span>
       {%- endif -%}
-      {% if section_type != 'quickview' %}
-        <span data-price-off class="x111 product__price--off hidden">
+      {%- comment -%} P. Ryan - 28.09.24 - Only show saving badge on product page if option is selected {%-  endcomment -%}
+      {% if section_type != 'quickview' and settings.show_saving_badge %}
+        <span data-price-off class="product__price--off hidden">
           <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
           <em>•</em>
           {{ 'products.product.save' | t }}
@@ -479,7 +480,7 @@
   </div>
 
   {% if section_type == 'quickview' %}
-    <span data-price-off class="x222 product__price--off hidden">
+    <span data-price-off class="product__price--off hidden">
       <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
       <em>•</em>
       {{ 'products.product.save' | t }}
