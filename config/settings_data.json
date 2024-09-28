@@ -96,6 +96,7 @@
     "collection_badge_collection": "",
     "collection_badge_text": "",
     "show_saving_badge": false,
+    "saving_bg_color": "#ef1e1c",
     "enable_color_swatches_collection": true,
     "enable_color_swatches_product": true,
     "color_swatches_product_style": "circle",
