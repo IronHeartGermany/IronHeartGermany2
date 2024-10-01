@@ -13846,7 +13846,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 .product-grid-item__title.font-heading {
     font-weight: normal;
     /*font-size: 19px;*/
-    line-height: 12px;
+    line-height: 20px;
 }
 .product-grid-item__price .product__unit-price {
   line-height: inherit;
