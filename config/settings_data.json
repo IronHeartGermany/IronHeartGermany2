@@ -520,7 +520,7 @@
       "/*.product-grid-item__price {font-family: \"Roboto\"; font-weight: 800;}",
       "*/h2.section__heading {font-size: 28px !important;}",
       ".shopify-payment-button__more-options,.gw-button-widget {font-size: 14px !important; margin-top: 0 !important;}",
-      ".navlink {font-weight:700}"
+      ".navlink {font-weight: 700!important;}"
     ]
   }
 }
