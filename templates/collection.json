@@ -153,6 +153,9 @@
       "block_order": [
         "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
       ],
+      "custom_css": [
+        ".collection__filter__title > span {font-weight:700;}"
+      ],
       "settings": {
         "show_breadcrumbs": true,
         "enable_sorting": true,
