@@ -95,8 +95,8 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}",
-        ".section__text {max-width: 660px !important;}",
+        "/*.section__link {font-family: \"Roboto\";}",
+        "*/.section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}"
       ],
       "settings": {
@@ -168,8 +168,8 @@
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}",
-        ".section__text {max-width: 660px !important;}",
+        "/*.section__link {font-family: \"Roboto\";}",
+        "*/.section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}"
       ],
       "settings": {
@@ -350,8 +350,8 @@
         "collection_wHz6Xr"
       ],
       "custom_css": [
-        ".section__header {font-family: \"Roboto\";}",
-        ".section__header {margin-bottom: 52px;}",
+        "/*.section__header {font-family: \"Roboto\";}",
+        "*/.section__header {margin-bottom: 52px;}",
         ".list-collections__item__title {font-size: 22px;}",
         ".coll_list_content {margin: 4px auto !important;}"
       ],
@@ -552,8 +552,8 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".section__link {font-family: \"Roboto\";}",
-        ".list-collections__item__title {font-size: 22px;}"
+        "/*.section__link {font-family: \"Roboto\";}",
+        "*/.list-collections__item__title {font-size: 22px;}"
       ],
       "settings": {
         "title": "DISCOVER OUR CUTS<span class=\"red_dot\"></span>",
