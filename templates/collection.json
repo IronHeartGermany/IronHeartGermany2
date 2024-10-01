@@ -18,7 +18,7 @@
         "text_color": "text-light",
         "overlay_opacity": 50,
         "bg_color_secondary": false,
-        "banner_image": "shopify:\/\/shop_images\/DSC_9994_webp.jpg",
+        "banner_image": "shopify://shop_images/DSC_9994_webp.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -72,7 +72,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "text": "<p>{{ collection.title }}<\/p>",
+            "text": "<p>{{ collection.title }}</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -83,7 +83,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>{{ collection.title }}<\/p>",
+            "text": "<p>{{ collection.title }}</p>",
             "size": 100
           }
         }
@@ -130,7 +130,7 @@
             "collection": "",
             "position": 5,
             "width": "half",
-            "title": "<p>Promotion title<\/p>",
+            "title": "<p>Promotion title</p>",
             "heading_highlight_type": "circle",
             "highlight_color": "#fbcaff",
             "highlight_text_color": "#ffffff",
@@ -157,7 +157,7 @@
         "show_breadcrumbs": true,
         "enable_sorting": true,
         "enable_filters": true,
-        "filters_layout": "closed",
+        "filters_layout": "open",
         "show_more": true,
         "filter_mode": "default",
         "bg_color": "",
