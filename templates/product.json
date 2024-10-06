@@ -223,7 +223,7 @@
       ],
       "custom_css": [
         "a {line-height: 12px;}",
-        ".product__price, .breadcrumbs {font-weight: 700; text-transform: uppercase; font-size: 16px;}"
+        ".label-typography, .product__price,.breadcrumbs {font-weight: 700; text-transform: uppercase; font-size: 16px;}"
       ],
       "settings": {
         "product_sticky_enable": true,
