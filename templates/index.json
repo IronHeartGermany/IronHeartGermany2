@@ -40,40 +40,10 @@
             "video_text": "",
             "video_link": ""
           }
-        },
-        "image_ypeLRg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2J5A9925_3.jpg",
-            "image_mobile": "shopify://shop_images/2J5A9925_2.jpg",
-            "overlay_opacity": 20,
-            "text_width": "narrow",
-            "text_position": "left",
-            "text_color": "text-light",
-            "subheading": "New in",
-            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "Inspired by the jackets issued to US servicemen in the 1940s, Iron Heart's unique take on the ‘Tanker’ offers maximum versatility - with a reversible design effectively creating two jackets in one.",
-            "button_1_text": "Shop now",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
         }
       },
       "block_order": [
-        "image_e8ntQh",
-        "image_ypeLRg"
+        "image_e8ntQh"
       ],
       "custom_css": [
         "h1 {/*font-family: \"Source Sans Pro\" !important;*/ text-transform: none; font-size: 52px; line-height: 56px;}"
