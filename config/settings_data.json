@@ -520,7 +520,8 @@
       "*/h2.section__heading {font-size: 28px !important;}",
       ".shopify-payment-button__more-options,.gw-button-widget {background: transparent !important; color: #8d8d8d !important; text-transform: none; text-decoration: none !important; padding: 0; text-align: center; letter-spacing: normal; font-size: 12px !important; margin-top: 6px !important; font-weight: 600; line-height: 12px;}",
       ".navlink {font-weight: 700 !important;}",
-      ".btn,.button-typography {font-weight: 600 !important;}"
+      ".btn,.button-typography {font-weight: 600 !important;}",
+      "{top: 0px;position: relative;}"
     ]
   }
 }
