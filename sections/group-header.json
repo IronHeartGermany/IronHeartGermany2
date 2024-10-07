@@ -17,7 +17,7 @@
         "announcement-0": {
           "type": "text",
           "settings": {
-            "text": "<p>FREE SHIPPING Outside EU for Purchases Over €200<\/p>",
+            "text": "<p>FREE SHIPPING Outside EU for Purchases Over €200</p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -37,7 +37,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Worldwide Shipping Delivered in 2-4 Days<\/p>",
+            "text": "<p>Worldwide Shipping Delivered in 2-4 Days</p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -57,7 +57,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Free Returns for Customers in Germany<\/p>",
+            "text": "<p>Free Returns for Customers in Germany</p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -83,14 +83,14 @@
         "layout": "slider",
         "show_top_border": false,
         "show_bottom_border": true,
-        "padding": 10,
+        "padding": 5,
         "slider_speed": 7,
         "show_arrows": false,
         "marquee_speed": 100,
         "direction": "ticker-ltr",
         "text_caps": false,
         "type_style": "font-heading",
-        "text_size": 150,
+        "text_size": 115,
         "letter_spacing": 0,
         "message_spacing": 25,
         "bg_color": "#000000",
@@ -108,7 +108,7 @@
         "sticky_header": true,
         "header_border": true,
         "link_hover_effect": "dot",
-        "logo_not_home": "shopify:\/\/shop_images\/ih_germany_bell_text.png",
+        "logo_not_home": "shopify://shop_images/ih_germany_bell_text.png",
         "logo_max_width": 310,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
@@ -119,7 +119,7 @@
         "highlight_item": "",
         "highlight_item_color": "#d02e2e",
         "header_transparent": false,
-        "logo": "shopify:\/\/shop_images\/ih_germany_bell_text.png",
+        "logo": "shopify://shop_images/ih_germany_bell_text.png",
         "header_text_color": "white",
         "header_gradient": true
       }
