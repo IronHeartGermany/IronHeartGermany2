@@ -324,6 +324,7 @@
         },
         "column_JyxxWq": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/iron-heart-shop-nov-2021-25_883448ae-4036-4c3f-835c-a68badfe3e60.jpg",
             "overlay_opacity": 10,
@@ -336,6 +337,7 @@
         },
         "column_TGPmXh": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/iron-heart-shop-nov-2021-24.jpg",
             "overlay_opacity": 10,
@@ -353,7 +355,7 @@
         "column_TGPmXh"
       ],
       "settings": {
-        "appearance": "columns",
+        "appearance": "row",
         "content_alignment": "center",
         "text_alignment": "text-center",
         "section_height": "six-fifty-height",
