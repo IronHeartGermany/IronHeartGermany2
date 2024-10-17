@@ -307,6 +307,41 @@
         "padding_bottom": 60
       }
     },
+    "section_text_kRRwMJ": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_3iCYB3": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Shirts Built to Last</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_4mH9Jt": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Choose Your Fit: Western Cut or Work Cut</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3iCYB3",
+        "heading_4mH9Jt"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_banner_text_columns_mthxtM": {
       "type": "section-banner-text-columns",
       "blocks": {
@@ -315,9 +350,9 @@
           "settings": {
             "image": "shopify://shop_images/35A6738.11.jpg",
             "overlay_opacity": 10,
-            "subheading": "The comparison",
-            "heading": "Western Cut vs. Work Cut",
-            "text": "<p>Slim and stylish or roomy and robust—we've got you covered. Crafted for comfort, built to last, designed to impress. Two cuts, one Iron Heart quality. Your style, your choice.</p>",
+            "subheading": "",
+            "heading": "Fabric That Means Business",
+            "text": "<p>Premium denims and wools. Variety of weights to suit your style. Unique dyeing methods for character.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -327,21 +362,9 @@
           "settings": {
             "image": "shopify://shop_images/iron-heart-shop-nov-2021-25_883448ae-4036-4c3f-835c-a68badfe3e60.jpg",
             "overlay_opacity": 10,
-            "subheading": "Streamlined Style",
-            "heading": "Western Cut",
-            "text": "<p>Slimmer silhouette with a longer cut. Western-style flap pockets with snap fastenings. Distinctive front and back yokes. Iron Heart logo'd Permex snaps, button at the collar.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "column_TGPmXh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/iron-heart-shop-nov-2021-24.jpg",
-            "overlay_opacity": 10,
-            "subheading": "Engineered for Comfort",
-            "heading": "Work Cut",
-            "text": "<p>Roomier fit, slightly shorter length. Classic patch pockets with button fastenings and pen holder. Straight back yoke for ease of movement. Cat's eye buttons, side seam gussets with chainstitch run-off.</p>",
+            "subheading": "",
+            "heading": "Crafted with Care",
+            "text": "<p>Up to triple needle stitching for unmatched durability. Diverse patterns to express your individuality.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -349,11 +372,10 @@
       },
       "block_order": [
         "column_gFLn3F",
-        "column_JyxxWq",
-        "column_TGPmXh"
+        "column_JyxxWq"
       ],
       "settings": {
-        "appearance": "columns",
+        "appearance": "row",
         "content_alignment": "center",
         "text_alignment": "text-center",
         "section_height": "six-fifty-height",
@@ -523,6 +545,7 @@
     "section_custom_html_UbxdkT",
     "pdp_work_well_with_zrfxqJ",
     "section_collection_jGnmtK",
+    "section_text_kRRwMJ",
     "section_banner_text_columns_mthxtM",
     "section_image_with_text_cdrCYU",
     "section_image_with_text_ptKtm4",
