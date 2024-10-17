@@ -333,12 +333,13 @@
         "subheading_3iCYB3",
         "heading_4mH9Jt"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": true,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
-        "padding_top": 60,
+        "padding_top": 40,
         "padding_bottom": 60
       }
     },
@@ -374,6 +375,7 @@
         "column_gFLn3F",
         "column_JyxxWq"
       ],
+      "disabled": true,
       "settings": {
         "appearance": "row",
         "content_alignment": "center",
@@ -394,15 +396,14 @@
     },
     "section_image_with_text_cdrCYU": {
       "type": "section-image-with-text",
-      "disabled": true,
       "settings": {
         "section_height": "six-fifty-height",
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
         "image": "shopify://shop_images/DSC00345.jpg",
-        "subheading": "SUBTITLE",
-        "title": "<p>Content about the product category</p>",
+        "subheading": "Shirts Built to Last",
+        "title": "<p>Western Cut, Work Cut, CPO</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
