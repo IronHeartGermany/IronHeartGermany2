@@ -354,7 +354,7 @@
       ],
       "settings": {
         "appearance": "columns",
-        "content_alignment": "center",
+        "content_alignment": "top",
         "text_alignment": "text-center",
         "section_height": "six-fifty-height",
         "enable_mobile_height": false,
