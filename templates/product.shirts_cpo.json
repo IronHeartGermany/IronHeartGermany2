@@ -324,8 +324,8 @@
             "text": "<p>Choose Your Fit: Western Cut or Work Cut</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         }
       },
@@ -402,15 +402,15 @@
         "image_location": "left",
         "image_width": "standard",
         "image": "shopify://shop_images/DSC00345.jpg",
-        "subheading": "Shirts Built to Last",
-        "title": "<p>Crafted Excellence</p>",
+        "subheading": "Iron Heart CPO Shirts",
+        "title": "<p>Military Heritage, Modern Comfort</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>At Iron Heart, we craft our shirts with premium denims and wools, offering a variety of weights to suit your personal style. Our unique dyeing methods add character to each piece, ensuring no two shirts are exactly alike. We take pride in our meticulous construction, using up to triple needle stitching for unmatched durability. With diverse patterns available, our shirts allow you to express your individuality while enjoying superior quality. Iron Heart shirts truly embody where style meets substance, delivering both aesthetics and longevity in every garment.</p>",
+        "content": "<p>Our CPO shirts blend military functionality with Iron Heart's signature touch. We've taken the classic military overshirt and elevated it to new heights.</p><p>What sets our CPOs apart? We've kept the rugged durability of the original but added thoughtful upgrades. Handwarmer pockets offer extra comfort, while secure snap closures ensure everything stays in place.</p><p>The fit? More tailored than the original, with a nod to western styling.</p><p>Don't be fooled by their good looks - these shirts are built to last. They're your armor against the elements, just like their military ancestors. Choose from a variety of fabrics, lined or unlined, to suit your needs.</p><p>Tough enough for the battlefield, styled for the street.</p>",
         "text_alignment": "left",
-        "button_text": "Discover all Shirts",
+        "button_text": "",
         "button_link": "shopify://collections/shirts",
         "button_color": "btn--black",
         "button_style": "btn--solid",
