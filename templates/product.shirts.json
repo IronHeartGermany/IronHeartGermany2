@@ -315,8 +315,8 @@
           "settings": {
             "image": "shopify://shop_images/35A6738.11.jpg",
             "overlay_opacity": 10,
-            "subheading": "#1",
-            "heading": "Western Cut vs. Work Cut",
+            "subheading": "The comparison",
+            "heading": "Western vs. Work Cut",
             "text": "<p>Two cuts, one Iron Heart quality. Your style, your choice.</p>",
             "button_text": "",
             "button_link": ""
@@ -327,8 +327,8 @@
           "settings": {
             "image": "shopify://shop_images/iron-heart-shop-nov-2021-25_883448ae-4036-4c3f-835c-a68badfe3e60.jpg",
             "overlay_opacity": 10,
-            "subheading": "#2",
-            "heading": "Western Cut: Streamlined Style",
+            "subheading": "Streamlined Style",
+            "heading": "Western Cut",
             "text": "<p>Slimmer silhouette with a longer cut<br/>Western-style flap pockets with snap fastenings<br/>Distinctive front and back yokes<br/>Iron Heart logo'd Permex snaps, button at the collar</p>",
             "button_text": "",
             "button_link": ""
@@ -339,9 +339,9 @@
           "settings": {
             "image": "shopify://shop_images/iron-heart-shop-nov-2021-24.jpg",
             "overlay_opacity": 10,
-            "subheading": "#3",
-            "heading": "Warm & light-weight",
-            "text": "<p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>",
+            "subheading": "Engineered for Comfort",
+            "heading": "Work Cut",
+            "text": "<p>Roomier fit, slightly shorter length<br/>Classic patch pockets with button fastenings and pen holder<br/>Straight back yoke for ease of movement<br/>Cat's eye buttons, side seam gussets with chainstitch run-off</p>",
             "button_text": "",
             "button_link": ""
           }
