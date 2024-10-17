@@ -316,7 +316,7 @@
             "image": "shopify://shop_images/35A6738.11.jpg",
             "overlay_opacity": 10,
             "subheading": "The comparison",
-            "heading": "Western vs. Work Cut",
+            "heading": "Western Cut vs. Work Cut",
             "text": "<p>Two cuts, one Iron Heart quality. Your style, your choice.</p>",
             "button_text": "",
             "button_link": ""
@@ -354,7 +354,7 @@
       ],
       "settings": {
         "appearance": "columns",
-        "content_alignment": "top",
+        "content_alignment": "center",
         "text_alignment": "text-center",
         "section_height": "six-fifty-height",
         "enable_mobile_height": false,
