@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "section_slideshow_dTDLLQ": {
@@ -50,7 +50,7 @@
         ".subheading-text {font-size: 12px;}"
       ],
       "settings": {
-        "slide_height": "two-thirds-height",
+        "slide_height": "full-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
