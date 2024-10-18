@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -102,7 +102,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".navlink.navlink--grandchild {font-weight: 300;}"
+        ".navlink.navlink--grandchild {font-weight: 300;}",
+        ".menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}"
       ],
       "settings": {
         "sticky_header": true,
