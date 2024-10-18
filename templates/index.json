@@ -48,7 +48,7 @@
       "custom_css": [
         "h1 {/*font-family: \"Source Sans Pro\" !important;*/ text-transform: none; font-size: 52px; line-height: 56px;}",
         ".subheading-text {font-size: 12px;}",
-        ".red_dot:after {top:2px; position:relative;}"
+        ".red_dot:after {top: 2px; position: relative;}"
       ],
       "settings": {
         "slide_height": "full-height",
@@ -438,7 +438,7 @@
         ".h6 {font-size: 22px;}"
       ],
       "settings": {
-        "title": "OUR CUTS",
+        "title": "OUR CUTS<span class=\"red_dot\"></span>",
         "align_text": "text-center",
         "columns": 5,
         "show_images": true,
