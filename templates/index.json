@@ -137,45 +137,6 @@
         "padding_bottom": 22
       }
     },
-    "section_list_butttons_jaEVdg": {
-      "type": "section-list-butttons",
-      "blocks": {
-        "button_LBaYGX": {
-          "type": "button",
-          "settings": {
-            "heading": "SEE ALL NEW IN",
-            "button_link": "shopify://collections/new",
-            "overlay_opacity": 100,
-            "block_text_color": "#000000",
-            "bg_color": "#ffffff",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_LBaYGX"
-      ],
-      "custom_css": [
-        "h3 {font-size: calc(1rem * var(--adjust-button));}"
-      ],
-      "settings": {
-        "layout": "grid",
-        "alignment": "center",
-        "collections_per_row": 6,
-        "title": "",
-        "heading_size": 100,
-        "type_style": "button-typography",
-        "button_style": "square",
-        "text_size": 135,
-        "letter_spacing": 75,
-        "section_bg_color": "#000000",
-        "section_text_color": "",
-        "layout_mobile": "grid",
-        "width": "wrapper--full-padded",
-        "padding_top": 22,
-        "padding_bottom": 22
-      }
-    },
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
@@ -494,6 +455,45 @@
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "section_list_butttons_jaEVdg": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_LBaYGX": {
+          "type": "button",
+          "settings": {
+            "heading": "Discover our cuts",
+            "button_link": "shopify://pages/our-cuts",
+            "overlay_opacity": 100,
+            "block_text_color": "#000000",
+            "bg_color": "#ffffff",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_LBaYGX"
+      ],
+      "custom_css": [
+        "h3 {font-size: calc(1rem * var(--adjust-button));}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 5,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "square",
+        "text_size": 135,
+        "letter_spacing": 75,
+        "section_bg_color": "#000000",
+        "section_text_color": "",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 22,
+        "padding_bottom": 22
       }
     },
     "section_list_collection_bintHB": {
@@ -1200,11 +1200,11 @@
     "section_slideshow_dTDLLQ",
     "section_collection_wbgefN",
     "section_list_butttons_mhe6mE",
-    "section_list_butttons_jaEVdg",
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
     "section_columns_fEJfXc",
+    "section_list_butttons_jaEVdg",
     "section_list_collection_bintHB",
     "section_image_accordions_KizmdH",
     "section_overlapping_images_NMxq7C",
