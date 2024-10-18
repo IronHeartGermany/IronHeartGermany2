@@ -174,46 +174,10 @@
     "section_products_list_th6frq": {
       "type": "section-products-list",
       "blocks": {
-        "product_PhdAXF": {
+        "product_N8bjjT": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihsw-49-gry-14oz-ultra-heavyweight-loopwheel-cotton-hoodie-grey",
-            "title": "",
-            "product_description": "",
-            "button_text": "Shop Now",
-            "show_second_image": true,
-            "show_circle": true,
-            "hide_on_mobile": false,
-            "circle_text_color": "#000000",
-            "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "",
-            "circle_word_spacing": 3,
-            "circle_size": 150
-          }
-        },
-        "product_8fcnkt": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "ih-717-kha-9oz-mercerised-selvedge-cotton-chinos-khaki",
-            "title": "",
-            "product_description": "",
-            "button_text": "View Product",
-            "show_second_image": true,
-            "show_circle": true,
-            "hide_on_mobile": false,
-            "circle_text_color": "#000000",
-            "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "",
-            "circle_word_spacing": 3,
-            "circle_size": 150
-          }
-        },
-        "product_zffVDE": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "iron-heart-ihb-11-blk-heavy-duty-tochigi-leather-belt-black",
+            "product": "iron-heart-ihsh-401-nav-ultra-heavy-flannel-chalk-stripe-western-shirt-navy",
             "title": "",
             "product_description": "",
             "button_text": "View Product",
@@ -229,9 +193,7 @@
         }
       },
       "block_order": [
-        "product_PhdAXF",
-        "product_8fcnkt",
-        "product_zffVDE"
+        "product_N8bjjT"
       ],
       "custom_css": [
         ".products-list__nav__button {text-align: center;}",
