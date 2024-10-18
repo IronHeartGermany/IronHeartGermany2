@@ -973,8 +973,8 @@
         "reverse_blocks": false,
         "width": "wrapper--full",
         "add_gutter": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_press_Lxjw4L": {
@@ -1229,9 +1229,9 @@
     "section_blog_gfqWja",
     "section_collection_X8PtKB",
     "section_brand_8WJbpW",
-    "section_locations_r4cFBa",
     "section_custom_content_GQ6xTT",
     "section_press_Lxjw4L",
+    "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
     "section_columns_hNXYWV",
