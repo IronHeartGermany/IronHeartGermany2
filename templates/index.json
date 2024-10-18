@@ -370,7 +370,7 @@
           "settings": {
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM",
-            "text": "",
+            "text": "<p>666</p>",
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -385,7 +385,7 @@
           "settings": {
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "REGULAR STRAIGHT",
-            "text": "",
+            "text": "<p>634</p>",
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -400,7 +400,7 @@
           "settings": {
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM TAPERED",
-            "text": "",
+            "text": "<p>777</p>",
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -415,7 +415,7 @@
           "settings": {
             "image": "shopify://shop_images/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
             "title": "RELAXED TAPERED",
-            "text": "",
+            "text": "<p>888</p>",
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
