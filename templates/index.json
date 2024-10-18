@@ -137,6 +137,45 @@
         "padding_bottom": 22
       }
     },
+    "section_list_butttons_jaEVdg": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_LBaYGX": {
+          "type": "button",
+          "settings": {
+            "heading": "SEE ALL NEW IN",
+            "button_link": "shopify://collections/new",
+            "overlay_opacity": 100,
+            "block_text_color": "#000000",
+            "bg_color": "#ffffff",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_LBaYGX"
+      ],
+      "custom_css": [
+        "h3 {font-size: calc(1rem * var(--adjust-button));}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 6,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "square",
+        "text_size": 135,
+        "letter_spacing": 75,
+        "section_bg_color": "#000000",
+        "section_text_color": "",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 22,
+        "padding_bottom": 22
+      }
+    },
     "section_collection_kcBtFY": {
       "type": "section-collection",
       "custom_css": [
@@ -356,8 +395,8 @@
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SUPER SLIM",
             "text": "<p>555</p>",
-            "button_text": "",
-            "button_link": "shopify://collections/all",
+            "button_text": "Shop now",
+            "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -371,7 +410,7 @@
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM",
             "text": "<p>666</p>",
-            "button_text": "Learn More",
+            "button_text": "Shop now",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -386,7 +425,7 @@
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "REGULAR STRAIGHT",
             "text": "<p>634</p>",
-            "button_text": "Learn More",
+            "button_text": "Shop now",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -401,7 +440,7 @@
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SLIM TAPERED",
             "text": "<p>777</p>",
-            "button_text": "Learn More",
+            "button_text": "Shop now",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -416,7 +455,7 @@
             "image": "shopify://shop_images/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
             "title": "RELAXED TAPERED",
             "text": "<p>888</p>",
-            "button_text": "Learn More",
+            "button_text": "Shop now",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -1161,6 +1200,7 @@
     "section_slideshow_dTDLLQ",
     "section_collection_wbgefN",
     "section_list_butttons_mhe6mE",
+    "section_list_butttons_jaEVdg",
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
     "section_list_collection_h3CDQM",
