@@ -355,7 +355,7 @@
           "settings": {
             "image": "shopify://shop_images/reg_straight_vorne.png",
             "title": "SUPER SLIM",
-            "text": "",
+            "text": "<p>555</p>",
             "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
@@ -438,7 +438,7 @@
         ".h6 {font-size: 22px;}"
       ],
       "settings": {
-        "title": "OUR CUTS<span class=\"red_dot\"></span>",
+        "title": "OUR CUTS",
         "align_text": "text-center",
         "columns": 5,
         "show_images": true,
