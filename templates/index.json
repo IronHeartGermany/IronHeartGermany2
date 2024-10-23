@@ -319,7 +319,7 @@
             "title": "SUPER SLIM",
             "text": "<p>555</p>",
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/super-slim-555",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -334,7 +334,7 @@
             "title": "SLIM",
             "text": "<p>666</p>",
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/slim-straight-666",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -349,7 +349,7 @@
             "title": "REGULAR STRAIGHT",
             "text": "<p>634</p>",
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/straight-634",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--large",
@@ -364,7 +364,7 @@
             "title": "SLIM TAPERED",
             "text": "<p>777</p>",
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/slim-tapered-777",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -379,7 +379,7 @@
             "title": "RELAXED TAPERED",
             "text": "<p>888</p>",
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/slim-tapered-777",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -895,36 +895,6 @@
         "btn_color": "#000000"
       }
     },
-    "section_locations_r4cFBa": {
-      "type": "section-locations",
-      "blocks": {
-        "locations_Y3B873": {
-          "type": "locations",
-          "settings": {
-            "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
-            "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
-            "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
-            "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
-            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "locations_Y3B873"
-      ],
-      "custom_css": [
-        ".wrapper.locations__wrapper {padding-right: 0;}",
-        ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
-        ".location__store > p {margin-bottom: 25px !important;}"
-      ],
-      "settings": {
-        "subheading": "The only IRON HEART store outside Japan",
-        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"></span>",
-        "bg_color_secondary": true,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_custom_content_GQ6xTT": {
       "type": "section-custom-content",
       "blocks": {
@@ -1063,6 +1033,36 @@
         "width": "wrapper--narrow",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "section_locations_r4cFBa": {
+      "type": "section-locations",
+      "blocks": {
+        "locations_Y3B873": {
+          "type": "locations",
+          "settings": {
+            "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
+            "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
+            "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
+            "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
+            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "locations_Y3B873"
+      ],
+      "custom_css": [
+        ".wrapper.locations__wrapper {padding-right: 0;}",
+        ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
+        ".location__store > p {margin-bottom: 25px !important;}"
+      ],
+      "settings": {
+        "subheading": "The only IRON HEART store outside Japan",
+        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"></span>",
+        "bg_color_secondary": true,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section_newsletter_kRbEAq": {
