@@ -315,7 +315,7 @@
         "text_block_wMDE3X": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/reg_straight_vorne.png",
+            "image": "shopify://shop_images/super_slim_vorne_1c1675a8-3c9f-4f3f-91a2-6ce02b50113f.png",
             "title": "SUPER SLIM",
             "text": "<p>555</p>",
             "button_text": "Shop now",
@@ -330,7 +330,7 @@
         "text_block_VPGrrF": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/reg_straight_vorne.png",
+            "image": "shopify://shop_images/slim_vorne_8522ce7b-3812-426a-adb3-a05c7970a082.png",
             "title": "SLIM",
             "text": "<p>666</p>",
             "button_text": "Shop now",
@@ -345,7 +345,7 @@
         "text_block_F99bUB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/reg_straight_vorne.png",
+            "image": "shopify://shop_images/reg_straight_vorne_fb52c676-372d-43cd-8ac9-e1588c18feff.png",
             "title": "REGULAR STRAIGHT",
             "text": "<p>634</p>",
             "button_text": "Shop now",
@@ -360,7 +360,7 @@
         "text_block_AxPBmE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/reg_straight_vorne.png",
+            "image": "shopify://shop_images/slim_tappered_vorne.png",
             "title": "SLIM TAPERED",
             "text": "<p>777</p>",
             "button_text": "Shop now",
@@ -375,7 +375,7 @@
         "text_block_9ACLGN": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/relaxed_tappered_vorne_a436a090-b86f-43a6-a002-9e66ae35d8dd.png",
+            "image": "shopify://shop_images/relaxed_tappered_vorne_37244dd3-8335-4492-99ee-ab2e4308e076.png",
             "title": "RELAXED TAPERED",
             "text": "<p>888</p>",
             "button_text": "Shop now",
