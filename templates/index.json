@@ -225,7 +225,7 @@
           "settings": {
             "collection": "bottoms",
             "heading": "",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "content": "Jeans, trousers, shorts, and sweatpants",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -236,7 +236,7 @@
           "settings": {
             "collection": "tops",
             "heading": "",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "content": "Long sleeve and short sleeve button up shirts, T-shirts, and hoodies",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -247,7 +247,7 @@
           "settings": {
             "collection": "accessories",
             "heading": "",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "content": "Belts, bags, jewelry, hats, and more",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
@@ -258,7 +258,7 @@
           "settings": {
             "collection": "footwear",
             "heading": "",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "content": "Boots and sneakers",
             "block_text_color": "",
             "bg_color": "",
             "overlay_opacity": 30
