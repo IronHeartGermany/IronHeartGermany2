@@ -45,6 +45,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/WE-907CXL-BRN_002_24_10.jpg",
+            "image_mobile": "shopify://shop_images/WE-907CXL-BRN_014_24_10_2.jpg",
             "overlay_opacity": 20,
             "text_width": "narrow",
             "text_position": "left",
@@ -59,7 +60,7 @@
             "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid",
-            "button_1_size": "btn--medium",
+            "button_1_size": "btn--small",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_color": "btn--black",
