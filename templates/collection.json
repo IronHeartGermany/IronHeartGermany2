@@ -11,6 +11,9 @@
   "sections": {
     "hero": {
       "type": "collection-image-with-title",
+      "custom_css": [
+        ".red_dot:after {top: 1px; position: relative; width: 7px; height: 7px;}"
+      ],
       "settings": {
         "banner_height": "one-half-height",
         "text_position": "bottom-left",
