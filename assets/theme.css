@@ -28187,8 +28187,8 @@ img.location_bottom_icon {
     line-height: 30px;
   }
 .red_dot::after {
-    width: 7px !important; 
-    height: 7px !important; 
+    width: 5px !important; 
+    height: 5px !important; 
   }
 }
 .buttons-list .list-collections__item__title{
