@@ -46,10 +46,10 @@
         "image_e8ntQh"
       ],
       "custom_css": [
-        "h1 {/*font-family: \"Source Sans Pro\" !important;*/ text-transform: none; font-size: 52px; line-height: 56px;}",
-        ".subheading-text {font-size: 12px;}",
+        "/*h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
+        "*/.subheading-text {font-size: 12px;}",
         ".red_dot:after {top: 2px; position: relative; width: 7px !important;}",
-        ".btn {width: auto;"
+        ".btn {width: auto;}"
       ],
       "settings": {
         "slide_height": "full-height",
@@ -62,7 +62,7 @@
         "duration": 4,
         "transition": "wipe",
         "enable_zoom_animation": true,
-        "heading_size": 150
+        "heading_size": 130
       }
     },
     "section_collection_wbgefN": {
