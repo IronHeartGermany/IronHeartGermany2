@@ -201,7 +201,7 @@
     {{- product.title | strip_html | escape -}}
   </a>
   {%- assign current_variant = product.selected_or_first_available_variant -%}
-  <a class="product-grid-item__title sku"> {{ current_variant.sku }} </a>
+  <a class="product-grid-item__title sku" href="{{ product.url | within: collection }}> {{ current_variant.sku }} </a>
 {%- endcapture -%}
 
 {%- capture info_separator -%}
