@@ -48,13 +48,13 @@
       "custom_css": [
         "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
         ".subheading-text {font-size: 12px;}",
-        ".red_dot:after {top: 3px; position: relative; width: 7px; height:7px;}",
+        ".red_dot:after {top: 3px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: auto;}"
       ],
       "settings": {
         "slide_height": "full-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "four-fifty-height-mobile",
+        "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
