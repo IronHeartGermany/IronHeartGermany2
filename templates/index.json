@@ -658,9 +658,7 @@
     "section_overlapping_images_NMxq7C": {
       "type": "section-overlapping-images",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "extra_class": "second_img_zoom",
         "text_position": "right",
@@ -920,7 +918,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/unnamed_1.jpg",
+            "image": "shopify://shop_images/8T7A5349-2.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "GOOD ART HLYWD",
