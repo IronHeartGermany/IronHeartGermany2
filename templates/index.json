@@ -52,7 +52,7 @@
         ".btn {width: auto;}"
       ],
       "settings": {
-        "slide_height": "full-height",
+        "slide_height": "two-thirds-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
