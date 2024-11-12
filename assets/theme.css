@@ -13844,7 +13844,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   font-weight: bold;
 }
 .product-grid-item__title.font-heading {
-    font-weight: normal;
+    /*font-weight: normal;*/
     /*font-size: 19px;*/
     line-height: 20px;
 }
