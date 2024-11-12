@@ -13834,7 +13834,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   font-weight: var(--FONT-WEIGHT-BODY-BOLD);
 }
 .product-grid-item__title.font-heading {
-  font-weight: normal;
+  font-weight: var(--FONT-WEIGHT-HEADING-BOLD);
 }
 
 .product-grid-item__price {
