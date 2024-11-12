@@ -119,6 +119,15 @@
           assign preload = false
         endif
       -%}
+      {% comment %}
+        Enhanced text decorations options - Liquid variables
+
+        Dependencies:
+          - Title liquid object from settings: assign title = block.settings.title
+          - Highlight type from settings: assign heading_highlight_type = block.settings.heading_highlight_type
+          - Highlight color from settings: assign highlight_color = block.settings.highlight_color
+      {% endcomment %}
+
       {%- style -%}
         #Slideshow--{{ section.id }} .item--{{ unique }} {
           --overlay-opacity: {{ overlay_opacity }};
@@ -149,7 +158,7 @@
           }
         {%- endif -%}
 
-        /* Added styles for heading and text font sizes */
+        /* Styles for heading and text font sizes */
         #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading {
           font-size: {{ heading_font_size }}px;
         }
@@ -216,13 +225,73 @@
 
             {%- if title != blank -%}
               <h1 class="slide__heading main-heading{% if has_text_highlight %} {{ text_highlight_wrapper_class }}{% endif %}">
-                <!-- Heading content -->
+                {%- liquid
+                  if animations_enabled
+                    assign title_lines = title | split: '<p>'
+                    for line in title_lines
+                      if line != blank
+                        echo '<span class="text-reveal__cropper"><span class="text-highlight__break" data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
+
+                        assign line_with_links = line | split: '<a'
+                        assign line_mod = ''
+
+                        if line_with_links.size > 1 and has_text_highlight
+                          for link_html_part in line_with_links
+                            if link_html_part != blank
+                              assign link_html_mod = link_html_part
+                              if link_html_part contains ' href='
+                                assign link_html_mod = link_html_part | prepend: '<a'
+                              endif
+
+                              if link_html_part contains 'text-highlight'
+                                assign link_html_mod = link_html_mod | replace_first: '><span class="text-highlight', ' data-has-highlight><span class="text-highlight'
+                              endif
+
+                              assign line_mod = line_mod | append: link_html_mod
+                            endif
+                          endfor
+
+                          echo line_mod | replace: '</p>', ''
+                        else
+                          echo line | replace: '</p>', ''
+                        endif
+
+                        echo '</span></span>'
+
+                        unless forloop.last
+                          assign animation_order = animation_order | plus: 1
+                        endunless
+                      endif
+                    endfor
+
+                    assign animation_order = animation_order | plus: 1
+                  else
+                    render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight
+                  endif
+                -%}
               </h1>
             {%- endif -%}
 
             {%- if text != blank -%}
               <h2 class="slide__text main-text">
-                <!-- Text content -->
+                {%- liquid
+                  if animations_enabled
+                    assign text_lines = text | escape | newline_to_br | split: '<br />'
+                    for line in text_lines
+                      echo '<span class="text-reveal__cropper"><span data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
+                      echo line
+                      echo '</span></span>'
+
+                      unless forloop.last
+                        assign animation_order = animation_order | plus: 1
+                      endunless
+                    endfor
+
+                    assign animation_order = animation_order | plus: 1
+                  else
+                    echo text | escape | newline_to_br
+                  endif
+                -%}
               </h2>
             {%- endif -%}
 
