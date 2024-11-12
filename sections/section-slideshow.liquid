@@ -83,7 +83,7 @@
         assign video_text = block.settings.video_text
         assign video_link = block.settings.video_link
         assign heading_font_size = block.settings.heading_font_size
-        assign subheading_font_size = block.settings.subheading_font_size
+        assign text_font_size = block.settings.text_font_size
         assign unique = block.id
         assign animation_order = 1
 
@@ -119,21 +119,6 @@
           assign preload = false
         endif
       -%}
-      {% comment %}
-        Enhanced text decorations options - Liqiud variables
-
-        Dependencies:
-          - Title liquid object from settings: assign title = section.settings.title
-          - Highlight type from settings: assign heading_highlight_type = section.settings.heading_highlight_type
-          - Highlight color from settings: assign highlight_color = section.settings.highlight_color or assign highlight_color = block.settings.highlight_color
-          - SVG icons:
-            - icon-squiggle.svg (assets)
-            - icon-circle.liquid (snippet)
-      {% endcomment %}
-
-      {%- liquid
-        # ... (existing code for text decorations) ...
-      -%}
       {%- style -%}
         #Slideshow--{{ section.id }} .item--{{ unique }} {
           --overlay-opacity: {{ overlay_opacity }};
@@ -164,12 +149,12 @@
           }
         {%- endif -%}
 
-        /* Added styles for heading and subheading font sizes */
+        /* Added styles for heading and text font sizes */
         #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading {
           font-size: {{ heading_font_size }}px;
         }
-        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__subheading {
-          font-size: {{ subheading_font_size }}px;
+        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
+          font-size: {{ text_font_size }}px;
         }
       {%- endstyle -%}
 
@@ -494,8 +479,8 @@
         },
         {
           "type": "range",
-          "id": "subheading_font_size",
-          "label": "Subheading font size",
+          "id": "text_font_size",
+          "label": "Text font size",
           "default": 36,
           "min": 36,
           "max": 100,
