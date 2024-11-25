@@ -24,6 +24,7 @@
             "subheading": "New in",
             "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
             "heading_font_size": 48,
+            "text_font_size": 18,
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
@@ -53,7 +54,7 @@
         ".btn {width: auto;}"
       ],
       "settings": {
-        "slide_height": "two-thirds-height",
+        "slide_height": "three-quarters-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
