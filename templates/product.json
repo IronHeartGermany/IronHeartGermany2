@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -187,9 +187,7 @@
           "type": "upsell",
           "disabled": true,
           "settings": {
-            "product_list": [
-
-            ],
+            "product_list": [],
             "padding_bottom": 20
           }
         },
@@ -223,7 +221,7 @@
       ],
       "custom_css": [
         "a {line-height: 12px;}",
-        ".label-typography, .product__price,.breadcrumbs {font-weight: 700; text-transform: uppercase; font-size: 16px;}"
+        ".label-typography,.product__price,.breadcrumbs {font-weight: 700; text-transform: uppercase; font-size: 16px;}"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -352,6 +350,7 @@
         "column_JyxxWq",
         "column_TGPmXh"
       ],
+      "disabled": true,
       "settings": {
         "appearance": "columns",
         "content_alignment": "center",
@@ -372,6 +371,7 @@
     },
     "section_image_with_text_cdrCYU": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "six-fifty-height",
         "layout": "inline",
@@ -402,6 +402,7 @@
     },
     "section_image_with_text_ptKtm4": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "six-fifty-height",
         "layout": "inline",
