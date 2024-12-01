@@ -13,7 +13,7 @@
   assign animation_anchor = '#Slideshow--' | append: section.id
   assign animation_order = 1
   assign show_text_shadow = settings.show_text_shadow
-  assign current_style = section.blocks[0].settings.text_color | default: 'text-light'
+  assign current_style = section.blocks[0].text_color | default: 'text-light'
 
   assign image_in_first_block = section.blocks[0].settings.image
   assign image_mobile_in_first_block = section.blocks[0].settings.image_mobile
@@ -119,14 +119,6 @@
           assign preload = false
         endif
       -%}
-      {% comment %}
-        Enhanced text decorations options - Liquid variables
-
-        Dependencies:
-          - Title liquid object from settings: assign title = block.settings.title
-          - Highlight type from settings: assign heading_highlight_type = block.settings.heading_highlight_type
-          - Highlight color from settings: assign highlight_color = block.settings.highlight_color
-      {% endcomment %}
 
       {%- style -%}
         #Slideshow--{{ section.id }} .item--{{ unique }} {
@@ -150,20 +142,12 @@
           {%- endif -%}
         }
 
-        {%- if enable_mobile_height and mobile_slide_height == 'original-height-mobile' -%}
-          @media screen and (max-width: 767px) {
-            #Slideshow--{{ section.id }} .item--{{ unique }} {
-              --container-padding-top: {{ 100 | divided_by: image_mobile_aspect_ratio | append: '%' }};
-            }
-          }
-        {%- endif -%}
-
-        /* Styles for heading and text font sizes */
-        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading {
-          font-size: {{ heading_font_size }}px;
+        /* Increase specificity and use !important */
+        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading.main-heading {
+          font-size: {{ heading_font_size }}px !important;
         }
-        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
-          font-size: {{ text_font_size }}px;
+        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text.main-text {
+          font-size: {{ text_font_size }}px !important;
         }
       {%- endstyle -%}
 
