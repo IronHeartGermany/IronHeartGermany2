@@ -89,19 +89,19 @@
 
         case text_position
           when 'left'
-            assign text_position = 'item--left'
+            assign text_position_class = 'item--left'
           when 'center'
-            assign text_position = 'item--center'
+            assign text_position_class = 'item--center'
           when 'right'
-            assign text_position = 'item--right'
+            assign text_position_class = 'item--right'
           when 'bottom-left'
-            assign text_position = 'item--bottom-left'
+            assign text_position_class = 'item--bottom-left'
           when 'bottom-right'
-            assign text_position = 'item--bottom-right'
+            assign text_position_class = 'item--bottom-right'
           when 'top-left'
-            assign text_position = 'item--top-left'
+            assign text_position_class = 'item--top-left'
           when 'top-right'
-            assign text_position = 'item--top-right'
+            assign text_position_class = 'item--top-right'
         endcase
 
         assign image_link = false
@@ -118,6 +118,12 @@
           assign fetchpriority = 'auto'
           assign preload = false
         endif
+
+        assign has_text_highlight = false
+        if title contains '<em>' or title contains '<i>'
+          assign has_text_highlight = true
+        endif
+        assign text_highlight_wrapper_class = 'text-highlight--' | append: heading_highlight_type
       -%}
 
       {%- style -%}
@@ -142,17 +148,25 @@
           {%- endif -%}
         }
 
-        /* Increase specificity and use !important */
-        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading.main-heading {
-          font-size: {{ heading_font_size }}px !important;
+        {%- if enable_mobile_height and mobile_slide_height == 'original-height-mobile' -%}
+          @media screen and (max-width: 767px) {
+            #Slideshow--{{ section.id }} .item--{{ unique }} {
+              --container-padding-top: {{ 100 | divided_by: image_mobile_aspect_ratio | append: '%' }};
+            }
+          }
+        {%- endif -%}
+
+        /* Styles for heading and text font sizes */
+        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading {
+          font-size: {{ heading_font_size }}px;
         }
-        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text.main-text {
-          font-size: {{ text_font_size }}px !important;
+        #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
+          font-size: {{ text_font_size }}px;
         }
       {%- endstyle -%}
 
       <div
-        class="item item--{{ unique }} {{ text_position }} {{ text_color }} {{ slide_height }}{% if enable_mobile_height %} {{ mobile_slide_height }}{% endif %}{% if forloop.first %} is-selected{% endif %}"
+        class="item item--{{ unique }} {{ text_position_class }} {{ text_color }} {{ slide_height }}{% if enable_mobile_height %} {{ mobile_slide_height }}{% endif %}{% if forloop.first %} is-selected{% endif %}"
         {{ block.shopify_attributes }}
         data-slide
         data-slide-position="{{ forloop.index }}"
@@ -209,15 +223,73 @@
 
             {%- if title != blank -%}
               <h1 class="slide__heading main-heading{% if has_text_highlight %} {{ text_highlight_wrapper_class }}{% endif %}">
-                <!-- Heading content -->
-                {{ title }}
+                {%- liquid
+                  if animations_enabled
+                    assign title_lines = title | split: '<p>'
+                    for line in title_lines
+                      if line != blank
+                        echo '<span class="text-reveal__cropper"><span class="text-highlight__break" data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
+
+                        assign line_with_links = line | split: '<a'
+                        assign line_mod = ''
+
+                        if line_with_links.size > 1 and has_text_highlight
+                          for link_html_part in line_with_links
+                            if link_html_part != blank
+                              assign link_html_mod = link_html_part
+                              if link_html_part contains ' href='
+                                assign link_html_mod = link_html_part | prepend: '<a'
+                              endif
+
+                              if link_html_part contains 'text-highlight'
+                                assign link_html_mod = link_html_mod | replace_first: '><span class="text-highlight', ' data-has-highlight><span class="text-highlight'
+                              endif
+
+                              assign line_mod = line_mod | append: link_html_mod
+                            endif
+                          endfor
+
+                          echo line_mod | replace: '</p>', ''
+                        else
+                          echo line | replace: '</p>', ''
+                        endif
+
+                        echo '</span></span>'
+
+                        unless forloop.last
+                          assign animation_order = animation_order | plus: 1
+                        endunless
+                      endif
+                    endfor
+
+                    assign animation_order = animation_order | plus: 1
+                  else
+                    render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight
+                  endif
+                -%}
               </h1>
             {%- endif -%}
 
             {%- if text != blank -%}
               <h2 class="slide__text main-text">
-                <!-- Text content -->
-                {{ text }}
+                {%- liquid
+                  if animations_enabled
+                    assign text_lines = text | escape | newline_to_br | split: '<br />'
+                    for line in text_lines
+                      echo '<span class="text-reveal__cropper"><span data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
+                      echo line
+                      echo '</span></span>'
+
+                      unless forloop.last
+                        assign animation_order = animation_order | plus: 1
+                      endunless
+                    endfor
+
+                    assign animation_order = animation_order | plus: 1
+                  else
+                    echo text | escape | newline_to_br
+                  endif
+                -%}
               </h2>
             {%- endif -%}
 
