@@ -119,6 +119,7 @@
           assign preload = false
         endif
 
+        # Determine if the title has text highlight by checking for <em> or <i> tags
         assign has_text_highlight = false
         if title contains '<em>' or title contains '<i>'
           assign has_text_highlight = true
@@ -162,6 +163,14 @@
         }
         #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
           font-size: {{ text_font_size }}px;
+        }
+
+        /* Adjust button width on mobile */
+        @media screen and (max-width: 767px) {
+          #Slideshow--{{ section.id }} .item--{{ unique }} .slide__buttons .btn {
+            width: auto;
+            max-width: 100%;
+          }
         }
       {%- endstyle -%}
 
@@ -294,7 +303,14 @@
             {%- endif -%}
 
             {%- if button_1_text != blank or button_2_text != blank -%}
-              <div class="slide__buttons main-buttons">
+              <div
+                class="slide__buttons main-buttons"
+                {% if animations_enabled %}
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                {% endif %}
+              >
                 {%- if button_1_text != blank and button_1_link != blank -%}
                   <a
                     href="{{ button_1_link }}"
@@ -313,6 +329,7 @@
                   </a>
                 {%- endif -%}
               </div>
+              {%- assign animation_order = animation_order | plus: 1 -%}
             {%- endif -%}
           </div>
         </div>
