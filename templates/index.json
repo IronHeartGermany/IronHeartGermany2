@@ -23,7 +23,7 @@
             "text_color": "text-light",
             "subheading": "New in",
             "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
-            "heading_font_size": 92,
+            "heading_font_size": 84,
             "text_font_size": 22,
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
