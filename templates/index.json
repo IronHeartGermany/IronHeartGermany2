@@ -315,14 +315,44 @@
     "section_columns_fEJfXc": {
       "type": "section-columns",
       "blocks": {
-        "text_block_wMDE3X": {
+        "text_block_F99bUB": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/super_slim_vorne_1c1675a8-3c9f-4f3f-91a2-6ce02b50113f.png",
-            "title": "SUPER SLIM",
-            "text": "<p>555</p>",
+            "image": "shopify://shop_images/reg_straight_vorne_fb52c676-372d-43cd-8ac9-e1588c18feff.png",
+            "title": "REGULAR STRAIGHT",
+            "text": "<p>634</p>",
             "button_text": "Shop now",
-            "button_link": "shopify://collections/super-slim-555",
+            "button_link": "shopify://collections/straight-634",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--large",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_9ACLGN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/relaxed_tappered_vorne_37244dd3-8335-4492-99ee-ab2e4308e076.png",
+            "title": "RELAXED TAPERED",
+            "text": "<p>888</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/relaxed-tapered-555",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_AxPBmE": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/slim_tappered_vorne.png",
+            "title": "SLIM TAPERED",
+            "text": "<p>777</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/slim-tapered-777",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -345,44 +375,14 @@
             "video_link_color": "text-dark"
           }
         },
-        "text_block_F99bUB": {
+        "text_block_wMDE3X": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/reg_straight_vorne_fb52c676-372d-43cd-8ac9-e1588c18feff.png",
-            "title": "REGULAR STRAIGHT",
-            "text": "<p>634</p>",
+            "image": "shopify://shop_images/super_slim_vorne_1c1675a8-3c9f-4f3f-91a2-6ce02b50113f.png",
+            "title": "SUPER SLIM",
+            "text": "<p>555</p>",
             "button_text": "Shop now",
-            "button_link": "shopify://collections/straight-634",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--large",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_AxPBmE": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/slim_tappered_vorne.png",
-            "title": "SLIM TAPERED",
-            "text": "<p>777</p>",
-            "button_text": "Shop now",
-            "button_link": "shopify://collections/slim-tapered-777",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_9ACLGN": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/relaxed_tappered_vorne_37244dd3-8335-4492-99ee-ab2e4308e076.png",
-            "title": "RELAXED TAPERED",
-            "text": "<p>888</p>",
-            "button_text": "Shop now",
-            "button_link": "shopify://collections/relaxed-tapered-555",
+            "button_link": "shopify://collections/super-slim-555",
             "button_color": "btn--black",
             "button_style": "btn--text",
             "button_size": "btn--small",
@@ -392,11 +392,11 @@
         }
       },
       "block_order": [
-        "text_block_wMDE3X",
-        "text_block_VPGrrF",
         "text_block_F99bUB",
+        "text_block_9ACLGN",
         "text_block_AxPBmE",
-        "text_block_9ACLGN"
+        "text_block_VPGrrF",
+        "text_block_wMDE3X"
       ],
       "custom_css": [
         ".flickity-button {display: none;}",

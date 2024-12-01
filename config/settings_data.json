@@ -525,7 +525,7 @@
       ".gw-button-widget {background: #000 !important;}",
       ".product-grid-item__title.sku {font-weight: normal;}",
       ".menu__item > a {font-size: 15px !important;}",
-      "@media only screen and (max-width: 767px) {.products-list__item__aside {width: auto!important; }}"
+      "@media only screen and (max-width: 767px) {.products-list__item__aside {width: auto; }}"
     ]
   }
 }
