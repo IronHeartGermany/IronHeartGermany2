@@ -13,7 +13,7 @@
   assign animation_anchor = '#Slideshow--' | append: section.id
   assign animation_order = 1
   assign show_text_shadow = settings.show_text_shadow
-  assign current_style = section.blocks[0].text_color | default: 'text-light'
+  assign current_style = section.blocks[0].settings.text_color | default: 'text-light'
 
   assign image_in_first_block = section.blocks[0].settings.image
   assign image_mobile_in_first_block = section.blocks[0].settings.image_mobile
@@ -225,79 +225,37 @@
 
             {%- if title != blank -%}
               <h1 class="slide__heading main-heading{% if has_text_highlight %} {{ text_highlight_wrapper_class }}{% endif %}">
-                {%- liquid
-                  if animations_enabled
-                    assign title_lines = title | split: '<p>'
-                    for line in title_lines
-                      if line != blank
-                        echo '<span class="text-reveal__cropper"><span class="text-highlight__break" data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
-
-                        assign line_with_links = line | split: '<a'
-                        assign line_mod = ''
-
-                        if line_with_links.size > 1 and has_text_highlight
-                          for link_html_part in line_with_links
-                            if link_html_part != blank
-                              assign link_html_mod = link_html_part
-                              if link_html_part contains ' href='
-                                assign link_html_mod = link_html_part | prepend: '<a'
-                              endif
-
-                              if link_html_part contains 'text-highlight'
-                                assign link_html_mod = link_html_mod | replace_first: '><span class="text-highlight', ' data-has-highlight><span class="text-highlight'
-                              endif
-
-                              assign line_mod = line_mod | append: link_html_mod
-                            endif
-                          endfor
-
-                          echo line_mod | replace: '</p>', ''
-                        else
-                          echo line | replace: '</p>', ''
-                        endif
-
-                        echo '</span></span>'
-
-                        unless forloop.last
-                          assign animation_order = animation_order | plus: 1
-                        endunless
-                      endif
-                    endfor
-
-                    assign animation_order = animation_order | plus: 1
-                  else
-                    render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight
-                  endif
-                -%}
+                <!-- Heading content -->
+                {{ title }}
               </h1>
             {%- endif -%}
 
             {%- if text != blank -%}
               <h2 class="slide__text main-text">
-                {%- liquid
-                  if animations_enabled
-                    assign text_lines = text | escape | newline_to_br | split: '<br />'
-                    for line in text_lines
-                      echo '<span class="text-reveal__cropper"><span data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
-                      echo line
-                      echo '</span></span>'
-
-                      unless forloop.last
-                        assign animation_order = animation_order | plus: 1
-                      endunless
-                    endfor
-
-                    assign animation_order = animation_order | plus: 1
-                  else
-                    echo text | escape | newline_to_br
-                  endif
-                -%}
+                <!-- Text content -->
+                {{ text }}
               </h2>
             {%- endif -%}
 
             {%- if button_1_text != blank or button_2_text != blank -%}
               <div class="slide__buttons main-buttons">
-                <!-- Buttons code -->
+                {%- if button_1_text != blank and button_1_link != blank -%}
+                  <a
+                    href="{{ button_1_link }}"
+                    class="btn {{ button_1_color }} {{ button_1_style }} {{ button_1_size }}"
+                  >
+                    {{ button_1_text }}
+                  </a>
+                {%- endif -%}
+
+                {%- if button_2_text != blank and button_2_link != blank -%}
+                  <a
+                    href="{{ button_2_link }}"
+                    class="btn {{ button_2_color }} {{ button_2_style }} {{ button_2_size }}"
+                  >
+                    {{ button_2_text }}
+                  </a>
+                {%- endif -%}
               </div>
             {%- endif -%}
           </div>
@@ -707,7 +665,7 @@
           "type": "text",
           "id": "video_link",
           "label": "Video popup link",
-          "info": "Video links from YouTube, Vimeo or MP4 video link from [files](/admin/content/files?selectedView=all&media_type=VIDEO)"
+          "info": "Video links from YouTube, Vimeo or MP4 video link from files"
         }
       ]
     }
@@ -727,7 +685,7 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header","aside","footer"]
+    "groups": ["header", "aside", "footer"]
   }
 }
 {% endschema %}
