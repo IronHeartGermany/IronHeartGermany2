@@ -37,6 +37,7 @@
           echo line | replace: '</p>', '</span>' | replace: '<br/>', ''
         endif
 
+        echo '<span class="red_dot"></span>'
         echo '</span>'
       endif
     endfor
@@ -45,8 +46,7 @@
   {{-
     title
     | replace: '<p>', '<span class="text-highlight__break">'
-    | replace: '</p>', '</span>'
+    | replace: '</p>', '<span class="red_dot"></span></span>'
     | replace: '<br/>', ''
   -}}
 {% endif %}
-<span class="red_dot"></span>
