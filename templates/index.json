@@ -465,7 +465,7 @@
     "two_image_with_text_eBz9fM": {
       "type": "two-image-with-text",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.container_block {padding: 0; }}"
+        "@media screen and (max-width: 767px) {.container_block {padding: 0; } .container_content {padding: 12px !important; }}"
       ],
       "settings": {
         "extra_class": "",
@@ -478,7 +478,7 @@
     "two_image_with_text_QmafYw": {
       "type": "two-image-with-text",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.container_block {padding: 0; } .container_content {padding: 12px; }}"
+        "@media screen and (max-width: 767px) {.container_block {padding: 0; } .container_content {padding: 12px!important; }}"
       ],
       "settings": {
         "extra_class": "1",
