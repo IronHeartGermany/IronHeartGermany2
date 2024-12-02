@@ -10,28 +10,22 @@
   assign animation_delay = 150
 
   assign logo_width = section.settings.logo_max_width
-  assign logo_width_mobile = section.settings.logo_max_width_mobile
   assign logo_height = 0
-  assign logo_height_mobile = 0
   assign logo = section.settings.logo
   assign logo_not_home = section.settings.logo_not_home
-  assign logo_aspect_ratio = 1
 
   if logo
     assign logo_aspect_ratio = logo.aspect_ratio
     assign logo_height = logo_width | divided_by: logo_aspect_ratio
-    assign logo_height_mobile = logo_width_mobile | divided_by: logo_aspect_ratio
     assign logo_height_scrolled = logo_height
   endif
 
   if logo_not_home
     assign logo_height_scrolled = logo_width | divided_by: logo_not_home.aspect_ratio
-    assign logo_height_mobile = logo_width_mobile | divided_by: logo_not_home.aspect_ratio
     assign logo_aspect_ratio = logo_not_home.aspect_ratio
 
     unless logo
       assign logo_height = logo_width | divided_by: logo_aspect_ratio
-      assign logo_height_mobile = logo_width_mobile | divided_by: logo_aspect_ratio
     endunless
   endif
 
@@ -123,29 +117,6 @@
       }
     }
   {% endif %}
-
-  /* Logo Styles */
-  .logo__image-link {
-    width: {{ logo_width | append: 'px' }};
-    height: {{ logo_height | round | append: 'px' }};
-  }
-
-  .has-scrolled .logo__image-link {
-    width: {{ logo_height_scrolled | times: logo_aspect_ratio | round | append: 'px' }};
-    height: {{ logo_height_scrolled | round | append: 'px' }};
-  }
-
-  @media only screen and (max-width: 767px) {
-    .logo__image-link {
-      width: {{ logo_width_mobile | append: 'px' }};
-      height: {{ logo_height_mobile | round | append: 'px' }};
-    }
-
-    .has-scrolled .logo__image-link {
-      width: {{ logo_height_scrolled | times: logo_aspect_ratio | round | append: 'px' }};
-      height: {{ logo_height_scrolled | round | append: 'px' }};
-    }
-  }
 {%- endstyle -%}
 
 <header
@@ -206,73 +177,61 @@
           width: {{ logo_height_scrolled | times: logo_aspect_ratio | round | append: 'px' }};
           height: {{ logo_height_scrolled | round | append: 'px' }};
         }
-
-        @media only screen and (max-width: 767px) {
-          .logo__image-link {
-            width: {{ logo_width_mobile | append: 'px' }};
-            height: {{ logo_height_mobile | round | append: 'px' }};
-          }
-
-          .has-scrolled .logo__image-link {
-            width: {{ logo_height_scrolled | times: logo_aspect_ratio | round | append: 'px' }};
-            height: {{ logo_height_scrolled | round | append: 'px' }};
-          }
-        }
       {%- endstyle -%}
     {%- endif -%}
 
     {%- capture logo_not_home_markup -%}
-      {%- if logo_not_home != blank -%}
-        {%- liquid
-          assign logo_padding_top = 1 | divided_by: logo_not_home.aspect_ratio | times: 100 | round: 1
-          assign image_alt = logo_not_home.alt | escape
-        -%}
+  {%- if logo_not_home != blank -%}
+    {%- liquid
+      assign logo_padding_top = 1 | divided_by: logo_not_home.aspect_ratio | times: 100 | round: 1
+      assign image_alt = logo_not_home.alt | escape
+    -%}
 
-        <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--other{% unless logo %} logo__image-link--single{% endunless %}">
-          {%- assign logo_height = logo_width | divided_by: logo_not_home.aspect_ratio -%}
+    <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--other{% unless logo %} logo__image-link--single{% endunless %}">
+      {%- assign logo_height = logo_width | divided_by: logo_not_home.aspect_ratio -%}
 
-          {{ logo_not_home | image_url: width: 500 | image_tag:
-            widths: widths,
-            height: logo_height,
-            width: logo_width,
-            alt: image_alt,
-            sizes: sizes,
-            class: 'logo__image',
-            loading: 'eager',
-            fetchpriority: 'high',
-            preload: true
-          }}
+      {{ logo_not_home | image_url: width: 500 | image_tag:
+        widths: widths,
+        height: logo_height,
+        width: logo_width,
+        alt: image_alt,
+        sizes: sizes,
+        class: 'logo__image',
+        loading: 'eager',
+        fetchpriority: 'high',
+        preload: true
+      }}
 
-          <span class="logo__image-push" style="padding-top: {{ logo_padding_top }}%"></span>
-        </a>
-      {%- endif -%}
-    {%- endcapture -%}
+      <span class="logo__image-push" style="padding-top: {{ logo_padding_top }}%"></span>
+    </a>
+  {%- endif -%}
+{%- endcapture -%}
 
     {%- capture logo_markup -%}
-      {%- if logo != blank -%}
-        {%- liquid
-          assign logo_padding_top = 1 | divided_by: logo.aspect_ratio | times: 100 | round: 1
-          assign image_alt = logo.alt | escape
-        -%}
+  {%- if logo != blank -%}
+    {%- liquid
+      assign logo_padding_top = 1 | divided_by: logo.aspect_ratio | times: 100 | round: 1
+      assign image_alt = logo.alt | escape
+    -%}
 
-        <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
-          {%- assign logo_height = logo_width | divided_by: logo.aspect_ratio -%}
-          {{ logo | image_url: width: 500 | image_tag:
-            widths: widths,
-            height: logo_height,
-            width: logo_width,
-            alt: image_alt,
-            sizes: sizes,
-            class: 'logo__image',
-            loading: 'eager',
-            fetchpriority: 'high',
-            preload: true
-          }}
+    <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
+      {%- assign logo_height = logo_width | divided_by: logo.aspect_ratio -%}
+      {{ logo | image_url: width: 500 | image_tag:
+        widths: widths,
+        height: logo_height,
+        width: logo_width,
+        alt: image_alt,
+        sizes: sizes,
+        class: 'logo__image',
+        loading: 'eager',
+        fetchpriority: 'high',
+        preload: true
+      }}
 
-          <span class="logo__image-push" style="padding-top: {{ logo_padding_top }}%"></span>
-        </a>
-      {%- endif -%}
-    {%- endcapture -%}
+      <span class="logo__image-push" style="padding-top: {{ logo_padding_top }}%"></span>
+    </a>
+  {%- endif -%}
+{%- endcapture -%}
 
     <h1 class="logo" data-logo data-takes-space>
       {%- if logo_not_home_markup != blank or logo_markup != blank -%}
@@ -532,16 +491,6 @@
       "min": 30,
       "max": 600,
       "default": 100,
-      "step": 10,
-      "unit": "px"
-    },
-    {
-      "type": "range",
-      "id": "logo_max_width_mobile",
-      "label": "Mobile Width",
-      "min": 30,
-      "max": 600,
-      "default": 80,
       "step": 10,
       "unit": "px"
     },
