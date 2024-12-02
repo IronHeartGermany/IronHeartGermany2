@@ -28286,16 +28286,6 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 
 /* Override logo max-width settings for .logo class */
 
-.logo {
-  max-width: none !important;
-}
-
-.logo img {
-  max-width: 100% !important;
-  width: auto !important;
-  height: auto !important;
-}
-
 @media only screen and (max-width: 767px) {
   .logo {
     max-width: none !important;
