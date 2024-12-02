@@ -464,6 +464,9 @@
     },
     "two_image_with_text_eBz9fM": {
       "type": "two-image-with-text",
+      "custom_css": [
+        "@media screen and (max-width:767px){.container_block {padding:0; }}"
+      ],
       "settings": {
         "extra_class": "",
         "image1": "shopify://shop_images/DSC_7016.jpg",
