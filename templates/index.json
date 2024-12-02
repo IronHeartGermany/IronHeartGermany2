@@ -504,7 +504,8 @@
         "button_qcEydt"
       ],
       "custom_css": [
-        "{margin: 20px;}"
+        "{margin: 20px;}",
+        ".red_dot:after {width:7px; height:7px;}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -560,7 +561,7 @@
         "button_ni9gFA"
       ],
       "custom_css": [
-        "{margin: 16px;}"
+        "{margin: 20px;}"
       ],
       "settings": {
         "height": "six-fifty-height",
