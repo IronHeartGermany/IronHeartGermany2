@@ -28283,21 +28283,3 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   padding-top: 1em;
   padding-left: 1em;
 }
-
-/* Styles for mobile carousel partial visibility */
-@media screen and (max-width: 767px) {
-  .section-columns__slider {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  }
-  .column-item {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-  }
-  .column-item.mobile--partial {
-    width: 50%; /* Adjust this percentage to show more or less of the next item */
-    margin-right: 2%; /* Optional: Adjust spacing between items */
-  }
-}
