@@ -28291,4 +28291,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   .logo {
     max-width:100%!important;
   }
+  .logo__image-link {
+    width:270px!important;
+    height:auto!important;
+  }
 }
