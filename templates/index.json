@@ -561,7 +561,7 @@
         "button_ni9gFA"
       ],
       "custom_css": [
-        "{margin: 20px;}",
+        "{margin: 24px;}",
         ".red_dot:after {width: 7px; height: 7px;}"
       ],
       "settings": {
