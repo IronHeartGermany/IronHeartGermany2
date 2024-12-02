@@ -479,7 +479,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Iron Heart’s philosophy centers on unmatched craftsmanship and quality.</p>",
-            "size": 100
+            "size": 120
           }
         },
         "button_qcEydt": {
@@ -536,7 +536,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.</p>",
-            "size": 100
+            "size": 120
           }
         },
         "button_ni9gFA": {
