@@ -21,7 +21,7 @@
       assign mobile_width = 'mobile--one-whole'
       assign mobile_class = ' stacked--mobile'
     when 'carousel'
-      assign mobile_width = 'mobile--one-whole'
+      assign mobile_width = 'mobile--partial'
       assign mobile_class = ' carousel--mobile'
   endcase
 
@@ -56,6 +56,24 @@
     {% endunless %}
   }
   #SectionColumns--{{ unique }} .column-item__text p { --adjust-body: calc(var(--FONT-ADJUST-BODY) * {{ text_size }}); }
+
+  /* New styles for mobile devices */
+  @media screen and (max-width: 767px) {
+    #SectionColumns--{{ unique }} .section-columns__slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+    #SectionColumns--{{ unique }} .column-item {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+    }
+    #SectionColumns--{{ unique }} .column-item.mobile--partial {
+      width: 85%; /* Adjust this percentage as needed */
+      margin-right: 5%; /* Optional: space between items */
+    }
+  }
 {%- endstyle -%}
 
 <div
