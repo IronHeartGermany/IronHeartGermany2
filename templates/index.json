@@ -503,6 +503,9 @@
         "text_UhmyHY",
         "button_qcEydt"
       ],
+      "custom_css": [
+        "{margin:12px}"
+      ],
       "settings": {
         "height": "six-fifty-height",
         "enable_mobile_height": false,
