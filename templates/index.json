@@ -52,7 +52,7 @@
         ".subheading-text {font-size: 12px;}",
         ".red_dot:after {top: 3.5px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: fit-content !important;}",
-        ".main-buttons {margin:0}"
+        ".main-buttons {margin: 8px 0 0 0 !important;}"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
