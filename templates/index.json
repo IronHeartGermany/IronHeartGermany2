@@ -185,7 +185,7 @@
             "title": "",
             "product_description": "",
             "button_text": "View Product",
-            "show_second_image": true,
+            "show_second_image": false,
             "show_circle": true,
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
@@ -478,7 +478,7 @@
     "two_image_with_text_QmafYw": {
       "type": "two-image-with-text",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.container_block {padding: 0; } .container_content {padding: 12px!important; }}"
+        "@media screen and (max-width: 767px) {.container_block {padding: 0; } .container_content {padding: 12px !important; }}"
       ],
       "settings": {
         "extra_class": "1",
