@@ -468,7 +468,7 @@
         "heading_PCbtpR": {
           "type": "heading",
           "settings": {
-            "text": "<h1>CRAFTMANSHIP AND QUALITY</h1>",
+            "text": "<p>CRAFTSMANSHIP AND QUALITY</p>",
             "size": 120,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -524,7 +524,7 @@
         "heading_KUWDpm": {
           "type": "heading",
           "settings": {
-            "text": "<h1>CRAFTMANSHIP AND QUALITY</h1>",
+            "text": "<p>THE EVOLUTION OF IRONHEART</p>",
             "size": 120,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -534,15 +534,15 @@
         "text_PDzGzH": {
           "type": "text",
           "settings": {
-            "text": "<p>Iron Heart’s philosophy centers on unmatched craftsmanship and quality.</p>",
+            "text": "<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.</p>",
             "size": 100
           }
         },
         "button_ni9gFA": {
           "type": "button",
           "settings": {
-            "button_1_text": "SHOP ALL SHIRTS",
-            "button_1_link": "shopify://collections/all",
+            "button_1_text": "SHOP ALL DENIM",
+            "button_1_link": "shopify://collections/jeans",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--small",
@@ -566,7 +566,7 @@
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/DSC_7016.jpg",
+        "image": "shopify://shop_images/IH-634S-18-7977.jpg",
         "overlay_opacity": 20,
         "enable_zoom_animation": true,
         "text_width": "normal",
@@ -590,6 +590,7 @@
     },
     "two_image_with_text_QmafYw": {
       "type": "two-image-with-text",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "extra_class": "1",
