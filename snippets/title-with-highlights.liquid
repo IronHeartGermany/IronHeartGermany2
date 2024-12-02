@@ -37,7 +37,7 @@
           echo line | replace: '</p>', '</span>' | replace: '<br/>', ''
         endif
 
-        echo '<span class="red_dot"></span></span>'
+        echo '</span>'
       endif
     endfor
   -%}
@@ -49,3 +49,4 @@
     | replace: '<br/>', ''
   -}}
 {% endif %}
+<span class="red_dot"></span>
