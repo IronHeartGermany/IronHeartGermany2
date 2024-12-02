@@ -28283,3 +28283,12 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   padding-top: 1em;
   padding-left: 1em;
 }
+
+
+/*mobile logo adjustments*/
+
+@media only screen and (max-width: 479px) {
+  .logo {
+    max-width:100%!important;
+  }
+}
