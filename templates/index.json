@@ -504,7 +504,7 @@
         "button_qcEydt"
       ],
       "custom_css": [
-        "{margin:12px}"
+        "{margin: 16px;}"
       ],
       "settings": {
         "height": "six-fifty-height",
