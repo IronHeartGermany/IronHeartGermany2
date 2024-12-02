@@ -28297,7 +28297,7 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
     scroll-snap-align: start;
   }
   .column-item.mobile--partial {
-    width: 85%; /* Adjust this percentage to show more or less of the next item */
-    margin-right: 5%; /* Optional: Adjust spacing between items */
+    width: 90%; /* Adjust this percentage to show more or less of the next item */
+    margin-right: 3%; /* Optional: Adjust spacing between items */
   }
 }
