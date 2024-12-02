@@ -518,8 +518,65 @@
         "text_color": "text-light"
       }
     },
+    "section_banner_image_WJ7DW7": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_KUWDpm": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>CRAFTMANSHIP AND QUALITY</h1>",
+            "size": 120,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_PDzGzH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iron Heart’s philosophy centers on unmatched craftsmanship and quality.</p>",
+            "size": 100
+          }
+        },
+        "button_ni9gFA": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "SHOP ALL SHIRTS",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KUWDpm",
+        "text_PDzGzH",
+        "button_ni9gFA"
+      ],
+      "custom_css": [
+        "{margin: 16px;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/DSC_7016.jpg",
+        "overlay_opacity": 20,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
     "two_image_with_text_eBz9fM": {
       "type": "two-image-with-text",
+      "disabled": true,
       "custom_css": [
         "{margin-top: 16px;}"
       ],
@@ -1019,6 +1076,7 @@
     "section_columns_fEJfXc",
     "section_list_butttons_jaEVdg",
     "section_banner_image_XaJDWJ",
+    "section_banner_image_WJ7DW7",
     "two_image_with_text_eBz9fM",
     "two_image_with_text_QmafYw",
     "section_blog_gfqWja",
