@@ -28283,27 +28283,3 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   padding-top: 1em;
   padding-left: 1em;
 }
-
-/* Override logo max-width settings */
-
-.logo__image-link {
-  max-width: none !important;
-}
-
-.logo__image-link img {
-  max-width: 100% !important;
-  width: auto !important;
-  height: auto !important;
-}
-
-@media only screen and (max-width: 767px) {
-  .logo__image-link {
-    max-width: none !important;
-  }
-
-  .logo__image-link img {
-    max-width: 100% !important;
-    width: auto !important;
-    height: auto !important;
-  }
-}
