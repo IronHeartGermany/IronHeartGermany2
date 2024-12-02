@@ -111,6 +111,7 @@
         "link_hover_effect": "dot",
         "logo_not_home": "shopify://shop_images/IHG_Logo_03.png",
         "logo_max_width": 550,
+        "logo_max_width_mobile": 300,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
         "show_images": true,
