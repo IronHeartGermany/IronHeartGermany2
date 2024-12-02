@@ -52,7 +52,7 @@
         ".subheading-text {font-size: 12px;}",
         ".red_dot:after {top: 3.5px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: fit-content !important;}",
-        ".main-buttons {margin: 8px 0 0 0 !important;}"
+        ".main-buttons {margin: 12px 0 0 0 !important;}"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
@@ -1094,8 +1094,8 @@
         "text_block_jr4JHK": {
           "type": "text_block",
           "settings": {
-            "title": "Premium Japanese Denim Craftsmanship<span class=\"red_dot\"></span>",
-            "text": "<p>Iron Heart is renowned for its exceptional Japanese denim craftsmanship. Founded by Shinichi Haraki in 2003, the brand specializes in heavyweight denim that is meticulously crafted to offer both durability and style. Each piece is designed with the motorcycle enthusiast in mind, ensuring rugged construction and timeless appeal. Experience the unparalleled quality of Iron Heart’s denim, known for its remarkable fading potential and robust build. Discover why Iron Heart is a favorite among denim aficionados worldwide.</p>",
+            "title": "Premium Japanese Craftmanship<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart, founded by Shinichi Haraki in 2003, is celebrated for its heavyweight Japanese denim, crafted for durability and timeless style. Designed with motorcycle enthusiasts in mind, the brand’s rugged pieces offer exceptional fading potential and unmatched quality. Explore why Iron Heart is a top choice for denim lovers worldwide.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1109,7 +1109,7 @@
           "type": "text_block",
           "settings": {
             "title": "Iconic Heavyweight Garments<span class=\"red_dot\"></span>",
-            "text": "<p>Iron Heart’s collection is a testament to the brand’s dedication to heavyweight fabrics and superior craftsmanship. From their 21oz and 25oz denim jeans to their Ultra Heavy Flannel (UHF) shirts, Iron Heart offers garments that are built to withstand the test of time. These iconic pieces are not only functional but also exude a timeless style that appeals to a wide range of customers, from bikers to fashion enthusiasts. Explore the iconic products that define Iron Heart’s legacy in premium workwear.</p>",
+            "text": "<p>Iron Heart’s collection showcases its commitment to heavyweight fabrics and exceptional craftsmanship. From 21oz and 25oz denim jeans to Ultra Heavy Flannel (UHF) shirts, each piece is built for durability and timeless style. Loved by bikers and fashion enthusiasts alike, these iconic garments define Iron Heart’s legacy in premium workwear.</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1148,6 +1148,7 @@
       "blocks": {
         "text_block_MWm98Q": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\"></span>",
             "text": "<p>Iron Heart thrives on its strong community of dedicated customers and enthusiasts. The Iron Heart Forum is a unique platform where members can share their experiences, seek advice, and discuss everything from denim care to motorcycle maintenance. Managed by Giles Padmore, the forum embodies Iron Heart’s commitment to customer engagement and support. Join a vibrant community that shares your passion for high-quality, durable clothing and be part of the Iron Heart family.</p>",
@@ -1162,6 +1163,7 @@
         },
         "text_block_7UgqDc": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "title": "Sustainable and Ethical Production<span class=\"red_dot\"></span>",
             "text": "<p>At Iron Heart, sustainability and ethical production are at the core of our manufacturing process. We collaborate with small, family-run mills in Japan, ensuring that our production practices are environmentally responsible and ethically sound. By focusing on creating durable, long-lasting garments, we minimize our environmental impact while supporting sustainable fashion. Explore our collection and experience clothing that is not only built to last but also crafted with a conscience.</p>",
@@ -1179,6 +1181,7 @@
         "text_block_MWm98Q",
         "text_block_7UgqDc"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "text-left",
