@@ -469,7 +469,7 @@
           "type": "heading",
           "settings": {
             "text": "<h1>CRAFTMANSHIP AND QUALITY</h1>",
-            "size": 140,
+            "size": 120,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
             "highlight_text_color": "#000"
@@ -485,7 +485,7 @@
         "button_qcEydt": {
           "type": "button",
           "settings": {
-            "button_1_text": "Shop All SHIRTS",
+            "button_1_text": "SHOP ALL SHIRTS",
             "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid",
@@ -507,10 +507,11 @@
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "overlay_opacity": 10,
+        "image": "shopify://shop_images/DSC_7016.jpg",
+        "overlay_opacity": 20,
         "enable_zoom_animation": true,
         "text_width": "normal",
-        "text_position": "left",
+        "text_position": "center",
         "text_color": "text-light"
       }
     },
