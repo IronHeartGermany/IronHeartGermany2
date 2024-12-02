@@ -201,7 +201,7 @@
       ],
       "custom_css": [
         ".products-list__nav__button {text-align: center;}",
-        ".products-list__nav__button > span {font-weight: 400; text-transform: none; line-height: 40px; font-size: 28px;}",
+        ".products-list__nav__button > span {margin-top:12px; font-weight: 400; text-transform: none; line-height: 32px; font-size: 22px;}",
         "@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) / 1.7) !important; }}",
         ".products-list__item__aside {width: calc((100% - var(--gutter)) / 1.7);}",
         ".products-list__price {font-weight: 800;}",
