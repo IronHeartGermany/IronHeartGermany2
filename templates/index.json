@@ -993,7 +993,7 @@
         "text_size": 100,
         "bg_color_secondary": false,
         "color_borders": "#000000",
-        "layout_mobile": "grid",
+        "layout_mobile": "stacked",
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 30
