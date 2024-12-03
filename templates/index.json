@@ -462,6 +462,62 @@
         "padding_bottom": 22
       }
     },
+    "section_custom_content_GQ6xTT": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_qVU4zH": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/wesco_boots_1.webp",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "WESCO",
+            "heading_size": 100,
+            "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/wesco",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_8akLTM": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/8T7A5349-2.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "GOOD ART HLYWD",
+            "heading_size": 100,
+            "image_text": "<p>Shop Good Art Hlywd from the only retailer located in the European Union.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/good-art-hlywd",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_qVU4zH",
+        "image_8akLTM"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; }}",
+        " {margin: 16px 0 0 0;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_banner_image_XaJDWJ": {
       "type": "section-banner-image",
       "blocks": {
@@ -576,323 +632,6 @@
         "text_color": "text-light"
       }
     },
-    "two_image_with_text_eBz9fM": {
-      "type": "two-image-with-text",
-      "disabled": true,
-      "custom_css": [
-        "{margin-top: 16px;}"
-      ],
-      "settings": {
-        "extra_class": "",
-        "image1": "shopify://shop_images/DSC_7016.jpg",
-        "layout": "left",
-        "heading": "Craftsmanship and Quality<span class=\"red_dot\"></span>",
-        "content": "Iron Heart’s philosophy centers on unmatched craftsmanship and quality. Using the finest materials and heavyweight fabrics, the brand meticulously designs each piece, from cotton selection to denim weaving. The result is durable clothing that ages beautifully, gaining unique character over time. Every garment combines lasting style with exceptional function."
-      }
-    },
-    "two_image_with_text_QmafYw": {
-      "type": "two-image-with-text",
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "extra_class": "1",
-        "image1": "shopify://shop_images/IH-634S-Indigo21ozSelvedgeDenimStraightCut_05.jpg",
-        "layout": "right",
-        "heading": "The Evolution of Iron Heart<span class=\"red_dot\"></span>",
-        "content": "Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim. Merging Haraki’s garment expertise with his love for motorcycle culture, the brand became known for heavyweight, meticulously crafted pieces. From 21oz and 25oz denim to ultra-heavy flannels, Iron Heart continues to redefine fabric durability and style."
-      }
-    },
-    "section_blog_gfqWja": {
-      "type": "section-blog",
-      "disabled": true,
-      "settings": {
-        "blog": "journal",
-        "blog_style": "photo",
-        "image_aspect_ratio": 1.1,
-        "rows": 1,
-        "columns": 3,
-        "show_tags": false,
-        "show_author": true,
-        "show_date": true,
-        "show_comments_count": false,
-        "default_color": "none",
-        "heading": "",
-        "button_text": "View all posts",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "text_color": "text-dark",
-        "bg_color_secondary": false,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_collection_X8PtKB": {
-      "type": "section-collection",
-      "disabled": true,
-      "custom_css": [
-        "section {background-color: BLACK !important;}",
-        "h2,h3,p,a,b {color: #fff!improtant;}"
-      ],
-      "settings": {
-        "collection": "leather-jackets",
-        "products_layout": "split-left",
-        "number_of_products": 2,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
-        "text_alignment": "text-left",
-        "title": "<p>CO BRANDS</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#f4f4f4",
-        "heading_size": 100,
-        "text": "<p>Use this text to share information about your collection with your customers.</p>",
-        "text_size": 100,
-        "button_text": "Shop Now",
-        "bg_color_full": "",
-        "bg_color": "",
-        "txt_color": "",
-        "button_style": "btn--solid",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_brand_8WJbpW": {
-      "type": "section-brand",
-      "blocks": {
-        "brand_MCVt9U": {
-          "type": "brand",
-          "settings": {
-            "title": "Simmons Bilt",
-            "image": "shopify://shop_images/2J5A9647.jpg",
-            "brand_image": "shopify://shop_images/SIMMONS_BILT_Logo_white_2.png",
-            "image_link": "shopify://collections/simmons-bilt"
-          }
-        },
-        "brand_XHwndY": {
-          "type": "brand",
-          "settings": {
-            "title": "Dehen 1920",
-            "image": "shopify://shop_images/2J5A8225_806abf36-1021-416d-8069-f4203b6b7c53.jpg",
-            "brand_image": "shopify://shop_images/19Dehen20banner_white_2.png",
-            "image_link": "shopify://collections/dehen-1920"
-          }
-        },
-        "brand_kgw6Ht": {
-          "type": "brand",
-          "settings": {
-            "title": "Iron Heart",
-            "image": "shopify://shop_images/2J5A6640.jpg",
-            "brand_image": "shopify://shop_images/Iron-Heart_Logo-03_square_white.png",
-            "image_link": "shopify://collections/iron-heart"
-          }
-        },
-        "brand_qPkjdt": {
-          "type": "brand",
-          "settings": {
-            "title": "Wesco",
-            "image": "shopify://shop_images/2J5A47041_1.jpg",
-            "brand_image": "shopify://shop_images/WESCO_LOGO_Icon_bw_white_2.png",
-            "image_link": "shopify://collections/wesco"
-          }
-        },
-        "brand_MMDRnj": {
-          "type": "brand",
-          "settings": {
-            "title": "Peanuts & Co",
-            "image": "shopify://shop_images/2J5A0039_H.jpg",
-            "brand_image": "shopify://shop_images/peanuts_white_2.png",
-            "image_link": "shopify://collections/peanuts-co"
-          }
-        },
-        "brand_BLTfhy": {
-          "type": "brand",
-          "settings": {
-            "title": "Porter",
-            "image": "shopify://shop_images/30_b_50.jpg",
-            "brand_image": "shopify://shop_images/porter_logo_white_3.png",
-            "image_link": "shopify://collections/porter-yoshida-co"
-          }
-        },
-        "brand_xAVjYN": {
-          "type": "brand",
-          "settings": {
-            "title": "GOOD ART HLYWD ",
-            "image": "shopify://shop_images/2J5A0039_H.jpg",
-            "brand_image": "shopify://shop_images/goodart_logo.jpg",
-            "image_link": "shopify://collections/peanuts-co"
-          }
-        }
-      },
-      "block_order": [
-        "brand_MCVt9U",
-        "brand_XHwndY",
-        "brand_kgw6Ht",
-        "brand_qPkjdt",
-        "brand_MMDRnj",
-        "brand_BLTfhy",
-        "brand_xAVjYN"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "PARTNER BRANDS<span class=\"red_dot\"></span>",
-        "content": "Iron Heart Germany carries a small number of select brands in addition to Iron Heart.",
-        "bg_color": "#000000",
-        "color": "#ffffff",
-        "button": "ALL PRODUCTS",
-        "btn_link": "shopify://collections/all",
-        "bg_btn_color": "#ffffff",
-        "btn_color": "#000000"
-      }
-    },
-    "section_custom_content_GQ6xTT": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_qVU4zH": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/wesco_boots_1.webp",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "WESCO",
-            "heading_size": 100,
-            "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
-            "button_text": "",
-            "button_link": "shopify://collections/wesco",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        },
-        "image_8akLTM": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/8T7A5349-2.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "GOOD ART HLYWD",
-            "heading_size": 100,
-            "image_text": "<p>Shop Good Art Hlywd from the only retailer located in the European Union.</p>",
-            "button_text": "",
-            "button_link": "shopify://collections/good-art-hlywd",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "image_qVU4zH",
-        "image_8akLTM"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin-bottom: 16px; }}"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper--full",
-        "add_gutter": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_press_Lxjw4L": {
-      "type": "section-press",
-      "blocks": {
-        "press_DfQKip": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/simmons-bilt",
-            "press_logo": "shopify://shop_images/SIMMONS_BILT_Logo.jpg",
-            "logo_width": 130
-          }
-        },
-        "press_qHGRRe": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/dehen-1920",
-            "press_logo": "shopify://shop_images/19Dehen20banner_a4f029ac-aa5f-4efa-b0a6-c395596cdf1a.png",
-            "logo_width": 130
-          }
-        },
-        "press_FhLEwD": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/iron-heart",
-            "press_logo": "shopify://shop_images/Iron-Heart_Logo-03_black_4x_68e103aa-0182-45b2-98ce-1d34d3a8e5a0.png",
-            "logo_width": 130
-          }
-        },
-        "press_TLgbUR": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/wesco",
-            "press_logo": "shopify://shop_images/WESCO_LOGO_Icon_bw.jpg",
-            "logo_width": 130
-          }
-        },
-        "press_LAyQKH": {
-          "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.</p>",
-            "link": "",
-            "logo_width": 70
-          }
-        },
-        "press_DGNj6m": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/peanuts-co",
-            "press_logo": "shopify://shop_images/peanuts.png",
-            "logo_width": 90
-          }
-        },
-        "press_g3BAGf": {
-          "type": "press",
-          "settings": {
-            "text": "",
-            "link": "shopify://collections/porter-yoshida-co",
-            "press_logo": "shopify://shop_images/porter.logo_-768x512.png",
-            "logo_width": 110
-          }
-        }
-      },
-      "block_order": [
-        "press_DfQKip",
-        "press_qHGRRe",
-        "press_FhLEwD",
-        "press_TLgbUR",
-        "press_LAyQKH",
-        "press_DGNj6m",
-        "press_g3BAGf"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "show_quotations": false,
-        "show_rounded_corners": false,
-        "autoplay": true,
-        "duration": 3,
-        "bg_color_secondary": false,
-        "width": "wrapper--narrow",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "section_locations_r4cFBa": {
       "type": "section-locations",
       "blocks": {
@@ -1001,78 +740,6 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
-    },
-    "section_columns_hNXYWV": {
-      "type": "section-columns",
-      "blocks": {
-        "text_block_MWm98Q": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "Engaging Community and Customer Loyalty<span class=\"red_dot\"></span>",
-            "text": "<p>Iron Heart thrives on its strong community of dedicated customers and enthusiasts. The Iron Heart Forum is a unique platform where members can share their experiences, seek advice, and discuss everything from denim care to motorcycle maintenance. Managed by Giles Padmore, the forum embodies Iron Heart’s commitment to customer engagement and support. Join a vibrant community that shares your passion for high-quality, durable clothing and be part of the Iron Heart family.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_7UgqDc": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "Sustainable and Ethical Production<span class=\"red_dot\"></span>",
-            "text": "<p>At Iron Heart, sustainability and ethical production are at the core of our manufacturing process. We collaborate with small, family-run mills in Japan, ensuring that our production practices are environmentally responsible and ethically sound. By focusing on creating durable, long-lasting garments, we minimize our environmental impact while supporting sustainable fashion. Explore our collection and experience clothing that is not only built to last but also crafted with a conscience.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_MWm98Q",
-        "text_block_7UgqDc"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "text-left",
-        "columns": 2,
-        "show_images": false,
-        "show_borders": false,
-        "equalize_height": true,
-        "desktop_aspect_ratio": 0.8,
-        "mobile_aspect_ratio": 0.8,
-        "heading_size": 170,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "color_borders": "#000000",
-        "layout_mobile": "carousel",
-        "width": "wrapper--full-padded",
-        "padding_top": 30,
-        "padding_bottom": 60
-      }
-    },
-    "section_workswellwith_KVKHxn": {
-      "type": "section-workswellwith",
-      "disabled": true,
-      "settings": {
-        "title": "Works well with",
-        "metafield_namespace": "custom",
-        "metafield_key": "works_well_with",
-        "number_of_products": 8,
-        "products_layout": "grid",
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
-        "text": "<p>Work Well With</p>"
-      }
     }
   },
   "order": [
@@ -1084,19 +751,11 @@
     "section_list_collection_h3CDQM",
     "section_columns_fEJfXc",
     "section_list_butttons_jaEVdg",
+    "section_custom_content_GQ6xTT",
     "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
-    "two_image_with_text_eBz9fM",
-    "two_image_with_text_QmafYw",
-    "section_blog_gfqWja",
-    "section_collection_X8PtKB",
-    "section_brand_8WJbpW",
-    "section_custom_content_GQ6xTT",
-    "section_press_Lxjw4L",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT",
-    "section_columns_hNXYWV",
-    "section_workswellwith_KVKHxn"
+    "section_columns_Mb3rtT"
   ]
 }
