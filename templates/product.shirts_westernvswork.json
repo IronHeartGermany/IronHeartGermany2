@@ -187,9 +187,7 @@
           "type": "upsell",
           "disabled": true,
           "settings": {
-            "product_list": [
-
-            ],
+            "product_list": [],
             "padding_bottom": 20
           }
         },
@@ -281,7 +279,7 @@
       "type": "section-collection",
       "disabled": true,
       "settings": {
-        "collection": "relaxed-tapered-555",
+        "collection": "relaxed-tapered-888",
         "products_layout": "grid",
         "number_of_products": 4,
         "products_per_row_on_desktop": 4,
