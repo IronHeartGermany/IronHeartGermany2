@@ -981,7 +981,7 @@
         "text_block_q6EGYR"
       ],
       "custom_css": [
-        ".column-item.mobile--partial {width: 70%; /* Adjust this percentage as needed */ margin-right: 2%; /* Optional: space between items */ }"
+        ".column-item {width: 70%; margin-right: 2%;}"
       ],
       "settings": {
         "title": "",
