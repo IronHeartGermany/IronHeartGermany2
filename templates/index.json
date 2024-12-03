@@ -15,20 +15,20 @@
         "image_e8ntQh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2J5A9925_3_edit_2.jpg",
-            "image_mobile": "shopify://shop_images/2J5A9925_2.jpg",
+            "image": "shopify://shop_images/IHM-37-GRN_047_24_11.jpg",
+            "image_mobile": "shopify://shop_images/IHM-37-GRN_040_24_11_1.jpg",
             "overlay_opacity": 20,
             "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "subheading": "New in",
-            "title": "<p>The Reversible<br> Tanker Jacket<span class=\"red_dot\"></span></p>",
-            "heading_font_size": 52,
-            "text_font_size": 18,
+            "title": "<p>IHM-37-GRN<span class=\"red_dot\"></span></p>",
+            "heading_font_size": 60,
+            "text_font_size": 32,
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
-            "text": "Inspired by the jackets issued to US servicemen in the 1940s, Iron Heart's unique take on the ‘Tanker’ offers maximum versatility - with a reversible design effectively creating two jackets in one.",
+            "text": "Oiled Whipcord N1 Deck Jacket - Army Green",
             "button_1_text": "Shop now",
             "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--secondary",
@@ -52,7 +52,7 @@
         ".subheading-text {font-size: 12px;}",
         ".red_dot:after {top: 2px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: fit-content !important;}",
-        ".main-buttons {margin: 12px 0 0 0 !important;}"
+        ".main-buttons {margin: 32px 0 0 0 !important;}"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
