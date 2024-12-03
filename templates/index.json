@@ -147,7 +147,7 @@
         "/*.section__link {font-family: \"Roboto\";}",
         "*/.section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}",
-        ".section-columns {background-color: #fafafa !important;}"
+        ".featured-collection {background-color: #fafafa !important;}"
       ],
       "settings": {
         "collection": "bestsellers",
