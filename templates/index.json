@@ -402,8 +402,7 @@
       "custom_css": [
         ".flickity-button {display: none;}",
         ".h6 {font-size: 22px;}",
-        ".column-item__heading {margin-bottom: 0 !important;}",
-        ".section-columns {background-color: #f4f4f4 !important;}"
+        ".column-item__heading {margin-bottom: 0 !important;}"
       ],
       "settings": {
         "title": "OUR CUTS",
