@@ -23468,6 +23468,7 @@ search-form mark {
     padding: 0 var(--gutter-mobile);
     scrollbar-width: none;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    justify-content: center;
   }
   .products-list__nav::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
