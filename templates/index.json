@@ -12,37 +12,6 @@
     "section_slideshow_dTDLLQ": {
       "type": "section-slideshow",
       "blocks": {
-        "image_e8ntQh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WE-907CXL-BRN_014_24_10_1e10134b-1d32-4371-9540-fb23d7cbd028.jpg",
-            "image_mobile": "shopify://shop_images/WE-907CXL-BRN_030_24_10_394f60aa-c0f0-4c23-9ffe-0446764bfd43.jpg",
-            "overlay_opacity": 10,
-            "text_width": "narrow",
-            "text_position": "top-left",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "<p>WESCO<span class=\"red_dot\"></span></p>",
-            "heading_font_size": 36,
-            "text_font_size": 26,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "Custom Warren Chromexcel",
-            "button_1_text": "Shop",
-            "button_1_link": "https://ironheartgermany.com/collections/wesco/products/wesco-we-907cxl-brn-custom-warren-chromexcel-brown",
-            "button_1_color": "btn--secondary",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--medium",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
         "image_Mc6ncH": {
           "type": "image",
           "settings": {
@@ -73,11 +42,42 @@
             "video_text": "",
             "video_link": ""
           }
+        },
+        "image_e8ntQh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WE-907CXL-BRN_014_24_10_1e10134b-1d32-4371-9540-fb23d7cbd028.jpg",
+            "image_mobile": "shopify://shop_images/WE-907CXL-BRN_030_24_10_394f60aa-c0f0-4c23-9ffe-0446764bfd43.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "top-left",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "WESCO",
+            "heading_font_size": 36,
+            "text_font_size": 26,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Custom Warren Chromexcel",
+            "button_1_text": "Shop",
+            "button_1_link": "https://ironheartgermany.com/collections/wesco/products/wesco-we-907cxl-brn-custom-warren-chromexcel-brown",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
         }
       },
       "block_order": [
-        "image_e8ntQh",
-        "image_Mc6ncH"
+        "image_Mc6ncH",
+        "image_e8ntQh"
       ],
       "custom_css": [
         "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
