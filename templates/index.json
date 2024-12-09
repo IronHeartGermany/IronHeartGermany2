@@ -42,10 +42,42 @@
             "video_text": "",
             "video_link": ""
           }
+        },
+        "image_Mc6ncH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2J5A6388_88f1b133-8b6c-4eae-8bf1-820f7e0562cc.jpg",
+            "image_mobile": "shopify://shop_images/2J5A6388_1.jpg",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "bottom-right",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "GOOD ART HLYWD",
+            "heading_font_size": 36,
+            "text_font_size": 18,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
+            "text": "Club Ring Medium - Sterling Silver",
+            "button_1_text": "Shop",
+            "button_1_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-hlywd-good-art-club-ring-medium-sterling-silver",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
         }
       },
       "block_order": [
-        "image_e8ntQh"
+        "image_e8ntQh",
+        "image_Mc6ncH"
       ],
       "custom_css": [
         "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
