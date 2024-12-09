@@ -501,8 +501,8 @@
         "image_qVU4zH": {
           "type": "image",
           "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/wesco_boots_1.webp",
+            "text_position": "top-center",
+            "image": "shopify://shop_images/2J5A5883.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "WESCO",
@@ -518,13 +518,13 @@
         "image_8akLTM": {
           "type": "image",
           "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/8T7A5349-2.jpg",
-            "overlay_opacity": 10,
+            "text_position": "top-center",
+            "image": "shopify://shop_images/8T7A5349-2_14f331bf-354c-4fa6-8828-13a4e8a308ce.jpg",
+            "overlay_opacity": 0,
             "text_color": "text-light",
             "title": "GOOD ART HLYWD",
             "heading_size": 100,
-            "image_text": "<p>Shop Good Art Hlywd from the only retailer located in the European Union.</p>",
+            "image_text": "<p>Shop Good Art HLYWD from the only retailer located in the European Union.</p>",
             "button_text": "",
             "button_link": "shopify://collections/good-art-hlywd",
             "button_color": "btn--white",
