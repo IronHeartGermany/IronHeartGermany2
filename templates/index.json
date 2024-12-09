@@ -254,6 +254,62 @@
         "padding_bottom": 60
       }
     },
+    "section_custom_content_GQ6xTT": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_qVU4zH": {
+          "type": "image",
+          "settings": {
+            "text_position": "top-center",
+            "image": "shopify://shop_images/2J5A5883.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "WESCO",
+            "heading_size": 100,
+            "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/wesco",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_8akLTM": {
+          "type": "image",
+          "settings": {
+            "text_position": "top-center",
+            "image": "shopify://shop_images/8T7A5349-2_14f331bf-354c-4fa6-8828-13a4e8a308ce.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "GOOD ART HLYWD",
+            "heading_size": 100,
+            "image_text": "<p>Shop Good Art HLYWD from the only retailer located in the European Union.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/good-art-hlywd",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_qVU4zH",
+        "image_8akLTM"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; }}",
+        " {margin: 32px 0 0 0;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_list_collection_h3CDQM": {
       "type": "section-list-collection",
       "blocks": {
@@ -455,62 +511,6 @@
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section_custom_content_GQ6xTT": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_qVU4zH": {
-          "type": "image",
-          "settings": {
-            "text_position": "top-center",
-            "image": "shopify://shop_images/2J5A5883.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "WESCO",
-            "heading_size": 100,
-            "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
-            "button_text": "",
-            "button_link": "shopify://collections/wesco",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        },
-        "image_8akLTM": {
-          "type": "image",
-          "settings": {
-            "text_position": "top-center",
-            "image": "shopify://shop_images/8T7A5349-2_14f331bf-354c-4fa6-8828-13a4e8a308ce.jpg",
-            "overlay_opacity": 0,
-            "text_color": "text-light",
-            "title": "GOOD ART HLYWD",
-            "heading_size": 100,
-            "image_text": "<p>Shop Good Art HLYWD from the only retailer located in the European Union.</p>",
-            "button_text": "",
-            "button_link": "shopify://collections/good-art-hlywd",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "image_qVU4zH",
-        "image_8akLTM"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; }}",
-        " {margin: 32px 0 0 0;}"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper--full",
-        "add_gutter": false,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_list_butttons_jaEVdg": {
@@ -782,9 +782,9 @@
     "section_list_butttons_mhe6mE",
     "section_collection_kcBtFY",
     "section_products_list_th6frq",
+    "section_custom_content_GQ6xTT",
     "section_list_collection_h3CDQM",
     "section_columns_fEJfXc",
-    "section_custom_content_GQ6xTT",
     "section_list_butttons_jaEVdg",
     "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
