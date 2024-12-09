@@ -320,6 +320,7 @@
         "collection_i3cmqe",
         "collection_wHz6Xr"
       ],
+      "disabled": true,
       "custom_css": [
         "/*.section__header {font-family: \"Roboto\";}",
         "*/.section__header {margin-bottom: 52px;}",
